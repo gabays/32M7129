@@ -491,7 +491,7 @@ rect(210, 150, 1, 1, col = red)
 dev.off()
 ```
 
-![10% center](images/image1.png)
+![100% center](images/image1.png)
 
 ---
 ## Une image moins simple
@@ -516,4 +516,4 @@ dev.off()
 
 ---
 
-![100% center](images/image2.png)
+![150% center](images/image2.png)
