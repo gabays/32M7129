@@ -197,4 +197,4 @@ Les références sont données au format bibTex pour les mettre dans Zotero (té
 ## Droits
 CC-BY, sauf les données prises chez les collègues (indiquées dans les ```.Rmd```).
 
-<img style="float: right; width: 20%;" src="images/cc-by.png">
+<img style="float: right; width: 10%;" src="images/cc-by.png">
