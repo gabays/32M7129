@@ -9,8 +9,6 @@ output:
   slidy_presentation: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # `R`, `R GUI`, `RStudio`
@@ -73,7 +71,7 @@ a
 a+1
 ```
 
-Il est possible de vérifier le type d'une variable (parce qu'on ne sait pas toujours ce qu'il y a dedaans après quelques centaines de lignes de code…) avec la fonction `class()` 
+Il est possible de vérifier le type d'une variable (parce qu'on ne sait pas toujours ce qu'il y a dedaans après quelques centaines de lignes de code…) avec la fonction `class()`
 
 ```{r}
 a<-1
@@ -118,8 +116,8 @@ a*b
 ```{r}
 1 == 1
 1 == 2
-1 != 1 
-2 != 2 
+1 != 1
+2 != 2
 a != b
 ```
 
@@ -224,7 +222,7 @@ c(1,2) + c(3,4,5,6)
 
 ## Les listes
 
-Une liste est un vecteur permettant de stocker des objets hétérogènes. 
+Une liste est un vecteur permettant de stocker des objets hétérogènes.
 
 ```{r}
 uneListe<-list("toto",10,TRUE,c(14,15,7),c("truc","chose"))
@@ -466,8 +464,8 @@ Il est donc facile de les manipuler, et il existe des fonctions déjà existante
 #binwidth permet de paramétrer la largeur des barres
 meilleur_graph<-ggplot(tweets_UniGE, aes(x = created_at)) + geom_histogram(binwidth = 5000) +
   # nous utilisons la fonction `scale_x_datetime` pour manipuler les données horaires
-                scale_x_datetime(date_breaks = "24 hours", 
-                                 date_minor_breaks = "12 hours", 
+                scale_x_datetime(date_breaks = "24 hours",
+                                 date_minor_breaks = "12 hours",
                                  date_labels = "%d-%m, %Hh",
                                  name = "Date et heure du tweet") +
                 scale_y_continuous(name = "Nombre de tweets")
