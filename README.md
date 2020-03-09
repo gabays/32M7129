@@ -23,7 +23,7 @@ Pour installer _Gephi_: https://gephi.org/users/download/
 Si vous êtes sous Windows, il n'est pas inutile d'allumer un cierge (ou équivalent selon votre croyance).
 
 ---
-## Repères bibliogrpahiques
+## Repères bibliographiques
 
 Les références sont données au format bibTex pour les mettre dans Zotero (téléchargeable [ici](https://www.zotero.org), si vous ne l'avez pas encore).
 
