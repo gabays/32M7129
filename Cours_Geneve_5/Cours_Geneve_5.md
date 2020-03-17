@@ -27,7 +27,7 @@ Le corpus est constitué de pièces de théâtre du XVIIe siècle, disponibles s
 
 Pour ceux qui voudraient s'entraîner avec d'autres données que celles fournies pour le cours, [un repo avec 100 romans anglais se trouve sur leur GitHub](https://github.com/computationalstylistics/100_english_novels) (cliquez sur le bouton vert `Clone or download à droite` pour télécharger le tout au format zip).
 
-##1.2 À propos du corpus
+## 1.2 À propos du corpus
 
 `Stylo` a besoin de savoir où chercher les données (pour nous il s'agit de notre corpus) qu'il va utiliser, et celles-ci doivent **impérativement** obéir à trois règles simples:
 
@@ -35,7 +35,7 @@ Pour ceux qui voudraient s'entraîner avec d'autres données que celles fournies
 2. Ce dossier `corpus` ne doit contenir que les fichiers du corpus: tout autre document se retrouverait analysé avec le reste, et perturberait les résultats.
 3. Les fichiers du corpus doivent utiliser un même format, soit en `txt`, soit en `XML`, soit en `HTML`.
 
-##1.4 Préparer la session de travail
+## 1.3 Préparer la session de travail
 
 Nous devons préparer la session de travail, en désignant à `R` le fichier de notre ordinateur à partir duquel nous allons travailler pour qu'il trouve notre fichier `corpus`, et qu'il y sauvegarde nos résultats.
 
@@ -67,9 +67,9 @@ if(!require("stylo")){
 
 Il ne nous reste plus qu'à lancer stylo, avec la commande… `stylo()`!
 
-#2. Le *data clustering*
+# 2 Le *data clustering*
 
-##2.1 Ouvrir `stylo`
+## 2.1 Ouvrir `stylo`
 
 L'application `Stylo` peut être utilisée en ligne de commande, mais aussi avec une GUI (*graphical user interface*, en français "interface graphique"). Si vous voulez avoir un premier aperçu, retirez le # au début de la ligne *infra* et cliquez sur `Run`.
 
@@ -109,7 +109,7 @@ Regardons maintenant le graphique qui nous est donné. Il s'agit d'un dendogramm
     + certaines sont partagées par tous les mathématiciens (euclidienne, Canberra, *etc.*).
     + certaines sont plus spécifiques à la stylométrie (delta classic ou "distance de Burrows", cosine delta ou "distance de Würzburg", *etc.*).
 
-##2.3 Contrôler la fiabilité des résultats: répéter l'opérations avec d'autres paramètres
+## 2.3 Contrôler la fiabilité des résultats: répéter l'opérations avec d'autres paramètres
 
 Nous avons obtenu un cluster: il est plausible, mais est-il fiable? Nous avons besoin d'encore plus de certitudes… Une première solution est de répéter le même clacul, en augmentant le nombre des mots les plus fréquents: passons de 100 à 1000.
 
@@ -135,7 +135,7 @@ stylo(gui=FALSE, corpus.dir = "corpus",
 
 Difficile cependant de comparer facilement 10 dendogrammes… Et comment faire pour 20, 30 ou 1000 dendogrammes?
 
-##2.4 Contrôler autrement la fiabilité des résultats: le *consensus tree*
+## 2.4 Contrôler autrement la fiabilité des résultats: le *consensus tree*
 
 Il est possible de représenter graphiquement la somme de ces informations: il s'agit du *concensus tree* ("arbre de consensus", en français). Voyons la forme de ce graphique avec les résultats que nous venons d'obtenir.
 
@@ -167,13 +167,13 @@ stylo(gui=FALSE, corpus.dir = "corpus",
       pca.visual.flavour = "classic")
 ```
 
-Comparez les résultats obtenus avec ces différentes méthode de calcul. Réflechissez à ce dilemme: la différence entre les résultats signifie-t-elle 
+Comparez les résultats obtenus avec ces différentes méthode de calcul. Réflechissez à ce dilemme: la différence entre les résultats signifie-t-elle
 
 * que les résultats ne sont pas fiables?
 * que certains calculs de distance ne sont pas fiables?
 * ou bien que l'on ne peut rien déduire de ce corpus?
 
-##2.5 S'appuyer sur d'autres expériences
+## 2.5 S'appuyer sur d'autres expériences
 
 En plus de cette approche empirique, il est important de s'appuyer sur des études qui précisent les paramètres les plus efficaces. Selon Evert, Proisl, Jannidi, Reger, Pielström, Schöch, Vitt (2017), 5000 mots MFW avec cosine delta serait le plus efficace (y compris pour le français):
 
@@ -190,7 +190,7 @@ stylo(gui=FALSE, corpus.dir = "corpus",
 ```
 
 
-#3. Fonctionnement de `stylo`
+# 3 Fonctionnement de `stylo`
 
 Les données utilisées pendant l'analyse stylométrique sont accessibles: pour les voir, nous devons donc créer une variable et les stocker. Appelons la variable "resultats", qui s'utilise ainsi:
 
@@ -235,18 +235,18 @@ resultats$table.with.all.zscores
 Ces résultats permettent d'évaluer la distance entre chacun des textes de notre corpus. Cette fois les résultats sont accessibles avec le nom de notre variable suivi de `$distance.table`
 
 ```{r}
-resultats$distance.table 
+resultats$distance.table
 ```
 
 C'est donc à partir de ces fréquences, puis de ces distances que nous obtenons les dendogrammes que nous avons vus précédemment.
 
-#4. D'autres visualisations
+# 4 D'autres visualisations
 
-##4.1 *Principal component analysis*
+## 4.1 *Principal component analysis*
 
 Un autre mode de visualisation est le *principal component analysis* ("Analyse en composantes principales" en français), qui permet lui aussi de spatialiser les résultats, selon une autre éthode de calcul.
 
-###4.1.1 *Principal component analysis* classique
+### 4.1.1 *Principal component analysis* classique
 
 ```{r}
 stylo(gui=FALSE, corpus.dir = "corpus",
@@ -256,7 +256,7 @@ stylo(gui=FALSE, corpus.dir = "corpus",
       pca.visual.flavour = "classic")
 ```
 
-###4.1.2 *Principal component analysis* (avec les mots en superposition)
+### 4.1.2 *Principal component analysis* (avec les mots en superposition)
 
 Il est possible de superposer les tokens (ici les mots) aux labels, afin de comprendre sur quelles données lexicales s'appuie la spatialisation.
 
@@ -273,7 +273,7 @@ On le voit, la plupart des tokens ayant des fréquences très faible, on se retr
 * Aller chercher les données brutes, mais on perd l'avantage de la visualisation.
 * Tenter "d'étirer" la partie centrale.
 
-###4.1.3 *Principal component analysis*: les classes
+### 4.1.3 *Principal component analysis*: les classes
 
 Nous avons vu au cours précédent qu'il est important de contrôler la significativité des axes produits: nous ne pouvons cependant pas le faire avec `stylo()`, et il faut se tourner vers un autre pasckage: `FactoMineR`.
 
@@ -304,7 +304,7 @@ barplot(theatreFrequencesPCA$eig[,1], main="Eigenvalues", names.arg=1:nrow(theat
 
 Mais nous allons un peu vite: ralentissons un peu, nous reviendrons à ces questions le cours prochain.
 
-##4.2 *Principal component analysis* (avec correlation)
+## 4.2 *Principal component analysis* (avec correlation)
 
 Il est possible de modifier les résultats afin d'accentuer de manière proportionnelle la distance entre les différents tokens pour "aérer" la partie centrale en modifiant légèrement la méthode de calcul.
 
@@ -320,7 +320,7 @@ Il est ainsi possible d'associer certains tokens à des auteurs, ou des groupes 
 
 En bas du graphique, on trouve un pourcentage: il nous donne une idée de la distortion apportée au résultat précédent pour accentuer l'espace entre les mots, et donc le degré de fiabilité du résultat. On remarque la correlation a fait perdre de la significativité au premier axe.
 
-##4.3 *Multidimensional scaling*
+## 4.3 *Multidimensional scaling*
 
 Un mode de visualisation des données assez commun est le *Multidimensional scaling* ("positionnement multidimensionnel" en français). Pour faire (très, très) simple, il s'agit de spatialiser les résultats.
 
@@ -334,7 +334,7 @@ stylo(gui=FALSE, corpus.dir = "corpus",
 
 Un des intérêts de ce type de visualisation est d'identifier les auteurs avec les styles les plus neutres, et ceux avec les styles les plus marqués.
 
-#Conclusion: vers l'analyse de réseau
+# Conclusion: vers l'analyse de réseau
 
 ```{r}
 if(!require("networkD3")){
