@@ -1,0 +1,2780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:lang="fr">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LES DEUX PUCELLES, TRAGI-COMÉDIE</title>
+				<author born='1609' born_location='Dreux' death='1650' death_location='Dreux' academie=''>ROTROU, Jean</author>
+			</titleStmt>
+			<publicationStmt>	
+				<publisher>publié par Paul FIEVRE, juin 2017</publisher>
+				<idno>ROTROU_DEUXPUCELLES</idno>
+			</publicationStmt>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>histoire romaine</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1631-1640</periode>
+				<taille>1750-2000</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text>
+<front>
+	<docTitle>
+		<titlePart type="main">LES DEUX PUCELLES</titlePart>
+		<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
+	</docTitle>
+	<docDate value="1639">M. DC. XXXIX. AVEC PRIVILEGE DU ROI.</docDate>
+		<docAuthor id="ROTROU, Jean" bio='rotrou'>DE ROTROU </docAuthor>
+	<docImprint>
+	<privilege id=""><head>Extrait du Privilège du Roi.</head>
+		<p>Par grâce et Privilège du Roi donné à Paris, le 7. jour de Février 1637. Signé par le Roi en son Conseil de Monceaux. Il est permis à ANTOINE DE SOMMAVILLE, Marchand Libraire à Paris, d’imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre Intitulée, Les deux pucelles, Tragi-Comédie, durant le temps de neuf ans, à compter du jour qu’elle sera achevée d’imprimer. Et défenses sont faites à tous Imprimeurs, Libraires et autres, de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine aux contrevenants de trois mille livres d’amendes, et de tous ses dépens, dommages et intérêts, ainsi qu’il est plus au long porté par lesdites lettres qui sont en vertu du présent Extrait, tenues pour bien et dûment signifiées, à ce qu’aucun n’en prétende cause d’ignorance.</p>
+		<p>Et ledit Sommaville a associé avec lui audit Privilège, Toussaint Quinet, aussi Marchand Libraire, suivant l’accord fait entre eux.</p>
+	</privilege>
+	<acheverImprimer id="1639-03-30">Achevé d’imprimer pour la première fois, le 30. Mars mille six cent trente neuf.</acheverImprimer>
+	<imprimeur id="SOMMAVILLE">À PARIS, Chez ANTOINE DE SOMMAVILLE, ET TOUSSAINT QUINET, au Palais, en la Galerie des Merciers.</imprimeur>
+	<acheveImprime id="1637-11-23">Achevé d'Imprimer pour la première fois, le 23. jour de Novembre mil six cent trente sept.</acheveImprime>
+		</docImprint>
+		<performance>
+			<premiere date="" location=''></premiere>
+		</performance>
+		<div type="dedicace"><adresse>À MADEMOISELLE DE LONGUEVILLE.</adresse>
+			<head>MADEMOISELLE,</head>
+			<p>Il est impossible, qu’étant très humble sujet, comme je suis, de la maison de Soissons , et qu’ayant particulièrement admiré, en cette illustre famille, toutes les vertus, et tous les mérites qu’on peut souhaiter en de grands Princes, et que de grandes Princesses peuvent posséder : Il est impossible (dis-je) qu’en un ciel, éclairé de tant d’astres, je n’aie découvert la nouvelle étoile, dont les rayons sont déjà si brillants, et qui nous promet tant d’heureuses influences , c’est de vous, Mademoiselle, que j’ose parler qui rendez à douze ans, de si visibles témoignages, et de votre noble naissance, et de votre bonne nourriture , que les grandes promesses que vous donnez, ne sont plus incertaines, et que nous pouvons dès à présent établir un solide jugement de votre vie, et croire que vous hériterez aussi parfaitement des vertus de votre maison, que de ses grandeurs, et de ses richesses. En effet, on voit rarement en un âge qui commence une sagesse achevée, comme la vôtre, et quand j’ai eu l’honneur de vous faire la révérence , quelque profond respect que m’ordonnât votre qualité, j’avoue que cette douce modestie, et cette honnête gravité qui ne vous quitte  point, m’en imposèrent encore davantage, et que je crus voir Madame la Comtesse votre mère , sous le visage de sa petite fille. J’oserai bien dire, Mademoiselle, sans crainte de vous déplaire, qu’en cela, les mérites que vous possédez, sont moins admirables, qu’il semble que vous ne pouviez descendre d’elle, et ne les posséder pas, puisqu’en effet, c’est sur cette généreuse Princesse, que toute l’Europe jette aujourd’hui les yeux, comme sur la plus grande merveille de notre siècle et qui sait le plus dignement, et le plus noblement soutenir la grandeur de sa condition, et la noblesse de son sang. On ne peut avoir l’honneur de la voir avec tant de majesté, sans juger que l’intention de la nature était d’en faire une Reine, et que la seule envie de la fortune, lui a dénié cette qualité . C’est d’elle que nous tenons ce grand Prince , qui s’est mis si haut dans l’estime de la France, et c’était d’elle que nous était née cette pieuse, et sage Duchesse , que le ciel lui a laissée en vous, quand il lui a plu d’en disposer. Pardonnez-moi, donc, Mademoiselle, si je considère votre mérite, comme un bien que vous n’avez pas acquis, et qui vous était infaillible, dès auparavant que vous fussiez au monde. Les biens que vous pourrez désormais appeler vôtres, seront les conquêtes que vous allez faire, puisqu’il est certain, que vous allez acquérir autant de serviteurs, que vous daignerez regarder de Princes, et que les ornements de votre visage, aussi bien que vos autres qualités, vont être l’estime, et la passion de tout un Royaume  : Pour n’être pas des derniers à vous rendre mes hommages, j’ose vous prier, Mademoiselle, de souffrir que votre nom serve à la recommandation de cet ouvrage, où je m’assure que vous vous divertirez  aussi agréablement qu’en ceux que vous avez eu la bonté de m’entendre lire, dans le cabinet de Madame la Comtesse votre mère, où votre attention m’a fait juger du plaisir, que vous y preniez . Je serai trop satisfait de mon travail, s’il a le bonheur de ne vous déplaire pas, et je sortirai de chez vous, le plus glorieux de tous les hommes, si vous me permettez d’en emporter la qualité de</p>
+			<p>MADEMOISELLE,</p>
+			<p>Votre très humble, et très obéissant serviteur.</p>
+			<p>ROTROU.</p>	
+		</div>
+	<castList><head>ACTEURS</head>
+		<castItem><role id="" sex="2" type="H" statut='bourgeois' age='A' stat_amour='amoureux'>AMÉLIE</role>, maîtresse de Dionys. </castItem>
+		LES ACTEURS.
+
+		<castItem><role id="ANTOINE" sex="1" type="H" statut='serviteur' age='J' stat_amour='néant'>ANTOINE</role>, Serviteur de Théodose.</castItem>
+		<castItem><role id="LINDAMOR" sex="1" type="H" statut='confident' age='A' stat_amour='néant'>LINDAMOR</role>, Confident d’Antoine.</castItem>
+		<castItem><role id="THÉODOSE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='Antoine'>THÉODOSE</role>, Maîtresse d’Antoine.</castItem>
+		<castItem><role id="LÉOCADIE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='Alexandre'>LÉOCADIE</role>, Maîtresse d’Alexandre.</castItem>
+		<castItem><role id="DON SANCHE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DON SANCHE</role>, Père de Léocadie.</castItem>
+		<castItem><role id="DORILAS" sex="1" type="H" statut='hôtelier' age='A' stat_amour='néant'>DORILAS</role>, Hôtelier.</castItem>
+		<castItem><role id="ALCIONNE" sex="2" type="H" statut='hôtelier' age='A' stat_amour='néant'>ALCIONNE</role>, Hôtelière.</castItem>
+		<castItem><role id="ALEXANDRE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>ALEXANDRE</role>, Serviteur de Léocadie.</castItem>
+		<castItem><role id="FILÉMOND" sex="1" type="H" statut='valet' age='A' stat_amour='néant'>FILÉMOND</role>, Valet d’Alexandre.</castItem>
+		<castItem><role id="TROIS VOLEURS" sex="1" type="H" statut='voleur' age='A' stat_amour='néant'>TROIS VOLEURS</role>.</castItem>
+		<castItem><role id="QUATRE ARCHERS" sex="1" type="H" statut='archet' age='A' stat_amour='néant'>QUATRE ARCHERS</role>.</castItem>
+		<castItem><role id="DON LOUIS" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DON LOUIS ADORNE</role>, Père d’Antoine.</castItem>
+		<castItem><role id="DON HENRI" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DON HENRI</role>, Père de Théodose, et d’Alexandre.</castItem>
+	</castList>
+	<set location='Lieu indéterminé' country='Espagne' periode='Teemps indéterminé' link=''></set>
+</front>
+<body>
+<div1 type="act" n='1'><head>ACTE I</head>
+<div2 type="scene" n='1'><head>SCÈNE PREMIÈRE.</head>
+<stage type="light">La nuit.</stage>
+<sp who="ANTOINE"><speaker>DON ANTOINE, seul une Lanterne à la main.</speaker>
+	<l id="1">Dieux ! que le Ciel ce soir, couvre d'un voile obscur</l>
+	<l id="2">Le Lambris étoilé de sa voûte d'azur !</l>
+	<l id="3">Ô nuit ! Pour m'exaucer, tu passes ma prière,</l>
+	<l id="4">Tu sembles moins cacher, qu'éteindre la lumière.</l>
+	<l id="5">J'ai de l'art, la clarté que tu me viens d'ôter, </l>
+	<l id="6">Et ta faveur m'a mis au besoin d'emprunter, </l>
+	<l id="7">Celle qui sur ton cours inconstante préside</l>
+	<l id="8">Comme sachant l'endroit où mon dessein me guide,</l>
+	<l id="9">Et tenant pour affront d'y conduire mes pas,</l>
+	<l id="10">N'éclaire point du tout, pour ne m'éclairer pas.</l>
+	<l id="11">Elle fait une preuve à la feinte innocence</l>
+	<l id="12">Du refus d'éclairer pour une jouissance ,</l>
+	<l id="13">Elle qui voit bien pire, et ne refuse pas</l>
+	<l id="14">D'éclairer pour les vols, et les assassinats,</l>
+	<l id="15">Mais qu'importe pourquoi sa clarté s'est couverte,</l>
+	<l id="16">Puisque l'art aisément en répare la perte,</l>
+	<l id="17">Et que ce peu de feu suffit pour me guider,</l>
+	<l id="18">Au comble des plaisirs que je vais posséder.</l>
+	<l id="19">Ô moment fortuné sur tous ceux de ma vie,</l>
+	<l id="20">À quel excès de joie est mon âme ravie !</l>
+	<l id="21">Douce assignation ! pareils ou moins heureux, </l>
+	<l id="22">Estimait Jupiter ses larcins amoureux,</l>
+	<l id="23">Et Pâris moins content, entre les bras d'Hélène, </l>
+	<l id="24">Au premier rendez-vous, alla finir sa peine.</l>
+	<l id="25">Qu'un bien longtemps douteux, et longtemps poursuivi,</l>
+	<l id="26">Se laissant posséder, rend un esprit ravi,</l>
+	<l id="27">La peine d'acquérir, donne le prix aux choses,</l>
+	<l id="28">La main qui s'est piquée en aime mieux les roses,</l>
+	<l id="29">Un refus bien adroit excite les désirs,</l>
+	<l id="30">Et les difficultés font le goût aux plaisirs.</l>
+	<l id="31">On arrête mes pas sur le point de ma fuite,</l>
+	<l id="32">Toute chose est promise à ma longue poursuite,</l>
+	<l id="33">J'excite des souhaits, où fut tant de rigueur, </l>
+	<l id="34">Et la prise au vaincu, tarde plus qu'au vainqueur,</l>
+	<l id="35">Montrons donc une ardeur digne de la victoire</l>
+	<l id="36">La paresse ôte ici la moitié de la gloire,</l>
+	<l id="37">Qui ne se précipite est lâche en ces combats,</l>
+	<l id="38">Qui n'arrache le prix ne le mérite pas.</l>
+	<l id="39">L'amour ne doit plus rien à qui s'est fait attendre,</l>
+	<l id="40">Et sa faveur, se doit plutôt ravir, que prendre.</l>
+	<l id="41">Enfin, mon oeil s'abuse, ou me voici rendu,</l>
+	<l id="42">Bien proche du séjour, où je suis attendu,</l>
+	<l id="43">Soupçons, crainte, respect, mon coeur vous congédie,</l>
+	<l id="44">Adieu laissez-moi seul avec Léocadie,</l>
+	<l id="45">Aux mystères d'amour vous n'êtes point admis,</l>
+	<l id="46">Et ce Dieu vous bannit, comme ses ennemis.</l>
+	<l id="47">Mais quelqu'un en ce lieu, dessus mes pas s'avance,</l>
+	<l id="48">Mon homme aurait-il fait si prompte diligence !</l>
+	<l id="49">Me suit-il de si près ? Est-ce toi Lindamor ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Lindamor, Antoine.</head>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="50">Comment ce n'est pas fait ? et je vous trouve encor ?</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="51">Mon oeil ne peut tenir qu'avec beaucoup de peine</l>
+	<l id="52">Dans une ombre si noire, une route certaine,</l>
+	<l id="53">Cette faible lumière éclaire mal mes pas.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="54">Et le flambeau d'amour ne vous conduit-il pas ?</l>
+	<l id="55">Vos pas sont-ils si lents quand vos ardeurs sont telles ?</l>
+	<l id="56">Vous êtes tout amour, et n'avez pas des ailes,</l>
+	<l id="57">Quelque endroit où ce Dieu daigne vous appeler,</l>
+	<l id="58">Sautez, courez, volez, c'est trop peu que d'aller.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="59">Certes, beaucoup de honte est jointe à ma paresse,</l>
+	<l id="60">Et mon pied répond mal à l'ardeur qui le presse, </l>
+	<l id="61">Mais j'approche à la fin du glorieux séjour,</l>
+	<l id="62">Où je dois posséder ce miracle d'amour.</l>
+	<l id="63">Attends-là mon retour, et quoique ta prudence,</l>
+	<l id="64">T'ait fait digne d'entrer en notre confidence,</l>
+	<l id="65">Ne te laisse point voir à ce premier abord,</l>
+	<l id="66">Où l'honnête pudeur fait un dernier effort,</l>
+	<l id="67">Où quelque glace encor reste parmi les flammes,</l>
+	<l id="68">Où les moindres témoins blessent les yeux des Dames,</l>
+	<l id="69">Où la crainte est encor si proche du désir,</l>
+	<l id="70">Qu'elle y ravit aux sens la moitié du plaisir,</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="71">Que Théodose en tient , et que sa bonne mine,</l>
+	<l id="72">Ne vous possède pas au point qu'elle imagine,</l>
+	<l id="73">Mais Dieux ! à ce discours, il me souvient bien tard,</l>
+	<l id="74">De remettre en vos mains un papier de sa part,</l>
+	<l id="75">L'amour qu'elle a pour vous est certes sans exemple,</l>
+<stage type="search">Fouillant en sa poche.</stage>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="76" syll="3" part="i">L'as-tu vue ?</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="76" syll="9" part="f">Oui, ce soir à son retour du temple,</l>
+	<l id="77">Mais allez, il est tard, et tantôt, ou demain,</l>
+	<l id="78">Vous lirez cet écrit que je tiens de sa main.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="79">Ha ! pourquoi sur le point de cette jouissance,</l>
+	<l id="80">Me fais-tu, Lindamor, sentir que je l'offense ?</l>
+	<l id="81">Laisse-moi voir mon mal du côté qu'il me plaît,</l>
+	<l id="82">Ne me l'expose point criminel comme il est.</l>
+	<l id="83">Ha ! fâcheux souvenir ! puis-je sans perfidie,</l>
+	<l id="84">Songer à Théodose, et voir Léocadie ?</l>
+	<l id="85">Porter ici mes pas, adresser là mes voeux,</l>
+	<l id="86">Et d'un commun dessein les tromper toutes deux.</l>
+	<l id="87" syll="1" part="i">Donne.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="87" syll="6" part="m">À votre retour.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="87" syll="6" part="f">Non non, ma conscience,</l>
+	<l id="88">Ne me saurait permettre assez de patience,</l>
+	<l id="89">Un traître comme moi, brûle de tout savoir,</l>
+	<l id="90">Et ne cherche rien tant, que ce qu'il craint de voir.</l>
+<stage type="read">Il lit la lettre.</stage>
+	<l id="91">Fais-moi cesser de vivre, ou fais bientôt cesser,</l>
+	<l id="92">Ce long éloignement, dont j'ignore la cause,</l>
+	<l id="93">Que tu trahisses Théodose,</l>
+	<l id="94">Me viennent mille morts, plutôt que ce penser.</l>
+	<l id="95">Par tes sacrés serments, dont les cieux sont témoins,</l>
+	<l id="96">Tu me dois de tes voeux un compte si fidèle,</l>
+	<l id="97">Que je me croirais criminelle,</l>
+	<l id="98">Ne laissant pas sur toi reposer tous mes soins. </l>
+	<l id="99">Loin pensers indiscrets, hors tous soupçons jaloux,</l>
+	<l id="100">Je porte le garant du bonheur que j'espère,</l>
+	<l id="101">Et par la loi qui l'a fait père,</l>
+	<l id="102">Quoi qui puisse arriver, il sera mon époux. </l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+<stage type="bis">Il répète encor le dernier vers, et puis continue;</stage>
+	<l id="103">Il faut certes, il faut, être plus que barbare,</l>
+	<l id="104">Pour payer de mépris une amitié si rare,</l>
+	<l id="105">Et pour sacrifier au plaisir d'un moment,</l>
+	<l id="106">La gloire, et l'intérêt d'un objet si charmant, </l>
+	<l id="107">Au point de la trahir, pèse, pèse parjure,</l>
+	<l id="108">Tes obligations avecques son injure,</l>
+	<l id="109">Quelle perfection, et quelle pureté,</l>
+	<l id="110">Égale la candeur de sa fidélité,</l>
+	<l id="111">Quelle autre aima jamais avec moins de réserve</l>
+	<l id="112">Qu'a-t-elle retenu, qu'est-ce qu'elle conserve ?</l>
+	<l id="113">Qui gouverne que toi ses regards, et ses pas,</l>
+	<l id="114">Et quels de ses pensers ne t'appartiennent pas ?</l>
+	<l id="115">Sa franchise est sans art, et le Dieu de Cythère,</l>
+	<l id="116">Est plus nu dans son sein, qu'en celui de sa mère,</l>
+	<l id="117">Son seul instinct la porte à tout ce que je veux</l>
+	<l id="118">Et nul déguisement ne me farde ses voeux.</l>
+	<l id="119">Mais quand je pourrais même à son ardeur fidèle</l>
+	<l id="120">Sans crime refuser une ardeur mutuelle,</l>
+	<l id="121">Et que l'ingratitude, au lieu de châtiments,</l>
+	<l id="122">Apporterait des prix aux parjures Amants, </l>
+	<l id="123">Voudrais-je encor tenter de rompre un mariage,</l>
+	<l id="124">Où la loi de l'honneur, outre l'amour m'engage ?</l>
+	<l id="125">Et lui voyant porter des gages de ma foi,</l>
+	<l id="126">Donnerais-je à mes fils d'autres pères que moi,</l>
+	<l id="127">Non, fuyons Lindamor, au moment qui nous reste,</l>
+	<l id="128">Fuyons une fortune à mon repos funeste, </l>
+	<l id="129">Le plaisir d'un instant me serait cher vendu,</l>
+	<l id="130">Et j'allais bien chercher, ce qui m'aurait perdu.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="131">L'honneur de ce combat, remporté sur vous-même,</l>
+	<l id="132">Mettrait votre mérite, à sa gloire suprême.</l>
+	<l id="133">Obtenir tant sur vous, que d'éloigner vos pas,</l>
+	<l id="134">D'un objet amoureux, quand il vous tend les bras,</l>
+	<l id="135">À la fin du combat mépriser la conquête,</l>
+	<l id="136">Et ne point triompher, quand la palme est si prête,</l>
+	<l id="137">C'est une vertu rare, au-dessus du penser,</l>
+	<l id="138">Et qui ne trouve nul qui la puisse exercer.</l>
+</sp>
+<sp stage="stay" who="ANTOINE"><speaker>ANTOINE, restant.</speaker>
+	<l id="139">Elle est rare, il est vrai, mais lâche ce me semble,</l>
+	<l id="140">Combattant je suis fort, victorieux je tremble,</l>
+	<l id="141">Je laisse un beau dessein, tout prêt à succéder,</l>
+	<l id="142">J'attaque avec ardeur, et n'ose posséder.</l>
+	<l id="143">Qui fuit l'occasion, alors qu'elle est si belle,</l>
+	<l id="144">Après s'il s'en repent, court en vain après elle, </l>
+	<l id="145">Ses cheveux à nos mains ne s'offrent pas souvent,</l>
+	<l id="146">Et cette déité n'en porte que devant .</l>
+	<l id="147">Cessez fâcheux pensers, loin prudence importune,</l>
+	<l id="148">Suivons aveuglément notre bonne fortune,</l>
+	<l id="149">Sagesse, ni vertu n'est ici de saison,</l>
+	<l id="150">Et c'est être insensé, qu'avoir de la raison. </l>
+	<l id="151" syll="6" part="i">Poursuivons notre lice .</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="151" syll="6" part="f">Elle vous est ouverte.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="152">Oui, mais visiblement, je machine ma perte,</l>
+	<l id="153">Chaque pas que je fais est ici criminel,</l>
+	<l id="154">Et je vais acheter un remords éternel.</l>
+	<l id="155">Un second fruit naissant de cette perfidie,</l>
+	<l id="156">De nouveau je m'engage avec Léocadie,</l>
+	<l id="157">Il faut qu'un double Hymen me range sous ses lois,</l>
+	<l id="158">Et je me fais époux, et père en deux endroits.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="159">Fuyez donc, en ce point la victoire consiste,</l>
+	<l id="160">L'amour cède à qui fuit, et vainc qui lui résiste.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="161">Pour tant de passion, j'ai beaucoup de respect,</l>
+	<l id="162">Et pour un amoureux, je suis bien circonspect, </l>
+	<l id="163">Hé simple, à quoi tendait cette longue poursuite,</l>
+	<l id="164">Si je l'ai vainement à mon pouvoir réduite ?</l>
+	<l id="165">L'honneur me veut bien prendre ici pour insensé,</l>
+	<l id="166">Pour quitter ce dessein, il est trop avancé.</l>
+<stage type="away">Il va vers la maison.</stage>
+</sp>
+<sp stage="aparte" who="LINDAMOR"><speaker>LINDAMOR, à part.</speaker>
+	<l id="167">Ô combien son humeur souffre de violence,</l>
+	<l id="168">En ce choix incertain, où son esprit balance.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="169">Suivrai-je Lindamor ce brutal mouvement,</l>
+	<l id="170">Qui me rendra si cher le plaisir d'un moment.</l>
+	<l id="171">Fais-moi voir qu'en effet je trame ma ruine,</l>
+	<l id="172">Parle, remontre-moi quel transport me domine,</l>
+	<l id="173">Réfrène ma fureur, arrache-moi d'ici,</l>
+	<l id="174">Mais non, flatte plutôt mon amoureux souci,</l>
+	<l id="175">Excite mes ardeurs, accuse ma paresse,</l>
+	<l id="176">Et si tu peux, me pousse au sein de ma maîtresse,</l>
+	<l id="177">Enfin de quel côté porterai-je mes pas</l>
+	<l id="178">Dois-je avancer, ou fuir, aller, ou n'aller pas.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="179">En semblables combats, la peur fait la victoire,</l>
+	<l id="180">Et qui fuit le plus tôt, acquiert le plus de gloire.</l>
+</sp>
+<sp stage="read" who="ANTOINE"><speaker>ANTOINE, lit.</speaker>
+	<l id="181">Loin, pensers indiscrets, hors tous soupçons jaloux,</l>
+	<l id="182">Je porte le garant du bonheur que j'espère,</l>
+	<l id="183">Et par la loi qui l'a fait père,</l>
+	<l id="184">Quoi qui puisse arriver, il sera mon époux.</l>
+<stage type="continue">Il continue.</stage>
+	<l id="185">Oui belle Théodose, un heureux hyménée,</l>
+	<l id="186">En vous seule rendra ma passion bornée,</l>
+	<l id="187">Oui, ce papier, au point qu'on vous veut offenser,</l>
+	<l id="188">Empêchera l'effet de suivre le penser.</l>
+	<l id="189">Un trop puissant sujet à votre sort m'attache,</l>
+	<l id="190">Je fais la trahison trop ingrate, et trop lâche,</l>
+	<l id="191">Je rends à vos beautés leurs titres absolus,</l>
+	<l id="192">Et ce lâche captif ne se révolte plus,</l>
+	<l id="193">Laissons changer au temps l'humeur d'un père avare,</l>
+	<l id="194">Dont l'obstacle importun si longtemps nous sépare.</l>
+	<l id="195">Mes voeux, et quelques mois obtiendront cet effet,</l>
+	<l id="196">Je suivrai cependant un dessein que j'ai fait</l>
+	<l id="197">D'aller voir cette ville à nulle autre seconde,</l>
+	<l id="198">Où le Tibre à pas lents fait promener son onde,</l>
+	<l id="199">Dès demain Lindamor, sitôt que le soleil,</l>
+	<l id="200">Fera sur l'Orient briller son teint vermeil, </l>
+	<l id="201">Partons pour ce voyage, ayant pris de mon père,</l>
+	<l id="202">Sur cette intention, l'aveu que j'en espère.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="203" syll="6" part="i">Quoi ! sans voir Théodose ?</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="203" syll="6" part="f">Et sans que de ma part,</l>
+	<l id="204">On l'en aille avertir, qu'après notre départ,</l>
+	<l id="205">Autrement, ne crois pas qu'un discours plein de charmes,</l>
+	<l id="206">Secondé de sanglots, de soupirs, et de larmes,</l>
+	<l id="207">Vu l'état déplorable où je la vais laisser,</l>
+	<l id="208">Ne blâmât ce dessein, ou ne le fît cesser.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="209">Quant à Léocadie, au point où sont les choses</l>
+	<l id="210">Elle peut méditer sur ces métamorphoses ,</l>
+	<l id="211">En refaisant accord avec sa chasteté,</l>
+	<l id="212">Souffrir encor un temps, cette incommodité.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="213">Sa seule occasion m'oblige à ce voyage,</l>
+	<l id="214">Je crains que de nouveau sa beauté ne m'engage,</l>
+	<l id="215">En effet quel serais-je après ce que je fus,</l>
+	<l id="216">Ses importunités m'obligeant au refus,</l>
+	<l id="217">Et quelle bienséance après cette poursuite,</l>
+	<l id="218">Quand elle me suivrait, me permettrait la fuite,</l>
+	<l id="219">Même, un mot de ma main qu'elle exigea de moi,</l>
+	<l id="220">Pour me promettre tout, l'assure de ma foi.</l>
+	<l id="221">Mais ma flamme cessant, que son attente cesse,</l>
+	<l id="222">Son honneur conservé dégage ma promesse,</l>
+	<l id="223">Qui ne demande plus, se réserve le sien, </l>
+	<l id="224">Et j'acquitte ma dette, en ne recevant rien.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp stage="costume/location" who="LÉOCADIE"><speaker>LÉOCADIE, en habit de nuit à sa porte.</speaker>
+	<l id="225">Astres, Globes roulants sur la voûte Céleste,</l>
+	<l id="226">Suivez plus lentement le chemin qui vous reste,</l>
+	<l id="227">Du surplus de mes nuits accourcissez mes jours,</l>
+	<l id="228">Antoine ne vient point, et vous courez toujours.</l>
+	<l id="229">Même, comme à dessein d'empêcher sa venue,</l>
+	<l id="230">Vos rayons peu courtois ne passent pas la nue ,</l>
+	<l id="231">Et la nuit semble exprès opposer à ses pas,</l>
+	<l id="232">Une ombre que le jour ne dissiperait pas.</l>
+	<l id="233">Ô nuit ! de tant d'amour fidèle confidente,</l>
+	<l id="234">Toi qui luis quand tu veux de tant de feux ardente,</l>
+	<l id="235">Toi qui quand il te plaît sais si courtoisement,</l>
+	<l id="236">Éclairer, et couvrir les larcins d'un Amant :</l>
+	<l id="237">Des secrets de mon âme unique secrétaire,</l>
+	<l id="238">Déesse du repos, pourquoi m'es-tu contraire ?</l>
+	<l id="239">Laisse briller les feux à l'Olympe attachés,</l>
+	<l id="240">Et fais, cruelle, au moins grâce aux premiers péchés,</l>
+	<l id="241">Tu n'éclaireras pas l'incestueux martyre,</l>
+	<l id="242">De Caune, et de Biblis, de Myrrhe, et de Cinyre </l>
+	<l id="243">Tu favoriseras des feux presque innocents,</l>
+	<l id="244">Et qu'Hymen est tout prêt de permettre à nos sens.</l>
+	<l id="245">Par ce consentement Antoine me prépare,</l>
+	<l id="246">À tromper la rigueur d'un père trop avare,</l>
+	<l id="247">Qui choque nos amours par son autorité,</l>
+	<l id="248">Et fait de ma faiblesse une nécessité .</l>
+	<l id="249">Mais pourquoi querellé-je un objet insensible,</l>
+	<l id="250">Et qu'est-ce qu'un amant doit trouver d'impossible ?</l>
+	<l id="251">L'amour le conduit bien, tout aveugle qu'il est,</l>
+	<l id="252">À l'assignation d'un objet qui lui plaît,</l>
+	<l id="253">Il n'est si haut rocher, ni si bas précipice</l>
+	<l id="254">Que l'ardeur qui le presse aisément ne franchisse,</l>
+	<l id="255">Pour elle, il n'est dessein, ni trop grand, ni trop haut,</l>
+	<l id="256">Et l'impuissance ici découvre le défaut.</l>
+	<l id="257">Antoine, ta froideur paraît en ta paresse,</l>
+	<l id="258">Qui se peut faire attendre, aime peu sa maîtresse, </l>
+	<l id="259">Et quelque empêchement qui se puisse opposer,</l>
+	<l id="260">Un Amant a failli quand il doit s'excuser,</l>
+	<l id="261">Hélas ! qu'il est bien vrai chétives que nous sommes,</l>
+	<l id="262">Que nos affections passent celles des hommes,</l>
+	<l id="263">Que nous souffrons plus qu'eux, leur offrant du secours,</l>
+	<l id="264">Et que leur passion est toute en leur discours.</l>
+	<l id="265">Ils parlent de la bouche, et nous parlons de l'âme,</l>
+	<l id="266">Ils ne sont qu'éloquents, et nous sommes de flamme,</l>
+	<l id="267">Ils feignent seulement ce que nous recelons,</l>
+	<l id="268">Et ne sont qu'échauffés, alors que nous brûlons.</l>
+	<l id="269">Pour faire moins languir mon attente incertaine,</l>
+	<l id="270">Tu devais m'ordonner la moitié de la peine,</l>
+	<l id="271">Cruel, j'aurais forcé pour t'aller au devant ,</l>
+	<l id="272">Et la noirceur de l'ombre, et la rigueur du vent,</l>
+	<l id="273">Il n'est si mauvais temps ni si cruel orage,</l>
+	<l id="274">Qui pût de ce dessein détourner mon courage,</l>
+	<l id="275" syll="6" part="i">J'aurais bien moins tardé.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Don Sanche de Cardène, père de Léocadie, Léocadie.</head>
+<sp stage="costume/enrance/light" who="DON SANCHE"><speaker>DON SANCHE, en habit de nuit, sortant de sa maison, dans l'obscurité.</speaker>
+	<l id="275" syll="6" part="f">Dieux ! qu'est-ce que je vois ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="276">Enfin, j'entends du bruit, cher Antoine est-ce toi ?</l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="277">Qu'entends-je, ô justes Dieux ! ô fortune ennemie,</l>
+	<l id="278">Quel affront ai-je à craindre, après cette infamie ? </l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="279">Antoine, est-ce pas toi ? qui te fait cher Amant,</l>
+	<l id="280">Joindre encor le silence à ton retardement ?</l>
+	<l id="281">Crains-tu que quelque embûche à ton bonheur s'oppose,</l>
+	<l id="282">Non non, que sur mes soins, ta crainte se repose,</l>
+	<l id="283">Nos feux sont à couvert des yeux les plus aigus,</l>
+	<l id="284">Le sommeil s'est saisi de ceux de nos Argus ,</l>
+	<l id="285">Et notre intelligence est un secret mystère,</l>
+	<l id="286">Qui se passe bien loin de l'esprit de mon père.</l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="287">Que dit-elle, bons Dieux ! veillé-je, ou si je dors,</l>
+	<l id="288">Me faites-vous mes sens, de fidèles rapports ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="289">Mauvais, assure donc ma créance incertaine,</l>
+	<l id="290">Quel divertissement tires-tu de ma peine ?</l>
+	<l id="291">Je t'entends, je te suis, je t'appelle cent fois,</l>
+<stage type="follow">Elle le suit.</stage>
+	<l id="292">Et tes pas seulement répondent à ma voix,</l>
+	<l id="293">Si ton pied pour le moins ne suivait qu'une route</l>
+	<l id="294">Où ma main t'atteignant pût éclaircir ma doute,</l>
+	<l id="295">Mais tes pas confondus, se dérobent aux miens,</l>
+	<l id="296">Je t'atteindrai pourtant, parle enfin je te tiens.</l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="297">Que te dirai-je hélas ! fille, non plus ma fille,</l>
+	<l id="298">Mais l'opprobre, et l'horreur de toute ma famille,</l>
+	<l id="299">Que veux-tu que je die en l'état où je suis,</l>
+	<l id="300">Et quel discours, te peut exprimer mes ennuis ? </l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="301">Ô cruelle disgrâce ! Ô fille infortunée !</l>
+	<l id="302">Pourquoi ne suis-je morte, ou pourquoi suis-je née ?</l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="303">Rentre, rentre lascive, et que ta passion,</l>
+	<l id="304">Me commette le soin de ta réception, </l>
+	<l id="305">Heureux de ton bonheur, et joyeux de ta joie,</l>
+	<l id="306">Jusques dedans ton sein je conduirai ta proie,</l>
+	<l id="307">Va, rentre, il t'ira bien cet objet de tes voeux,</l>
+	<l id="308">Porter jusqu'à ton lit, les baisers que tu veux.</l>
+</sp>
+<sp stage="exit" who="LÉOCADIE"><speaker>LÉOCADIE, se retirant.</speaker>
+	<l id="309" syll="6" part="i">Évitons sa fureur.</l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="309" syll="6" part="f">Tranchez mes destinées,</l>
+	<l id="310">Tranchez le triste cours de mes vieilles années.</l>
+	<l id="311">En si juste sujet d'invoquer le trépas,</l>
+	<l id="312">Aimer encor le jour, serait ne s'aimer pas ;</l>
+	<l id="313">Vous qu'on peint à nos yeux si dures, et si fières,</l>
+	<l id="314">Des trames des mortels, immortelles ouvrières ,</l>
+	<l id="315">Avec quelles bontés épargnez-vous mes ans,</l>
+	<l id="316">S'ils sont même importuns à mes propres enfants :</l>
+	<l id="317">Quelle flamme, quel fer, quel poison, quelle peste</l>
+	<l id="318">Au prix de cet affront, pouvait m'être funeste ?</l>
+	<l id="319">Qu'ai-je vu malheureux ? que ne m'ont fait les Dieux</l>
+	<l id="320">Naître pour mon repos, insensible ou sans yeux ?</l>
+	<l id="321">Je m'étais bien douté qu'enfin tant de visites,</l>
+	<l id="322">De l'honnête entretien passeraient les limites,</l>
+	<l id="323">Et qu'un monstre funeste à sa pudicité ,</l>
+	<l id="324">L'abordait sous l'habit de la civilité.</l>
+	<l id="325">Ô soupçon, dont l'effet trop certain me délivre,</l>
+	<l id="326">Pourquoi m'as-tu cruel conseillé de la suivre ?</l>
+	<l id="327">Que ne me laissais-tu dans mon lit endormi,</l>
+	<l id="328">Le malheur ignoré, n'est malheur qu'à demi ;</l>
+	<l id="329">L'oubli seul doit guérir une doute importune,</l>
+	<l id="330">Voulant trop s'éclaircir, irrite la fortune,</l>
+	<l id="331">L'aveugle ne veut pas qu'on l'importune ainsi</l>
+	<l id="332">Et souvent, trop chercher fait trop trouver aussi.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dorilas, Alcionne, Hôte, et Hôtesse de Castelblanc.</head>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="333">Quel est ce demi Dieu, qui sous notre figure ,</l>
+	<l id="334">Veut en vain à nos yeux déguiser sa nature ?</l>
+	<l id="335">Et qui laisse au travers de quelques traits mortels,</l>
+	<l id="336">Briller des qualités dignes de tant d'autels.</l>
+	<l id="337">Depuis qu'un mauvais sort, qui toujours nous traverse</l>
+	<l id="338">A réduit notre vie à ce triste commerce,</l>
+	<l id="339">As-tu vu Dorilas que la nuit ait chez nous,</l>
+	<l id="340">Arrêté des passants pourvus d'attraits si doux ?</l>
+	<l id="341">Qui ne dirait qu'ici le Dieu de la lumière ,</l>
+	<l id="342">Est venu terminer le jour, et sa carrière,</l>
+	<l id="343">Et qu'ayant en la mer laissé son char ardent,</l>
+	<l id="344">Il veut de ce logis faire son occident ?</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="345">Il n'a pour mon repos, que des charmes trop rares,</l>
+	<l id="346">Tes regards affétés ne lui sont point avares,</l>
+	<l id="347">Et tu lui rends un soin un peu trop diligent.</l>
+	<l id="348" syll="6" part="i">Sers-tu chacun ainsi ?</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="348" syll="6" part="f">Chacun selon l'argent.</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="349">Mais ta peine, pour lui va jusques aux caresses,</l>
+	<l id="350">Et passe à mon avis le devoir des hôtesses.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="351">Voilà pas des effets de ton esprit jaloux ?</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="352">Mais à quoi si courtoise, avec des traits si doux,</l>
+	<l id="353" syll="6" part="i">Éclairer les passants ?</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="353" syll="6" part="f">Que veux-tu que je fasse,</l>
+	<l id="354">La douceur les attire, et la gloire les chasse,</l>
+	<l id="355">On fuit comme la mort ces sourcils renfrognés,</l>
+	<l id="356">Ces yeux toujours pleurants, et ces fronts rechignés,</l>
+	<l id="357">Aussi ne dit-on pas , belle hôtesse, et qui rit,</l>
+	<l id="358">Vaut autant que bon vin en une hôtellerie,</l>
+	<l id="359">Accorde ton humeur avec ton intérêt,</l>
+	<l id="360">Sache qu'elle te nuit jalouse comme elle est,</l>
+	<l id="361">Que tu reconnaîtras les profits qu'elle t'ôte,</l>
+	<l id="362">Et qu'hôtesse qui plaît est le bonheur de l'Hôte, </l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="363">Ce bonheur me déplaît, et toutes ces leçons,</l>
+	<l id="364">Loin de diminuer accroissent mes soupçons.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="365">Quoi bons Dieux ! se peut-il que quelque jalousie,</l>
+	<l id="366">Valant ce que tu vaux, t'entre en la fantaisie ?</l>
+	<l id="367">Pèse bien ton mérite, et tu reconnaîtras</l>
+	<l id="368">Que si je ne t'aimais je ne m'aimerais pas.</l>
+	<l id="369">Buvant, n'as-tu jamais dans le fond de ta tasse,</l>
+	<l id="370">Par divertissement considéré ta face ?</l>
+	<l id="371">Y vois-tu des couleurs, et des proportions,</l>
+	<l id="372">Qui ne méritent pas des adorations,</l>
+	<l id="373">Certes autant de fois que mon oeil te contemple,</l>
+	<l id="374">Autant de fois je dis, cet homme est sans exemple,</l>
+	<l id="375">Il a seul mérité de posséder ma foi,</l>
+	<l id="376">Et tu veux Dorilas, que j'aime autre que toi ?</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="377">Je le crains bien plutôt que je ne le désire,</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="378">Ton amour me tient lieu, d'un sceptre d'un Empire,</l>
+	<l id="379">Et je ne sache rien , dont avecque raison</l>
+	<l id="380">Je pusse avecque toi faire comparaison.</l>
+	<l id="381">Mais parlons de notre hôte, as-tu vu sa tristesse,</l>
+	<l id="382">Et ne peux-tu juger quelle douleur le presse ?</l>
+	<l id="383">Il verse en soupirant des pleurs à tous propos,</l>
+	<l id="384">Il refuse de prendre, et repas, et repos,</l>
+	<l id="385">Et couché sur son lit depuis son arrivée,</l>
+	<l id="386">Veut avoir à lui seul la chambre réservée,</l>
+	<l id="387">Ce pitoyable état marque un sanglant ennui,</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="388">Je n'ouvre point les yeux dans les secrets d'autrui,</l>
+	<l id="389">Et je permets au sort de suivre son caprice,</l>
+	<l id="390">Cependant qu'en repos je suis mon exercice,</l>
+	<l id="391">Mais quelque nouvel hôte arrive encor chez nous,</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="392">Il s'avise trop tard. Que ses attraits sont doux !</l>
+	<l id="393">Ô Ciel ! à qui des deux dois-je plus de louange ?</l>
+	<l id="394">Ce logis deviendra la demeure des Anges.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Alexandre, Alcionne, Dorilas.</head>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="395" syll="6" part="i">Une chambre Madame.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="395" syll="6" part="f">Hélas ! malaisément</l>
+	<l id="396">Vous pourrons-nous ce soir loger commodément,</l>
+	<l id="397">La chambre qui restait vient d'être retenue,</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="398">Il fallait d'un moment hâter votre venue.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="399">Pour passer toutefois mon cheval est si las,</l>
+	<l id="400">Qu'amené par mes gens à peine il suit mes pas</l>
+	<l id="401">Le couvert me suffit en ce besoin extrême,</l>
+	<l id="402">Et vous composerez avec ma bourse même.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="403">Dieux ! qu'il est honnête homme, et qu'il est malaisé,</l>
+	<l id="404">Que qui parle si bien, puisse être refusé,</l>
+	<l id="405">Serait-il éconduit, pourvu de tant de grâce.</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="406">L'autre veut être seul, que veux-tu que je fasse ?</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="407">Entrons, pour son service il faut faire un effort,</l>
+	<l id="408">Pouvons-nous pas sans bruit, tandis que l'autre dort,</l>
+	<l id="409">Par la porte que cache une tapisserie,</l>
+	<l id="410" syll="6" part="i">L'introduire en la chambre.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="410" syll="6" part="f">Allons donc je vous prie.</l>
+	<l id="411">J'en sortirai demain, avant que l'oeil du jour,</l>
+	<l id="412">Redore l'Orient, et commence son tour.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="413">Je crois non sans raison, qu'au climat où nous sommes,</l>
+	<l id="414">Les Dieux prennent plaisir à vivre avec les hommes,</l>
+	<l id="415">Que leur gloire se plaît dans un séjour obscur,</l>
+	<l id="416">Et préfère le Chaume à leurs Palais d'azur. </l>
+<stage type="alone">[Seule.]</stage>
+	<l id="417">Que le pouvoir est grand, où la grâce est extrême,</l>
+	<l id="418">Presque insensiblement je sens que je les aime,</l>
+	<l id="419">Et que si la raison me conseille plus tard,</l>
+	<l id="420">Il faudra que mon coeur déloge à leur départ,</l>
+	<l id="421">Raison, honneur, hymen, chastes bornes des âmes,</l>
+	<l id="422">Restreignez mes ardeurs à d'innocentes flammes,</l>
+	<l id="423">Et vous beaux voyageurs, ayez moins de rigueur,</l>
+	<l id="424">Que de vouloir loger jusques dedans mon coeur,</l>
+	<l id="425">L'incomparable humeur dont le ciel m'a pourvue,</l>
+	<l id="426">Ravit autant l'esprit, que mon corps fait la vue,</l>
+	<l id="427">Je ris dès le matin, je chante, je discours,</l>
+	<l id="428">Il n'est repos égal à celui de mes jours,</l>
+	<l id="429">Mais ce n'est pas d'amour que procède ma joie,</l>
+	<l id="430">Il n'a point de mon coeur encor trouvé la voie,</l>
+	<l id="431">Et j'ai cru jusqu'ici qu'il était en un lieu,</l>
+	<l id="432">Inaccessible aux traits de ce profane Dieu.</l>
+	<l id="433">Arme-toi ma raison, rends ma croyance vraie,</l>
+	<l id="434">Repousse loin de moi quelque effort qu'il essaie,</l>
+	<l id="435">Qu'à chacun ce logis, soit un libre séjour,</l>
+	<l id="436">Recevons tout le monde, et ne chassons qu'amour.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<stage type="light">La nuit.</stage>
+<stage type="open">La chambre s'ouvre.</stage>
+<sp who="THÉODOSE"><speaker>THÉODOSE, en homme couché sur un lit pleurant.</speaker>
+	<l id="437">Triste jouet du sort, chétive abandonnée,</l>
+	<l id="438">À quoi te résous-tu ? quelle est ta destinée ?</l>
+	<l id="439">Quel divorce as-tu fait avecque ta vertu,</l>
+	<l id="440">Comment, en quel état, où te rencontres-tu ?</l>
+	<l id="441">Hélas ? quelle est ma vie ? et dans quelles mémoires,</l>
+	<l id="442">Passera-t-elle un jour au nombre des histoires ?</l>
+	<l id="443">Quelles inventions égalent mes effets ?</l>
+	<l id="444">Et quels Romans si faux ont dit ce que je fais.</l>
+	<l id="445">Sans suite , désolée, errante, vagabonde,</l>
+	<l id="446">La honte de mon sexe, et la fable du monde,</l>
+	<l id="447">Esclave dans les fers du pire des amants,</l>
+	<l id="448">Je m'expose aux rigueurs de tous les Éléments,</l>
+	<l id="449">Sans craindre en embrassant cette vie importune</l>
+	<l id="450">Qu'avec moi mon honneur coure même fortune ?</l>
+	<l id="451">Mais qu'emploierais-je, hélas ! que des soins superflus,</l>
+	<l id="452">Pour la garde d'un bien, qui ne m'appartient plus ? </l>
+	<l id="453">Pour la garde d'un bien , qui par mon dessein même,</l>
+	<l id="454">A servi de butin au perfide que j'aime.</l>
+	<l id="455">Mon bonheur me devance au chemin que je suis,</l>
+	<l id="456">Il est à cet ingrat, il partit avec lui.</l>
+	<l id="457">Ils tiennent même route, et rien ne les divise,</l>
+	<l id="458">Mais j'ai ce déplaisir, qu'il suit qui le méprise, </l>
+	<l id="459">Qu'il n'a pas le crédit de m'arrêter un coeur ,</l>
+	<l id="460">Et qu'il devient un prix importun au vainqueur,</l>
+	<l id="461">Honneur, devoir, amour, cruels tyrans des âmes,</l>
+	<l id="462">Quand accorderez-vous, vos glaces et vos flammes,</l>
+	<l id="463">Immortels ennemis, si vous ne me quittez,</l>
+	<l id="464">Que produiront enfin vos contrariétés ?</l>
+	<l id="465">Quelle nécessité contre moi vous assemble,</l>
+	<l id="466">Et me fait relever de trois tyrans ensemble ?</l>
+	<l id="467">Ha ! donne quelque trêve à mon cruel tourment,</l>
+	<l id="468">Sommeil, ferme mes yeux une heure seulement.</l>
+<stage type="sleep">Elle s'endort.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Alcionne, avec une lanterne sourde conduisant Alexandre, Théodose.</head>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="469">Marchons à pas craintifs, écoutons, il sommeille,</l>
+	<l id="470">Ou ce profond silence abuse mon oreille,</l>
+	<l id="471">Mais un si doux repos se rompt au moindre bruit,</l>
+</sp>
+<sp stage="lie" who="ALEXANDRE"><speaker>ALEXANDRE, s'étant mis sur le lit.</speaker>
+	<l id="472" syll="2" part="i">Allez.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="472" syll="10" part="f">Quoi ! voulez-vous passer ainsi la nuit ?</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="473">Puisque je veux partir plus matin que l'aurore,</l>
+	<l id="474">Et presque ouvrir les yeux aussitôt que les clore,</l>
+	<l id="475">Il serait superflu de passer autrement,</l>
+	<l id="476">Vu le bruit, que je crains, le repos d'un moment.</l>
+	<l id="477">Si trop doux, et trop long, il charmait ma paupière, </l>
+	<l id="478">Ayez soin qu'on m'éveille, avec de la lumière.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="479">De peur du bruit, moi-même en prendrai le souci,</l>
+	<l id="480">Dormez, car bientôt j'entre, et vous tire d'ici,</l>
+	<l id="481">Ce repos vous soit tel, que je vous le souhaite,</l>
+<stage type="aparte">À part.</stage>
+	<l id="482">Dieux ! que j'ai de contrainte à faire la retraite</l>
+	<l id="483">Chétive, tu te perds, par le soin que tu prends,</l>
+	<l id="484">Et deviendras enfin courtoise à tes dépens.</l>
+<stage type="EXIT">Elle se retire.</stage>
+</sp>
+<sp stage="sleep" who="THÉODOSE"><speaker>THÉODOSE, dans son sommeil.</speaker>
+	<l id="485">Ha ! les nuits à tous yeux ne sont pas favorables,</l>
+	<l id="486">Leur repos, n'est pas fait pour ceux des misérables,</l>
+	<l id="487">Le sommeil, pour charmer un mal comme le mien,</l>
+	<l id="488">N'a que des pavots secs, qui ne distillent rien.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+	<l id="489" syll="3" part="i">Qu'entends-je !</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="489" syll="9" part="f">Sortez donc mes soupirs, et mes larmes,</l>
+	<l id="490">Soyez tout mon repos, et soyez tous mes charmes,</l>
+	<l id="491">Puisque la liberté des sanglots et des pleurs</l>
+	<l id="492">Est le seul bien qui reste aux extrêmes douleurs.</l>
+</sp>
+<sp stage="low" who="ALEXANDRE"><speaker>ALEXANDRE, bas.</speaker>
+	<l id="493">Dans les premiers assauts des grandes infortunes</l>
+	<l id="494">Les heures de la nuit sont les plus importunes,</l>
+	<l id="495">Notre peine s'accroît dans le temps du repos,</l>
+	<l id="496">Et nous la voyons mieux, lorsque nos yeux sont clos.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="497">Jeunes ans, qui sans art, et sans expérience,</l>
+	<l id="498">Privés de tout conseil, et de toute science,</l>
+	<l id="499">Croyez pouvoir franchir toutes difficultés,</l>
+	<l id="500">En combien de malheurs, vous nous précipitez.</l>
+	<l id="501">Les dangers les plus grands, ont pour vous plus d'amorces,</l>
+	<l id="502">Vous ne connaissez rien au dessus de vos forces,</l>
+	<l id="503">Sans rien considérer, tout travail vous est beau,</l>
+	<l id="504">Et tout dessein vous plaît, pourvu qu'il soit nouveau.</l>
+	<l id="505" syll="1" part="i">Ha !</l>
+</sp>
+<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+	<l id="505" syll="11" part="f">Sans doute qu'au point où son âme est pressée,</l>
+	<l id="506">Quelque parole enfin trahira sa pensée. </l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="507">Ô trop crédule espoir, qu'avec des faux pinceaux,</l>
+	<l id="508">Des objets que tu veux, tu nous fais les tableaux,</l>
+	<l id="509">Tu me faisais un Dieu de l'auteur de mes peines,</l>
+	<l id="510">Mais que ses voeux sont faux, et ses promesses vaines.</l>
+</sp>
+<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+	<l id="511">Je découvre à peu près, d'où provient son ennui,</l>
+	<l id="512">Et voudrais le pouvoir partager avec lui,</l>
+	<l id="513">Sa plainte rend si beaux les malheurs de sa vie,</l>
+	<l id="514">Que sa misère même excite de l'envie.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="515">Appas faux et trompeurs, sources de mes ennuis,</l>
+	<l id="516">Quel esprit, et quels yeux, n'auriez-vous pas séduits ?</l>
+	<l id="517">Mais à qui malheureuse adresses-tu tes plaintes,</l>
+	<l id="518">Qui te livre que toi, ces mortelles atteintes,</l>
+	<l id="519">Quelle main que la tienne a tiré le couteau,</l>
+	<l id="520">Qui met, et ton honneur, et toi-même au tombeau.</l>
+	<l id="521">Que l'amour t'avait bien, d'une fausse peinture, </l>
+	<l id="522">Fait de l'honneur, un monstre, ennemi de nature,</l>
+	<l id="523">L'amour dont les plaisirs sont de si faux objets,</l>
+	<l id="524">L'amour qui n'est que haine à ses propres sujets</l>
+	<l id="525">Qui tigre dévorant, vit du repos des âmes,</l>
+	<l id="526">Et n'offre pour tous prix, que des fers, et des flammes.</l>
+	<l id="527">Ce bourreau de mes nuits, ce tyran de mes jours</l>
+	<l id="528">Ha ! malheureuse fille, et maudites amours.</l>
+</sp>
+<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+	<l id="529">Fille ! qu'entends-je ô Dieux ! combien me croît l'envie,</l>
+	<l id="530">De savoir plus au long, l'histoire de sa vie,</l>
+	<l id="531">Oui, mais sans la chasser, puis-je l'entretenir ?</l>
+	<l id="532">Ha ! cet ardent désir, ne se peut contenir :</l>
+<stage type="toward">À Théodose.</stage>
+	<l id="533" syll="4" part="i">Parlons, Madame.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="533" syll="2" part="m">Ô Dieux !</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="533" syll="6" part="f">De qui la voix plaintive</l>
+	<l id="534">Sans votre su , peut-être à mon oreille arrive,</l>
+	<l id="535">Fille, disgraciée, et d'amour, et du sort.</l>
+</sp>
+<sp stage="stand" who="THÉODOSE"><speaker>THÉODOSE, se levant.</speaker>
+	<l id="536">Comment quelqu'un m'écoute ? ha ! qui me fait ce tort ?</l>
+	<l id="537">Ô sensible surcroît de l'ennui qui me presse !</l>
+	<l id="538">..............................................</l>
+	<l id="539">Quoi ! ce malheur est joint à mon cruel tourment, </l>
+	<l id="540">Que même je ne puis me plaindre sûrement ?</l>
+</sp>
+<sp stage="stand" who="ALEXANDRE"><speaker>ALEXANDRE, hors de son lit aussi, la retient et dit.</speaker>
+	<l id="541">Hé demeurez, je sors, si je vous importune,</l>
+	<l id="542">Je ne viens pas ici croître votre infortune,</l>
+	<l id="543">Je n'ai point souhaité de lire en vos secrets,</l>
+	<l id="544">Et je ne prévoyais vos pleurs, ni vos regrets,</l>
+	<l id="545">Ignorant de l'ennui qui votre âme dévore,</l>
+	<l id="546">J'attendais sur ce lit le retour de l'aurore ;</l>
+	<l id="547">Introduit en ce lieu, durant votre sommeil,</l>
+	<l id="548">Et croyant en sortir, devant votre réveil,</l>
+	<l id="549">Votre ennui s'est trahi par votre propre bouche,</l>
+	<l id="550">Et le ciel m'est témoin à quel point il me touche,</l>
+	<l id="551">Et que le seul dessein qui m'a fait vous parler,</l>
+	<l id="552">Est, ou de vous servir, ou de vous consoler.</l>
+	<l id="553">Si la pitié vous nuit, si son soin vous offense,</l>
+	<l id="554">S'il lui faut un pardon, au lieu de récompense,</l>
+	<l id="555">Je l'implore ; et plutôt vais sortir de ce pas,</l>
+	<l id="556">Que de prendre un repos, qui ne vous plaise pas.</l>
+	<l id="557">Mais si vouloir vous faire une offre de service,</l>
+	<l id="558">Franche de toute feinte, et de tout artifice,</l>
+	<l id="559">Et prendre plus avant part en votre souci,</l>
+	<l id="560">Vous pouvait obliger à me souffrir ici,</l>
+	<l id="561">Peut-être que ce mal dont votre âme est saisie,</l>
+	<l id="562">Ne s'offenserait pas de votre courtoisie,</l>
+	<l id="563">Et que si l'on peut rien pour votre allégement ,</l>
+	<l id="564">Je vous pourrais un jour servir utilement.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="565">S'il est vrai que la voix soit le miroir de l'âme,</l>
+	<l id="566">Mes plaintes, ni mes pleurs n'ont point trahi ma flamme,</l>
+	<l id="567">Un secret déclaré, n'en est pas moins secret,</l>
+	<l id="568">Quand il n'est pas tombé dans un sein indiscret.</l>
+	<l id="569">La créance que j'ai, que loin de toute feinte</l>
+	<l id="570">Votre coeur est sensible au sujet de ma plainte,</l>
+	<l id="571">Et que votre bonté me prêterait la main,</l>
+	<l id="572">Si mon secours n'était hors du pouvoir humain,</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="573" syll="6" part="i">N'en doutez nullement.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="573" syll="6" part="f">Cette ferme créance,</l>
+	<l id="574">M'ôte l'étonnement, et me rend l'assurance.</l>
+	<l id="575">De rester toutefois, c'est ce que je ne puis,</l>
+	<l id="576">Que sur votre parole, étant ce que je suis.</l>
+	<l id="577">Je suis fille, et déjà j'ai bien su vous le dire,</l>
+	<l id="578">Par ce confus discours, que pousse mon martyre.</l>
+	<l id="579">Ne vous étonnez pas, qu'en cette qualité,</l>
+	<l id="580">Et pour votre repos, et pour ma sûreté,</l>
+	<l id="581">J'exige des serments qui dissipent ma crainte,</l>
+	<l id="582">Et me fassent rester en ce lieu sans contrainte.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="583">Le penser que j'aurai contre votre dessein,</l>
+	<l id="584">Qu'il m'étouffe, et qu'il soit un serpent en mon sein.</l>
+</sp>
+<sp stage="lie" who="THÉODOSE"><speaker>THÉODOSE, se remettant sur le lit.</speaker>
+	<l id="585">Après cette assurance, entendez une histoire,</l>
+	<l id="586">Que j'aurai peine à dire, autant que vous à croire,</l>
+	<l id="587">Écoutez, mais songez à me garder la foi,</l>
+	<l id="588">Qui vous doit empêcher d'attenter rien sur moi.</l>
+	<l id="589">Certain, qu'au moindre bruit, vous verriez mon épée,</l>
+	<l id="590">Dans mon sein malheureux jusqu'aux gardes trempée.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="591">Si je ne puis rien plus, pour votre affliction,</l>
+	<l id="592">Vous me louerez au moins de ma discrétion.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="593">Théodose est le nom de cette infortunée,</l>
+	<l id="594">Et Séville, celui du lieu d'où je suis née,</l>
+	<l id="595">Pour ceux de mes parents, j'ai d'extrêmes regrets</l>
+	<l id="596">De me voir obligée à les tenir secrets,</l>
+	<l id="597">Mais j'accroîtrais leur honte, en la rendant publique,</l>
+	<l id="598">Et ce m'est déjà trop, qu'elle soit domestique . </l>
+	<l id="599">La bonté de leurs moeurs, et leur illustre sang,</l>
+	<l id="600">De leurs possessions tiennent le premier rang.</l>
+	<l id="601">Du reste, les destins leur sont assez avares,</l>
+	<l id="602">Aussi leurs successeurs comme leurs biens sont rares,</l>
+	<l id="603">Un seul frère, l'honneur de leur vieille saison,</l>
+	<l id="604">Partage avecque moi l'espoir de leur maison ;</l>
+	<l id="605">Son nom est Alexandre ; en tout il me surmonte ,</l>
+	<l id="606">Il naquit pour leur gloire, et je vis pour leur honte,</l>
+	<l id="607">L'étude à Salamanque est son seul entretien,</l>
+	<l id="608">Cependant que l'amour en ces lieux est le mien ;</l>
+	<l id="609">J'acquiers de l'infamie, il acquiert du mérite,</l>
+	<l id="610">Je m'oublie, il apprend, je me perds, il profite.</l>
+</sp>
+<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+	<l id="611">Veillé-je, est-il bien vrai que j'ai les yeux ouverts ?</l>
+	<l id="612">Ô sort ! qui peut prévoir tes accidents divers !</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="613">Seize hivers ont changé le visage des choses,</l>
+	<l id="614">Et seize étés ensuite ont ramené les roses,</l>
+	<l id="615">Sans qu'amour pût trouver le chemin de mon coeur,</l>
+	<l id="616">Mais la suivante année établit mon vainqueur.</l>
+	<l id="617">Un jeune Cavalier, issu d'illustre race,</l>
+	<l id="618">Et qui notre famille en richesses surpasse,</l>
+	<l id="619">Ayant un libre accès dedans notre maison, </l>
+	<l id="620">Me coula dans le sein ce funeste poison.</l>
+	<l id="621">Toutes ses actions, tous ses soins, tous ses gestes</l>
+	<l id="622">M'étaient de son amour des signes manifestes,</l>
+	<l id="623">Qui se virent bientôt mon courage soumis :</l>
+	<l id="624">Fille aussi, qui tiendrait contre tant d'ennemis,</l>
+	<l id="625">Sur un autre entretien je ferais conscience ,</l>
+	<l id="626">D'abuser plus longtemps de votre patience,</l>
+	<l id="627">Mais que j'ai de contrainte à passer plus avant,</l>
+	<l id="628">Je pousse volontiers ce vain discours au vent :</l>
+	<l id="629">Et ne me puis résoudre à toucher sa matière,</l>
+	<l id="630">Qui me demande à peine une minute entière,</l>
+	<l id="631">Mais par ce seul discours, vous pouvez concevoir,</l>
+	<l id="632">Combien l'amour enfin eut sur moi de pouvoir,</l>
+	<l id="633">Antoine, (ô nom fatal, c'est celui de ce traître)</l>
+	<l id="634">Tira ce qui lui plût des voeux qu'il faisait naître,</l>
+	<l id="635">Sous la foi que j'en eus, que malgré nos jaloux ,</l>
+	<l id="636">Ses parents, et les miens il serait mon époux.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+	<l id="637">Ô sensible disgrâce ! ô malheureuse fille !</l>
+	<l id="638">Et cruelle à toi-même, autant qu'à ta famille.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="639">Hélas ! autant de fois que de ce souvenir,</l>
+	<l id="640">La misère où je suis me fait entretenir,</l>
+	<l id="641">Moi-même, autant de fois, je me cherche en moi-même,</l>
+	<l id="642">Je ne me connais pas en ce malheur extrême, </l>
+	<l id="643">Mon penser se confond, et celle que je fus,</l>
+	<l id="644">En celle que je suis ne se retrouve plus.</l>
+	<l id="645">Enfin quand je croyais qu'un heureux hyménée,</l>
+	<l id="646">Était prêt d'adoucir ma triste destinée,</l>
+	<l id="647">Qu'Antoine y travaillait, et que sa passion,</l>
+	<l id="648">Sollicitait son père à cette intention,</l>
+	<l id="649">Tel que d'un beau Soleil quelquefois le visage,</l>
+	<l id="650">Se perd en un moment en un proche nuage,</l>
+	<l id="651">Ce traître, et mon espoir aussi traître que lui,</l>
+	<l id="652">S'éclipsant, m'ont laissée, en proie à mon ennui.</l>
+	<l id="653">Hier, il disparut, et ma fortune est telle</l>
+	<l id="654">Que le seul bruit commun m'en apprit la nouvelle</l>
+	<l id="655">Jugez si j'ai puni mon sein, et mes cheveux,</l>
+	<l id="656">Et tout ce que j'ai cru complice de mes voeux,</l>
+	<l id="657">Contre moi, mon amour a déployé sa haine,</l>
+	<l id="658">Mon coeur à mon visage a reproché sa peine,</l>
+	<l id="659">Et de tous les moyens d'affliger les esprits,</l>
+	<l id="660">La douleur n'en sait point qu'elle ne m'ait appris.</l>
+	<l id="661">Enfin, sous ces habits, sans suite abandonnée,</l>
+	<l id="662">Je suis , triste Didon ce vagabond Énée,</l>
+	<l id="663">Et tends vers l'Italie, où s'adressent ses pas,</l>
+	<l id="664">À dessein de trouver ce traître, ou le trépas.</l>
+	<l id="665">Cette ennuyeuse histoire, est du sort lamentable,</l>
+	<l id="666">Qui cause mes ennuis le discours véritable.</l>
+<stage type="silence">Elle se tait, un peu et puis recommence.</stage>
+	<l id="667">Que peut délibérer en un malheur pareil,</l>
+	<l id="668">Un esprit dépourvu d'espoir, et de conseil.</l>
+	<l id="669" syll="6" part="i">Quel sera mon recours ?</l>
+<stage type="watch/silence/continue">Voyant qu'il ne dit mot, elle continue.</stage>
+	<l id="669" syll="6" part="f">Mais sans doute il sommeille,</l>
+	<l id="670">Et ma voix sans effet a frappé son oreille.</l>
+	<l id="671">Je m'étonne, comment un si triste propos,</l>
+	<l id="672">N'excite la douleur, plutôt que le repos.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="673">Non non, je ne dors pas, il n'est âme si dure,</l>
+	<l id="674">À qui ne fût sensible une telle aventure,</l>
+	<l id="675">Croyez que je vous plains, et que je sens les coups,</l>
+	<l id="676">Du sort qui vous poursuit, à même point que vous,</l>
+	<l id="677">Aussi, je ne vous offre en ce malheur extrême,</l>
+	<l id="678">Ni discours, ni conseil, mais je m'offre moi-même,</l>
+	<l id="679">Et vois tant d'injustice en cette trahison,</l>
+	<l id="680">Que de ma propre main j'en veux tirer raison.</l>
+	<l id="681">Mais je crois que dans peu le retour de l'aurore,</l>
+	<l id="682">De ses vives couleurs peindra la rive more ,</l>
+	<l id="683">Jouissons un moment des faveurs du sommeil,</l>
+	<l id="684">Et le jour de retour, nous donnera conseil.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="685" syll="6" part="i">Reposez, je me tais,</l>
+<stage type="aparte">[À part].</stage>
+	<l id="685" syll="6" part="f">Hé Dieux ! est-il possible,</l>
+	<l id="686">Que mon malheur en lui trouve un coeur si sensible ?</l>
+	<l id="687">Quel sujet inconnu, quels sentiments secrets,</l>
+	<l id="688">Font qu'il prend telle part dedans mes intérêts.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="689" syll="1" part="i">Ha !</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="689" syll="11" part="f">Qu'est-ce que j'entends ? bons Dieux ! est-il croyable</l>
+	<l id="690">Qu'un esprit si touché ne soit que pitoyable ?</l>
+	<l id="691">Que sa seule bonté trouble tant son repos,</l>
+	<l id="692">Et cause ses soupirs qu'il pousse à tout propos ?</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="693" syll="6" part="i">Ô cruauté du sort !</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="693" syll="6" part="f">Cet accident m'étonne</l>
+	<l id="694">Et me rend la pitié que ma douleur lui donne.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="695" syll="6" part="i">Pernicieux amour !</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="695" syll="6" part="f">Amour, qu'entends-je hélas !</l>
+	<l id="696">Puis-je ouïr ce discours, et ne m'effrayer pas.</l>
+	<l id="697">Ce mot naît du dessein de quelque violence,</l>
+	<l id="698">Et sans aveu , sans doute, interrompt son silence,</l>
+	<l id="699">Mais s'il se dispensait à la témérité,</l>
+	<l id="700">D'oser rien attenter sur mon honnêteté,</l>
+	<l id="701">Ce poignard (au besoin) par la fin de ma vie,</l>
+	<l id="702">De ce brutal effort frustrerait son envie ;</l>
+	<l id="703">Quel destin est le mien ? qui m'a conduite ici ?</l>
+	<l id="704">Mais le sommeil m'emporte, et charme mon souci ?</l>
+<stage type="decor">Elle abaisse le rideau.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V.</head>
+<sp who="ALCIONNE"><speaker>ALCIONNE, demi nue, avec la lanterne, entrant doucement.</speaker>
+	<l id="705">Telle Psyché d'amour, pour l'Amour même atteinte,</l>
+	<l id="706">À ce Dieu sommeillant fait sa muette plainte ,</l>
+	<l id="707">Telle va sur Hymette, à son chasseur dormant,</l>
+	<l id="708">L'Aurore le matin reprocher son tourment .</l>
+<stage type="watch">Regardant Alexandre.</stage>
+	<l id="709">Dieux ! qu'est-ce que je vois ? quelle est cette aventure,</l>
+	<l id="710">Par quel secret pouvoir, merveille de nature,</l>
+	<l id="711">Viens-tu jusqu'en mon lit, plus beau que le Soleil,</l>
+	<l id="712">Traverser mon repos, et troubler mon sommeil,</l>
+	<l id="713">Veillant je te possède, et lorsque je repose,</l>
+	<l id="714">Je possède un fantôme aussi beau que la chose,</l>
+	<l id="715">Mais ô songe, ô regards, vous n'êtes qu'un faux bien,</l>
+	<l id="716">Et veillant, ni dormant, je ne possède rien.</l>
+<stage type="closer/location">Elle va au lit de Théodose.</stage>
+	<l id="717">Et toi premier auteur de ma naissante flamme,</l>
+	<l id="718">Agréable charmeur du repos de mon âme ;</l>
+	<l id="719">Qui joins tant de tristesse avec tant de beauté</l>
+	<l id="720">Quel est ton différend contre ma liberté, </l>
+	<l id="721">Que ne pourrais-tu vaincre avec tant de mérites,</l>
+	<l id="722">Mon respect est déjà bien près de ses limites,</l>
+	<l id="723">Et certes, mon amour n'est pas fort loin, d'oser</l>
+	<l id="724">Dessus ta belle bouche entreprendre un baiser,</l>
+	<l id="725" syll="6" part="i">La grâce est là plus douce.</l>
+<stage type="location">Au lit d'Alexandre.</stage>
+	<l id="725" syll="6" part="f">Elle est ici plus mâle</l>
+	<l id="726">Mais la perfection en tous deux est égale,</l>
+	<l id="727">Tous deux sont accomplis, et cette égalité</l>
+	<l id="728">Me pourrait du choix même ôter la liberté,</l>
+	<l id="729">Ce qu'un peut espérer, l'autre le peut prétendre,</l>
+	<l id="730">Ne pouvant que laisser, je ne pourrais, que prendre,</l>
+	<l id="731">Mais de quoi s'entretient ma folle passion ?</l>
+	<l id="732">N'ayant ni l'un ni l'autre, en son Élection ?</l>
+	<l id="733">Cette importune ardeur, dont mon âme est pressée,</l>
+	<l id="734">Espérance, désir, sortez de ma pensée,</l>
+	<l id="735">Et laissez à mes yeux, tout le fruit d'une amour ,</l>
+	<l id="736">Qui ne passera pas la naissance du jour. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Dorilas, Alcionne, Théodose, Alexandre.</head>
+<sp stage="costume" who="DORILAS"><speaker>DORILAS, demi nu.</speaker>
+	<l id="737">Enfin, à qui des deux appartiendra la pomme ?</l>
+	<l id="738">Sans mentir, pour qui d'eux, plus d'ardeur te consomme ?</l>
+	<l id="739">Pour qui plus volontiers incline ton désir,</l>
+	<l id="740">Si tu veux, à tout prendre, il ne faut point choisir.</l>
+	<l id="741">Possède-les tous deux, tu leur peux satisfaire,</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="742">Et bien, ne voilà pas ton humeur ordinaire ?</l>
+	<l id="743">De condamner mes pas, mes veilles, et mes soins,</l>
+	<l id="744">Qu'est-ce ! qu'as-tu trouvé ? tu n'espérais rien moins.</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="745">Tu n'es que trop soigneuse, et que trop diligente,</l>
+	<l id="746">Deviens pour mon repos un peu plus négligente ; </l>
+	<l id="747">Que fais-tu si matin au lit de ce passant ?</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="748">Sachant qu'il veut partir, devant le jour naissant,</l>
+	<l id="749">Et craignant qu'il soit vu, comme je le dois craindre</l>
+	<l id="750">Je venais l'éveiller, est-ce de quoi te plaindre ?</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="751">Tu sais tout au besoin couvrir si dextrement,</l>
+	<l id="752">Qu'à mes yeux, tu pourrais pécher innocemment.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="753">Et ta mauvaise humeur, prend tant de jalousie,</l>
+	<l id="754">Qu'on la verra bientôt passer en frénésie ;</l>
+	<l id="755" syll="6" part="i">Je ferais mon devoir, quand je...</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="755" syll="4" part="f">Quoi, que dis-tu ?</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="756">Que je fais mon devoir, quand j'aime ta vertu</l>
+	<l id="757">Que leur beauté n'a rien d'égal à ton mérite,</l>
+	<l id="758">Et qu'aux soins que je prends l'intérêt seul m'invite.</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="759">Mais à quoi tant de soins ? peu de bien nous suffit,</l>
+	<l id="760">Épouse mon repos, autant que mon profit,</l>
+	<l id="761">Pour des objets pourvus d'une beauté si rare,</l>
+	<l id="762">Je te croirais d'humeur plus prodigue qu'avare.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="763" syll="6" part="i">Ô le jaloux Esprit.</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="763" syll="6" part="f">Peut-être avec raison.</l>
+</sp>
+<sp stage="dream" who="ALEXANDRE"><speaker>ALEXANDRE, rêvant.</speaker>
+	<l id="764">Traître, enfin purge-toi de cette trahison,</l>
+	<l id="765">Tiens ta foi parjurée, ou le sang du parjure,</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="766" syll="6" part="i">Comme il rêve, écoutons.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="766" syll="6" part="f">Réparera l'injure.</l>
+	<l id="767">Si bientôt la raison ne te vient conseiller.</l>
+</sp>
+<sp stage="push" who="ALCIONNE"><speaker>ALCIONNE, le poussant.</speaker>
+	<l id="768">L'autre pourrait l'entendre, il le faut éveiller.</l>
+</sp>
+<sp stage="awake" who="ALEXANDRE"><speaker>ALEXANDRE, éveillé.</speaker>
+	<l id="769" syll="6" part="i">Çà, partons, est-il tard ?</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="769" syll="6" part="f">Le jour naissant est proche,</l>
+</sp>
+<sp stage="awake/abrupt" who="THÉODOSE"><speaker>THÉODOSE, éveillée en sursaut.</speaker>
+	<l id="770">Ô Dieux ! j'entends du bruit, mais si quelqu'un m'approche,</l>
+	<l id="771">La pointe de ce fer, fera ma sûreté.</l>
+<stage type="threat">Prenant son épée.</stage>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="772">Tirez-vous seulement de cette obscurité,</l>
+	<l id="773">Et loin de redouter outrage, ni licence,</l>
+	<l id="774">Voyez en quelles mains tombe votre défense ;</l>
+<stage type="stand/>atch">Elle se lève et regarde son frère.</stage>
+	<l id="775">Si votre honneur en moi, trouve un mauvais appui,</l>
+	<l id="776">Et si vous pouviez mieux partager votre ennui.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="777">Que vois-je malheureuse ! ô rencontre importune !</l>
+	<l id="778">Que peut plus à mes maux ajouter la fortune ? </l>
+	<l id="779">Après cet accident, quels malheurs, quelle mort,</l>
+	<l id="780">Passent en cruauté les rigueurs de mon sort.</l>
+<stage type="kneel">À genoux.</stage>
+	<l id="781">Mon frère, (si ce nom doit sortir de ma bouche,</l>
+	<l id="782">Complice comme elle est, d'un affront qui vous touche)</l>
+	<l id="783">Prenez, prenez ce fer, et le portez au sein,</l>
+	<l id="784">Où l'amour en conçut le damnable dessein ?</l>
+	<l id="785">Vous savez mon malheur, moi-même je m'accuse,</l>
+	<l id="786">Et dans mon repentir ne cherche point d'excuse,</l>
+	<l id="787">J'attends ce fer sans peur, le coup m'en sera doux,</l>
+	<l id="788">J'ai mon frère, en ma peine intérêt comme vous,</l>
+	<l id="789">Et la mort qui fera que ma honte s'efface,</l>
+	<l id="790">Ne me punira pas, elle me fera grâce.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="791" syll="2" part="i">Qu'entends-je ?</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="791" syll="10" part="f">Levez-vous, les crimes infinis,</l>
+	<l id="792">Par leur infinité demeurent impunis,</l>
+	<l id="793">Et les rigueurs des lois, ont souvent été vaines,</l>
+	<l id="794">Par l'excès des forfaits, et le défaut des peines, </l>
+	<l id="795">Votre folie aussi, passe tout châtiment,</l>
+	<l id="796">Et tient la main liée à mon ressentiment.</l>
+	<l id="797">Au lieu que j'espérais trouver notre famille,</l>
+	<l id="798">Florissante à l'envi des plus grands de Séville,</l>
+	<l id="799">J'y vais pour toutes fleurs rencontrer des soucis ,</l>
+	<l id="800">Et voir tous les rayons de sa gloire obscurcis,</l>
+	<l id="801">Mais partons, et forcez l'ennui qui vous possède,</l>
+	<l id="802">Quelque espérance encor, me promet du remède.</l>
+	<l id="803">Suivons votre dessein, et marchons sur les pas,</l>
+	<l id="804">D'un traître, qui volant, ne m'échapperait pas,</l>
+	<l id="805">Que je suivrais plus haut qu'où se fait le tonnerre,</l>
+	<l id="806">Et que je chercherais aux deux bouts de la terre .</l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alexandre, Théodose, dans le bois.</head>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="807">Il faut tirer ma soeur, de si justes douleurs,</l>
+	<l id="808">De plus dignes effets que des cris, et des pleurs.</l>
+	<l id="809">Les pleurs lavent le corps, mais n'essuyent pas l'âme,</l>
+	<l id="810">Et de nos actions n'effacent pas le blâme ;</l>
+	<l id="811">Par elles, votre honneur ne se peut rétablir,</l>
+	<l id="812">Et dans un grand dessein, pleurer c'est s'affaiblir.</l>
+	<l id="813">Nous trouverons ce soir le cheval qui vous manque,</l>
+	<l id="814">Sinon sur le chemin, au moins à Salamanque ;</l>
+	<l id="815">Mon homme sur le mien a devancé nos pas</l>
+	<l id="816">Afin que cet achat ne nous retarde pas.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="817">Quelles que soient, mon sort, tes sensibles atteintes,</l>
+	<l id="818">Je te dois une grâce, entre beaucoup de plaintes,</l>
+	<l id="819">Puisqu'encor, en mon mal tu m'offres du support,</l>
+	<l id="820">Et ne veux pas m'ôter l'espérance du port ;</l>
+	<l id="821">Mon frère, heureux surgeon d'une fameuse tige ,</l>
+	<l id="822">Qui n'a porté que moi de monstre, et de prodige,</l>
+	<l id="823">Parmi tant de malheurs, que ce m'est de bonheur</l>
+	<l id="824">De rencontrer en vous des soins pour mon honneur,</l>
+	<l id="825">Et si nous faisons tant, que d'atteindre ce traître,</l>
+	<l id="826">Quelque espoir que j'aie eu, n'a sujet de renaître.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="827">À moins que de périr, il ne se peut cacher</l>
+	<l id="828">Et jusques aux enfers, mes pas l'iraient chercher ,</l>
+	<l id="829" syll="3" part="i">Mais que vois-je ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Filémond, valet d'Alexandre, hors d'haleine et presque nu [, les mêmes].</head>
+<sp who="FILÉMOND"><speaker>[FILÉMOND].</speaker>
+	<l id="829" syll="6" part="f">Ha ! mon maître, ô fatale aventure.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="830">Hé, qui t'a Filémond, mis en cette posture !</l>
+</sp>
+<sp who="FILÉMOND"><speaker>FILÉMOND.</speaker>
+	<l id="831">Un nombre de voleurs, rencontrés en ce bois,</l>
+	<l id="832">Avec ce qu'ils m'ont pris, je perds encor la voix</l>
+	<l id="833" syll="6" part="i">L'haleine me défaut.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="833" syll="6" part="f">Si c'est pour mes supplices,</l>
+	<l id="834">Ô sort ! ne cesse point, et poursuis tes malices .</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="835">Que résoudrai-je hélas ! quel est notre dessein !</l>
+	<l id="836" syll="6" part="i">Ils t'ont pris mon cheval ? </l>
+</sp>
+<sp who="FILÉMOND"><speaker>FILÉMOND.</speaker>
+	<l id="836" syll="6" part="f">C'est leur premier butin.</l>
+	<l id="837">Leur nombre aurait fait peine à la valeur d'Alcide,</l>
+	<l id="838">J'ai vu l'heure qu'au vol ils joindraient l'homicide</l>
+	<l id="839">Contre eux, toute défense, et tous efforts sont vains ;</l>
+	<l id="840">Et mes pieds, pouvaient seuls me sauver de leurs mains, </l>
+	<l id="841">Cherchons, pour retourner, quelque secrète route,</l>
+	<l id="842">Autrement, je tiens fort notre salut en doute,</l>
+	<l id="843">Fuyons, quand le danger presse jusqu'à ce point,</l>
+	<l id="844">Le plus utile avis, c'est de n'en chercher point.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="845">Par ce confus sentier, gagnons l'hôtellerie,</l>
+	<l id="846" syll="6" part="i">Castelblanc n'est pas loin.</l>
+</sp>
+<sp who="FILÉMOND"><speaker>FILÉMOND.</speaker>
+	<l id="846" syll="6" part="f">Hâtons-nous, je vous prie.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp stage="attached/costume/alone" who="LÉOCADIE"><speaker>LÉOCADIE, attachée à un arbre, vêtue en homme.</speaker>
+	<l id="847">Qu'un instable pouvoir gouverne nos destins,</l>
+	<l id="848">Combien de vilains jours suivent de beaux matins ?</l>
+	<l id="849">Mon être à peine accroît l'être commun des choses,</l>
+	<l id="850">À peine mon printemps pousse encore des roses,</l>
+	<l id="851">Que j'éprouve déjà la rigueur des hivers,</l>
+	<l id="852">À peine je me trouve, et déjà je me perds ;</l>
+	<l id="853">Te plais-je en cet état Déesse du désordre ,</l>
+	<l id="854">Ta rage dessus moi n'a-t-elle plus à mordre ?</l>
+	<l id="855">Suffit-il de laisser en proie à ta rigueur,</l>
+	<l id="856">Jusques à mon espoir, et jusques à mon coeur ?</l>
+	<l id="857">Si de ces biens encor tu n'es pas assouvie,</l>
+	<l id="858">Va plus outre inhumaine, et prends jusqu'à ma vie ;</l>
+	<l id="859">C'est ce que l'on conserve avec le plus de soins,</l>
+	<l id="860">Et c'est le bien pourtant, que je plaindrai le moins. </l>
+	<l id="861">Mais sachant que la mort, tant soit-elle inhumaine,</l>
+	<l id="862">Plus humaine que toi, terminerait ma peine,</l>
+	<l id="863">Sachant que de tous maux elle borne le cours, </l>
+	<l id="864">Pour prolonger mes maux, tu prolonges mes jours,</l>
+	<l id="865">Tu sais que m'épargner, c'est m'être plus nuisible,</l>
+	<l id="866">Que la perte du jour rend toute autre insensible,</l>
+	<l id="867">Ainsi, tu fais moins voir quelle est ta cruauté,</l>
+	<l id="868">En ce que tu m'as pris, qu'en ce qui m'est resté ,</l>
+	<l id="869">Et ne m'outrager point, m'est un outrage extrême,</l>
+	<l id="870">Que tu sais en rigueur passer l'outrage même.</l>
+	<l id="871">Lions que faites-vous ? tigres, loups ravissants ,</l>
+	<l id="872">Corbeaux, où cherchez-vous des butins innocents,</l>
+	<l id="873">Cependant que le sort jusqu'ici nous envoie,</l>
+	<l id="874">Une si criminelle, et si facile proie .</l>
+	<l id="875">Mais je vous parle en vain, j'ai beau vous désirer,</l>
+	<l id="876">Autre Corbeau qu'Amour ne me vient dévorer,</l>
+	<l id="877">Autre Tigre que lui, si cruel de nature,</l>
+	<l id="878">En ce coupable sein ne cherche sa pâture,</l>
+	<l id="879">Autre voleur que lui ne m'a mise en ce lieu,</l>
+	<l id="880">Ce tigre, ce corbeau, ce voleur est un Dieu.</l>
+	<l id="881">Infidèle , barbare, arrête un peu ta fuite,</l>
+	<l id="882">Viens, et vois les profits que j'acquiers à ta suite .</l>
+	<l id="883">Mais je puis au besoin réclamer ces passants</l>
+	<l id="884">Attirés par le bruit de mes tristes accents.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Alexandre, Théodose, Filémond, Léocadie.</head>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="885" syll="6" part="i">Dieux ! quel est ce spectacle ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="885" syll="6" part="f">Ô troupe fortunée,</l>
+	<l id="886">Troupe, bien plus que moi chère à la destinée,</l>
+	<l id="887">Si les maux que tu fuis te font plaindre les miens,</l>
+	<l id="888">Assiste un malheureux, et brise ces liens,</l>
+	<l id="889">Un nombre de voleurs, ou plutôt ma fortune</l>
+	<l id="890">Qui n'aime qu'à me nuire, et qu'à m'être importune</l>
+	<l id="891">Ont exercé sur moi ce rigoureux effort,</l>
+	<l id="892">Et m'ayant tout ravi, m'ont refusé la mort.</l>
+</sp>
+<sp stage="unattach" who="THÉODOSE"><speaker>THÉODOSE, la déliant.</speaker>
+	<l id="893">La faveur qu'il implore est une oeuvre divine,</l>
+	<l id="894">Où le ciel nous oblige, outre sa bonne mine,</l>
+	<l id="895" syll="6" part="i">Mais il nous faut hâter.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="895" syll="6" part="f">Où s'adressaient vos pas ?</l>
+	<l id="896">Ma curiosité ne vous déplaira pas ?</l>
+	<l id="897" syll="6" part="i">Quel est votre pays ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="897" syll="6" part="f">Un lieu près de Séville,</l>
+	<l id="898">Où j'ai tiré le jour d'une illustre famille.</l>
+	<l id="899">Aussi, porter l'épée est ma profession,</l>
+	<l id="900">Et je tirais vers Rome à cette intention,</l>
+	<l id="901">Lorsque de ces voleurs j'ai rencontré la bande,</l>
+	<l id="902">Et servi de butin à leur fureur brigande.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="903">Vous ne pouvez rien plus, en un malheur pareil,</l>
+	<l id="904">Qu'éviter d'avoir pis, et chercher du conseil.</l>
+	<l id="905">Ayant même dessein, pour un même voyage,</l>
+	<l id="906">Allons en consulter au plus proche village,</l>
+	<l id="907">Laissons à ces voleurs le temps de s'écarter,</l>
+	<l id="908" syll="6" part="i">Évitons leur rencontre,</l>
+</sp>
+<sp who="FILÉMOND"><speaker>FILÉMOND.</speaker>
+	<l id="908" syll="6" part="f">Il nous faut donc hâter.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V.</head>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="909">Mon mal, grâce à l'Amour, n'était pas sans remède,</l>
+	<l id="910">Déjà la passion à l'impuissance cède,</l>
+	<l id="911">Ma raison, et ce Dieu traitent déjà d'accord,</l>
+	<l id="912">Et ma nef échappée est revenue au port.</l>
+	<l id="913">Malicieux auteur des liens que je brise,</l>
+	<l id="914">Amour console-toi d'avoir failli ta prise</l>
+	<l id="915">Assez d'autres sans moi font preuve à leurs dépens,</l>
+	<l id="916">Du pouvoir que le ciel t'a donné sur les sens,</l>
+	<l id="917">Trop de jeunes beautés en font l'apprentissage,</l>
+	<l id="918">Et les plus fermes pas glissent en ce passage :</l>
+	<l id="919">Si je sais deviner en matière d'amour,</l>
+	<l id="920">Un de ces deux passants fait foi de ce discours,</l>
+	<l id="921">Et cache avec son sexe une tache honteuse,</l>
+	<l id="922">Qui fait qu'il ne tient pas ta puissance douteuse,</l>
+	<l id="923">Mon coeur d'un vain souci, s'était embarrassé</l>
+	<l id="924">Et mon premier désir, s'était mal adressé :</l>
+	<l id="925">Que faible est le lien ! que doux est le servage,</l>
+	<l id="926">Dont si facilement un esprit se dégage,</l>
+	<l id="927">Mes fers ne m'ont laissé ni marque ni douleur,</l>
+	<l id="928">Ma cendre est amortie, et n'a plus de chaleur.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Alcionne, Dorilas.</head>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="929">Tu ne pleureras pas d'entendre une nouvelle,</l>
+	<l id="930">Qui ne me plaît pas fort, et me met en cervelle ,</l>
+	<l id="931">Nos gens de ce matin, sont déjà de retour.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="932">L'Amour assurément te trame un mauvais tour.</l>
+	<l id="933">C'est un enfant rusé, dont la subtile adresse</l>
+	<l id="934">Joue aux plus avisés mille tours de souplesse ,</l>
+	<l id="935">Prends-y garde, et de près, et pour ta sûreté,</l>
+	<l id="936">Ne t'en rapporte pas à ma fidélité.</l>
+	<l id="937">Car la plus forte branle alors qu'elle est pressée. </l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="938">Tel, qui feint de railler exprime sa pensée ;</l>
+	<l id="939">Tes yeux plus éveillés qu'il ne semble à propos,</l>
+	<l id="940">Ne tâchent à rien moins qu'établir mon repos,</l>
+	<l id="941">Et ta langue affétée, et pleine d'artifice </l>
+	<l id="942">Ne sait rien moins prêcher que la haine du vice,</l>
+	<l id="943">Malheureux est celui de ma profession,</l>
+	<l id="944">Qui fait, pour s'allier, si belle élection,</l>
+	<l id="945">Et qui défère plus aux charmes d'un visage,</l>
+	<l id="946">Qu'au dessein d'établir la paix en son ménage</l>
+	<l id="947">Mon repos n'est point calme, auprès de tant d'appas,</l>
+	<l id="948">Et je voudrais déjà voir le bouchon à bas. </l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="949">Tant tu crains de m'y voir, hé ! pèse ton mérite,</l>
+	<l id="950">Et ne crains point qu'à rien autre charme m'invite,</l>
+	<l id="951">Il tiendrait la plus libre aux bornes du devoir, </l>
+<stage type="exit">S'en allant.</stage>
+	<l id="952">Mais je suis peu courtoise, il les faut recevoir.</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="953">Tout cela m'est suspect, et cette courtoisie,</l>
+	<l id="954">Ne s'accorde point bien avec ma jalousie,</l>
+	<l id="955">Ô le pesant fardeau qu'un hymen inégal !</l>
+	<l id="956">Une petite femme, est souvent un grand mal.</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Alexandre, Théodose, Léocadie.</head>
+<stage type="location">En la chambre.</stage>
+<sp stage="sit" who="ALEXANDRE"><speaker>ALEXANDRE, assis.</speaker>
+	<l id="957">Puisque notre fortune à couvert de l'outrage,</l>
+	<l id="958">De la voix maintenant nous rend un libre usage,</l>
+	<l id="959">Quel, s'il ne vous importe, est cet heureux séjour,</l>
+	<l id="960">D'où vous nous avez dit que vous teniez le jour,</l>
+	<l id="961">Car j'en attends l'honneur de votre connaissance,</l>
+	<l id="962">S'il est près de Séville, où j'ai pris ma naissance.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="963">Un lieu simple, mais noble, et dont l'autorité,</l>
+	<l id="964">De mes prédécesseurs marque la qualité ;</l>
+	<l id="965">Don Denis de Cardène est le nom de mon père,</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="966">Je connais ce vieillard, le ciel lui soit prospère,</l>
+	<l id="967">Mais je sais qu'aucun fils ne tient l'être de lui</l>
+	<l id="968">Et touchant ce sujet, chacun sait son ennui,</l>
+	<l id="969">S'il importe, Monsieur, au bien de votre vie,</l>
+	<l id="970">De ne pas contenter ma curieuse envie,</l>
+	<l id="971">S'il vous est à propos de ne vous pas ouvrir ;</l>
+	<l id="972">Que je ne vous oblige à me rien découvrir.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="973">Que répondrai-je hélas ! que le ciel m'est contraire,</l>
+	<l id="974">Je suis non pas son fils, mais de Sanche un sien frère,</l>
+	<l id="975">Qui tient la Prévôté du pays d'alentour,</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="976">Moins encor, aucun fils n'en a reçu le jour.</l>
+	<l id="977">Mais bien à ce qu'on dit une jeune merveille,</l>
+	<l id="978">En vertu sans seconde, en beauté sans pareille,</l>
+	<l id="979">Des yeux, et des esprits l'inévitable aimant ;</l>
+	<l id="980">Qu'après tout, je connais par le bruit seulement.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="981">Vous n'ignorez de rien qui touche leur famille,</l>
+	<l id="982">Il est vrai, que Don Sanche a cette seule fille,</l>
+	<l id="983">Mais à qui ce faux bruit donne des attributs,</l>
+	<l id="984">Qui passent son mérite, et ne lui sont point dus ;</l>
+	<l id="985">Je prétendais au reste, un rang en votre estime,</l>
+	<l id="986">Que l'un, ni l'autre nom ne me rend légitime, </l>
+	<l id="987">Le ciel ne me fit pas un sort si glorieux,</l>
+	<l id="988">Que je doive beaucoup au sang de mes aïeux,</l>
+	<l id="989">Mon père de Don Sanche était la créature</l>
+	<l id="990">Quitte depuis deux jours du tribut de nature,</l>
+	<l id="991">Et qui satisfaisant à ce dernier devoir</l>
+	<l id="992">Pour bien, ne m'a laissé que l'épée, et l'espoir.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="993">Je connais clairement, que pour quelque disgrâce,</l>
+	<l id="994">Il vous est important de celer votre race,</l>
+	<l id="995">Je laisse un tel secret à votre liberté,</l>
+	<l id="996">Et suspends là-dessus ma curiosité.</l>
+<stage type="stand">Il se lève.</stage>
+	<l id="997">Mais que mon homme tarde à trouver au village,</l>
+	<l id="998">Quelque commodité touchant notre voyage,</l>
+	<l id="999">Le soleil a passé la moitié de son tour,</l>
+	<l id="1000">Je vais commettre l'hôte à presser son retour.</l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Léocadie, Théodose, seuls.</head>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1001">Quel que soit votre sort, le ciel vous soit propice,</l>
+	<l id="1002">Mais je désirerais par un si bon office,</l>
+	<l id="1003">Vous prouver quelle part je prends en vos ennuis,</l>
+	<l id="1004">Que vous me tirassiez d'une doute où je suis,</l>
+	<l id="1005">Quoique mon peu d'adresse ait encor son excuse,</l>
+	<l id="1006">En un âge innocent qui souvent nous abuse,</l>
+	<l id="1007">J'ai soupçon toutefois sur votre habillement,</l>
+	<l id="1008">Et je crois qu'en effet le sexe le dément,</l>
+	<l id="1009">Outre cette douceur aux filles naturelle,</l>
+	<l id="1010">Qui fait en votre voix la tristesse si belle,</l>
+	<l id="1011">Outre ce grand respect, ces charmes ces appas,</l>
+	<l id="1012">Qu'à bien considérer, l'autre sexe n'a pas,</l>
+	<l id="1013">Par deux fortes raisons ma doute est confirmée,</l>
+	<l id="1014">Dont l'une est de vous voir choquer la renommée,</l>
+	<l id="1015">De la fille de Sanche, à qui le commun bruit,</l>
+	<l id="1016">Donne un lustre éclatant, qui tout autre détruit ;</l>
+	<l id="1017">Aussi, j'ai cru dès lors, que votre modestie,</l>
+	<l id="1018">Vous avait obligée à cette répartie,</l>
+	<l id="1019">Qu'ainsi que vous portez, vous recevez les coups,</l>
+	<l id="1020">Et que par vos mépris, vous n'offensez que vous,</l>
+	<l id="1021">Quant à l'autre raison, je trouve en vos oreilles</l>
+	<l id="1022">Les marques des joyaux que portent vos pareilles,</l>
+	<l id="1023">Qui seraient hors d'usage, en celles d'un garçon,</l>
+	<l id="1024">Et ce point, plus que l'autre assure mon soupçon,</l>
+	<l id="1025">Donc, si la passion de vous rendre service,</l>
+	<l id="1026">Loin de tout compliment, et de tout artifice,</l>
+	<l id="1027">Me peut faire chez vous trouver quelque crédit ;</l>
+	<l id="1028">Puisqu'aussi bien déjà votre front m'a tout dit,</l>
+	<l id="1029">Ne désavouez point ce soupçon légitime,</l>
+	<l id="1030">À qui saura garder, et chérir votre estime.</l>
+</sp>
+<sp stage="kiss" who="LÉOCADIE"><speaker>LÉOCADIE, lui baisant les mains.</speaker>
+	<l id="1031">Ha ! si j'avais raison de vous désavouer,</l>
+	<l id="1032">Combien de mon destin je me devrais louer,</l>
+	<l id="1033">Mais le traître s'accorde avec votre pensée,</l>
+	<l id="1034">Je n'ai pu me cacher à ces yeux de Lyncée ,</l>
+	<l id="1035">Et je feindrais en vain, quelque nécessité</l>
+	<l id="1036">Qui me fît obstiner contre la vérité,</l>
+	<l id="1037">Il est vrai, je suis fille, et la moins fortunée ,</l>
+	<l id="1038">Qui jamais eut ce nom, et qui jamais soit née,</l>
+	<l id="1039">Et certes, je dois trop à votre affection,</l>
+	<l id="1040">Pour pouvoir soupçonner votre discrétion.</l>
+	<l id="1041">Vous voyez en effet la malheureuse fille,</l>
+	<l id="1042">Dont votre frère et vous connaissez la famille,</l>
+	<l id="1043">Séville de tout temps, connaît notre maison,</l>
+	<l id="1044">Mon père en est Prévôt, et Don Sanche est son nom ;</l>
+	<l id="1045">Fort près de cette ville, en un lieu de plaisance,</l>
+	<l id="1046">D'ordinaire aux beaux jours, il fait sa résidence</l>
+	<l id="1047">Et je l'ai toujours faite, en ce même séjour,</l>
+	<l id="1048">Depuis que je respire, et que je vois le jour.</l>
+	<l id="1049">Voyez comme on fardait cette Léocadie,</l>
+	<l id="1050">Et connaissez enfin, que pour peu qu'on en die,</l>
+	<l id="1051">Elle est bien au-dessous de ces titres d'honneur,</l>
+	<l id="1052">Et que ce bruit fameux n'est dû qu'à son bonheur.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1053">Le renom qui publie, un mérite si rare,</l>
+	<l id="1054">Loin de vous obliger, vous est encore avare. </l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1055">Je ne me défends point de votre honnêteté,</l>
+	<l id="1056">Mais bien, et justement, de cette vanité ;</l>
+	<l id="1057">Pour commencer enfin cette histoire importune,</l>
+	<l id="1058">Oyez par quel endroit m'attaqua la fortune,</l>
+	<l id="1059">Elle emprunta d'Amour ce trait toujours vainqueur,</l>
+	<l id="1060">Ce redoutable trait qui va si droit au coeur,</l>
+	<l id="1061">Ce trait qui pénétrant jusques au fond de l'âme</l>
+	<l id="1062">Porte avec soi, le fer, le poison, et la flamme,</l>
+	<l id="1063">Antoine, un Cavalier, beau de mine, et de port</l>
+	<l id="1064">Riche de tous les dons, et du ciel, et du sort,</l>
+	<l id="1065">Quand elle me tira cette fatale flèche </l>
+	<l id="1066">L'assista de sa main, et désigna la brèche.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1067">Antoine ? De quel lieu, de quelle qualité,</l>
+	<l id="1068">De quel sang, contentez ma curiosité.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1069">De l'antique maison des Adorne de Gènes,</l>
+	<l id="1070">La nature a tiré cet auteur de mes peines,</l>
+	<l id="1071">Et par quelques raisons d'intérêt, ou d'amour,</l>
+	<l id="1072">Son père a dans Séville établi son séjour.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1073">Je le connais, et bien vous l'aimez, il vous aime ,</l>
+	<l id="1074">Certes, il vaut beaucoup, son mérite est extrême,</l>
+	<l id="1075">Mais a-t-il des ardeurs égales à vos feux ?</l>
+	<l id="1076">Que vous a-t-il promis ? possédez-vous ses voeux ?</l>
+<stage type="aparte">[À part.] </stage>
+	<l id="1077">Ô volage, ô perfide ! âme sans conscience,</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1078">Deux mots satisferont à votre impatience ;</l>
+	<l id="1079">Il eut accès chez nous, il me vit, je le vis ;</l>
+	<l id="1080">Et d'un coup mutuel nos coeurs furent ravis :</l>
+	<l id="1081">Mon visage lui plut, j'estimai ses mérites,</l>
+	<l id="1082">Et nos amours jumeaux, crûrent par ses visites,</l>
+	<l id="1083">Enfin le cours du temps qui nous ouvrait le sein </l>
+	<l id="1084">Nous vit passionnés pour un même dessein,</l>
+	<l id="1085">Nos désirs mutuels tendaient à l'hyménée,</l>
+	<l id="1086">Et j'en eus de sa main la promesse signée :</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1087">Et qu'en est-il suivi, que lui permîtes-vous,</l>
+	<l id="1088">Vous a-t-il possédée en qualité d'époux ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1089" syll="6" part="i">Je vous conterai tout.</l>
+</sp>
+<sp stage="aparte" who="THÉODOSE"><speaker>THÉODOSE[, à part].</speaker>
+	<l id="1089" syll="6" part="f">Ô quelle est ma misère !</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1090">Comme il se faisait fort, de l'aveu de son père,</l>
+	<l id="1091">Et que sa passion allait jusqu'à l'excès,</l>
+	<l id="1092">Je fis céder la doute à l'espoir du succès,</l>
+	<l id="1093">Et n'attendais rien moins qu'une contraire issue</l>
+	<l id="1094">À la félicité, que j'en avais conçue,</l>
+	<l id="1095">Quand arrivant chez nous, les yeux mouillés de pleurs,</l>
+	<l id="1096">Et son geste confus, figurant ses douleurs,</l>
+	<l id="1097">Ô père ingrat (dit-il) ô monstre d'avarice,</l>
+	<l id="1098">La maison perd son droit, où ton poison se glisse,</l>
+	<l id="1099">Ce venin si funeste, et si pernicieux,</l>
+	<l id="1100">Va jusqu'à la nature, et lui crève les yeux !</l>
+	<l id="1101">Ce propos à l'espoir fit succéder la crainte, </l>
+	<l id="1102">Et ne m'apprit que trop le sujet de sa plainte,</l>
+	<l id="1103">Qu'il m'éclaircit après par un plus long discours.</l>
+	<l id="1104">Mon père, me dit-il, s'oppose à nos amours,</l>
+	<l id="1105">Le cruel, veut au gré d'une avarice infâme,</l>
+	<l id="1106">Et non de la raison, me choisir une femme.</l>
+	<l id="1107">(Nos moyens en effet n'égalent pas les leurs)</l>
+	<l id="1108">Jugez quelle je fus, en ce point de malheurs.</l>
+	<l id="1109">Lui, me voyant muette, interdite, confuse ;</l>
+	<l id="1110">Il faut ravir, dit-il, le bien qu'on nous refuse,</l>
+	<l id="1111">Quel effort craignons-nous, pouvant par un baiser,</l>
+	<l id="1112">Vaincre la cruauté qui nous veut diviser ?</l>
+	<l id="1113">Hélas ! J'ouvris l'oreille à ce conseil funeste ;</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1114" syll="6" part="i">Et l'accomplîtes-vous ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1114" syll="6" part="f">Écoutez ce qui reste,</l>
+	<l id="1115">L'Amour ; (ainsi qu'au sein je portais son flambeau,)</l>
+	<l id="1116">Voulut, que sur les yeux j'eusse aussi son bandeau,</l>
+	<l id="1117">Et que pour consommer ce fatal hyménée,</l>
+	<l id="1118">De mon consentement l'heure fut assignée.</l>
+	<l id="1119">Quels, et combien d'assauts ma raison éprouva,</l>
+	<l id="1120">Mais ce Dieu fut vainqueur, enfin l'heure arriva.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1121">Et bien l'occasion fut-elle favorable ?</l>
+	<l id="1122">Sûtes-vous ménager un temps si désirable ?</l>
+	<l id="1123">Entra-t-il, obtint-il la fin de ses désirs ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1124" syll="2" part="i">Hélas !</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1124" syll="10" part="f">Nul ne vint-il divertir vos plaisirs ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1125" syll="3" part="i">Écoutez ;</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1125" syll="9" part="f">Ce grand feu passa-t-il sans fumée ?</l>
+	<l id="1126">La nuit en ces douceurs fut-elle consumée ?</l>
+	<l id="1127">Rien ne traversa-t-il votre contentement ?</l>
+	<l id="1128">À quoi se termina ce beau commencement ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1129">À me laisser encor la qualité de fille,</l>
+	<l id="1130">Mais de fille odieuse à toute ma famille,</l>
+	<l id="1131">Car ce traître faillit au moment assigné,</l>
+	<l id="1132">Et soit que notre amour fût déjà soupçonné ;</l>
+	<l id="1133">Ou que par quelque bruit j'eusse éveillé mon père,</l>
+	<l id="1134">Le prenant pour Antoine il sut tout ce mystère,</l>
+	<l id="1135">Comparez sa fureur avecque son ennui ; </l>
+	<l id="1136">Je l'évite aussitôt, je me cache de lui,</l>
+	<l id="1137">Et dans ce triste état, où je me vois réduite,</l>
+	<l id="1138">Vais consulter ma peur, qui résolut ma fuite ;</l>
+	<l id="1139">Hélas ! Deux jours après, une autre affliction,</l>
+	<l id="1140">M'en fit bien confirmer la résolution,</l>
+	<l id="1141">Ma servante, commise à s'enquérir du traître,</l>
+	<l id="1142">Qui néglige à ce point le feu qu'il a fait naître,</l>
+	<l id="1143">Vint dans un cabinet où je fuyais le jour,</l>
+	<l id="1144">Différant mon départ jusques à son retour,</l>
+	<l id="1145">Et m'apprit qu'un grand bruit s'épandait à Séville,</l>
+	<l id="1146">Qu'Antoine ce jour même enlevait une fille,</l>
+	<l id="1147">Rare, accomplie, et belle au-delà du penser,</l>
+	<l id="1148">Sans me dire où leurs pas se pouvaient adresser.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1149" syll="6" part="i">Vous dit-elle son nom ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1149" syll="6" part="f">Oui, c'est Thé..., Théodose,</l>
+	<l id="1150">Alors, tous les desseins, que la rage prépose,</l>
+	<l id="1151">Tout ce qu'ose un grand coeur, en un grand désespoir,</l>
+	<l id="1152">Je le crus, furieuse, être de mon devoir ;</l>
+	<l id="1153">Mon esprit inventif à mon propre dommage,</l>
+	<l id="1154">Se fit de ma rivale une si belle image,</l>
+	<l id="1155">Que moi-même depuis, je ne me puis souffrir,</l>
+	<l id="1156">Que mes yeux, à mes yeux n'oseraient plus s'offrir, </l>
+	<l id="1157">L'horreur que je me fais m'a fait casser ma glace,</l>
+	<l id="1158">Je ne crains pas un monstre à l'égal de ma face,</l>
+	<l id="1159">L'approche d'un ruisseau me donne de l'effroi,</l>
+	<l id="1160">Et je n'ai peur de voir, ni fuis rien tant que moi ;</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1161">J'ai vu cette beauté que vous avez nommée,</l>
+	<l id="1162">Mais c'est peu de matière à tant de renommée,</l>
+	<l id="1163">Et si j'avais l'honneur d'être votre Pâris,</l>
+	<l id="1164">Vos charmes sur les siens remporteraient le prix.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1165">Qu'elle possède ou non, la beauté dans l'extrême,</l>
+	<l id="1166">Soit-elle une merveille, ou Vénus elle-même,</l>
+	<l id="1167">Que son dessein, ou non, ait causé mon tourment</l>
+	<l id="1168">Qu'en effet sa beauté m'outrage innocemment,</l>
+	<l id="1169">Qu'elle ignore mes feux n'importe, l'innocence,</l>
+	<l id="1170">Les charmes, les attraits, n'auront point de dispense,</l>
+	<l id="1171">Pour moi, son ignorance est une trahison,</l>
+	<l id="1172">Et ma main à mon coeur en veut faire raison.</l>
+	<l id="1173">Le ciel même, le ciel, s'il s'ouvrait à sa fuite</l>
+	<l id="1174">La voudrait vainement soustraire à ma poursuite,</l>
+	<l id="1175">Dussé-je du soleil faire l'oblique tour,</l>
+	<l id="1176">Son trépas, ou le mien, résoudra notre amour.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1177">Noble comme on la tient, peut-être son courage</l>
+	<l id="1178">La pourrait obliger à repousser l'outrage,</l>
+	<l id="1179">Et lors également vous pourriez partager</l>
+	<l id="1180">L'espoir de la victoire, et la peur du danger ;</l>
+	<l id="1181">Mais, puisse à toutes deux, l'issue être prospère,</l>
+	<l id="1182">J'apprendrai cependant, votre histoire à mon frère,</l>
+	<l id="1183">Espérez tout de lui, s'il vous peut obliger ;</l>
+	<l id="1184">Mais qui ne sait le mal, ne le peut soulager.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+<poem type="stances">
+<lg n="1">
+	<l id="1185">Tyran des désirs innocents,</l>
+	<l id="1186">Immortel supplice des sens,</l>
+	<l id="1187">Quand cessera ta tyrannie ?</l>
+	<l id="1188">Ou quand cesseront les mortels</l>
+	<l id="1189">De sacrifier aux Autels,</l>
+	<l id="1190">Que tu ne dois qu'à leur manie ;</l>
+	<l id="1191">Qui fait toute raison bannie,</l>
+	<l id="1192">Un Dieu d'un monstre tel, qu'il n'en est point de tels.</l>
+</lg>
+<lg n="2">
+	<l id="1193">À toi cruel n'était pareil, </l>
+	<l id="1194">Ce monstre sur qui le soleil</l>
+	<l id="1195">S'acquit un superbe trophée,</l>
+	<l id="1196">Douce était à comparaison</l>
+	<l id="1197">De ton fiel, et de ton poison</l>
+	<l id="1198">La bête qui fut étouffée,</l>
+	<l id="1199">Par ce fils des Dieux , que Céphée</l>
+	<l id="1200">Fit pour ce rare exploit, gendre de sa maison.</l>
+</lg>
+<lg n="3">
+	<l id="1201">Quelle erreur, quand tu vins au jour</l>
+	<l id="1202">Te baptisa du nom d'Amour,</l>
+	<l id="1203">Toi dont la rigueur inhumaine</l>
+	<l id="1204">Inventa l'usage des fers,</l>
+	<l id="1205">Toi qui nous nuis, toi qui nous perds,</l>
+	<l id="1206">Toi qui n'es qu'horreur, et que haine,</l>
+	<l id="1207">Et que le ciel, pour notre peine,</l>
+	<l id="1208">Quelque Dieu qu'on te croie a tiré des enfers.</l>
+</lg>
+<lg n="4">
+	<l id="1209">Quelle, et combien dure est ta loi ?</l>
+	<l id="1210">Par quel Buzire égal à toi</l>
+	<l id="1211">Fut jamais la terre régie !</l>
+	<l id="1212">Par toi furent dix ans entiers</l>
+	<l id="1213">Cinq Rois grecs hors de leurs quartiers,</l>
+	<l id="1214">Et par toi la vieille Phrygie,</l>
+	<l id="1215">Du sang de ses soldats rougie,</l>
+	<l id="1216">Put compter tant de morts, et si peu d'héritiers.</l>
+</lg>
+</poem>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Alexandre, Léocadie.</head>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1217">Certes, non sans raison cet air qui toujours vole,</l>
+	<l id="1218">Cette divinité , qui n'a que la parole,</l>
+	<l id="1219">Ce bruit doux, et charmeur , cette immortelle voix,</l>
+	<l id="1220">Qui fait les plus beaux prix, des actions des Rois,</l>
+	<l id="1221">Tant, et si dignement, a vanté ce visage,</l>
+	<l id="1222">Que les Dieux avoueraient pour leur plus digne ouvrage,</l>
+	<l id="1223">Si ces rois éternels du destin des humains</l>
+	<l id="1224">Faisaient comparaison des armes de leurs mains.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1225">La tristesse éloquente est bien loin d'être extrême,</l>
+	<l id="1226">Qui parle se possède, et qui se défend s'aime,</l>
+	<l id="1227">Pour moi, triste, égarée, et qui ne m'aime plus,</l>
+	<l id="1228">Je ne fais rien produire à mon esprit confus,</l>
+	<l id="1229">Et laisse indifférents, et le blâme, et l'estime,</l>
+	<l id="1230">Tant me soit l'un ou l'autre injuste, ou légitime.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1231">Il est vain de répondre, où si visiblement</l>
+	<l id="1232">Qui parle contre soi, soi-même se dément,</l>
+	<l id="1233">D'abord, que votre voix portée à mes oreilles</l>
+	<l id="1234">M'a procuré le bien de voir tant de merveilles,</l>
+	<l id="1235">À cet arbre importun, où vos bras attachés</l>
+	<l id="1236">Laissaient sous la douleur vos plus beaux traits cachés ;</l>
+	<l id="1237">Dès ce premier abord, quoique votre naissance,</l>
+	<l id="1238">Et votre sexe alors, passât ma connaissance,</l>
+	<l id="1239">L'état où vous étiez n'a pu tromper mes yeux,</l>
+	<l id="1240">Et je vous ai jugée un chef-d'oeuvre des cieux ;</l>
+	<l id="1241">Il est certain qu'alors vos soupirs, et vos larmes,</l>
+	<l id="1242">Aidaient pour me toucher le pouvoir de vos charmes,</l>
+	<l id="1243">Et que sur vos attraits passant légèrement,</l>
+	<l id="1244">J'en volais à mes yeux, le plus doux ornement : </l>
+	<l id="1245">Mais depuis que je tiens du rapport de mon frère </l>
+	<l id="1246">L'assurance du sexe, où je vous considère,</l>
+	<l id="1247">Et que je vous conçois, non comme ce matin,</l>
+	<l id="1248">Attachée à ce tronc, plaignant votre destin,</l>
+	<l id="1249">Mais comme une merveille à nulle autre seconde,</l>
+	<l id="1250">Qui se peut asservir les coeurs de tout le monde,</l>
+	<l id="1251">Ce n'est plus la pitié qui prend votre intérêt</l>
+	<l id="1252">Mais la secrète loi d'estimer ce qui plaît :</l>
+	<l id="1253">D'une grande beauté, la puissance est si grande</l>
+	<l id="1254">Qu'elle surprend, ravit, lie, oblige, commande, </l>
+	<l id="1255">Trouve partout entrée, et de ses spectateurs,</l>
+	<l id="1256">Se fait des partisans, et des adorateurs,</l>
+	<l id="1257">Agréez qu'en ce rang j'estime vos mérites,</l>
+	<l id="1258">Et que ma passion, comme eux soit sans limites,</l>
+	<l id="1259">Et n'accusez que vous, de la nécessité,</l>
+	<l id="1260">Qui m'oblige à m'offrir en cette qualité.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1261">N'est-ce donc point assez de ma triste fortune,</l>
+	<l id="1262">Sans que la raillerie encore m'importune,</l>
+	<l id="1263">Et sans donner matière aux discours que j'entends,</l>
+	<l id="1264">Où votre bonne humeur s'exerce à mes dépens.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1265">Ainsi de notre vue une dame lassée,</l>
+	<l id="1266">Explique tout d'un sens contraire à sa pensée,</l>
+	<l id="1267">Et nous fait criminels, afin de nous bannir.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1268">Celle à qui rit le sort aime à s'entretenir,</l>
+	<l id="1269">Mais la honte, l'ennui, l'amour, la jalousie,</l>
+	<l id="1270">Bannissent toute joie, et toute courtoisie,</l>
+	<l id="1271">Je trouve en ma douleur mon plus doux entretien, </l>
+	<l id="1272">Et penser à mon mal, est mon unique bien.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1273">C'est trop mettre d'obstacle, à votre solitude,</l>
+	<l id="1274">Je laisse un libre cours à cette inquiétude,</l>
+	<l id="1275">Mais tout est bientôt prêt pour notre partement .</l>
+	<l id="1276" syll="6" part="i">Et le temps nous est cher.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1276" syll="6" part="f">J'entre dans un moment.</l>
+<stage type="alone">Elle continue seule.</stage>
+	<l id="1277">Hélas ! puis-je espérer qu'enfin le sort me rie,</l>
+	<l id="1278">Si même un peu de temps manque à ma rêverie ?</l>
+	<l id="1279">Et si l'astre fatal qui répand mes ennuis</l>
+	<l id="1280">M'ôte même la plainte en l'état où je suis ;</l>
+	<l id="1281">Quelle est ma frénésie ? ô honte irréparable !</l>
+	<l id="1282">Chétive abandonnée, esclave, misérable,</l>
+	<l id="1283">Opprobre de ton sexe, horreur de ta maison,</l>
+	<l id="1284">Sans espoir, sans support, sans discours, sans raison,</l>
+	<l id="1285">Odieuse à ton père, à son sort, à toi-même,</l>
+	<l id="1286">Quel conseil dois-tu prendre, en ce malheur extrême ?</l>
+	<l id="1287">Suivras-tu sans danger, ces hommes inconnus,</l>
+	<l id="1288">Et toi, t'abandonnant, seront-ils retenus ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Alcionne, Léocadie.</head>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="1289">Monsieur, on vous attend, et la table dressée,</l>
+	<l id="1290">Doit donner pour un temps trêve à votre pensée :</l>
+	<l id="1291">Mais quel est votre ennui ? pourquoi par tant de pleurs</l>
+	<l id="1292">De cet aimable teint effacez-vous les fleurs ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1293" syll="1" part="i">Ha !</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="1293" syll="6" part="f">Comment, ce soupir tient lieu de répartie ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1294">Qu'ils prennent le repos, j'attendrai leur sortie.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="1295">Quelle injure du sort, et quelle cruauté,</l>
+	<l id="1296">A mis tant de douleur avec tant de beauté ?</l>
+	<l id="1297">Cet importun ennui ne se peut-il distraire ?</l>
+	<l id="1298">Avez-vous quelque obstacle à vos desseins contraire,</l>
+	<l id="1299">Qui doive de ces pleurs, mouiller de si beaux yeux,</l>
+	<l id="1300">Mais que vois-je ? fuyons, tirons-nous de ces lieux.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Alcionne, Léocadie, Antoine, poursuivi par trois Voleurs, Lindamor, son valet.</head>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1301">Je méconnais Antoine, ou je vois ce perfide,</l>
+	<l id="1302">C'est lui ; sauve, ma main, sauve ton homicide ;</l>
+<stage type="get">Tirant l'épée, et se mettant au devant.</stage>
+	<l id="1303">Courage beau guerrier, contre ce rude assaut</l>
+	<l id="1304">Vous avez en mon corps le bouclier qu'il vous faut,</l>
+	<l id="1305">Recueillez à l'écart la force qui vous reste,</l>
+	<l id="1306">Tant, que soit cette trêve à ces traîtres funeste.</l>
+</sp>
+<sp stage="location" who="ALCIONNE"><speaker>ALCIONNE, de loin.</speaker>
+	<l id="1307">Quel lion, fut jamais à combat plus ardent ?</l>
+	<l id="1308">Cherchons-lui du secours ; quel est cet accident ?</l>
+</sp>
+<sp who="I. VOLEUR"><speaker>I. VOLEUR.</speaker>
+	<l id="1309">Fuyons, quelque renfort viendra de ce village,</l>
+	<l id="1310">Notre obstination trop avant nous engage ;</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1311">Quoi vous fuyez voleurs ? par cette lâcheté,</l>
+	<l id="1312">Vous faites bien juger de votre qualité.</l>
+</sp>
+<sp stage="hurt/fall" who="ANTOINE"><speaker>ANTOINE, blessé tombant.</speaker>
+	<l id="1313">Je meurs, et tout mon sang par ces coups se distille,</l>
+	<l id="1314">Épargne heureux guerrier un secours inutile,</l>
+	<l id="1315">Épargne ta valeur, tous remèdes humains,</l>
+	<l id="1316">En l'état où je suis, pour me sauver sont vains.</l>
+</sp>
+<sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
+	<l id="1317" syll="6" part="i">Hélas mon maître est mort.</l>
+</sp>
+<sp stage="hurt" who="LÉOCADIE"><speaker>LÉOCADIE, se jetant sur lui.</speaker>
+	<l id="1317" syll="6" part="f">Ô comble de mes peines</l>
+	<l id="1318">Son âme, avec le sang qui coule de ses veines,</l>
+	<l id="1319">Trouve un passage ouvert aux éternelles nuits,</l>
+	<l id="1320">Et chétive, je reste en proie à mes ennuis ?</l>
+	<l id="1321">Tu n'es plus, cher Antoine, et je survis ta vie !</l>
+	<l id="1322">Mais l'effet que je veux suit de près mon envie ;</l>
+	<l id="1323">Belle âme, attends un peu, la mienne suit tes pas</l>
+	<l id="1324">Et vaine ombre, descend aux rives de là-bas.</l>
+<stage type="faint">Elle s'évanouit sur lui.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Alcionne, Théodose, Alexandre, Dorilas, [Antoine, Léocadie, évanouis.]</head>
+<sp stage="threat" who="ALEXANDRE"><speaker>ALEXANDRE, l'épée à la main.</speaker>
+	<l id="1325">Mes yeux font vers le bois une recherche vaine,</l>
+	<l id="1326">Et ne découvrent rien du côté de la plaine,</l>
+	<l id="1327" syll="6" part="i">Ils auront pris la fuite.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1327" syll="6" part="f">Ô rigueur de mon sort !</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1328" syll="2" part="i">Qu'est-ce ?</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1328" syll="10" part="f">Hélas, tout mon bien, tout mon espoir est mort</l>
+	<l id="1329">Antoine a sous l'effort de leur funeste lame,</l>
+	<l id="1330">Sur l'émail de ces fleurs vomi le sang et l'âme,</l>
+	<l id="1331">Et lâche, je permets qu'au chemin du trépas</l>
+	<l id="1332">Ma rivale le suive, et devance mes pas,</l>
+	<l id="1333">Veux-tu ma lâcheté lui laisser l'avantage,</l>
+	<l id="1334">De l'accompagner seule, en ce triste voyage,</l>
+	<l id="1335">Balances-tu ma main, en ce dernier devoir ?</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1336">Ce battement de coeur rétablit mon espoir,</l>
+	<l id="1337">Portons-les seulement jusqu'à l'hôtellerie,</l>
+	<l id="1338">L'un ni l'autre, n'est mort ; aidez-moi je vous prie.</l>
+<stage type="carry">Il prend le corps avec Dorilas.</stage>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="1339">À voir tant d'accidents, je doute si je vis,</l>
+	<l id="1340">Toujours d'un plus fâcheux le dernier est suivi</l>
+	<l id="1341">Tous se plaignent du sort, et rien ne leur succède,</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="1342">Que le repos est doux ! heureux qui le possède,</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1343">Ô mort si ta rigueur leur a fermé les yeux,</l>
+	<l id="1344">Il t'en reste à fermer, ne sors point de ces lieux,</l>
+<stage type="exit">Ils sortent, sauf Alcionne.</stage>
+</sp>
+<sp stage="alone" who="ALCIONNE"><speaker>ALCIONNE, seule.</speaker>
+	<l id="1345">Capricieux enfant, petit Dieu de Cythère,</l>
+	<l id="1346">Ta malice, cruel, préside à ce mystère.</l>
+	<l id="1347">Et tous ces accidents, m'ôtent bien le dessein,</l>
+	<l id="1348">De t'admettre en mon coeur, et de t'ouvrir mon sein ;</l>
+	<l id="1349">Tu m'as toi-même assez contre toi-même instruite,</l>
+	<l id="1350">La mort, cette importune est toujours à ta suite</l>
+	<l id="1351">Vous confondez vos traits, et ton aveuglement, </l>
+	<l id="1352">Ou des siens, ou des tiens use indifféremment</l>
+	<l id="1353">Sous tes lois, chacun pleure, et chacun y soupire,</l>
+	<l id="1354">Me préserve le ciel d'un si cruel Empire,</l>
+	<l id="1355">Quelques si doux objets dont tu tentes les yeux,</l>
+	<l id="1356">Le Dieu même du jour s'il descendait des cieux,</l>
+	<l id="1357">Et toi-même, ajusté de la main de ta mère,</l>
+	<l id="1358">Nu, riant, jeune, et tel qu'en Paphe on te révère,</l>
+	<l id="1359">Dresseriez à mes sens d'inutiles appas</l>
+	<l id="1360">Et pouvant tout charmer, ne me charmeriez pas ;</l>
+	<l id="1361">Tes feux ne sont en moi, qu'une paille allumée,</l>
+	<l id="1362">À peine brûlent-ils, qu'ils ne sont que fumée,</l>
+	<l id="1363">Et j'ai senti sitôt mon esprit dégagé</l>
+	<l id="1364">Qu'au lieu d'avoir aimé, je crois l'avoir songé.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Théodose, Alexandre, Antoine, Léocadie, Lindamor, en la chambre.</head>
+<sp stage="lie/location" who="LÉOCADIE"><speaker>LÉOCADIE, couchée sur Antoine.</speaker>
+	<l id="1365">Puisque le vieux nocher du fleuve de la Parque, </l>
+	<l id="1366">N'a pas jusques au port encor rendu sa barque, </l>
+	<l id="1367">Que j'emploie, à vous dire un éternel adieu,</l>
+	<l id="1368">Le moment qu'il vous laisse à rester en ce lieu,</l>
+	<l id="1369">Mais, que soit votre aveu, joint à la violence,</l>
+	<l id="1370">Qui ne me permet pas le respect du silence, </l>
+	<l id="1371">D'un signe seulement autorisez ma voix,</l>
+	<l id="1372">Et je vous parlerai pour la dernière fois.</l>
+</sp>
+<sp stage="watch" who="ANTOINE"><speaker>ANTOINE, l'ayant longtemps regardée.</speaker>
+	<l id="1373">Parlez, que craignez-vous ? ce respect est frivole,</l>
+	<l id="1374">Mon mal ne m'ôte encor le sens, ni la parole,</l>
+	<l id="1375">Parlez Madame, hélas ! Quoi qui vienne de vous</l>
+	<l id="1376">Quelque état où je sois ne peut m'être que doux.</l>
+</sp>
+<sp stage="aparte" who="THÉODOSE"><speaker>THÉODOSE[, à part].</speaker>
+	<l id="1377">Que vois-je malheureuse, il l'entend, il la voit, l'aime,</l>
+	<l id="1378">Et se plaît avec elle au sein de la mort même.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1379">Si le coup qui détruit votre jeune vigueur,</l>
+	<l id="1380">Et qui vous atteignant, me donna dans le coeur,</l>
+	<l id="1381">Peut laisser à mon nom, dedans votre mémoire,</l>
+	<l id="1382">Le lieu qu'il occupait avecque tant de gloire,</l>
+	<l id="1383">Songez, au triste état où vos jours sont réduits,</l>
+	<l id="1384">Quel vous me devez être, et quelle je vous suis.</l>
+	<l id="1385">Faites que ce beau corps, rendant cette belle âme,</l>
+	<l id="1386">Je vous ferme les yeux en qualité de femme,</l>
+	<l id="1387">(Si toutefois l'arrêt de votre sort est tel, </l>
+	<l id="1388">Que ce malheureux coup, vous doit être mortel)</l>
+	<l id="1389">Je veux mieux espérer du soin des destinées,</l>
+	<l id="1390">Qu'une si prompte fin de si belles années,</l>
+	<l id="1391">Mais les Dieux nous laissant tous les succès douteux,</l>
+	<l id="1392">Mettez-vous en état d'arriver devant eux,</l>
+<stage type="entrance">Alcionne arrive.</stage>
+	<l id="1393">Et n'allez pas, souillé du titre de parjure,</l>
+	<l id="1394">Obliger leur justice à venger mon injure ;</l>
+	<l id="1395">Je suis Léocadie, et ce déguisement,</l>
+	<l id="1396">Est le fatal effet de votre changement ,</l>
+	<l id="1397">C'est vous qu'en ces habits je proposais d'atteindre,</l>
+	<l id="1398">Et c'est vous (cher Antoine) à qui je me dois plaindre</l>
+	<l id="1399">Du sort qui veut ailleurs engager votre foi,</l>
+	<l id="1400">Ou qui veut partager ce qui n'est dû qu'à moi ;</l>
+	<l id="1401">Où que tendent vos voeux, je n'ai point de rivale</l>
+	<l id="1402">Qui brûle d'une amour, à mon amour égale ;</l>
+	<l id="1403">Et que jusqu'en vos bras je ne vinsse étouffer,</l>
+	<l id="1404">Si du bien que j'attends elle osait triompher.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE[, à part].</speaker>
+	<l id="1405">Prouve ma passion, prouve ta violence,</l>
+	<l id="1406">Par ta punition due à son insolence</l>
+	<l id="1407">Par ce qu'elle propose, apprends ce que tu dois,</l>
+	<l id="1408">Et fais de son dessein une leçon pour moi.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="1409">Si près de traverser le funeste passage,</l>
+	<l id="1410">Où nous laissons la vie, et le corps au rivage,</l>
+	<l id="1411">Et si près d'exposer aux juges éternels, </l>
+	<l id="1412">Mes plus simples pensers, et les plus criminels,</l>
+	<l id="1413">Il est bien temps, qu'enfin je vous montre mon âme</l>
+	<l id="1414">Non telle qu'autrefois, pleine de tant de flamme,</l>
+	<l id="1415">Et vaine de l'honneur d'être en votre prison,</l>
+	<l id="1416">Mais remise, et sujette aux lois de la raison,</l>
+	<l id="1417">Sachez donc en deux mots, belle Léocadie,</l>
+	<l id="1418">Si le mal que je sens, permet que je le die,</l>
+	<l id="1419">Que je vous promettais des titres absolus</l>
+	<l id="1420">Sur des biens engagés, et que je n'avais plus,</l>
+<stage type="stand">Là, Léocadie se lève.</stage>
+	<l id="1421">Théodose, une jeune aimable, et sage fille,</l>
+	<l id="1422">À qui cède en beauté le reste de Séville,</l>
+	<l id="1423">Par telles actions m'engage à la servir,</l>
+	<l id="1424">Que mon coeur est un bien, qu'on ne lui peut ravir ;</l>
+	<l id="1425">Et si (lorsque j'ai vu vos plus chères pensées</l>
+	<l id="1426">Soutenir votre espoir) je vous ai délaissées,</l>
+	<l id="1427">Vous confuse, et trompée, elle en l'étonnement,</l>
+	<l id="1428">Que lui dut apporter ce prompt éloignement,</l>
+	<l id="1429">Imputez-en la faute, à ma seule imprudence,</l>
+	<l id="1430">Qui de cette action n'a pas vu l'importance,</l>
+	<l id="1431">Et qui m'a fait laisser à la merci du sort,</l>
+	<l id="1432">Ma crainte, mon espoir, mon orage et mon port,</l>
+	<l id="1433">Enfin des justes Dieux la fureur vengeresse,</l>
+	<l id="1434">Par ma mort envers vous dégage ma promesse,</l>
+	<l id="1435">Ayant quitté Séville, et par quelque séjour,</l>
+	<l id="1436">En un Château voisin diverti mon amour,</l>
+	<l id="1437">J'ai fait de ces voleurs la rencontre importune,</l>
+	<l id="1438">Le ciel devait par eux achever ma fortune,</l>
+	<l id="1439">Tel était mon arrêt ; et je sens que la mort,</l>
+	<l id="1440">Contre vos appareils fait un dernier effort. </l>
+	<l id="1441">En ce fatal moment, aimable Théodose,</l>
+	<l id="1442">Que ne peut par tes mains, ma paupière être close ? </l>
+	<l id="1443">Ce serait quelque fruit à ta chaste amitié,</l>
+	<l id="1444">De voir au moins de toi séparer ta moitié ;</l>
+	<l id="1445">Mais le ciel ne veut pas qu'en mourant je t'embrasse,</l>
+	<l id="1446">Et refuse à mes voeux cette dernière grâce.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1447">Non non, le ciel sensible à votre affection,</l>
+	<l id="1448">Ne vous déniera pas cette juste action.</l>
+	<l id="1449">Si la mort n'a déjà votre paupière close,</l>
+	<l id="1450">Ouvrez-la, cher Antoine, au nom de Théodose,</l>
+	<l id="1451">La méconnaissez-vous, et ne voyez-vous pas,</l>
+	<l id="1452">Qu'interdite, et muette, elle vous tend les bras.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="1453">Dieux ! que vois-je ! À quel point est mon âme ravie ?</l>
+	<l id="1454">Que douce m'est la mort où je revoie ma vie ?</l>
+</sp>
+<sp stage="kiss" who="THÉODOSE"><speaker>THÉODOSE, l'embrasse.</speaker>
+	<l id="1455">Après cette faveur, si conforme à mes voeux,</l>
+	<l id="1456">Ne nous sépare point, ô mort ! prends-nous tous deux.</l>
+<stage type="faint">Elle s'évanouit sur lui.</stage>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="1457">Je demeure confuse, et toutes ces merveilles,</l>
+	<l id="1458">Charment également mes yeux, et mes oreilles.</l>
+</sp>
+<sp stage="aparte" who="LÉOCADIE"><speaker>LÉOCADIE[, à part].</speaker>
+	<l id="1459">De quel trouble importun sont mes sens agités ?</l>
+	<l id="1460">Sont-ce de faux objets ? sont-ce des vérités ?</l>
+	<l id="1461">Ô soupçons superflus ! ma perte est trop certaine,</l>
+	<l id="1462">Je ferme en vain les yeux, pour ne pas voir ma peine,</l>
+	<l id="1463">J'ai trop vu, pour mon bien, et trop fidèlement,</l>
+	<l id="1464">Ma rivale pâmée au sein de mon amant,</l>
+	<l id="1465">Sors, sans joindre à l'affront la honte du reproche,</l>
+	<l id="1466">La mort va te venger, elle vient, elle est proche,</l>
+	<l id="1467">Elle a déjà fermé ses homicides yeux,</l>
+	<l id="1468">Pour ne le pleurer pas, tire-toi de ces lieux ;</l>
+	<l id="1469">Ne plains point cet auteur de ton cruel supplice,</l>
+	<l id="1470">Dérobe à ta pitié ce honteux exercice,</l>
+	<l id="1471">Sors malheureuse fille, et si tu perds le jour,</l>
+	<l id="1472">Fais-le pour ton honneur, et non pour ton amour.</l>
+<stage type="exit">Elle s'en va.</stage>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1473">Si la douleur nous tue, une excessive joie,</l>
+	<l id="1474">Est souvent à la mort une aussi courte voie,</l>
+	<l id="1475">Par quelque prompt secours réveillons leurs esprits,</l>
+	<l id="1476">Qu'après tant de douleur, tant de joie a surpris.</l>
+<stage type="close">La chambre se ferme.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head>
+<sp stage="walk/furious" who="LÉOCADIE"><speaker>LÉOCADIE, dehors marche comme furieuse.</speaker>
+	<l id="1477">Paroles que permet une jalouse rage,</l>
+	<l id="1478">Aux vifs ressentiments de l'amour qu'on outrage,</l>
+	<l id="1479">Cris, plaintes, éclatez, voici votre saison,</l>
+	<l id="1480">Celui ne sent pas bien, qui parle avec raison : </l>
+	<l id="1481">L'ordre du désespoir est un désordre extrême,</l>
+	<l id="1482">Et je pèche déjà contre cet ordre même,</l>
+	<l id="1483">Et semble conserver quelque espoir de secours</l>
+	<l id="1484">Puisqu'encor je raisonne, et qu'encor je discours</l>
+	<l id="1485">Quoi de ces mêmes yeux, ces yeux qui l'adorèrent,</l>
+	<l id="1486">Qui le poison des siens si contents dévorèrent,</l>
+	<l id="1487">Chétive, j'ai pu voir ce perfide embrasser ;</l>
+	<l id="1488">Ha ! tais-toi malheureuse, et meurs à ce penser,</l>
+	<l id="1489">Ton honneur s'abandonne, il précède l'envie,</l>
+	<l id="1490">Il s'offre, il se promet, et tu prises ta vie,</l>
+	<l id="1491">Sans peine tu conclus à te déshonorer,</l>
+	<l id="1492">Et quand tu veux mourir, il faut délibérer ?</l>
+	<l id="1493">Qui peut sinon ta mort réparer ton estime,</l>
+	<l id="1494">La peine volontaire ôte beaucoup de crime,</l>
+	<l id="1495">Il faut, il faut mourir : mais quoi ce lâche Amant</l>
+	<l id="1496">Verra, s'il me survit, ma mort impunément ?</l>
+	<l id="1497">Et je semble souscrire à cette loi fatale, </l>
+	<l id="1498">Qui promet ses baisers aux voeux de ma rivale</l>
+	<l id="1499">Non non, ôtons l'espoir, en nous désespérant,</l>
+	<l id="1500">Ruinons qui nous perd, et tuons, en mourant ;</l>
+	<l id="1501">Qu'avec Léocadie, il perde Théodose,</l>
+	<l id="1502">Voici, qui peut m'aider à ce que je propose.</l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Alcionne, Léocadie.</head>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="1503">Monsieur, hé Dieux ! que dis-je, encor ce vêtement,</l>
+	<l id="1504">Entretenait mes yeux en leur aveuglement ;</l>
+	<l id="1505">Madame, il faut enfin surmonter cet orage,</l>
+	<l id="1506">En un grand accident, montrez un grand courage,</l>
+	<l id="1507">Il n'est courroux du ciel, ni menace des flots,</l>
+	<l id="1508">Qui ne puisse céder à l'art des matelots ;</l>
+	<l id="1509">L'amour est, je l'avoue, une sensible peine,</l>
+	<l id="1510">Mais l'amour quand on veut est bien près de la haine,</l>
+	<l id="1511">Je vais de l'une, à l'autre, et je ne fais qu'un pas</l>
+	<l id="1512">De la peine au repos, d'aimer, à n'aimer pas,</l>
+	<l id="1513">Et je sais de quels maux cet avis me délivre.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1514">Le temps et la raison, m'aideront à le suivre ;</l>
+	<l id="1515">Cependant, s'il se peut, que par votre faveur,</l>
+	<l id="1516">Pour ne paraître pas en si mauvaise humeur,</l>
+	<l id="1517">Je die à Théodose un mot en cette place,</l>
+	<l id="1518">Que de votre bonté je tienne cette grâce.</l>
+</sp>
+<sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
+	<l id="1519">Je m'étais proposé quelque important souci,</l>
+	<l id="1520" syll="6" part="i">Mais il est bien léger,</l>
+<stage type="exit">Elle sort.</stage>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1520" syll="6" part="f">Je vous attends ici.</l>
+	<l id="1521">Par un combat fameux triste Léocadie,</l>
+	<l id="1522">Ferme l'acte sanglant de cette tragédie.</l>
+	<l id="1523">Ne me rapprochez point respect, honte, raison,</l>
+	<l id="1524">Vos timides conseils ne sont plus de saison.</l>
+	<l id="1525">Transports, rage, fureur, achevons une histoire,</l>
+	<l id="1526">Que qui croit à la fable , ait de la peine à croire,</l>
+	<l id="1527">Rendons en périssant mon malheur signalé,</l>
+	<l id="1528">Allons, jusqu'où jamais mon sexe n'est allé</l>
+	<l id="1529">Pour un second Roger, seconde Bradamante, </l>
+	<l id="1530">Méritons en mourant le nom de son amante ;</l>
+	<l id="1531">La voici, qui ravie, et d'un superbe pas,</l>
+	<l id="1532">S'approche sans soupçon, du lieu de son trépas.</l>
+</sp>
+</div2>
+<div2 type="scene" n="9"><head>SCÈNE IX. Léocadie, Théodose.</head>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1533">Le sort serait-il bien à mes voeux si propice,</l>
+	<l id="1534">Que vous m'obligeassiez à quelque bon office</l>
+	<l id="1535">Belle rivale, hélas, de quelle passion,</l>
+	<l id="1536">Vous me verriez portée à cette humble action :</l>
+	<l id="1537">J'ai raison (grâce aux Dieux) de louer ma fortune,</l>
+	<l id="1538">Mais en quelque façon mon bonheur m'importune,</l>
+	<l id="1539">Parce que je connais qu'il vous est importun,</l>
+	<l id="1540">Il me serait plus doux, s'il vous était commun.</l>
+</sp>
+<sp stage="aparte" who="LÉOCADIE"><speaker>LÉOCADIE[, à part].</speaker>
+	<l id="1541">Chétive que je suis, mon malheur est extrême,</l>
+	<l id="1542">Jusques à m'obliger à ma rivale même,</l>
+	<l id="1543">La subtile qu'elle est, en m'ôtant mon amant,</l>
+	<l id="1544">Ôte encor la justice à mon ressentiment.</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1545">Certes, c'est aujourd'hui, si jamais aventure,</l>
+	<l id="1546">A dû faire épreuve ce que peut la nature, </l>
+	<l id="1547">Que je dois admirer son extrême pouvoir,</l>
+	<l id="1548">Et pour le bien sentir, il ne faut que vous voir ;</l>
+	<l id="1549">Cette grande artisane , a dans certains visages</l>
+	<l id="1550">Mis de secrets moyens de gagner les courages,</l>
+	<l id="1551">À qui par dessein même, on ne peut résister,</l>
+	<l id="1552">Et c'est une faveur, que vous pouvez vanter ;</l>
+	<l id="1553">À peine je vous vois, que cette loi secrète,</l>
+	<l id="1554">À vos perfections trouve une humble sujette,</l>
+	<l id="1555">Et qu'au point où je suis, je doute justement,</l>
+	<l id="1556">Qui j'aime plus des deux, la rivale, ou l'amant.</l>
+</sp>
+<sp stage="aparte" who="LÉOCADIE"><speaker>LÉOCADIE[, à part].</speaker>
+	<l id="1557">Quel fondement enfin reste à notre querelle ?</l>
+	<l id="1558">De quel front maintenant me puis-je plaindre d'elle ?</l>
+	<l id="1559">À quelle dure loi me faut-il obéir,</l>
+	<l id="1560">Qu'il ne me soit permis d'aimer, ni de haïr ;</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1561">C'est de ma destinée un bizarre caprice,</l>
+	<l id="1562">Que je vous nuise ensemble, et que je vous chérisse,</l>
+	<l id="1563">Que je porte le coup d'où naissent vos douleurs</l>
+	<l id="1564">Et que de l'autre main, je vous donne des fleurs !</l>
+	<l id="1565">Mais mon sort n'est pas tel, belle Léocadie,</l>
+	<l id="1566">Que je ne doive encor craindre sa perfidie,</l>
+	<l id="1567">L'amour n'est pas si près de couronner nos voeux</l>
+	<l id="1568">Antoine peut encor manquer à toutes deux,</l>
+	<l id="1569">Mon espoir penche encor, et n'a rien qui l'assure,</l>
+	<l id="1570">Ma crainte doit durer autant que sa blessure, </l>
+	<l id="1571">Et je dépends d'un astre assez malicieux,</l>
+	<l id="1572">Pour me ravir un bien qui m'est si précieux :</l>
+	<l id="1573">Si le ciel toutefois après tant de misères,</l>
+	<l id="1574">Donnant sa guérison, à mes humbles prières,</l>
+	<l id="1575">Me l'accordait enfin en qualité d'époux,</l>
+	<l id="1576">Lors, vous pourriez encor, suivre votre courroux.</l>
+	<l id="1577">Vos pas sont achevés, si vous cherchez ma perte,</l>
+	<l id="1578">Ma vie est en vos mains, elle vous est offerte :</l>
+	<l id="1579">Si ma mort vous importe elle dépend de vous,</l>
+	<l id="1580">Je ne l'empêche point, le coup m'en sera doux,</l>
+	<l id="1581">Si c'est pour votre bien, je mourrai sans contrainte,</l>
+	<l id="1582">Et je jure les Dieux, que je parle sans feinte,</l>
+	<l id="1583">Mais d'où vient, qu'interdite, en ce long entretien,</l>
+	<l id="1584">Vous restez sans parole, et ne répondez rien ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1585">Si vous savez aimer, par ce profond silence,</l>
+	<l id="1586">Jugez, combien mon coeur souffre de violence,</l>
+	<l id="1587">Le sujet qui m'a fait vous mander en ce lieu,</l>
+	<l id="1588" syll="6" part="i">C'est ; le dirai-je hélas !</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1588" syll="1" part="m">C'est ?</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1588" syll="5" part="f">Pour vous dire adieu ;</l>
+	<l id="1589">Adieu, que loin de vous le ciel porte sa haine</l>
+	<l id="1590">Et vous oblige autant, qu'il me cause de peine,</l>
+<stage type="lost/exit">Elle se perd dans le bois.</stage>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1591">Madame, encor un mot : mais je l'appelle en vain,</l>
+	<l id="1592">Trop légère, elle suit un sentier incertain.</l>
+	<l id="1593">Sa peine m'est sensible, et toutefois m'oblige,</l>
+	<l id="1594">Son bonheur me nuirait, et son malheur m'afflige ;</l>
+	<l id="1595">Dieux ! que ne se peut-il pour notre commun bien,</l>
+	<l id="1596">Qu'elle ait ce qu'elle veut, et qu'on ne m'ôte rien.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp stage="alone" who="LÉOCADIE"><speaker>LÉOCADIE, seule.</speaker>
+	<l id="1597">Courts chemins des Enfers, abîmes, précipices,</l>
+	<l id="1598">Moyens aux malheureux si prompts, et si propices,</l>
+	<l id="1599">Pour soustraire leur vie aux injures du sort</l>
+	<l id="1600">Où vous reculez-vous, me niez-vous la mort ?</l>
+	<l id="1601">Plus j'en veux approcher, plus elle se retire</l>
+	<l id="1602">Gouffre, rocher, ni mont ne s'offre à mon martyre,</l>
+	<l id="1603">La terre pour me nuire en chaque endroit s'unit</l>
+	<l id="1604">Tout abîme se comble, et tout mont s'aplanit.</l>
+	<l id="1605">Les Lions, de mon corps refusent la pâture ,</l>
+	<l id="1606">Et dépouillent pour moi leur brutale nature,</l>
+	<l id="1607">Ce bois qui tant de morts expose sous mes pas</l>
+	<l id="1608">Me cache les voleurs, auteurs de leur trépas,</l>
+	<l id="1609">Tant mon cruel destin s'obstine à me poursuivre </l>
+	<l id="1610">Tant il prend de plaisir à me forcer de vivre :</l>
+	<l id="1611">Mais à qui veux-tu lâche imputer ton malheur,</l>
+	<l id="1612">Il ne te faut roche, mont, lion, ni voleur,</l>
+	<l id="1613">La mort te suit toujours, elle est proche à ton aide,</l>
+	<l id="1614">Du courage te manque, et non pas du remède,</l>
+	<l id="1615">Tu veux choisir ta mort, et d'un timide pas</l>
+	<l id="1616">Marche, comme forcée au chemin du trépas,</l>
+	<l id="1617">Te peux-tu désormais exposer à ton père,</l>
+	<l id="1618">Sans servir de victime à sa juste colère :</l>
+	<l id="1619">Ou servir à la cour d'un exemple d'horreur,</l>
+	<l id="1620">À quiconque est poussé de semblable fureur.</l>
+</sp>
+</div2>
+<div2 type="scene" n="1"><head>SCÈNE II. Léocadie, quatre Archers, et des valets.</head>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1621">Ces Marchands égorgés, gisant sur la poussière,</l>
+	<l id="1622">Sont à notre exercice une digne matière,</l>
+	<l id="1623">Qu'on fasse diligence et coure tout le bois,</l>
+</sp>
+<sp stage="watch" who="LÉOCADIE"><speaker>LÉOCADIE, les voyant.</speaker>
+	<l id="1624">La mort s'offre à nos voeux ; mourons à cette fois,</l>
+	<l id="1625">Soyons à ces Archers le butin qu'ils prétendent</l>
+	<l id="1626">Volontaire, tombons dans les pièges qu'ils tendent :</l>
+	<l id="1627">Mais pour les obliger à ne nous manquer pas,</l>
+	<l id="1628">Feignons de nous cacher et d'éviter leurs pas,</l>
+</sp>
+<sp who="SECOND ARCHER"><speaker>SECOND ARCHER.</speaker>
+	<l id="1629">Allez par cet endroit, nous suivons cette route,</l>
+</sp>
+<sp who="TOISIÈME ARCHER"><speaker>TOISIÈME ARCHER.</speaker>
+	<l id="1630">Quelqu'un de ces voleurs, tombe en nos mains sans doute,</l>
+	<l id="1631">Voyez que s'écartant du lieu que nous tenons,</l>
+	<l id="1632" syll="6" part="i">Il s'échappe à grand pas.</l>
+</sp>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1632" syll="6" part="f">Atteignons-le, donnons.</l>
+</sp>
+<sp stage="fight" who="LÉOCADIE"><speaker>LÉOCADIE, feignant de se défendre.</speaker>
+	<l id="1633">Quoi quatre contre un seul ? quel bras, et quelle adresse,</l>
+	<l id="1634">Ne cèderaient au nombre, épargnez ma jeunesse,</l>
+</sp>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1635" syll="6" part="i">Rends cette arme voleur,</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1635" syll="6" part="f">Moi-même je me rends,</l>
+	<l id="1636">Sous l'asile assuré qu'en vos bontés je prends</l>
+	<l id="1637">Et sous l'espoir que j'ai d'y trouver quelque grâce,</l>
+	<l id="1638">Contre la cruauté dont le sort me menace,</l>
+	<l id="1639">Des crimes, ont souvent dû leur rémission</l>
+	<l id="1640">À l'ingénuité de la compassion,</l>
+	<l id="1641">Elle ôte à la rigueur beaucoup de violence,</l>
+	<l id="1642">Et fait à la Justice abaisser sa balance,</l>
+	<l id="1643">Que la mienne sur vous obtienne cet effet</l>
+	<l id="1644">Prête à ne réserver crime que j'aie fait.</l>
+</sp>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1645">C'est la plus courte voie, à la miséricorde,</l>
+	<l id="1646">Cherche en elle ce bien, que tu veux qu'on t'accorde, </l>
+	<l id="1647">Assuré pour un point, que ta jeunesse en nous</l>
+	<l id="1648">Trouve des naturels, et sensibles, et doux.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1649">D'humeur encline au vol, dès mon âge plus tendre,</l>
+	<l id="1650">Et la main toujours prompte, où je trouvais à prendre.</l>
+	<l id="1651">J'ai pris telle habitude à cette lâcheté</l>
+	<l id="1652">Que j'en ai fait d'un vice, une nécessité,</l>
+	<l id="1653">Jusques à l'exercer, sur mes propres complices</l>
+	<l id="1654">Et comme un vice, enfin, engendre d'autres vices,</l>
+	<l id="1655">J'ai joint avec le temps l'homicide au larcin,</l>
+	<l id="1656">Et je suis devenu de voleur, assassin :</l>
+	<l id="1657">Tel, j'ai depuis deux ans couru toute l'Espagne,</l>
+	<l id="1658">Tantôt voleur de ville, et tantôt de campagne,</l>
+	<l id="1659">Souvent accompagné, seul assez rarement,</l>
+	<l id="1660">Traitant sexe, âge, amis, tout indifféremment !</l>
+	<l id="1661">Si je m'en ressouviens, je crois que mon épée,</l>
+	<l id="1662">S'est au sang innocent, quinze, ou vingt fois trempée,</l>
+	<l id="1663">Tous mes coups toutefois n'ont pas porté la mort</l>
+	<l id="1664">De cinq ou six au plus, j'ai terminé le sort.</l>
+	<l id="1665">Hier, le jeune Adorne, habitant de Séville,</l>
+</sp>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1666">Chacun connaît assez son illustre famille,</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1667">Surpris seul, dans un bois, proche de Castelblanc</l>
+	<l id="1668">Me voulut résister aux dépens de mon sang. </l>
+	<l id="1669">Deux de mes compagnons, m'aidant à cette office ,</l>
+	<l id="1670">Nous l'avons à la mort offert en sacrifice ;</l>
+<stage type="show">Montrant quelques perles, et diamants.</stage>
+	<l id="1671">Encore deux Marchands égorgés ce matin,</l>
+	<l id="1672">À quelques pas d'ici, m'ont laissé ce butin,</l>
+	<l id="1673">Et les Dieux ont voulu, que surpris sur la place</l>
+	<l id="1674">Votre miséricorde eût matière en ma grâce ;</l>
+	<l id="1675">Ne la déniez pas à ma confession,</l>
+	<l id="1676">Et que mon repentir soit ma punition.</l>
+</sp>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1677">Ma prière employée auprès de la Justice,</l>
+	<l id="1678">Peut sinon divertir, modérer ton supplice ;</l>
+	<l id="1679">Suis-nous donc, assuré qu'ayant fait mon devoir</l>
+	<l id="1680">Je te rendrai des soins égaux à mon pouvoir.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1681">Quel que soit mon arrêt, tant soit-il charitable,</l>
+	<l id="1682">Je vois bien que la mort ne m'est pas évitable,</l>
+	<l id="1683">Mieux vaut, en ce malheur, qui menace mes jours,</l>
+	<l id="1684">Me résoudre une fois, que de craindre toujours,</l>
+	<l id="1685">Si ma fortune au moins ne peut être meilleure,</l>
+	<l id="1686">Que j'aye la faveur de mourir de bonne heure,</l>
+	<l id="1687">Alors que la Justice, est sourde à la pitié.</l>
+	<l id="1688">Le coup, qui frappe tôt, se sent moins de moitié.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp stage="alone" who="ALCIONNE"><speaker>ALCIONNE, seule.</speaker>
+	<l id="1689">Quelle plus belle histoire, et quelle autre aventure,</l>
+	<l id="1690">Sera plus mémorable à la race future ?</l>
+	<l id="1691">Cette belle Angélique au sein de son Médor, </l>
+	<l id="1692">Va d'un siècle de fer, se faire un siècle d'or,</l>
+	<l id="1693">Et trouver chez les siens cette fortune entière,</l>
+	<l id="1694">Où cessent les désirs, par faute de matière,</l>
+	<l id="1695">L'autre désespérée, errante au gré du sort,</l>
+	<l id="1696">Et qu'Alexandre suit, semble encor loin du port ;</l>
+	<l id="1697">Mais l'enfant immortel qui gouverne sa flotte,</l>
+	<l id="1698">Quelque jeune qu'il soit est un savant pilote,</l>
+	<l id="1699">Il sait en quel endroit elle viendra surgir,</l>
+	<l id="1700">Et s'acquittera bien, du soin de la régir ;</l>
+	<l id="1701">Enfin tous sont partis, et m'ont laissé la gloire,</l>
+	<l id="1702">D'avoir sans mon dommage, eu part en leur histoire ;</l>
+	<l id="1703">Puissent-ils moissonner un long siècle de fleurs,</l>
+	<l id="1704">Qu'ils aillent, et qu'aux ris, enfin cèdent les pleurs,</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp stage="explicit" who="DON LOUIS"><speaker>DON LOUIS Adorne, père d'Antoine.</speaker>
+	<l id="1705">Arrivé sur le lieu fatal aux téméraires,</l>
+	<l id="1706">Qui font des lois d'honneur, d'un faux zèle de père,</l>
+	<l id="1707">Derechef je t'atteste, auteur de l'univers,</l>
+	<l id="1708">S'il est vrai qu'à tes yeux nos secrets soient ouverts,</l>
+	<l id="1709">Toi, qui des armes tiens l'équitable balance</l>
+	<l id="1710">Que forcé je me rends à cette violence,</l>
+	<l id="1711">Que je viens innocent, où l'honneur me conduit</l>
+	<l id="1712">De leur témérité payer le triste fruit.</l>
+	<l id="1713">Tu sais si j'ai donné, receleur de leur race,</l>
+	<l id="1714">Une juste matière à leur sotte menace, </l>
+	<l id="1715">Tu connais, si j'eus part au dessein de mon fils ,</l>
+	<l id="1716">Et tu peux témoigner des plaintes que j'en fis,</l>
+	<l id="1717">A-t-on vu jusqu'ici, que du nom des Adorne,</l>
+	<l id="1718">D'une étroite vertu nul ait passé les bornes,</l>
+	<l id="1719">A-t-on vu rien à dire, et rien à désirer,</l>
+	<l id="1720">À cet antique honneur, qui les fait révérer.</l>
+	<l id="1721">Non, jusques à tel point cette injure me touche,</l>
+	<l id="1722">Qu'elle étouffe ma voix, et me ferme la bouche,</l>
+	<l id="1723">Et de telle fureur je me sens enflammer,</l>
+	<l id="1724">Que mon coeur, par mes mains brûle de s'exprimer,</l>
+	<l id="1725">Ce bras est propre encor, à servir mon courage, </l>
+	<l id="1726">Sa force passera la promesse de l'âge,</l>
+	<l id="1727">Une juste colère, en un mourant Éson </l>
+	<l id="1728">Produira les effets d'une verte saison,</l>
+	<l id="1729">Ce fer a quelquefois lâché des coups funestes,</l>
+	<l id="1730">Poussé d'une vigueur, qui laisse encor des restes</l>
+	<l id="1731">L'âge affaiblit mon coeur , mais il est toujours haut,</l>
+	<l id="1732">Et si mon sang ne bout, il est encore chaud,</l>
+	<l id="1733">Mandé par ces cartels , le premier sur la place,</l>
+	<l id="1734">J'apporte un châtiment à leur aveugle audace,</l>
+	<l id="1735">Je n'ai point fait de grâce à ces membres pesants</l>
+	<l id="1736">Et n'ai point prétendu de dispense à mes ans,</l>
+	<l id="1737">Les voici, ne montrons, de geste, ou de visage,</l>
+	<l id="1738">Signe, qui de ce fer me défende l'usage. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Don Louis Adorne, Don Henri, de Montcastre, Don Sanche, de Cardène.</head>
+<sp stage="toward" who="DON HENRI"><speaker>DON HENRI[, à Don Louis].</speaker>
+	<l id="1739">Tu dois par ce papier être suffisamment</l>
+	<l id="1740">Informé du sujet de mon ressentiment,</l>
+	<l id="1741">Tant soit ta conscience, ou criminelle, ou pure,</l>
+	<l id="1742">Tu dois à mon honneur raison de cette injure ;</l>
+	<l id="1743">Tu devais, prévoyant, étouffer au berceau,</l>
+	<l id="1744">Ce monstre qui naquit pour creuser ton tombeau,</l>
+	<l id="1745">Ce subtil enchanteur des esprits de nos filles,</l>
+	<l id="1746">Ce venimeux aspic, funeste à nos familles,</l>
+	<l id="1747">Sus donc reçois pour lui le prix que je lui dois,</l>
+	<l id="1748">Pare et réponds plutôt à mon bras, qu'à ma voix.</l>
+</sp>
+<sp stage="toward" who="DON SANCHE"><speaker>DON SANCHE[, à Don Louis].</speaker>
+	<l id="1749">Dessus même sujet, même sujet m'appelle,</l>
+	<l id="1750">Donnons, et sur le champ, vidons notre querelle ;</l>
+</sp>
+<sp stage="toward" who="DON HENRI"><speaker>DON HENRI[, à Don Sanche].</speaker>
+	<l id="1751">Mon âge me préfère , et je veux que deux coups,</l>
+	<l id="1752">Vous laissent le champ libre, allez, éloignez-vous. </l>
+</sp>
+<sp who="DON LOUIS"><speaker>DON LOUIS, Adorne.</speaker>
+	<l id="1753">Aveugles, apprenez, avant que mon courage,</l>
+	<l id="1754">Me porte à réprimer cet insolent outrage,</l>
+	<l id="1755">Que moins taché que vous des crimes imputés,</l>
+	<l id="1756">Je viens faire raison à vos témérités.</l>
+	<l id="1757">Qu'en mon fils, comme ailleurs je déteste le vice,</l>
+	<l id="1758">Et que ma propre main en ferait la justice,</l>
+	<l id="1759">Si je savais l'endroit qui le cache à mes yeux,</l>
+	<l id="1760">Mais ce muet discours, vous le prouvera mieux,</l>
+	<l id="1761">Le succès du combat me pourra faire croire,</l>
+	<l id="1762">Si le ciel au plus juste accorde la victoire :</l>
+<stage type="fight">Ils se battent.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Don Louis, Don Henri, Don Sanche, Antoine, Théodose, Lindamor.</head>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="1763">Enfin nous découvrons du plus bas des remparts</l>
+	<l id="1764">La hauteur de ces murs, si chers à nos regards,</l>
+	<l id="1765">Mais quel autre spectacle à mes yeux se présente ?</l>
+	<l id="1766">Deux vieillards, deux troncs d'os, dont la masse pesante,</l>
+	<l id="1767">Semble pour se mouvoir, employer des ressorts ,</l>
+	<l id="1768">Se portent furieux à ces sanglants efforts ?</l>
+<stage type="threat">Tirant son épée.</stage>
+	<l id="1769">Je cours les séparer. Mais que vois-je, ô mon père !</l>
+	<l id="1770">Et vous, qui transporté d'une aveugle colère,</l>
+	<l id="1771">Voulez punir en lui l'excès de mon amour,</l>
+	<l id="1772">N'en veuillez qu'à moi seul, et sauvez-lui le jour.</l>
+</sp>
+<sp stage="toward" who="THÉODOSE"><speaker>THÉODOSE, à genoux.</speaker>
+	<l id="1773">Mon père ha ! que sous moi la terre n'est ouverte !</l>
+	<l id="1774">Et que ne puis-je ici me sauver par ma perte !</l>
+	<l id="1775">Digne objet que je suis, et de haine, et d'horreur, </l>
+	<l id="1776">Pourrai-je de vos yeux supporter la fureur,</l>
+	<l id="1777">Vengez-vous sans pitié sur cette malheureuse,</l>
+	<l id="1778">Soyez aussi cruel, que je suis amoureuse,</l>
+	<l id="1779">Qu'au-delà de ma mort aille votre courroux :</l>
+	<l id="1780">Mais sauvez votre gendre, épargnez mon époux.</l>
+</sp>
+<sp who="DON LOUIS"><speaker>DON LOUIS.</speaker>
+	<l id="1781">Également touché de joie, et de colère,</l>
+	<l id="1782">La première défend, ce que l'autre veut faire,</l>
+	<l id="1783">Je veux poussé d'amour l'embrasser comme enfant,</l>
+	<l id="1784">Et comme vicieux, l'honneur me le défend.</l>
+</sp>
+<sp who="DON HENRI"><speaker>DON HENRI.</speaker>
+	<l id="1785">Qui doit être, ou mon aise ou ma colère vaine ?</l>
+	<l id="1786">Et qui doit l'emporter, ou l'amour, ou la haine ?</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1787" syll="3" part="i">Mon père,</l>
+</sp>
+<sp stage="kiss" who="DON HENRI"><speaker>DON HENRI, l'embrassant.</speaker>
+	<l id="1787" syll="9" part="f">Ha ! Ce nom seul m'arrache le pardon,</l>
+	<l id="1788">Quand même je voudrais lui refuser ce don</l>
+	<l id="1789">Qu'en vain sans la nature un parent délibère</l>
+	<l id="1790">Et qu'il est malaisé d'être cruel, et père !</l>
+</sp>
+<sp stage="kiss" who="DON LOUIS"><speaker>DON LOUIS, embrassant son fils.</speaker>
+	<l id="1791">Ce pardon accordé si généreusement,</l>
+	<l id="1792">Est une loi prescrite à mon ressentiment.</l>
+</sp>
+<sp stage="toward" who="ANTOINE"><speaker>DON ANTOINE, à tous deux.</speaker>
+	<l id="1793">Par ce bon naturel, qui tout autre surpasse,</l>
+	<l id="1794">Joignez à la première une seconde grâce,</l>
+	<l id="1795">Agréez le saint noeud dont nous sommes unis,</l>
+	<l id="1796">Ainsi de vos vieux ans, tous malheurs soient bannis,</l>
+</sp>
+<sp who="DON LOUIS"><speaker>DON LOUIS.</speaker>
+	<l id="1797">Qu'elle dure à jamais cette agréable chaîne,</l>
+	<l id="1798">Dépouillons mes amis, dépouillons toute haine,</l>
+	<l id="1799">Qu'il dure ce beau noeud, puisque le ciel l'a fait.</l>
+</sp>
+<sp who="DON HENRI"><speaker>DON HENRI.</speaker>
+	<l id="1800">Par lui, je vois mes voeux surpassés de l'effet.</l>
+	<l id="1801">Vivons, vivons heureux, et que cette manie,</l>
+	<l id="1802">De nous entretuer d'entre nous soit bannie. </l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="1803">Mon affront plus sensible aujourd'hui que jamais</l>
+	<l id="1804">Ferme pour mon regard, la porte à cette paix, </l>
+	<l id="1805">Par de mêmes appas ma fille subornée,</l>
+	<l id="1806">Avait bien mérité pareille destinée, </l>
+	<l id="1807">Hymen en quelque sorte eût couvert ce forfait,</l>
+	<l id="1808">Mais que de son amour des mépris soient l'effet,</l>
+	<l id="1809">Qu'en elle soit souffert, ce qu'en l'autre on répare</l>
+	<l id="1810">Là mon ressentiment trop juste se déclare,</l>
+	<l id="1811">Et le péril certain de cent visibles morts,</l>
+	<l id="1812">Offrirait vainement la bride à mes transports :</l>
+	<l id="1813">Mais c'est à son auteur, que ma fureur s'adresse</l>
+	<l id="1814">Et mon âge penchant, méprise sa jeunesse,</l>
+	<l id="1815">Il reste assez de coeur à ce débile corps,</l>
+	<l id="1816">Pour vouloir mesurer ma force à ses efforts,</l>
+	<l id="1817">Que du père, aille au fils, le soin de la défense,</l>
+	<l id="1818">Et qu'enfin la raison, vienne d'où vient l'offense.</l>
+</sp>
+<sp who="ANTOINE"><speaker>ANTOINE.</speaker>
+	<l id="1819">Si les desseins qu'on a pour des jeunes beautés</l>
+	<l id="1820">Passent pour criminels sans être exécutés,</l>
+	<l id="1821">Je vous dois, il est vrai, raison de cette injure,</l>
+	<l id="1822">Le crime que j'ai fait est de cette nature,</l>
+	<l id="1823">Le ciel sait que jamais au-delà du penser,</l>
+	<l id="1824">Votre fille à mes voeux n'a permis de passer,</l>
+	<l id="1825">J'ai juré, j'ai promis, mais, serments, ni promesses,</l>
+	<l id="1826">Au-delà de l'honneur n'ont porté ses caresses,</l>
+	<l id="1827">Ni fait à son amour produire autre action,</l>
+	<l id="1828">Qu'un favorable aveu de mon affection.</l>
+ </sp>
+ </div2>
+ <div2 type="scene" n="7"><head>SCÈNE DERNIÈRE. DON HENRI, DON LOUIS, DON SANCHE, ANTOINE, THÉODOSE, LINDAMOR, ALEXANDRE, poursuivant, ARCHERS, LÉOCADIE tenue par des Valets, FILÉMOND valet d'ALEXANDRE. </head>
+<sp stage="continue" who="ANTOINE"><speaker>ANTOINE, continue.</speaker>
+	<l id="1829">Mais, si je ne m'abuse, un confus bruit d'épées,</l>
+	<l id="1830">A du côté du bois mes oreilles frappées ,</l>
+	<l id="1831">Quatre hommes, par un seul rudement poursuivis,</l>
+</sp>
+<sp stage="fight" who="ALEXANDRE"><speaker>ALEXANDRE, se battant.</speaker>
+	<l id="1832" syll="2" part="i">Traîtres :</l>
+</sp>
+<sp who="DON HENRI"><speaker>DON HENRI.</speaker>
+	<l id="1832" syll="4" part="m">Dieux ! C'est mon fils,</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1832" syll="6" part="f">Vous mourrez si je vis,</l>
+	<l id="1833">Pour soustraire vos jours au courroux qui me presse </l>
+	<l id="1834">Vos sacrilèges mains n'ont pas assez d'adresse ;</l>
+</sp>
+<sp stage="attached" who="LÉOCADIE"><speaker>LÉOCADIE, qu'on tient liée.</speaker>
+	<l id="1835" syll="2" part="i">Hé Dieux !</l>
+</sp>
+<sp who="DON HENRI"><speaker>DON HENRI.</speaker>
+	<l id="1835" syll="10" part="f">Calmez, mon fils, ces transports violents,</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1836">Joignez-vous avec moi contre ces insolents,</l>
+<stage type="toward">À Don Sanche.</stage>
+	<l id="1837">Voyez triste vieillard, que leur aveugle audace</l>
+	<l id="1838">S'adresse imprudemment jusques à votre race,</l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="1839" syll="6" part="i">Dieux ! qu'est-ce que je vois ?</l>
+</sp>
+<sp stage="toward" who="PREMIER ARCHER"><speaker>PREMIER ARCHER, à Don Sanche.</speaker>
+	<l id="1839" syll="6" part="f">Si j'ai fait action,</l>
+	<l id="1840">Qui passe le devoir de ma commission,</l>
+	<l id="1841">J'attends votre sentence, ordonnez mon supplice,</l>
+	<l id="1842">Mais, quel crime commets-je en servant la Justice ?</l>
+	<l id="1843">Poursuivant les voleurs errant par ces forêts,</l>
+	<l id="1844">Commis à ce devoir, et par votre ordre exprès,</l>
+	<l id="1845">Celui que vous voyez est tombé dans nos pièges,</l>
+	<l id="1846">Coupable de larcins, carnage, sacrilèges, </l>
+	<l id="1847">Et qui de deux marchands achevait le trépas,</l>
+	<l id="1848">Ce que sa propre voix ne démentira pas,</l>
+	<l id="1849">Nous l'amenions à vous, lorsque sans autre enquête,</l>
+	<l id="1850">Ce passant a voulu nous ravir notre quête</l>
+	<l id="1851">Sa violence, au moins, se devait expliquer,</l>
+	<l id="1852">Mais elle n'a fait qu'un de voir, et d'attaquer,</l>
+	<l id="1853">Sachez de ce voleur, les raisons de sa prise</l>
+	<l id="1854">Contraint par ses remords, lui-même l'autorise,</l>
+	<l id="1855">Son silence déjà vous dit plus que ma voix,</l>
+	<l id="1856">Et l'abandonne en proie à la rigueur des lois.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1857">Oui, déployez sur moi toute leur violence, </l>
+	<l id="1858">Ma voix s'il est besoin avouera mon silence,</l>
+	<l id="1859">Oui, mes crimes posés , passeront son rapport,</l>
+	<l id="1860">L'honneur n'a point de lois, qui n'ordonnent ma mort.</l>
+	<l id="1861">Ne me répondez pas en qualité de père,</l>
+	<l id="1862">Mais en celle de juge, où l'on vous considère,</l>
+	<l id="1863">Ôtez-moi tout accès près de votre amitié,</l>
+	<l id="1864">Écoutez la raison, et non pas la pitié,</l>
+	<l id="1865">De votre illustre sang retranchez ce prodige,</l>
+	<l id="1866">Qui si honteusement déshonore sa tige,</l>
+	<l id="1867">Voyez, que tant d'horreur est jointe à mon ennui,</l>
+	<l id="1868">Qu'il est même insensible à l'ingrat que je suis</l>
+	<l id="1869">De quel oeil voyez-vous cette manie extrême,</l>
+	<l id="1870">Voyant que son objet la condamne lui-même,</l>
+	<l id="1871">Il me chasse, il me fuit, il évite mes pas,</l>
+	<l id="1872">Pourrais-je, en cet état ne vous déplaire pas, </l>
+	<l id="1873">Donc touchant mon arrêt, consultez votre haine</l>
+	<l id="1874">J'ai voulu par ma mort vous en ôter la peine,</l>
+	<l id="1875">Exprès j'ai feint des vols, et des assassinats,</l>
+	<l id="1876">Mais cette invention ne me succède pas,</l>
+	<l id="1877">Mon destin à ces gens a fait prendre une route,</l>
+	<l id="1878">Qui tient encor ma vie, et mon supplice en doute ,</l>
+	<l id="1879">Faites vers le dernier, pencher votre pouvoir,</l>
+	<l id="1880">Et pour votre intérêt, et pour votre devoir.</l>
+</sp>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1881">Qu'avons-nous entendu ? quelles sont ces merveilles ?</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1882">Ouvrez, ouvrez les bras, plutôt que les oreilles,</l>
+	<l id="1883">Embrassez cet objet, digne de tant de voeux,</l>
+	<l id="1884">Et l'accordez pour prix à l'ardeur de mes feux.</l>
+</sp>
+<sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
+	<l id="1885">Certes, à bien parler d'une telle aventure,</l>
+	<l id="1886">À peine imaginable à la race future,</l>
+	<l id="1887">À bien considérer ses étranges ressorts,</l>
+	<l id="1888">La force de sa cause excède tes efforts.</l>
+	<l id="1889">Ta fuite et ton retour d'un sort inévitable,</l>
+	<l id="1890">Sont trop visiblement l'effet indubitable,</l>
+	<l id="1891">Tu ne cours pas au mal, tu t'y laisses traîner,</l>
+	<l id="1892">Et le vice contraint ne se peut condamner,</l>
+	<l id="1893">Participons ma fille à leur aise commune,</l>
+	<l id="1894">Ta faute n'est pas tienne, elle est de la fortune, </l>
+	<l id="1895">Tant s'en faut que ma haine accroisse tes malheurs,</l>
+	<l id="1896">Qu'au lieu de châtiments ils m'arrachent des pleurs.</l>
+<stage type="toward">Aux Archers.</stage>
+	<l id="1897">Ha ! brisez mes amis cette importune chaîne,</l>
+	<l id="1898">L'amour causant son crime, a fait aussi sa peine ,</l>
+<stage type="toward">À Alexandre.</stage>
+	<l id="1899">Et vous, qui l'honorez de votre affection,</l>
+	<l id="1900">Tenez-lui lieu de prix, et de punition.</l>
+	<l id="1901">Acquérez sur ses voeux un immortel empire,</l>
+	<l id="1902">Qu'elle vous aime seul, et pour vous seul soupire.</l>
+</sp>
+<sp who="DON HENRI"><speaker>DON HENRI.</speaker>
+	<l id="1903">Cet heur nous arrivant, quelle prospérité</l>
+	<l id="1904">Ne serait au-dessous de ma félicité ?</l>
+</sp>
+<sp stage="toward" who="ALEXANDRE"><speaker>ALEXANDRE, à Léocadie.</speaker>
+	<l id="1905">Coupable vous parliez, juste êtes-vous muette,</l>
+	<l id="1906">Et refusez-vous grâce, après qu'on vous l'a faite ;</l>
+	<l id="1907">Aurai-je en vain porté sur les ailes d'Amour,</l>
+	<l id="1908">Couru pour vous chercher tous les lieux d'alentour ?</l>
+	<l id="1909">Vous ai-je en vain trouvée au péril de ma vie ?</l>
+	<l id="1910">Et par vous-même encor me serez-vous ravie ;</l>
+	<l id="1911">Cet oeil, en ma faveur ne luira-t-il jamais.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1912">On me donne la vie, et je vous la soumets ;</l>
+	<l id="1913">Payant à votre amour, j'obéis à mon père.</l>
+</sp>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
+	<l id="1914">Ô ciel ! que tu me ris, et que tout m'est prospère !</l>
+<stage type="kiss">Embrassant son père.</stage>
+	<l id="1915">Mon père, pardonnez, si l'heur de vous revoir</l>
+	<l id="1916">À l'abord m'a trouvé si lent en ce devoir,</l>
+	<l id="1917" syll="6" part="i">Que je vous dois de voeux.</l>
+</sp>
+<sp who="DON HENRI"><speaker>DON HENRI.</speaker>
+	<l id="1917" syll="6" part="f">Enfin, en cette histoire,</l>
+	<l id="1918">Chacun après la peine, a sa part de la gloire ;</l>
+	<l id="1919">Mais sachons plus au long sa naissance et son cours,</l>
+	<l id="1920">Et retrouvons Séville, au bout de ce discours.</l>
+</sp>
+<sp stage="toward" who="ANTOINE"><speaker>ANTOINE, à Léocadie.</speaker>
+	<l id="1921">Que j'obtienne ma grâce, avant que l'on commence,</l>
+</sp>
+<sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
+	<l id="1922">Et moi, puisque j'ai part en si belle alliance, </l>
+	<l id="1923">Ne me défendez pas de m'en féliciter,</l>
+</sp>
+<sp stage="kiss" who="LÉOCADIE"><speaker>LÉOCADIE, la baisant.</speaker>
+	<l id="1924">Il faut suivre son sort, on n'y peut résister,</l>
+	<l id="1925">La main qui m'ôte Antoine, et me donne Alexandre,</l>
+	<l id="1926">Fait les nécessités d'être pris et de prendre.</l>
+</sp>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
+	<l id="1927">Quel fut notre malheur, et notre aveuglement,</l>
+	<l id="1928">De ne juger pas mieux d'un objet si charmant ?</l>
+	<l id="1929">À notre erreur, Madame, accordez notre grâce.</l>
+</sp>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
+	<l id="1930">C'est par vous que mon bien tout exemple surpasse,</l>
+	<l id="1931">Par vous, la main du ciel a fait ces changements,</l>
+	<l id="1932">Et par vous, j'ai des prix, au lieu de châtiments.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

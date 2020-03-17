@@ -1,0 +1,2391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="fr">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>CLARIGÈNE, TRAGICOMÉDIE.</title>
+				<author born='1605' born_location='Paris' death='1658' death_location='Paris' academie=''>DU RYER, Pierre</author>
+			</titleStmt>
+			<publicationStmt>	
+				<publisher>publié par Ernest FIEVRE, juillet 2016</publisher>
+				<idno>DUREYER_CLARIGENE</idno>
+		</publicationStmt>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>bible</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1631-1640</periode>
+				<taille>1750-2000</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k71577</permalien>
+				<refNum/>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text>
+<front>
+	<docTitle>
+		<titlePart type="main">CLARIGÈNE</titlePart>
+		<titlePart type="sub">TRAGICOMÉDIE</titlePart>
+	</docTitle> 
+	<docDate value="1639">M. DC. XXXIX. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docAuthor id="DU RYER, Pierre" bio='duryer'>Par P. DU RYER, Secrétaire de Monseigneur le Duc de Vendôme. 
+</docAuthor>
+	<docImprint>
+	<privilege id="1639-02-08"><head>Extrait du Privilège du Roi.</head>
+		<p>Par grâce et Privilège du Roi donné à Paris, le 8. jour de Février 1639. Signé par le Roi, en son Conseil, de Monçeaux. Il est permis à ANTOINE DE SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre Intitulée, LE CLARIGENE  DU SIEUR DU RYER, durant le temps de cinq ans à compter du jour qu'elle sera achevée d'Imprimer. Et défenses sont faites à tous Imprimeurs, Libraires, et autres de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine au contrevenant de trois mille livres d'amendes, et de tous ses dépends, dommages et intérêts, ainsi qu'il est plus au long porté par les dites lettres qui sont en vertu du présent Extrait, tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p>
+	</privilege>
+	<imprimeur id="SOMMAVILLE">À PARIS, Chez ANTOINE DE SOMMAVILLE, Au Palais, dans la Salle des Merciers, à l'Écu de France.</imprimeur>
+	<acheveImprime value='1639-05-23'>Achevé d'imprimer pour la première fois, le 23 Mai mil six cent trente neuf.</acheveImprime>
+	</docImprint>
+	<div type="dedicace"><adresse>À MONSEIGNEUR LE DUC DE MERCOEUR </adresse>
+		<head>MONSEIGNEUR,</head>
+			<p>Lorsque j'ai commencé cet ouvrage, je ne me suis proposé pour la récompense de mon travail, que l'honneur et la gloire de le présenter à votre Grandeur. Il a paru sur les Théâtres avec assez d'applaudissements, et n'a pas diminué l'estime qu'un peu de bonne fortune m'a acquise. Mais je n'en étais pas encore content, puisqu'il n'était pas encore à vous, et je n'en aurai point de plus grande satisfaction que quand vous aurez fait paraître qu'il ne vous est pas désagréable. Il y a sans doute beaucoup de contentement à voir estimer ses productions, mais il y a des ravissements extrêmes à plaire aux personnes Illustres, et qui ne sont pas moins considérables par les lumières de leur esprit, que par l'éclat de leur condition. Ainsi, MONSEIGNEUR, je deviens déjà superbe par l'espérance que j'ai de vous plaire, et si je puis posséder ce glorieux avantage, il n'y aura point de grands desseins dont l'exécution me soit difficile. Ce sera alors que j'égalerai la force de mes Vers à la grandeur de vos actions, et que je saurai faire connaître, que le Poète est nécessaire au Prince, autant que le Prince est nécessaire au Poète. Je ferai voir aux autres siècles ce courage héroïque qui vous fait admirer au nôtre. Je vous représenterai dans ces dangers, où une généreuse ardeur, vous a tant de fois si honorablement précipité. Je vous ferai voir au milieu de nos ennemis, répandre leur sang, prodiguer le vôtre, et remporter autant de victoires que vous avez donné de coups d'épée. Votre gloire fera chérir mes Vers, et mes Vers feront adorer votre gloire. Je n'emprunterai point d'ornements étrangers, je vous rendrai semblable à ce que vous êtes, et je ferai partout confesser que vous n'honorez pas moins votre sang, que votre sang vous honore. Mais je m'emporte insensiblement dans la considération de tant de merveilles, et je prends un si grand plaisir à vous voir triompher, qu'il ne me souvient plus de vous présenter CLARIG7NE. Permettez donc, MONSEIGNEUR, que j'accomplisse mon dessein, et que si je ne fais rien encore pour le service de votre Grandeur, je puisse au moins me vanter d'avoir donné quelque chose à son divertissement. C'est,</p>
+			<p>MONSEIGNEUR, </p>
+			<p>DE VOTRE GRANDEUR, </p>
+			<p>Le très humble et très obéissant serviteur, </p>
+		<signature>DU RYER.</signature>
+	</div>	
+	<performance>
+		<premiere date="1637" location='(inconnue)'>Représenté par la première fois en 1637.</premiere>
+	</performance>
+		<castList><head>LES ACTEURS.</head>
+			<castItem><role id="LICIDAS" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>LICIDAS</role>, Père de Céphise et ce Cléante.</castItem>
+			<castItem><role id="POLÉMON" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>POLÉMON</role>, Son ami. </castItem>
+			<castItem><role id="CÉLIE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='Clarigène'>CÉLIE</role>, Amante de Clarigène. </castItem>
+			<castItem><role id="CLÉONE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>CLÉONE</role>, Nièce de Licidas. </castItem>
+			<castItem><role id="CLARIGÈNE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='Célie'>CLARIGÈNE</role>, Amoureux de Célie. </castItem>
+			<castItem><role id="TÉLARISTE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>TÉLARISTE</role>, Frère de Célie et ami de Clarigène.</castItem> 
+			<castItem><role id="CLÉANTE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>CLÉANTE</role>, Fils de Licidas. </castItem>
+			<castItem><role id="CÉPHISE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>CÉPHISE</role>, Fille de Licidas. </castItem>
+			<castItem><role id="UN PAGE" sex="1" type="H" statut='page' age='A' stat_amour='néant'>UN PAGE de Licidas</role>.</castItem>
+			<castItem><role id="CLARIGÈNE Ravisseur" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>CLARIGÈNE</role>, Ravisseur de Céphise.</castItem> 
+			<castItem><role id="DICÉE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>DICÉE</role>, Juge au Sénat. </castItem>
+		</castList>
+		<set location='Athènes' country='Grèce' periode='Temps antiques' link=''>La Scène est dans Athènes.</set>
+</front>
+<body>
+<div1 type="act" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Licidas, Polémon.</head>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1">Ne considère plus le repos de ma vie </l>
+	<l id="2">Comme un bien sans exemple, et capable d'envie, </l>
+	<l id="3">Mais pleure ce trésor dont tu me vois privé, </l>
+	<l id="4">Et redoute pour toi ce qui m'est arrivé. </l>
+	<l id="5">Ne dis plus que du sort les soins incomparables </l>
+	<l id="6">Ont rendu pour moi seul ses caresses durables, </l>
+	<l id="7">Mais accuse avec moi ce démon inconstant </l>
+	<l id="8">Qui présente le calme et l'ôte au même instant. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="9">De quoi vous plaignez-vous ? Quel ennui vous possède ?</l>
+	<l id="10">Ce mal est-il de ceux qui n'ont point de remède ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="11">Il en est, Polémon, ma plainte te l'apprend, </l>
+	<l id="12">Et puisque je soupire, il faut bien qu'il soit grand. </l>
+	<l id="13">Hélas depuis deux ans, qu'avec tant d'avantage </l>
+	<l id="14">Aux pays étrangers s'exerce to courage, </l>
+	<l id="15">L'état où tu me vois tristement arrêté, </l>
+	<l id="16">Est l'état malheureux où j'ai toujours été. </l>
+	<l id="17">Ni repos ni plaisir n'a soulagé ma peine, </l>
+	<l id="18">Le Ciel ne m'a montré que des marques de haine, </l>
+	<l id="19">Et ne peut désormais me montrer son amour </l>
+	<l id="20">Que par le coup fatal qui m'ôtera le jour. </l>
+	<l id="21">Pardonne donc ami, pardonne à ma tristesse </l>
+	<l id="22">Cette peu favorable et si froide caresse, </l>
+	<l id="23">Je sais que ton retour mérite un autre accueil. </l>
+	<l id="24">Mais je le donne tel que le permet mon deuil. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="25">Vous m'obligez assez de ne vous point contraindre ; </l>
+	<l id="26">C'est bien me recevoir que de ne me rien feindre. </l>
+	<l id="27">Mais enfin qu'avez-vous ? Quel sujet rigoureux </l>
+	<l id="28">Dérobe à mon retour un accueil plus heureux ? </l>
+	<l id="29">Comblé d'autant d'honneurs qu'en peut donner le monde </l>
+	<l id="30">En quels maux trouvez-vous la fortune féconde ? </l>
+	<l id="31">Riche en amis parfaits, riche en enfants bien nés. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="32">Ha ! Tu touches les maux, dont nous sommes gênés </l>
+	<l id="33">Je fus riche en enfants, mais de cette richesse </l>
+	<l id="34">Je vois naître aujourd'hui ma peine et ma tristesse, </l>
+	<l id="35">Et bien loin du succès où tendaient mes désirs, </l>
+	<l id="36">Je mets le nom de Père entre mes déplaisirs. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="37">Avez-vous donc perdu ce fils et cette fille </l>
+	<l id="38">Dont le Ciel enrichit votre illustre famille. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="39">Oui je les ai perdus, et voilà mes douleurs.</l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="40">Ha certes, cette mort est digne de vos pleurs. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="41">On n'a point vu pour eux de sépulture ouverte ; </l>
+	<l id="42">Je ne plains pas leur mort, mais je pleure leur perte ! </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="43">Si la mort épargna ces enfants malheureux, </l>
+	<l id="44">Quel étrange destin se déclare contre eux ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="45">Tel qu'au funeste état où je les considère </l>
+	<l id="46">L'aspect de leur tombeau consolerait leur Père. </l>
+	<l id="47">La nature propice à mes justes souhaits </l>
+	<l id="48">Autant qu'elle le put me les donna parfaits, </l>
+	<l id="49">Et je serais heureux en ma triste aventure </l>
+	<l id="50">S'ils m'étaient enlevés par la même nature. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="51" syll="6" part="i">Que j'en sache la cause. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="51" syll="6" part="f">Hé bien tu la sauras, </l>
+	<l id="52">Et me plaindras au moins si tu ne m'aides pas. </l>
+	<l id="53">Chargé d'ans et d'honneur, noble et seule richesse </l>
+	<l id="54">Qui soulage aujourd'hui le faix de ma vieillesse, </l>
+	<l id="55">Après mille combats, enfin pour vivre en paix </l>
+	<l id="56">J'abandonnai la Cour qui n'en donna jamais. </l>
+	<l id="57">À peine commençais-je une plus douce vie </l>
+	<l id="58">Que par un inconnu ma fille fut ravie, </l>
+	<l id="59">Cette fille que j'aime et qui reçut des Cieux </l>
+	<l id="60">Tout ce qui pouvait rendre un Père glorieux, </l>
+	<l id="61">Oui, mon cher Polémon, cette fille adorable </l>
+	<l id="62">Fut d'un bras inconnu le butin déplorable. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="63" syll="2" part="i">Ô Dieux ! </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="63" syll="10" part="f">Le coup est grand, d'où vient cette douleur, </l>
+	<l id="64">Mais ce n'est qu'un degré pour un nouveau malheur. </l>
+	<l id="65">Je fis contre ce rapt tous les devoirs d'un Père, </l>
+	<l id="66">Et tout ce que je fis me combla de misère ; </l>
+	<l id="67">Amis, frères, parents me prêtèrent la main, </l>
+	<l id="68">Et j'eus le déplaisir de les armer en vain. </l>
+	<l id="69">Mon fils autant que moi touché de cet outrage </l>
+	<l id="70">Croyant me soulager me montra son courage, </l>
+	<l id="71">Prit un vaisseau léger, et pour sauver sa soeur </l>
+	<l id="72">Malgré père et parents suivit son ravisseur. </l>
+	<l id="73">Ainsi je le perdis, ainsi tout m'est contraire, </l>
+	<l id="74">Et le rapt de la soeur me dérobe le frère. </l>
+	<l id="75">Ainsi j'eus deux enfants, et je fus privé d'eux, </l>
+	<l id="76">Et pour en sauver un je les perdis tous deux. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="77">N'avez-vous rien appris ni de l'un ni de l'autre, </l>
+	<l id="78">Depuis que leur malheur a commencé le vôtre ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="79">En ce triste accident, dont nous fûmes surpris, </l>
+	<l id="80">Le nom du Ravisseur est tout ce que j'ai appris.</l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="81" syll="6" part="i">Comment se nomme-t-il ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="81" syll="6" part="f">Son nom est Clarigène : </l>
+	<l id="82">Mais pour l'avoir appris, en suis-je moins en peine ? </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="83" syll="6" part="i">De qui l'apprîtes-vous ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="83" syll="3" part="m">D'un des miens. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="83" syll="3" part="f">Mais comment ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="84">Il voulut s'opposer à cet enlèvement, </l>
+	<l id="85">Et reconnut l'auteur d'un acte si barbare, </l>
+	<l id="86">Pour l'avoir autrefois connu dedans Mégare. </l>
+	<l id="87">Je le cherchai moi-même, et mon crédit est tel </l>
+	<l id="88">Qu'on l'aurait rencontré si c'était un mortel ; </l>
+	<l id="89">Ce nom de Clarigène inconnu par lui-même, </l>
+	<l id="90">Est aujourd'hui connu par mon malheur extrême, </l>
+	<l id="91">Et quelque obscurité qui nous couvre ce nom, </l>
+	<l id="92">Le seul bruit que j'en fais lui donne du Renom. </l>
+	<l id="93">Cependant c'est en vain que ma colère éclate, </l>
+	<l id="94">En vain pour mes enfants l'espérance me flatte, </l>
+	<l id="95">Ce fils infortuné trop prompt à me venger, </l>
+	<l id="96">Languit sans doute aux fers d'un barbare étranger, </l>
+	<l id="97">Et cet autre malheur se joint à sa misère, </l>
+	<l id="98">Qu'il voit servir sa soeur aux plaisirs d'un Corsaire. </l>
+	<l id="99">Ha c'est là des ennuis que je souffre pour eux </l>
+	<l id="100">Et le moins consolable, et le plus rigoureux. </l>
+	<l id="101">Je perdis une fille aussi chaste qu'aimée, </l>
+	<l id="102">Et ne puis la trouver que fille diffamée. </l>
+	<l id="103">Ô sort, qui de ses jours as l'éclat obscurci </l>
+	<l id="104">Sera-ce la trouver que la trouver ainsi ? </l>
+	<l id="105">Hélas ! Je la demande, et la plains à toute heure, </l>
+	<l id="106">En Père je la cherche, en père je la pleure, </l>
+	<l id="107">Et lorsque son malheur me laisse un peu rêver, </l>
+	<l id="108">Tout père que je suis, je crains de la trouver. </l>
+	<l id="109">Que le Ciel rendra-t-il à ma triste famille </l>
+	<l id="110">S'il lui rend sans l'honneur ma misérable fille ! </l>
+	<l id="111">Ô fille, ô faible bien sans pareil en ce point, </l>
+	<l id="112">Que même en le trouvant je ne m'allège point ! </l>
+	<l id="113">Que l'on perde un ami, son retour a des charmes, </l>
+	<l id="114">Qui peuvent mettre à sec un Océan de larmes ; </l>
+	<l id="115">Que l'on perde un trésor, il peut être rendu, </l>
+	<l id="116">Et revenir entier ainsi qu'il fut perdu ; </l>
+	<l id="117">Mais un Père qui pleure une fille enlevée </l>
+	<l id="118">N'en est pas consolée pour l'avoir retrouvée : </l>
+	<l id="119">L'honneur est dans un Rapt le dernier respecté, </l>
+	<l id="120">Et n'en revient jamais comme il fut emporté. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="121">Votre sort est étrange, et le Ciel en colère </l>
+	<l id="122">N'a rien après ces maux que puisse craindre un père ; </l>
+	<l id="123">Mais pour vous laisser vaincre à de si rudes coups, </l>
+	<l id="124">Seront-ils moins cruels ? Les adoucirez-vous ? </l>
+	<l id="125">Peut-être que ce Rapt poursuivi comme un crime, </l>
+	<l id="126">N'est qu'un effet trop prompt d'un amour légitime, </l>
+	<l id="127">Peut-être est-il heureux, ce que d'un Ravisseur </l>
+	<l id="128">Le mariage a fait un juste possesseur. </l>
+	<l id="129">Le Ciel vous doit ce bien, et vous devez l'attendre </l>
+	<l id="130">Cet honneur qu'ôte un Rapt un Hymen le peut rendre. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="131">Hélas ! Tel mariage est un nouveau malheur, </l>
+	<l id="132">Où loin de se venger, on caresse un voleur. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="133">Mais quelqu'un vient ici que votre nièce amène. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="134">C'est à ce qu'on m'a dit une jeune Romaine, </l>
+	<l id="135">Qu'hier comme une morte on trouva sur ces bords, </l>
+	<l id="136">Et dont en mon logis on apporta le corps. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME. Licidas, Célie, Polémon.</head>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="137">Perdez auprès de moi vos soucis et vos peines, </l>
+	<l id="138">Et croyez que pour vous Rome est dedans Athènes. </l>
+	<l id="139">Mes soins confirmeront les desseins que je fais, </l>
+	<l id="140">Et j'aurai moins pour vous de discours que d'effets. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="141">Je les ressens déjà ces effets admirables, </l>
+	<l id="142">Qui me pourraient ôter du rang des misérables ; </l>
+	<l id="143">Vous voyez à vos pieds le rebut de la mort, </l>
+	<l id="144">Un jouet éternel des caprices du sort. </l>
+	<l id="145">Vous voyez une fille à qui les destinées </l>
+	<l id="146">Font nombrer ses malheurs par ses tristes journées, </l>
+	<l id="147">Et que jamais le Ciel ne vit d'un oeil plus doux, </l>
+	<l id="148">Qu'au bienheureux instant qu'il la jeta chez vous. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="149">Si le sort vous poursuit, et vous est si contraire, </l>
+	<l id="150">Qu'il vous refuse ici la présence d'un père, </l>
+	<l id="151">Au moins le même sort vous y fait rencontrer </l>
+	<l id="152">Autant d'affection qu'un père en peut montrer. </l>
+	<l id="153">Dieux qui voyez l'accueil que j'offre aux misérables, </l>
+	<l id="154">Dieux qui voyez du ciel mes enfants déplorables, </l>
+	<l id="155">Faites qu'en quelque part qu'ils soient vus aujourd'hui, </l>
+	<l id="156">On puisse avoir pour eux ce que j'ai pour autrui. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="157">Si l'averse fortune a pour vous des tempêtes, </l>
+	<l id="158">Que le Ciel adouci vous soit ce que vous m'êtes ; </l>
+	<l id="159">Quels que soient vos ennuis que ne puis-je contre eux </l>
+	<l id="160">Agir plus puissamment que par de faibles voeux ! </l>
+	<l id="161">Je ferais bien paraître aux maux qui vous affligent, </l>
+	<l id="162">Que ce n'est pas à tort que vos bontés m'obligent, </l>
+	<l id="163">Mais j'espère qu'un Dieu plus fort que vos ennuis </l>
+	<l id="164">Fera ce que je veux et ce que je ne puis. </l>
+	<l id="165">Quoi que fasse le sort, le Ciel en est le maître </l>
+	<l id="166">Et se rend pitoyable à celui qui veut l'être. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="167">Oui ma fille il est vrai, que le Ciel satisfait, </l>
+	<l id="168">Paye par ses faveurs les biens que l'homme fait ; </l>
+	<l id="169">Mais hélas il me traite avec tant d'amertume, </l>
+	<l id="170">Que pour moi seulement il change de coutume. </l>
+	<l id="171">Ses rigueurs toutefois ne me rebutent pas, </l>
+	<l id="172">Mes bienfaits s'étendront au-delà du trépas. </l>
+	<l id="173">Je ne vous offre point le soin qui vous soulage, </l>
+	<l id="174">Pour obtenir du Ciel un pareil avantage, </l>
+	<l id="175">Mais je l'offre à vos maux parce que c'est un droit, </l>
+	<l id="176">Ou plutôt un tribut que l'homme à l'homme doit. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="177">Hélas ! Au triste état où le Ciel m'abandonne, </l>
+	<l id="178">Je le reçois de vous comme un bien qu'on me donne. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="179">Mais sans vous ramener à vos premiers travaux, </l>
+	<l id="180">Puis-je vous demander l'histoire de vos maux ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="181">Si méprisant pour vous les plus rudes supplices </l>
+	<l id="182">Je voudrais par mon sang payer vos bons offices, </l>
+	<l id="183">Jugez si dans l'instant que vous séchez mes pleurs, </l>
+	<l id="184">Je vous refuserais de dire mes malheurs. </l>
+	<l id="185">Rome est donc mon pays, et mes premiers Ancêtres </l>
+	<l id="186">Furent jadis comptés au nombre de ses Maîtres ; </l>
+	<l id="187">Là parmi les honneurs s'écoulèrent mes jours, </l>
+	<l id="188">Tant qu'un heureux destin favorisa leurs cours, </l>
+	<l id="189">Mais selon sa coutume abondant en disgrâce, </l>
+	<l id="190">Le sort qui me flattait changea bientôt de face, </l>
+	<l id="191">Et n'eût pu toutefois me faire succomber, </l>
+	<l id="192">S'il n'eût attaqué Rome, et ne l'eût fait tomber. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="193">Le Bruit de ce malheur a couru dans Athènes </l>
+	<l id="194">Mais j'en saurai de vous les nouvelles certaines. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="195">Rome était en repos, et déjà ses enfants </l>
+	<l id="196">Étaient de ses voisins ou crains ou triomphants. </l>
+	<l id="197">Arbitres de la paix, Arbitres de la guerre, </l>
+	<l id="198">Ils pouvaient retenir ou lancer le tonnerre. </l>
+	<l id="199">Et déjà leur Grandeur avait tant de Renom, </l>
+	<l id="200">Que les forces d'autrui faisaient moins que leur nom. </l>
+	<l id="201">Cependant des Gaulois les armes indomptables, </l>
+	<l id="202">Aux pays d'alentour se rendaient redoutables ; </l>
+	<l id="203">Et n'allaient nulle part signaler leurs exploits, </l>
+	<l id="204">Que le sang ou le fer n'en marquât les endroits. </l>
+	<l id="205">Riches de leur butin, et plus enflés de gloire, </l>
+	<l id="206">Ils veulent jusqu'à Rome étendre leur victoire, </l>
+	<l id="207">Brennus leur Capitaine approuve leurs desseins, </l>
+	<l id="208">Qui ne furent pour eux ni malheureux ni vains ; </l>
+	<l id="209">Ils marchent donc vers Rome, et Rome les méprise, </l>
+	<l id="210">Mais hélas ce mépris facilita sa prise, </l>
+	<l id="211">On arma toutefois, mais si légèrement, </l>
+	<l id="212">Que cela ne semblait qu'un divertissement, </l>
+	<l id="213">On parlait du Gaulois comme d'un adversaire, </l>
+	<l id="214">Indigne qu'un Romain songeât à le défaire, </l>
+	<l id="215">Et cet orgueil funeste aux plus grands des humains, </l>
+	<l id="216">Fut le seul ennemi qui défit les Romains. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="217" syll="6" part="i">Mais enfin que fit-on ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="217" syll="6" part="f">On sortit de la ville, </l>
+	<l id="218">Chacun juge pour soi la conquête facile, </l>
+	<l id="219">On livre le combat, et de chaque côté, </l>
+	<l id="220">Le gain de la bataille est longtemps disputé. </l>
+	<l id="221">À la fin les Romains, ha jugez par mes larmes </l>
+	<l id="222">Des malheureux succès qui suivirent leurs armes ; </l>
+	<l id="223">Je ne vous dirai point quels furent les exploits, </l>
+	<l id="224">Par qui cette victoire honora les Gaulois. </l>
+	<l id="225">Mais pour vous dire tout, en ce jour lamentable, </l>
+	<l id="226">Rome, Rome perdit le titre d'indomptable. </l>
+	<l id="227">Ce bruit est dans la ville aussitôt répandu, </l>
+	<l id="228">Le Sénat est en deuil, le peuple est éperdu. </l>
+	<l id="229">La peur glisse partout, et semblable à la peste </l>
+	<l id="230">Par son propre venin croit et devient funeste ; </l>
+	<l id="231">On fuit, on quitte Rome, où l'on dût triompher, </l>
+	<l id="232">On l'abandonne au feu qu'on pouvait étouffer, </l>
+	<l id="233">Ou plutôt on eût dit en ce danger extrême </l>
+	<l id="234">Que Rome à son malheur fuyait de Rome même. </l>
+	<l id="235">Là puisqu'un père même engagea mon serment, </l>
+	<l id="236">Je dirai sans rougir que j'avais un amant, </l>
+	<l id="237">Et qu'un parfait bonheur eût été mon partage, </l>
+	<l id="238">Si la gloire de Rome eût duré davantage. </l>
+	<l id="239">Comme ce noble coeur m'aimait parfaitement, </l>
+	<l id="240">Il ne craignait aussi que pour moi seulement. </l>
+	<l id="241">Dans ce commun désastre il propose à mon frère </l>
+	<l id="242">De chercher un rempart contre tant de misère, </l>
+	<l id="243">Et de nous retirer chez les Lipariens, </l>
+	<l id="244">Où le sort laissait des amis et des biens : </l>
+	<l id="245">Ainsi mon frère et lui seuls de cette partie, </l>
+	<l id="246">Entre mille dangers me mènent dans Ostie, </l>
+	<l id="247">Là sans nous amuser nous prenons un vaisseau, </l>
+	<l id="248">Et nous nous exposons à la merci de l'eau, </l>
+	<l id="249">Où tant que le permis cet élément barbare, </l>
+	<l id="250">Nous tînmes sans péril la route de Lipare. </l>
+	<l id="251">Mais nous voguons en vain vers un climat plus doux, </l>
+	<l id="252">À l'exemple du Ciel la mer est contre nous, </l>
+	<l id="253">Incertains du salut, incertains du naufrage </l>
+	<l id="254">Le vent nous fit errer de rivage en rivage, </l>
+	<l id="255">Et cette mer n'a point de rochers ni d'écueils </l>
+	<l id="256">Dont le sort n'ait taché de faire nos cercueils. </l>
+	<l id="257">Ainsi durant neuf mois, sur le dos de Neptune, </l>
+	<l id="258">Nous a persécutés le Ciel ou la Fortune. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="259">Quoi sans apprendre rien ou d'une ou d'autre part, </l>
+	<l id="260">De ce que Rome a vu depuis votre départ. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="261" syll="3" part="i">Rien du tout. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="261" syll="3" part="m">Achevez. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="261" syll="6" part="f">Après de longues peines, </l>
+	<l id="262">À la fin le hasard me jette dans Athènes. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="263">Ce frère et cet amant. Qui vous trouble si fort ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="264">Il les faut demander à notre mauvais sort. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="265" syll="6" part="i">Comment ! Sont-ils perdus ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="265" syll="6" part="f">L'abord de cette Ville </l>
+	<l id="266">Est un gouffre pour eux, comme il m'est un asile. </l>
+	<l id="267">Hélas hier au soir proche de ce château, </l>
+	<l id="268">Le choc d'un grand rocher brisa notre vaisseau. </l>
+	<l id="269">Ceux que vous demandez avecques lui périrent. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="270">Ô Dieux ! Mais quelles mains à votre aide s'offrirent ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="271">Un flot me mit à terre, où par votre secours, </l>
+	<l id="272">Je sentis renouer la trame de mes jours. </l>
+	<l id="273">Mais de quelques faveurs dont le Ciel me soulage, </l>
+	<l id="274">Même étant hors des flots, j'y dois faire naufrage, </l>
+	<l id="275">Hélas puisque j'y laisse un frère, et son ami, </l>
+	<l id="276">J'y péris avec eux, ou n'en sort qu'à demi. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="277">Ne désespérez point de la bonté céleste, </l>
+	<l id="278">Comme le Ciel vous sauve, il peut sauver le reste, </l>
+	<l id="279">Son pouvoir est plus fort qu les flots courroucés, </l>
+	<l id="280">Et votre exemple seul vous le confirme assez.</l>
+<stage type="toward">Il parle à quelqu'un des siens.</stage>
+	<l id="281">Qu'on aille s'enquérir si l'onde favorable </l>
+	<l id="282">N'a rien de ce vaisseau rejeté sur le sable : </l>
+	<l id="283">Moi-même à ce dessein je prêterai les mains ; </l>
+	<l id="284">Mais dites-moi le nom de ces jeunes Romains. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="285">Cette extrême faveur que vous m'avez offerte </l>
+	<l id="286">Ne pourra me servir qu'à confirmer ma perte. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="287" syll="6" part="i">Que je sache leur nom. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="287" syll="6" part="f">Si je le dis, hélas </l>
+	<l id="288">J'obéis seulement et je n'espère pas. </l>
+	<l id="289">Ce frère, dont la mort est ma dernière peine, </l>
+	<l id="290" syll="6" part="i">Se nomme Télariste. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="290" syll="3" part="m">Et l'autre ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="290" syll="3" part="f">Clarigène.</l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="291">Clarigène ! Bons Dieux, Polémon allons voir. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="292" syll="6" part="i">Ha ! Que vous m'obligez. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="292" syll="6" part="f">Ce n'est que mon devoir. </l>
+	<l id="293">Quel étrange accident, Polémon, quelle histoire ! </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="294">Elle est et lamentable, et difficile à croire. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="295">Ne perdons point de temps, cherchons ces malheureux, </l>
+	<l id="296">Ma fille comme vous je soupire après eux. </l>
+	<l id="297">Ma Nièce conduisez cette Dame affligée, </l>
+	<l id="298">Où d'un peu de repos elle soit allégée, </l>
+	<l id="299">Ne lui parlez de rien, mais flattez ses tourments, </l>
+	<l id="300">Et ne refusez rien à ses contentements. </l>
+	<l id="301" syll="2" part="i">Allez. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="301" syll="4" part="m">Quelle rencontre ! </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="301" syll="6" part="f">Heureuse et salutaire </l>
+	<l id="302">Si l'eau ne cache pas un si lâche adversaire ; </l>
+	<l id="303">Heureuses milles fois si les destins plus doux </l>
+	<l id="304">En laissent la vengeance à mon juste courroux. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Célie, Cléone.</head>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="305">Ne dissimulez point, et tirez-moi de peine, </l>
+	<l id="306">Chez les Athéniens connaît-on Clarigène ? </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="307">Pourquoi ? Que craignez-vous ? On le cherche en tous lieux. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="308">Dites qu'on le poursuit, et vous parlerez mieux. </l>
+	<l id="309">Dites ne feignez point, où me vois-je réduite ?</l>
+	<l id="310">S'il faut pâtir encor j'y suis assez instruite. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="311">La crainte seulement vous fait ainsi parler. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="312">De tristes vérités vous font dissimuler. </l>
+	<l id="313">Hélas ! En cet état où le destin m'a mise, </l>
+	<l id="314">Vous ne pouvez m'aider que par votre franchise. </l>
+	<l id="315">N'appréhendez donc pas d'accroître mon ennui, </l>
+	<l id="316">Si Clarigène est mort que craindrai-je pour lui ? </l>
+	<l id="317">Et si ses actions le rendent si coupable, </l>
+	<l id="318">Que vos plus douces lois le rendent punissable, </l>
+	<l id="319">Son trépas, que je pleure, au moins le cachera, </l>
+	<l id="320">Et puisqu'il est sans honte il me consolera. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="321" syll="6" part="i">Mais l'aimez-vous si fort ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="321" syll="6" part="f">Oui Cléone je l'aime, </l>
+	<l id="322">Et je ne rougis pas de le dire moi-même ; </l>
+	<l id="323">Quand l'honneur fait l'amour, dont un coeur est brûlé </l>
+	<l id="324">Nous ne devons rougir que de l'avoir celé. </l>
+	<l id="325">Ainsi je ne feins pas, et je fuis toute ruse, </l>
+	<l id="326">De peur que votre feinte en la mienne s'excuse, </l>
+	<l id="327">Je vous montre en mes feux ce que j'ai de plus cher, </l>
+	<l id="328">Afin de vous apprendre à ne rien me rien cacher. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="329">De votre opinion vous faites votre gêne. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="330">Cléone répondez, poursuit-on Clarigène ? </l>
+	<l id="331">Par quelle injuste main peut-il être assailli. </l>
+	<l id="332">Pour être malheureux croit-on qu'il ait failli ? </l>
+	<l id="333">Et tient-on parmi vous cette étrange maxime </l>
+	<l id="334">Que les rigueurs du sort sont des marques de crime ? </l>
+	<l id="335">J'apprends d'un bruit confus, qui le condamne à tort </l>
+	<l id="336">Que de moins criminels ont mérité la mort. </l>
+	<l id="337">Enfin tout contribue à ma mélancolie, </l>
+	<l id="338" syll="6" part="i">De quoi l'accuse-t-on ? </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="338" syll="6" part="f">L'accuse-t-on Célie ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="339">Dissimulez, Cléone, autant qu'il est permis, </l>
+	<l id="340">Quand on craint d'augmenter les maux de ses amis, </l>
+	<l id="341">Mais sachez qu'une feinte est pour moi plus cruelle </l>
+	<l id="342">Que le récit mortel d'une triste nouvelle. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="343">Le Ciel vous affligea, vous en faites autant, </l>
+	<l id="344">Mais pour vous en divertir, allons où l'on m'attend. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="345">Allez, allez, Cléone, où le jeu vous invite, </l>
+	<l id="346">Pour moi je dois aux Dieux ma première visite, </l>
+	<l id="347">Aussi bien dans les maux, qui traversent mes jours, </l>
+	<l id="348">Ce n'est que de leurs mains que j'attends du secours. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="349">Je vais vous envoyer un Page qui vous mène. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME. Célie, Page.</head>
+<sp who="CÉLIE"><speaker>CÉLIE, seule.</speaker>
+	<l id="350">Que je trouve en tous lieux la fortune inhumaine ! </l>
+	<l id="351">J'ai fui de mon pays, où comme en des enfers, </l>
+	<l id="352">Tout était dans la flamme, ou bien dedans les fers, </l>
+	<l id="353">J'ai monté sur les eaux, où l'averse fortune, </l>
+	<l id="354">M'a cent fois en fureur représenté Neptune, </l>
+	<l id="355">Enfin j'ai craint partout les hommes ou le sort, </l>
+	<l id="356">Et tout ce que j'ai craint je le rencontre au port. </l>
+	<l id="357">Les plus affreux dangers ont épargné nos têtes, </l>
+	<l id="358">Et seulement le havre a pour nous des tempêtes : </l>
+	<l id="359">Ainsi par un malheur qui ne se peut changer, </l>
+	<l id="360">Le danger m'est un port, et le port un danger. </l>
+	<l id="361">Ô vous, dont la faveur est toujours salutaire, </l>
+	<l id="362">Dieux, quels voeux vous ferai-je, ou pourquoi dois-je en faire ? </l>
+	<l id="363">Ici loin d'espérance, ici loin de support, </l>
+	<l id="364">Je plains un malheureux, je redoute sa mort, </l>
+	<l id="365">Et voyant sans respect sa gloire poursuivie </l>
+	<l id="366">Je n'ose justes Dieux vous demander sa vie. </l>
+	<l id="367">Je le pleure perdu, par les flots enlevé, </l>
+	<l id="368">Et crains de le pleurer quand il sera trouvé. </l>
+	<l id="369">Regarde, cher amant, ce que ton sort me livre, </l>
+	<l id="370">Tu ne peux pour mon bien ni mourir ni revivre, </l>
+	<l id="371">Et je me vois réduite à ce point de malheurs, </l>
+	<l id="372">Que ta mort et ta vie ont pour moi des douleurs. </l>
+	<l id="373">Triste jeu du destin dont je suis poursuivie ! </l>
+	<l id="374">Je voudrais que ma mort pût défendre ta vie, </l>
+	<l id="375">Et comme si j'aidais au Démon qui te nuit, </l>
+	<l id="376">C'est moi qui te découvre au bras qui te poursuit, </l>
+	<l id="377">C'est moi qui te trahis, et si l'onde te cache, </l>
+	<l id="378">C'est moi pour ton malheur, c'est moi qui t'en arrache, </l>
+	<l id="379">Et qui m'instruit enfin par cet événement ; </l>
+	<l id="380">Qu'on peut aimer ensemble, et trahir un amant. </l>
+</sp>
+<sp who="UN PAGE"><speaker>UN  PAGE.</speaker>
+	<l id="381" syll="6" part="i">Vous mènerai-je au temple ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="381" syll="6" part="f">Allons, je désespère, </l>
+	<l id="382">Et si le Ciel me tue, il me sera prospère. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME. Télariste, Clarigène.</head>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="383">Ainsi vous me voyez, et c'est par ce secours </l>
+	<l id="384">Que les Dieux adoucis ont conservé mes jours. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="385">Un Pêcheur dites-vous, témoin de ce naufrage, </l>
+	<l id="386">Vous reçut dans sa barque, et vous mit au rivage. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="387">Ainsi je fus sauvé ; mais par quel autre sort </l>
+	<l id="388">Parmi tant de périls trouvâtes-vous le Port ? </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="389">Parmi tant de périls, qui me firent la guerre </l>
+	<l id="390">Des planches du vaisseau me portèrent à terre ; </l>
+	<l id="391">Je ne dis pas au port, parce que sans ta soeur, </l>
+	<l id="392">Je ne saurais goûter ce qu'il a de douceur. </l>
+	<l id="393">La fortune me tue, alors qu'elle m'en prive, </l>
+	<l id="394">Et ce bord m'est sans elle une infernale rive. </l>
+	<l id="395">Que nous eût été doux un redoutable écueil, </l>
+	<l id="396">Si pour trois malheureux, il n'eût fait qu'un cercueil ! </l>
+	<l id="397">Le Ciel nous a sauvés contre notre espérance, </l>
+	<l id="398">Mais ce bien n'est pour nous qu'un bien en apparence, </l>
+	<l id="399">Quel bien, et quel salut recevons-nous de lui </l>
+	<l id="400">Si malgré ses faveurs nous mourons en autrui ? </l>
+	<l id="401">Télariste, elle est morte, et ma fortune est telle </l>
+	<l id="402">Que je ne suis qu'horreur, et que rage sans elle, </l>
+	<l id="403">Je ne suis devant toi sans ce bel oeil éteint </l>
+	<l id="404">Que d'un homme perdu le portrait qui se plaint. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="405">N'égale point ton mal à mon ressentiment, </l>
+	<l id="406">Hélas tu n'es que frère et moi je suis Amant. </l>
+	<l id="407">L'amitié la plus forte, et la moins passagère </l>
+	<l id="408">Ne fait que des ruisseaux des larmes d'un vrai frère, </l>
+	<l id="409">Mais plus que l'amitié l'amour impérieux </l>
+	<l id="410">Fait des pleurs d'un amant des torrents furieux. </l>
+	<l id="411">Hélas si l'un se plaint, l'autre se désespère, </l>
+	<l id="412">Enfin je suis amant, et toi, tu n'es que frère. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="413">Tes ennuis sont les miens, j'endure même peine, </l>
+	<l id="414">Et du moins en douleur j'égale Clarigène.</l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="415">N'égale point ton mal à mon ressentiment, </l>
+	<l id="416">Hélas ! Tu n'es que frère et moi je suis Amant. </l>
+	<l id="417">L'amitié la plus forte, et la moins passagère </l>
+	<l id="418">Ne fais que des ruisseaux des larmes d'un vrai frère, </l>
+	<l id="419">Mais plus que l'amitié l'amour impérieux </l>
+	<l id="420">Fait des pleurs d'un amant des torrents furieux. </l>
+	<l id="421">Hélas ! Si l'un se plaint, l'autre se désespère, </l>
+	<l id="422">Enfin je suis amant, et toi, tu n'es que frère. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="423">Ne dessert point tant à ton ressentiment, </l>
+	<l id="424">Lorsqu'on aime en vrai frère, on endure en amant, </l>
+	<l id="425">Ce que fait dans ton coeur un amour tout de flamme </l>
+	<l id="426">Une sainte amitié le fait dedans mon âme ; </l>
+	<l id="427">Et ces deux passions sont d'illustres Tyrans, </l>
+	<l id="428">Qui ne sont entre nous que des noms différents. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="429" syll="2" part="i">Hélas ! </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="429" syll="10" part="f">Mais cherchons-la, peut-être qu'à même heure </l>
+	<l id="430">Que nous pleurons pour elle, elle-même nous pleure ; </l>
+	<l id="431">Notre salut nous vient de la bonté des Cieux, </l>
+	<l id="432">A-t-elle moins que nous mérité de nos Dieux ? </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="433">Ha c'est bien sans raison que tu veux que j'espère, </l>
+	<l id="434">Ou la terre ou la mer, ou le ciel m'est contraire. </l>
+	<l id="435">J'ai vu j'ai vu périr un chef-d'oeuvre si beau, </l>
+	<l id="436">Et le tombeau du jour est aussi son tombeau. </l>
+	<l id="437">Oui je l'ai vu périr, ha cruelle mémoire, </l>
+	<l id="438">Supplice d'un amant dont tu faisais la gloire ; </l>
+	<l id="439">Fais-moi de mon désastre un si triste rapport </l>
+	<l id="440">Que j'y trouve le trait qui me donne la mort. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="441">Que n'ai-je pu trouver le destin plus contraire, </l>
+	<l id="442">Et qu'au lieu de la soeur ne pleures-tu le frère. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="443">Ce n'est pas, Télariste, adoucir mes travaux, </l>
+	<l id="444">Que de me souhaiter un changement de maux. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="445" syll="3" part="i">Cherchons-la. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="445" syll="9" part="f">La fortune est pour moi si cruelle, </l>
+	<l id="446">Que pour la retrouver il faut mourir comme elle. </l>
+	<l id="447">Cherchons-la toutefois sur ces funestes bords, </l>
+	<l id="448">Pour mourir plus certains de la voir chez les morts. </l>
+	<l id="449">Va-t-en de ce côté, je prendrai cette route. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="450">Nous la retrouverons, je n'en fais point de doute. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="451" syll="6"  part="i">Tu me retrouveras. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="451" syll="6" part="f">Ici le rendez-vous. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE QUATRIÈME.</head>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE, seul.</speaker>
+	<l id="452">En l'état où je suis la mort est le plus doux. </l>
+	<l id="453">Toi qui fus autrefois l'honneur de la Nature, </l>
+	<l id="454">Toi qu'un bord inconnu laisse sans sépulture, </l>
+	<l id="455">Que ton esprit errant regarde nos transports, </l>
+	<l id="456">Et nous attire enfin où repose ton corps. </l>
+	<l id="457">Déjà se font paraître à mes tristes pensées, </l>
+	<l id="458">Par les coups de la mort tes beautés effacées, </l>
+	<l id="459">Déjà voyant ton front, qui fut digne des Dieux, </l>
+	<l id="460">J'y cherche avec effroi la place de tes yeux, </l>
+	<l id="461">J'y cherche cet éclat qui fut incomparable </l>
+	<l id="462">Et vois que tout est mort, où tout fut adorable ; </l>
+	<l id="463">J'y cherche les sujets de mon Ravissement </l>
+	<l id="464">Et je vois tout horrible où tout était charmant : </l>
+	<l id="465">Enfin je te crois voir en quelque bord étrange </l>
+	<l id="466">Comme un rebut des eaux dessus un lit de fange, </l>
+	<l id="467">Et je ne veux en toi tant d'horreur concevoir</l>
+	<l id="468">Que pour mourir d'horreur devant que de te voir. </l>
+	<l id="469">Que me pourrait servir une mourante vie </l>
+	<l id="470">Qu'à souhaiter sans fin qu'elle me fut ravie ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE CINQUIÈME. Célie, Page, Clarigène.</head>
+<sp who="CÉLIE"><speaker>CÉLIE, voyant Clarigène.</speaker>
+	<l id="471">Que vois-je ! Mais bons Dieux ce Page me nuira, </l>
+	<l id="472">Mon fils va-t-en au Port, entends ce qu'on dira, </l>
+	<l id="473">Vois si l'on a trouvé Clarigène et mon frère, </l>
+	<l id="474" syll="6" part="i">J'irai tantôt au temple. </l>
+</sp>
+<sp who="UN PAGE"><speaker>UN  PAGE.</speaker>
+	<l id="474" syll="6" part="f">Il faut vous satisfaire. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="475">Va ne t'arrête point, tâche de m'alléger, </l>
+	<l id="476">Et crois qu'on ne perd rien lorsqu'on peut m'obliger. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE, voyant Célie.</speaker>
+	<l id="477" syll="6" part="i">Mais que vois-je ! Est-ce vous ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="477" syll="6" part="f">Ô dieux que de délices </l>
+	<l id="478">Près de tant de tourment, près de tant de supplices ! </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="479">Je doute maintenant en cet heureux transport </l>
+	<l id="480">Si ce lieu m'est un Ciel ou seulement un port. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="481">Hélas ! Si c'est un Ciel il faut que je t'en chasse, </l>
+	<l id="482">Ton malheur t'y poursuit, ton destin t'y menace, </l>
+	<l id="483">Et loin d'y rencontrer la fin de mon tourment. </l>
+	<l id="484">T'y perdre et t'y trouver me gêne également. </l>
+	<l id="485" syll="2" part="i">Fuis donc. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="485" syll="4" part="f">Que dites-vous ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="485" syll="6" part="f">Fuis sans me contredire, </l>
+	<l id="486">T'imposer ce destin m'est un nouveau martyre, </l>
+	<l id="487" syll="6" part="i">Mais il n'importe, fuis. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="487" syll="6" part="f">Courtes félicités, </l>
+	<l id="488">Je sors d'un précipice, et vous m'y rejetez ! </l>
+	<l id="489">Pourquoi fuirais-je enfin d'un port si favorable ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="490">On te poursuit ici, de même qu'un coupable. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="491" syll="6" part="i">Moi ! Que m'impose-t-on ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="491" syll="6" part="f">Je ne l'ai pu savoir, </l>
+	<l id="492">Mon âme, n'attends pas qu'on te le fasse voir. </l>
+	<l id="493">Fuis de ces tristes lieux, n'attends pas que la terre </l>
+	<l id="494">Plus cruelle que l'eau te déclare la guerre, </l>
+	<l id="495">Ta présence me tue, et tu m'es un trésor </l>
+	<l id="496">Que je ne puis sauver qu'en te perdant encor. </l>
+	<l id="497">Ton absence m'assure où ton sort m'épouvante, </l>
+	<l id="498">Et savoir que tu vis suffit à ton amante. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="499">Quel sort prodigieux nous refuse la paix, </l>
+	<l id="500">Et qu'aurais-je pu faire, où je ne fus jamais ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="501">Quand le Ciel en fureur poursuit un misérable, </l>
+	<l id="502">Quelque innocent qu'il soit, il est partout coupable. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="503">S'il est partout coupable, et partout odieux </l>
+	<l id="504">En vain pour me sauver je fuirai de ces lieux. </l>
+	<l id="505">Si je trouve partout une égale poursuite </l>
+	<l id="506">À quoi me servira cette honteuse fuite ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="507">Au moins à contenter mon esprit amoureux </l>
+	<l id="508">À qui plus que son mal, ton mal est rigoureux. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="509">Ne craignez rien pour moi, je puis bien tout attendre, </l>
+	<l id="510">Quiconque est innocent a de quoi se défendre. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="511">Je te juge innocent autant que généreux </l>
+	<l id="512">Mais ce n'est pas assez lorsqu'on est malheureux. </l>
+	<l id="513">Fuis c'est là ton seul bien, que la fuite te cache. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="514">Nommerez-vous un bien, ce qui m'est une tache ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="515">Retire-toi d'ici, ne m'oppose plus rien </l>
+	<l id="516">Ce qui te peut sauver, je le nomme un grand bien. </l>
+	<l id="517">C'est lâcheté de fuir, quand on peut se défendre, </l>
+	<l id="518">Mais lorsqu'on ne le peut ; c'est un vice qu'attendre ; </l>
+	<l id="519">Cette loi de l'honneur si cher aux grands esprits </l>
+	<l id="520">À qui cède à propos donne même des prix : </l>
+	<l id="521">Fuis donc, et n'attends plus, un moment te peut nuire </l>
+	<l id="522">Et peut par ton exemple aujourd'hui t'en instruire, </l>
+	<l id="523">Fuis pour me contenter, et pour m'ôter des maux </l>
+	<l id="524">Que tes persécuteurs joindraient à mes travaux, </l>
+	<l id="525">Le coup qui te menace a mon âme abattue </l>
+	<l id="526">Et le trait qui te blesse est celui qui me tue. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="527">Quelque mal qui m'arrive après mon désespoir, </l>
+	<l id="528">Je ne puis trop payer le bien de te revoir. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="529">Assez te persécute une rage infernale </l>
+	<l id="530">Sans me rendre moi-même à ton salut fatale, </l>
+	<l id="531">Si l'amour t'empêchait de t'éloigner de moi </l>
+	<l id="532">Pour t'obliger à fuir, je fuirai devant toi ; </l>
+	<l id="533">Une fois pour mon bien j'ai su prendre la fuite </l>
+	<l id="534">Une fois pour le tien tu m'y verras réduite, </l>
+	<l id="535">Ne m'as-tu pas fait sortir d'un pays malheureux </l>
+	<l id="536">Que pour rendre en ce lieu mon sort plus rigoureux ? </l>
+	<l id="537">Et pouvais-je trouver au mal qui me consomme </l>
+	<l id="538">Un plus noble tombeau que le tombeau de Rome ? </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="539" syll="6" part="i">Quelles extrémités ! </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="539" syll="6" part="f">Ô dieux tout est perdu, </l>
+	<l id="540">Et tu t'es ruiné pour avoir attendu. </l>
+	<l id="541">Mais ne dis point ton nom. Monsieur voilà mon frère, </l>
+	<l id="542" syll="6" part="i">Et Clarigène est mort. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE SIXIÈME. Licidas, Célie, Clarigène.</head>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="542" syll="6" part="f">Le Ciel vous soit prospère, </l>
+	<l id="543" syll="6" part="i">Mais Clarigène vit. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="543" syll="6" part="f">Dieux soyez son support. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="544">Ainsi par les écueils on peut revenir au port. </l>
+	<l id="545">Vous le reconnaissez par l'heureuse fortune </l>
+	<l id="546">Qui vous tire du gouffre où préside Neptune, </l>
+	<l id="547">Et pour comble de biens, et de contentements </l>
+	<l id="548">Vous le reconnaîtrez par mes bons traitements, </l>
+	<l id="549">Si chez moi votre soeur a trouvé son asile </l>
+	<l id="550">Vous y rencontrerez le sort aussi facile</l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="551">C'est par ce seul accueil qui nous est un support </l>
+	<l id="552">Que nous devons juger que nous sommes au port. </l>
+	<l id="553">Et ce seul mal me reste après mille supplices </l>
+	<l id="554">De n'avoir que des voeux pour tous vos bons offices. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="555">C'est assez de vos voeux, si je vous fais du bien, </l>
+	<l id="556">Je m'acquitte envers vous, et ne vous donne rien. </l>
+	<l id="557">J'étais comblé d'ennuis, et par votre rencontre </l>
+	<l id="558">Au moins à mes douleurs le remède se montre. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="559">Nos maux nous serons doux, si vous en profitez. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="560">Oui je gagne beaucoup par vos adversités, </l>
+	<l id="561">Et pour vous être aussi moi-même salutaire </l>
+	<l id="562">Après tant d'accidents je ne dois rien vous taire. </l>
+	<l id="563">Je sais que mes discours vous blesseront d'abord, </l>
+	<l id="564">Qu'ils vous seront des traits pires que ceux du sort, </l>
+	<l id="565">Et qu'en ce même temps que je vous traite en père </l>
+	<l id="566">Vous m'allez accuser comme votre adversaire, </l>
+	<l id="567">Mais je sais bien aussi que ce même discours </l>
+	<l id="568">Qui semble vous blesser sera votre secours. </l>
+	<l id="569">Un traître vous suivait, et sa rage couverte </l>
+	<l id="570">A peut-être cent fois conspiré votre perte, </l>
+	<l id="571">Mais bien qu'il fût partout à vos pas attaché </l>
+	<l id="572">L'apparence d'ami vous la toujours caché. </l>
+	<l id="573">Enfin pour vous le dire, et vous ôter de peine </l>
+	<l id="574">C'est même à mon regret l'infâme Clarigène. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="575" syll="6" part="i">L'infâme Clarigène. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="575" syll="3" part="m">Oui mon fils. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="575" syll="3" part="f">Justes Dieux. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="576">Il s'est pourtant acquis des noms plus glorieux. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="577">On ne le connaît pas aux lieux où l'on l'estime. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="578">On le connaît bien moins aux lieux où l'on l'opprime. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="579">Mais enfin qu'a-t-il fait d'injuste et d'outrageux. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="580">Une infidélité qui vous blesse tous deux. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="581">Une infidélité ! Bons Dieux, que dois-je croire ? </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="582">Ne t'imagine rien qui ne soit à sa gloire, </l>
+	<l id="583">Mais pardonnez, Monsieur, à mon affection </l>
+	<l id="584">Si j'ai de Clarigène une autre opinion. </l>
+	<l id="585">Je serais criminel, je serais condamnable </l>
+	<l id="586">Si je croyais trop tôt qu'un ami fut coupable, </l>
+	<l id="587">Pardonnez donc Monsieur, au trouble où je me vois, </l>
+	<l id="588">Quand je parle pour lui je crois parler pour moi. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="589">Vous faites le devoir d'un ami véritable, </l>
+	<l id="590">Mais par quelque vertu qu'il vous paraisse aimable, </l>
+	<l id="591">Vous avouerez bientôt que c'est avec raison </l>
+	<l id="592">Qu'il vient d'être conduit aux fers d'une prison. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="593" syll="6" part="i">Quoi Clarigène est pris ! </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="593" syll="6" part="f">Il est pris ce Corsaire. </l>
+	<l id="594">Qui sous le nom d'amant était votre adversaire. </l>
+	<l id="595">Bien plutôt que le Ciel, l'enfer vous l'eût donné, </l>
+	<l id="596">Mais le Dieu qui vous garde a ce coup détourné. </l>
+	<l id="597">Il vous sauve deux fois, et vous le fait paraître </l>
+	<l id="598">En vous tirant des flots, et vous ôtant ce traître ; </l>
+	<l id="599">Tant que d'un vrai mérite, il sembla revêtu </l>
+	<l id="600">L'amour dont vous brûliez était une vertu ; </l>
+	<l id="601">Mais puisque sa vertu ne fut qu'un artifice </l>
+	<l id="602">Si vous l'aimez encor, votre amour est un vice. </l>
+	<l id="603">Déjà par la raison votre frère conduit </l>
+	<l id="604">Voit et connaît l'erreur, dont il était séduit, </l>
+	<l id="605">Et son coeur amoureux de votre seule gloire </l>
+	<l id="606">Déjà par ses regards vous parle de me croire. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="607">Je fais de vos conseils, et ma gloire et mes biens </l>
+	<l id="608">Et je voudrais les suivre aussitôt que les siens, </l>
+	<l id="609">Mais peut-on m'inspirer l'horreur de Clarigène </l>
+	<l id="610">Sans me montrer au moins une cause de haine ? </l>
+	<l id="611">Veut-on qu'en cet amant aujourd'hui malheureux, </l>
+	<l id="612">Je condamne le choix d'un père généreux ? </l>
+	<l id="613">Si l'honneur seulement est l'esprit qui l'anime, </l>
+	<l id="614">C'est ce me semble assez pour le croire sans crime ; </l>
+	<l id="615">Un soupçon contre lui n'est pas assez puissant, </l>
+	<l id="616">Puisqu'il aime la gloire il doit être innocent, </l>
+	<l id="617">Et s'il est innocent, et de crime incapable, </l>
+	<l id="618">C'est ce me semble assez pour être encore aimable. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="619">Si Clarigène souffre, il n'a point de tourments </l>
+	<l id="620">Que ce discours ne change en des contentements, </l>
+	<l id="621">Mais ne négligeons pas ce qu'on en peut apprendre ; </l>
+	<l id="622">L'amour nous sait tromper comme il sait nous surprendre ; </l>
+	<l id="623">Il faut peu se fier à ses attraits flatteurs, </l>
+	<l id="624">Il ne trompe jamais que ses adorateurs, </l>
+	<l id="625">Et ne donne après tout à nos âmes blessées, </l>
+	<l id="626">Pour les sujets aimés, que de nobles pensées. </l>
+	<l id="627">Sachons donc ce qu'a fait ce malheureux amant. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="628">Vous parlez en vrai frère, et certes justement, </l>
+	<l id="629">Mais retournons chez moi, c'est là, cher Télariste, </l>
+	<l id="630">Que vous aurez horreur d'une histoire si triste. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Clarigène, Célie.</head>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="631">M'accuser de ce Rapt, et croire m'avoir pris, </l>
+	<l id="632">Ce sont des accidents qui troublent mes esprits, </l>
+	<l id="633">Mais me voir au hasard de ressentir ta haine, </l>
+	<l id="634">C'est mon plus grand malheur et ma plus grande peine. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="635">Ne crains pas qu'un soupçon rompe notre lien, </l>
+	<l id="636">Je t‘aurais vu faillir que je n'en croirais rien. </l>
+	<l id="637">Quoi qu'on me fasse voir, et quoi que l'on t'impose, </l>
+	<l id="638">J'écoute la vertu qui plaide ici ta cause ; </l>
+	<l id="639">C'est un juste témoin qu'on ne peut soupçonner. </l>
+	<l id="640">. . . . . . . . . . </l>
+<note type="C">Ici il manque théoriquement 8 pages, car on passe de la page 40 à 49.</note>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="641" syll="9" part="i">. . . . . M'aimez-vous ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="641" syll="3" part="f">Je t'adore. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="642">Et vous me conseillez ce qui me déshonore ! </l>
+	<l id="643">Si je suis innocent, que dois-je appréhender ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="644">Que le Ciel irrité cesse de te garder. </l>
+	<l id="645">Il offre à ton salut une fuite facile, </l>
+	<l id="646">Et tu rends au besoin sa faveur inutile, </l>
+	<l id="647">Crains qu'il ne t'abandonne au courroux des humains </l>
+	<l id="648">Pour avoir refusé le secours de ses mains. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="649" syll="2" part="i">N'importe. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="649" syll="10" part="f">Va-t-en donc, que ton âme contente, </l>
+	<l id="650">N'écoute les conseils ni d'ami, ni d'amante, </l>
+	<l id="651">Mais apprends qu'un esprit jusques là s'enflammant, </l>
+	<l id="652">Ne mérite les noms ni d'ami, ni d'amant. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="653">Mais juge en ma faveur qu'il est plus honorable, </l>
+	<l id="654">De mourir innocent que de fuir en coupable ; </l>
+	<l id="655">Ou plutôt ne crois pas qu'une bonne action </l>
+	<l id="656">Ait mérité des Dieux une punition. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="657">Appréhende pourtant bien souvent l'apparence, </l>
+	<l id="658">Même avec infamie a perdu l'innocence.</l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="659">Pardonne-moi, Célie, et permets qu'une fois </l>
+	<l id="660">Pour sauver mon honneur je sois sourd à ta voix. </l>
+	<l id="661">Malgré moi maintenant ma fortune m'entraîne, </l>
+	<l id="662">Et ne t'obéir pas est ma faute et ma peine ; </l>
+	<l id="663">Si je ne suis tes voeux en l'état où je suis, </l>
+	<l id="664">Crois que je le voudrais et que je ne le puis. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME.</head>
+<sp who="CÉLIE"><speaker>CÉLIE, seule.</speaker>
+	<l id="665">Hélas ! Il s'abandonne où le mal est extrême, </l>
+	<l id="666">Trop d'amitié le rend ennemi de soi-même ; </l>
+	<l id="667">Et comme si mes maux n'avaient rien d'assez grand, </l>
+	<l id="668">Il se dérobe à moi, quand le Ciel me le rend. </l>
+	<l id="669">Aveugle à ta ruine, insensible à ma peine, </l>
+	<l id="670">Meilleur ami qu'amant, furieux Clarigène, </l>
+	<l id="671">Coupable seulement dans ton sort rigoureux, </l>
+	<l id="672">De hasardez en toi l'innocent malheureux, </l>
+	<l id="673">Faut-il que dans mon coeur l'amour ait cette honte, </l>
+	<l id="674">De voir que dans le tien l'amitié le surmonte ? </l>
+	<l id="675">M'aimes-tu seulement pour me persécuter ? </l>
+	<l id="676">Et n'es-tu généreux que pour me tourmenter ? </l>
+	<l id="677">Je ne sais si les Dieux rigoureux ou propices, </l>
+	<l id="678">Me font trouver en toi mes maux ou mes délices ; </l>
+	<l id="679">Et ne puis dire enfin si le Ciel m'obligea, </l>
+	<l id="680">Lorsque de cent périls son soin me dégagea. </l>
+	<l id="681">J'ai redouté dans Rome une force étrangère, </l>
+	<l id="682">J'ai craint dessus les flots leur funeste colère, </l>
+	<l id="683">Et j'apprends aujourd'hui par un nouveau tourment </l>
+	<l id="684">Que j'ai dû redouter mon salut seulement. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME. Cléone, Célie.</head>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="685">Quoi toujours dans les pleurs, et toujours affligée ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="686">C'est un triste devoir où je suis obligée. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="687">Vous avez toutefois de quoi vous soulager. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="688">Oui, Cléone, il est vrai, j'ai de quoi m'alléger, </l>
+	<l id="689">En ce que ma douleur se rends assez profonde, </l>
+	<l id="690">Pour dérober ma vie aux traverses du monde. </l>
+	<l id="691">Plus mon deuil sera fort, plus mes maux seront grands </l>
+	<l id="692">Et plus j'approcherai du repos que j'attends. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="693">Un sujet plus heureux, vous dois tirer de peine, </l>
+	<l id="694" syll="6" part="i">Votre frère est trouvé. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="694" syll="6" part="f">Mais je perds Clarigène. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="695">Ce n'est pas maintenant, qu'il faut dissimuler, </l>
+	<l id="696">Ce que vous en savez, vous devrait consoler. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="697">Ce que je sais de lui finirait mon supplice, </l>
+	<l id="698">Si les Dieux permettaient qu'on lui rendît justice. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="699" syll="6" part="i">Vous devez l'espérer. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="699" syll="6" part="f">J'espère, mais je crains </l>
+	<l id="700">Ce que la passion peut dessus les humains. </l>
+	<l id="701">Encore que les lois soient un commun refuge </l>
+	<l id="702">L'innocent doit trembler tant que l'homme est son juge. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="703">La justice est ici comme en la main des Dieux, </l>
+	<l id="704">Et toujours l'innocent en sort victorieux. </l>
+	<l id="705">Ne vous plaignez donc pas du sort de Clarigène ; </l>
+	<l id="706">S'il est ici sans crime, il y sera sans peine : </l>
+	<l id="707">Et s'il est criminel, c'est bien injustement, </l>
+	<l id="708">Que vous versez des pleurs pour un coupable amant. </l>
+	<l id="709">Mais je veux qu'en son coeur la vertu toute pure, </l>
+	<l id="710">Soit de ses actions la règle et la mesure, </l>
+	<l id="711">Cette crainte excessive et ce profond ennui </l>
+	<l id="712">Sont en vous des témoins qui parlent contre lui. </l>
+	<l id="713">Retenez donc ces pleurs, où la peur vous engage, </l>
+	<l id="714">Craindre pour l'innocent est lui faire un outrage, </l>
+	<l id="715">Et souvent contre lui son malheur a permis </l>
+	<l id="716">Que l'on ait employé les pleurs se ses amis. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="717">Si je fais de mes pleurs un torrent pitoyable, </l>
+	<l id="718">Je pleure un malheureux et non pas un coupable, </l>
+	<l id="719">Et si je crains pour lui de sinistres effets, </l>
+	<l id="720">Son malheur me fait craindre et non pas ses forfaits. </l>
+	<l id="721">J'aime, et cela suffit pour pleurer, pour me plaindre, </l>
+	<l id="722">Et pour craindre en tous lieux ce qui n'est pas à craindre. </l>
+	<l id="723">Hélas ! À quelque excès que montent mes douleurs, </l>
+	<l id="724">Si vous avez aimé vous approuvez mes pleurs, </l>
+	<l id="725">Et de quelques grands soins dont on me trouve atteinte, </l>
+	<l id="726">Si vous avez aimé vous approuvez ma crainte. </l>
+	<l id="727">Vous savez quels soucis l'amour verse sur nous, </l>
+	<l id="728">Et vous louez en moi ce qu'il ferait en vous. </l>
+	<l id="729">Que si jamais ce feu qui consume nos âmes, </l>
+	<l id="730">N'étendit jusqu'à vous ses dévorantes flammes, </l>
+	<l id="731">N'en puissiez-vous jamais ressentir les chaleurs, </l>
+	<l id="732">Qui de nos plus beaux jours sèchent toutes les fleurs. </l>
+	<l id="733">Ou c'est un destin que l'amour indomptable, </l>
+	<l id="734">Ait réservé pour vous un trait inévitable, </l>
+	<l id="735">N'en puissiez-vous avoir que les contentements </l>
+	<l id="736">De même que mon coeur n'en a que les tourments. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="737">Je ne reconnaîtrai des souhaits si propices, </l>
+	<l id="738">Qu'en souhaitant pour vous de semblables délices. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="739">En l'état malheureux où me laisse le sort, </l>
+	<l id="740">Pour souhaiter mon bien, souhaitez-moi la mort. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="741">Vous n'avez point de maux que le Ciel ne guérisse. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="742">Ha ! Je n'ai point de maux que lui-même n'aigrisse, </l>
+	<l id="743">S'il m'abandonne enfin, qui peut me secourir ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE QUATRIÈME. Cléone, Célie, Polémon.</head>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="744" syll="6" part="i">Mais voici Polémon. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="744" syll="6" part="f">Hé bien, faut-il mourir, </l>
+	<l id="745">Ai-je comme le Ciel la justice adversaire ? </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="746">Le Ciel se lassera de vous être contraire ; </l>
+	<l id="747" syll="6" part="i">Mais le Sénat vous mande. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="747" syll="6" part="f">Il me manderait ? Moi !</l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="748">Cet homme me l'a dit, et vous saurez pourquoi. </l>
+	<l id="749">Sur un point important tout le Sénat en peine </l>
+	<l id="750">Veut par votre secours connaître Clarigène. </l>
+	<l id="751">Comme on l'interrogeait, un autre est survenu </l>
+	<l id="752">Étranger courageux, à chacun inconnu. </l>
+	<l id="753">Je suis, a-t-il crié, je suis ce misérable </l>
+	<l id="754">Que pense interroger un Sénat équitable, </l>
+	<l id="755">Je suis ce Clarigène en ce seul point heureux, </l>
+	<l id="756">D'avoir à ma défense un ami généreux. </l>
+	<l id="757">Quiconque en cet état l'a vu si magnanime </l>
+	<l id="758">A cru voir la vertu qui s'accusait d'un crime. </l>
+	<l id="759">Le Sénat a loué cet acte solennel, </l>
+	<l id="760">Et redouté pour lui qu'il fut le criminel ; </l>
+	<l id="761">L'autre non moins touché du désir de la gloire, </l>
+	<l id="762">Lui dispute aussitôt son nom et la victoire ; </l>
+	<l id="763">Et l'on a craint alors pour ce coeur indompté </l>
+	<l id="764">Ce que pour le premier on avait redouté. </l>
+	<l id="765">Ainsi dans un combat, et si noble et si triste </l>
+	<l id="766">Tous deux sont Clarigène, et tous deux Télariste, </l>
+	<l id="767">Ainsi l'on eût jugé que ces nobles esprits </l>
+	<l id="768">Au lieu d'un châtiment venaient poursuivre un prix. </l>
+	<l id="769">Licidas étonné de leur amour extrême </l>
+	<l id="770">En les persécutant les admire lui-même ; </l>
+	<l id="771">Mais enfin il se lève, et remontre au Sénat </l>
+	<l id="772">Que vous pouvez finir un si fameux débat. </l>
+	<l id="773">On prononce aussitôt qu'on vous ferait paraître, </l>
+	<l id="774">À dessein seulement de les faire connaître. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="775">Ô plus cruel arrêt, que les feux et les eaux, </l>
+	<l id="776">Qui nous ont tant de fois présenté des tombeaux ! </l>
+	<l id="777">Hélas ! Si mon destin eût de la violence, </l>
+	<l id="778">C'est ici seulement que la rage commence. </l>
+	<l id="779">Tant de traitements soufferts, tant de peurs, tant ennuis, </l>
+	<l id="780">N'étaient que les chemins des troubles où je suis. </l>
+	<l id="781">Ce n'est donc pas assez, pour me consoler de peine, </l>
+	<l id="782">Que sur moi la fortune ait épuisé sa haine, </l>
+	<l id="783">Elle n'aurait donc plus de quoi me tourmenter </l>
+	<l id="784">Si je n'aidais moi-même à me persécuter. </l>
+	<l id="785">Que ferai-je, Cléone, en un mal incurable, </l>
+	<l id="786">En un mal si nouveau, qu'il paraît une fable, </l>
+	<l id="787">Et pour me délivrer d'un si funeste faix, </l>
+	<l id="788">Quel exemple suivrai-je où l'on n'en eût jamais ? </l>
+	<l id="789">Hélas ! Quoi que je fasse, et que je délibère, </l>
+	<l id="790">Si je veux un amant, il faut détruire un frère ; </l>
+	<l id="791">Et si fort le destin conspire à mon tourment, </l>
+	<l id="792">Que si je veux un frère, il faut perdre un amant. </l>
+	<l id="793">Ô Dieux inspirez-moi, si je suis misérable, </l>
+	<l id="794">Permettez pour le moins que je sois équitable. </l>
+	<l id="795">La nature et l'amour combattent dans mon coeur, </l>
+	<l id="796">Montrez-moi, justes Dieux, qui doit être vainqueur. </l>
+	<l id="797">Ha quelques grands assauts, que mon amour me livre </l>
+	<l id="798">La nature est ici la loi que je dois suivre,</l>
+	<l id="799">Et vouloir consulter en cette extrémité, </l>
+	<l id="800">Pour moi, pour une soeur est une impiété : </l>
+	<l id="801">Mais quelques justes lois que la nature fasse, </l>
+	<l id="802">Un amour aussi juste en même temps l'efface. </l>
+	<l id="803">Si le Ciel, si mon père, et mon consentement, </l>
+	<l id="804">Ainsi que mon époux me font suivre un amant, </l>
+	<l id="805">Dois-je moins respecter en pareille aventure </l>
+	<l id="806">Les noeuds que fait le Ciel, que ceux de la nature ? </l>
+	<l id="807">À qui ferai-je donc un plus doux traitement, </l>
+	<l id="808">Hélas ! L'un est mon frère et l'autre est mon amant ; </l>
+	<l id="809">Et de quelque côté que j'incline moi-même, </l>
+	<l id="810">Je ne saurais juger que contre ce que j'aime. </l>
+	<l id="811">Grande et nouvelle guerre, où dans un même coeur, </l>
+	<l id="812">Une amante aujourd'hui combat contre une soeur ! </l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Polémon, Licidas.</head>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="813">N'êtes-vous pas touché d'un si noble courage ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="814">Comme je suis touché par celui qui m'outrage : </l>
+	<l id="815">Quoi qu'ils nous fassent voir de grand, de glorieux, </l>
+	<l id="816">Leur générosité n'est qu'un monstre à mes yeux. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="817">Jamais une amitié n'eût des preuves plus claires. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="818">On voit de l'amitié même entre les Corsaires.</l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="819">Leur action fait voir qu'ils sont d'un autre rang. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="820">Ce titre est bien acquis, à qui m'ôte mon sang. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="821">Vous devez mieux traiter une vertu si rare. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="822">Un Père qui se venge est justement barbare. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="823">Je sais bien qu'en un père affligé comme vous </l>
+	<l id="824">L'excès est légitime, et permis au courroux, </l>
+	<l id="825">Mais il faut empêcher que s'il est pardonnable </l>
+	<l id="826">Il ne produise au moins un effet condamnable. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="827">Condamnable ! Comment, s'il est juste et permis ? </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="828">D'user de cruauté contre vos ennemis, </l>
+	<l id="829">De trop précipiter une importante affaire, </l>
+	<l id="830">Dont le retardement leur serait nécessaire. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="831">On n'agit point trop tôt lorsque c'est justement, </l>
+	<l id="832">Et qui veut du secours hait le retardement. </l>
+	<l id="833">J'attends depuis deux ans cette heureuse journée </l>
+	<l id="834">Qu'à mon soulagement le Ciel a destinée, </l>
+	<l id="835">J'attends depuis deux ans à venger un affront, </l>
+	<l id="836">Et tu veux m'accuser d'être encore trop prompt ! </l>
+	<l id="837">Veux-tu voir les raisons de ma juste colère ? </l>
+	<l id="838">Considère ma perte, et vois que je suis père. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="839">On ouvre, et le Sénat est encore assemblé. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME. Dicée, Célie, Clarigène, Télariste.</head>
+<sp who="DICÉE"><speaker>DICÉE, parlant à Célie.</speaker>
+	<l id="840">Rendez ici le calme à votre esprit troublé. </l>
+	<l id="841" syll="6" part="i">Quel est votre pays ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="841" syll="6" part="f">Rome enfin ruinée, </l>
+	<l id="842">Et ma condition est d'être infortunée. </l>
+</sp>
+<sp who="DICÉE"><speaker>DICÉE.</speaker>
+	<l id="843" syll="6" part="i">Connaissez-vous ceux-ci. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="843" syll="6" part="f">J'expirerais pour eux, </l>
+	<l id="844">Ils sont tous deux Romains, et tous deux généreux, </l>
+	<l id="845">Ils vous l'ont bien appris par leur noble querelle. </l>
+</sp>
+<sp who="DICÉE"><speaker>DICÉE.</speaker>
+	<l id="846">Vous savez le sujet pourquoi l'on vous appelle, </l>
+	<l id="847">Votre frère se perd, et s'il est en danger </l>
+	<l id="848">Ce n'est que votre main qui l'en peut dégager. </l>
+	<l id="849">Pour un ami coupable il veut se mettre en peine, </l>
+	<l id="850">Doncques pour le sauver montrez-nous Clarigène. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="851">Il se montre lui-même, il fait assez de bruit, </l>
+	<l id="852">C'est en moi qu'on le voit, et que l'on le poursuit. </l>
+	<l id="853">Je suis ce malheureux, je suis ce Clarigène, </l>
+	<l id="854">À qui même un ami sert aujourd'hui de gêne. </l>
+	<l id="855">À qui par un destin triste en événements, </l>
+	<l id="856">Tous les soins d'un ami sont autant de tourments. </l>
+	<l id="857">Regarde Télariste, où me porte ton zèle, </l>
+	<l id="858">Tu me perces le coeur pour m'être trop fidèle, </l>
+	<l id="859">Tu ramènes mes maux en pensant les chasser, </l>
+	<l id="860">Et m'étouffes enfin quand tu crois m'embrasser. </l>
+	<l id="861">Ne t'oppose donc plus au malheur qui m'outrage, </l>
+	<l id="862">Avec moins d'amitié tu me plais davantage ; </l>
+	<l id="863">Permets donc que j'expire avec ce peu de mal, </l>
+	<l id="864">D'être à moi seulement et funeste et fatal. </l>
+	<l id="865">Vis avecque ta soeur, ton ami t'en conjure, </l>
+	<l id="866">Et croit que ton refus est pour elle une injure. </l>
+	<l id="867">Dans ce nouveau sujet de tristesse et d'effroi, </l>
+	<l id="868">Parle ne confonds rien, lui dois-tu moins qu'à moi ? </l>
+	<l id="869">Dois-tu plus de respect à ce noeud qui nous lie, </l>
+	<l id="870">Qu'à ce puissant lien qui t'attache à Célie ?</l>
+	<l id="871">Ô vous qui disposez du destin des humains, </l>
+	<l id="872">Qu'une triste fortune a mis entre vos mains, </l>
+	<l id="873">Écoutez en moi seul un témoin véritable, </l>
+	<l id="874">Qui parle contre soi peut bien être croyable, </l>
+	<l id="875">Et dans l'infâme sort dont mon mal est accru, </l>
+	<l id="876">Laissez-moi pour le moins la gloire d'être cru. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="877">Ne cherche point ici cette inutile gloire, </l>
+	<l id="878">D'abuser un Sénat, et de te faire croire. </l>
+	<l id="879">Par l'illustre action dont tu charmes ces lieux, </l>
+	<l id="880">Le noble Télariste est assez glorieux ; </l>
+	<l id="881">Et pour me consoler des maux que l'on me livre, </l>
+	<l id="882">Cède à la vérité, cesse de te poursuivre, </l>
+	<l id="883">Par cet acte d'amour, dont tu t'es signalé, </l>
+	<l id="884">Le triste Clarigène est assez consolé. </l>
+	<l id="885">Donc pour d'autres combats réserve ton courage, </l>
+	<l id="886">Ne sois pas généreux à mon désavantage ; </l>
+	<l id="887">Veux-tu que ton ami fasse une lâcheté, </l>
+	<l id="888">Pour mieux faire éclater ta générosité ? </l>
+	<l id="889">Rendre pour me sauver ta perte inévitable, </l>
+	<l id="890">C'est rendre ton ami de ta perte coupable, </l>
+	<l id="891">Ainsi croyant m'ôter d'un injuste tourment, </l>
+	<l id="892">Tu me mets en état de souffrir justement ; </l>
+	<l id="893">Ainsi tu me fais voir par un Zèle invincible, </l>
+	<l id="894">Qu'un ami trop parfait est quelquefois nuisible, </l>
+	<l id="895">Ne te trahis donc plus pour me favoriser, </l>
+	<l id="896">Ne m'offre plus un bien que je dois refuser, </l>
+	<l id="897">Accepter à ton dam cette faveur insigne, </l>
+	<l id="898">C'est et d'elle et de toi me déclarer indigne, </l>
+	<l id="899">Et c'est par ce refus, que tu souffres de moi, </l>
+	<l id="900">Que je me puis montrer digne d'elle et de toi. </l>
+	<l id="901">Je ne puis profiter d'une injustice extrême, </l>
+	<l id="902">Qu'un ami généreux exerce sur lui-même ; </l>
+	<l id="903">Et tu ne peux enfin me donner du support, </l>
+	<l id="904">Qu'en me laissant aller où m'entraîne mon sort. </l>
+	<l id="905">Tu veux périr pour moi, mais hélas, considère, </l>
+	<l id="906">Pour être bon ami tu te rends mauvais frère. </l>
+	<l id="907">Laisseras-tu ta soeur contre toutes les lois ? </l>
+	<l id="908">Et peux-tu me donner un sang que tu lui dois ? </l>
+	<l id="909">Ne joins pas à ses maux cette peine nouvelle, </l>
+	<l id="910">De te voir pour autrui plus touché que pour elle ; </l>
+	<l id="911">Vois que l'abandonner est une cruauté, </l>
+	<l id="912">Qui passe et qui ternit ta générosité ; </l>
+	<l id="913">Rends-toi donc à ta soeur que son deuil te surmonte, </l>
+	<l id="914">En cette occasion l'on est vaincu sans honte ; </l>
+	<l id="915">Être frère insensible, être frère à demi, </l>
+	<l id="916">Efface justement la gloire d'être ami. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="917" syll="2" part="i">C'est moi. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="917" syll="10" part="f">C'est moi, Seigneurs, que le Ciel persécute. </l>
+</sp>
+<sp who="DICÉE"><speaker>DICÉE.</speaker>
+	<l id="918">C'est trop longtemps souffrir une vaine dispute. </l>
+	<l id="919">Montrez-nous Clarigène, et sans plus différer, </l>
+	<l id="920">Finissez un combat qu'ils ont trop fait durer. </l>
+	<l id="921">À quelque extrémité que son destin le range, </l>
+	<l id="922">Innocent ou coupable, il n'est pas sans louange. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="923">Il faut enfin céder à la force du droit, </l>
+	<l id="924">Et rendre à l'équité l'hommage qu'on lui doit. </l>
+	<l id="925">Toi que traite le Ciel de même qu'un coupable, </l>
+	<l id="926">Et de qui tout le crime est d'être misérable, </l>
+	<l id="927">Pardonne Clarigène à la nécessité, </l>
+	<l id="928">Où me réduit l'honneur et la fatalité. </l>
+	<l id="929">Célie en te montrant ne croit pas te déplaire, </l>
+	<l id="930">Puisqu'elle ne fait rien que tu ne veuilles faire, </l>
+	<l id="931">Et qu'en l'extrémité, qui lui défend le choix, </l>
+	<l id="932">Elle suit un conseil, que tu lui donnerais : </l>
+	<l id="933">Non, non, je ne crois pas que je te sois contraire, </l>
+	<l id="934">En t'exposant aux yeux d'un puissant adversaire ; </l>
+	<l id="935">Qu'il soit fort, qu'il soit grand, je n'en ai point d'effroi, </l>
+	<l id="936">Ce serait t'offenser que de craindre pour toi ; </l>
+	<l id="937">Quoi que pour te gêner l'enfer fasse paraître, </l>
+	<l id="938">Je n'appréhende pas de te faire connaître, </l>
+	<l id="939">Puisqu'il est assuré qu'en dépit de ton sort, </l>
+	<l id="940">Ta vertu fera voir que l'on t'accuse à tort. </l>
+<stage type="toward">Elle montre Clarigène.</stage>
+	<l id="941" syll="6" part="i">Voilà donc Clarigène. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="941" syll="6" part="f">Ô Dieux est-il possible, </l>
+	<l id="942">Que jusques à ce point vous soyez in sensible, </l>
+	<l id="943">Que par le sang d'un frère immolé lâchement </l>
+	<l id="944">Vous vouliez acheter le salut d'un amant ? </l>
+	<l id="945">Ne croyez pas, Seigneurs, la passion extrême, </l>
+	<l id="946">Qui la rend outrageuse à la nature même, </l>
+	<l id="947">Elle m'aime, je l'aime, et l'amour peut prouver, </l>
+	<l id="948">Qu'aux dépends de son frère elle veut me sauver. </l>
+	<l id="949">Elle lui donne ensemble, et mon nom, et mon crime, </l>
+	<l id="950">Veut pour ma délivrance en faire une victime, </l>
+	<l id="951">Et pour me surmonter par sa fidélité, </l>
+	<l id="952">Elle se laisse aller jusqu'à l'impiété. </l>
+	<l id="953">Détournez cette horreur qu'elle attire sur elle, </l>
+	<l id="954">La nature s'en plaint comme d'une rebelle, </l>
+	<l id="955">Et moi même confus de ce qu'elle a tenté, </l>
+	<l id="956">Je déteste un dessein dont j'aurais profité. </l>
+	<l id="957">Si la fille amoureuse a su trahir son Père, </l>
+	<l id="958">Une amoureuse soeur peut bien trahir son frère. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="959">Juge mieux de ta soeur par ce juste devoir, </l>
+	<l id="960">Qui s'est acquis sur elle un absolu pouvoir. </l>
+	<l id="961">Qui le croirait, Seigneurs, qu'une fille bien née, </l>
+	<l id="962">À ce dérèglement se fut abandonnée ? </l>
+	<l id="963">Quand l'amour a fait voir ces étranges effets, </l>
+	<l id="964">Il ne les a formés qu'en des esprits mal faits. </l>
+	<l id="965">Ce n'est pas en ta soeur que l'amour est barbare, </l>
+	<l id="966">Il ne peut être aveugle en une âme si rare, </l>
+	<l id="967">Et s'il avait les feux d'un insolent vainqueur, </l>
+	<l id="968">Il les épurerait dans un si noble coeur. </l>
+	<l id="969">Ailleurs en souverain l'amour se fait paraître, </l>
+	<l id="970">Mais il connaît ici que l'honneur est son maître. </l>
+	<l id="971">Ne t'impose donc plus le nom de ravisseur, </l>
+	<l id="972">Ne conseille donc plus la honte de ta soeur. </l>
+	<l id="973">Souffre qu'elle te sauve, endure qu'elle t'aime, </l>
+	<l id="974">Ce n'est qu'en te sauvant qu'elle agit pour moi-même, </l>
+	<l id="975">Et si l'amour que j'ai peut encore monter, </l>
+	<l id="976">Ce n'est qu'en te sauvant qu'elle peut l'augmenter. </l>
+	<l id="977">Vous qui cachez des Dieux sous une forme humaine, </l>
+	<l id="978">Justes dispensateurs du prix ou de la peine, </l>
+	<l id="979">Pour terminer enfin ce fameux différent, </l>
+	<l id="980">Suivez le plus honnête et le plus apparent. </l>
+	<l id="981">C'est faire à la nature une injure mortelle, </l>
+	<l id="982">De croire que l'amour ait plus de force qu'elle. </l>
+</sp>
+<sp who="DICÉE"><speaker>DICÉE.</speaker>
+	<l id="983">Ma fille, éclaircissez ce qu'ils ont obscurci, </l>
+	<l id="984">Dissipez nos soupçons, ôtez-nous de soucis, </l>
+	<l id="985">Si l'amour a failli, montrez-vous plus parfaite, </l>
+	<l id="986">Corrigez sans rougir la faute qu'il a faite, </l>
+	<l id="987">Et par un désaveu plein d'un juste courroux, </l>
+	<l id="988">Faites-nous voir qu'en vous, il a failli sans vous. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="989">Non, non, ce chaste amour, est un Dieu dans mon âme, </l>
+	<l id="990">Et par cette raison incapable de blâme ; </l>
+	<l id="991">Et par cette raison plus juste qu'on ne croit, </l>
+	<l id="992">Si je voulais faillir il m'en empêcherait. </l>
+	<l id="993">Voilà donc Clarigène ; hélas l'ai-je pu dire, </l>
+	<l id="994">Ou le dirai-je encor qu'aussitôt je n'expire ? </l>
+	<l id="995">Ne m'interrogez plus, j'ai fait ce que je dois, </l>
+	<l id="996">Et j'ai percé mon coeur pour la seconde fois. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="997" syll="3" part="i">Ha ! Seigneurs. </l>
+</sp>
+<sp who="DICÉE"><speaker>DICÉE.</speaker>
+	<l id="997" syll="9" part="f">C'est assez. Mais que l'on les ramène, </l>
+<stage type="toward">Il parle à Licidas.</stage>
+	<l id="998">Et renvoyez chez vous, cette jeune Romaine ; </l>
+	<l id="999">Loin de nous apporter de l'éclaircissement, </l>
+	<l id="1000">Ce qu'elle nous a dit nous trouble infiniment. </l>
+	<l id="1001">Assez et trop souvent l'amour est dans le monde, </l>
+	<l id="1002">En actes inhumains uns source féconde ; </l>
+	<l id="1003">Tâchez donc de tirer de ce coeur aveuglé, </l>
+	<l id="1004">Ce que cache sans doute un amour déréglé, </l>
+	<l id="1005">Employez la douceur, employez l'artifice, </l>
+	<l id="1006">Sachez la vérité, l'on vous fera justice. </l>
+	<l id="1007">Ces généreux amis ensemble retenus, </l>
+	<l id="1008">Par vous ou par le temps seront enfin connus. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME. Licidas, Polémon.</head>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1009">Par qui doit de mes maux la course être arrêtée, </l>
+	<l id="1010">Si la justice même est contre moi portée ? </l>
+	<l id="1011">Si pour rendre mes jours d'autant plus malheureux, </l>
+	<l id="1012">Il suffit qu'un coupable imite un généreux ? </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1013">Votre vengeance est juste autant que nécessaire, </l>
+	<l id="1014">Mais on ne la rompt pas alors qu'on la diffère ; </l>
+	<l id="1015">En retarder le coup, n'est pas vous négliger, </l>
+	<l id="1016">Un juge doit connaître avant que de juger. </l>
+	<l id="1017">À qui tient dans ses mains le fer et la balance, </l>
+	<l id="1018">Un scrupule tout seul doit être d'importance. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE QUATRIÈME. Licidas, Cléante.</head>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1019">Mais j'aperçois mon fils, ha Cléante, et ta soeur ? </l>
+	<l id="1020">Parle moi promptement, qu'en fit son ravisseur ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1021" syll="3" part="i">Que le Ciel. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1021" syll="9" part="f">Ne fais point de préface importune, </l>
+	<l id="1022">Et pour tout compliment dis-moi son infortune </l>
+	<l id="1023">Quand tu me fus ravi par ta seule valeur, </l>
+	<l id="1024">Ton vaisseau joignit-il celui de ce voleur ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1025">Après deux mois entiers de poursuite et de peine, </l>
+	<l id="1026">Enfin je le joignis auprès de Mitilène. </l>
+	<l id="1027">Il ne résista point, il me montra ma soeur, </l>
+	<l id="1028">Et me reçut en frère et non en ravisseur. </l>
+	<l id="1029">Ne crois pas, me dit-il, qu'une beauté si rare, </l>
+	<l id="1030">Trouve en moi le courage et l'âme d'un barbare, </l>
+	<l id="1031">De ce vivant trésor nous connaissons le prix, </l>
+	<l id="1032">Et nous saurons garder ce que nous avons pris. </l>
+	<l id="1033">Je m'irrite à ce mot, nous en venons aux armes, </l>
+	<l id="1034">Ma soeur en même temps nous oppose ses larmes, </l>
+	<l id="1035">Elle arrête la main qui me lance des traits, </l>
+	<l id="1036">Et d'un oeil tout en pleurs nous demande la paix. </l>
+	<l id="1037">N'achevez point, dit-elle, et pour mon allégeance, </l>
+	<l id="1038">Songez à mon salut plutôt qu'à ma vengeance ; </l>
+	<l id="1039">Que ferai-je sans vous si d'un coup hasardeux </l>
+	<l id="1040">Ce funeste combat vous emporte tous deux. </l>
+	<l id="1041">À peine eût-elle dit, que les vents adversaires </l>
+	<l id="1042">Poussèrent contre nous deux vaisseaux de corsaires. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1043">Dieux ! Que devint ma fille en cette extrémité ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1044">Clarigène en fuyant la mit en sûreté. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1045" syll="6" part="i">Et toi que devins-tu ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1045" syll="6" part="f">Je suivis Clarigène, </l>
+	<l id="1046">Et nous tînmes longtemps une route incertaine. </l>
+	<l id="1047">Les eaux eurent pour nous d'éternelles fureurs, </l>
+	<l id="1048">Chaque jour nous montrait de nouvelles horreurs, </l>
+	<l id="1049">Et même le trépas n'a point d'affreux visage, </l>
+	<l id="1050">Dont il n'ait à nos yeux représenté l'image. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1051" syll="2" part="i">Enfin. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1051" syll="10" part="f">Après six mois presque épuisé de biens </l>
+	<l id="1052">Clarigène arriva chez les Siciliens, </l>
+	<l id="1053">Et je reçus du Ciel un pareil avantage, </l>
+	<l id="1054">Puisque aussitôt que lui j'en touchai le rivage. </l>
+	<l id="1055">Là parmi ses amis Clarigène plus fort </l>
+	<l id="1056">Mais non pas moins civil me vint parler d'accord, </l>
+	<l id="1057">Il me dit que l'amour avait commis son crime </l>
+	<l id="1058">Et que l'amour enfin le rendrait légitime. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1059">Ô dieux ! Qu'à s'excuser, un méchant est subtil : </l>
+	<l id="1060">S'il aimait votre soeur que ne m'en parlait-il ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1061">Il savait son devoir, mais l'amour le fit taire, </l>
+	<l id="1062">La crainte d'un refus le rendit téméraire, </l>
+	<l id="1063">Il crut qu'un étranger n'obtiendrait pas de vous </l>
+	<l id="1064">Ce qui rendait ici votre destin si doux. </l>
+	<l id="1065">Enfin il me parla, pour réparer l'outrage, </l>
+	<l id="1066">De faire de ce rapt un juste mariage, </l>
+	<l id="1067">J'en remis à ma soeur la résolution, </l>
+	<l id="1068">Et ma soeur la remit à votre intention. </l>
+	<l id="1069" part="i">On vous en écrivit. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1069" part="f">Je n'ai rien vu Cléante. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1070">Aussi votre silence a trompé notre attente, </l>
+	<l id="1071">Et nous pensions déjà que notre mauvais sort </l>
+	<l id="1072">À nos longs déplaisirs avait joint votre mort. </l>
+	<l id="1073">Alors notre retour eût terminé les peines </l>
+	<l id="1074">Que notre éloignement vous rendait inhumaines, </l>
+	<l id="1075">Mais le bruit des Gaulois, que Rome vit armer, </l>
+	<l id="1076">Ne laissait rien de libre et sur terre et sur mer. </l>
+	<l id="1077">Ces peuples furieux, mais amis de la gloire. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1078">Parle-moi de ta soeur, je sais bien leur histoire, </l>
+	<l id="1079">Dis-moi ce qui me touche, et laisse aux curieux </l>
+	<l id="1080">Ce qu'un autre désir me rendrait ennuyeux. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1081">Doncques après que Rome à vaincre destinée, </l>
+	<l id="1082">Eût de cet ennemi la force ruinée, </l>
+	<l id="1083">L'assurance revint, et l'empire des eaux </l>
+	<l id="1084">Revit en liberté la course des vaisseaux. </l>
+	<l id="1085" syll="6" part="i">Nous partons aussitôt. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1085" syll="6" part="f">Avecques Clarigène. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1086">C'est lui qui nous ravit, c'est lui qui nous ramène, </l>
+	<l id="1087">Et sous le titre heureux ou d'époux ou d'amant, </l>
+	<l id="1088">Il vient enfin chercher votre consentement ? </l>
+	<l id="1089">De moi qui sais combien ce généreux courage </l>
+	<l id="1090">Peut à notre maison apporter davantage, </l>
+	<l id="1091">Connaissant ce qu'il a, connaissant ce qu'il est, </l>
+	<l id="1092">En sa seule faveur je rendrais un arrêt. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1093" syll="6" part="i">Où croyez-vous qu'il soit ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1093" syll="6" part="f">Non loin de cette ville, </l>
+	<l id="1094">Il attend qu'à ses voeux je vous rende facile. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1095">Ô Dieux ! Mais depuis quand vous vit-on arriver </l>
+	<l id="1096">Où ce voleur attend que vous l'alliez trouver ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1097" syll="6" part="i">Ce fut hier au soir. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1097" syll="6" part="f">Ô trahison trop grande ! </l>
+	<l id="1098">Ne crois pas le trouver où tu crois qu'il t'attende, </l>
+	<l id="1099">Sans doute Polémon, il fuyait de ces bords </l>
+	<l id="1100">Au moment que sa prise a suivi nos efforts. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1101" syll="3" part="i">Quoi sa prise ! </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1101" syll="9" part="f">Oui sa prise, et ses fourbes sont vaines. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1102">Je lui laisse pourtant à deux mille d'Athènes. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1103">Tu n'iras pas si loin pour revoir ce voleur, </l>
+	<l id="1104">D'où vient toute ma honte, et toute ma douleur. </l>
+	<l id="1105" syll="6" part="i">Je le tiens ce cruel. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1105" syll="6" part="f">Ô l'étrange nouvelle. </l>
+	<l id="1106" syll="3" part="i">Comment donc ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1106" syll="9" part="f">Et ta soeur en quel endroit est-elle ? </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1107" syll="8" part="i">Où vous la désirez, chez vous. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1107" syll="4" part="f">Allons la voir, </l>
+	<l id="1108">Le traître Clarigène a trompé ton espoir. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Polémon, Licidas, Céphise, Cléone.</head>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1109">Enfin vous revoyez une fille si belle, </l>
+	<l id="1110">Un repos assuré vous revient avecque elle, </l>
+	<l id="1111">Et son retour vainqueur de tous vos déplaisirs </l>
+	<l id="1112">A fait perdre chez vous l'usage des soupirs. </l>
+	<l id="1113">Enfin vous consentez qu'un hymen légitime </l>
+	<l id="1114">Délivre Clarigène, et répare son crime. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1115">Dis plutôt Polémon, qu'en cette extrémité </l>
+	<l id="1116">Je me laisse emporter à la nécessité, </l>
+	<l id="1117">Dis que je suis contraint, et qu'en cette disgrâce </l>
+	<l id="1118">Je permets malgré moi ce qu'il faut que l'on fasse, </l>
+	<l id="1119">En cette occasion si contraire à mes voeux </l>
+	<l id="1120">Je fais ce que je dois, et non ce que je veux ; </l>
+<note type="C">* Le vers suivant n'a que 11 pieds.</note>
+	<l id="1121">Je fais ce qu'a voulu l'honneur de ma fille, </l>
+	<l id="1122">Et je ne donne rien au bonheur de ma fille. </l>
+	<l id="1123">Ha que lui donnerais-je en ce nouveau malheur </l>
+	<l id="1124">S'il faut pour son époux lui donner un voleur. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1125">Encore en ce malheur a-t-on cet avantage </l>
+	<l id="1126">Que sa condition aide à ce mariage, </l>
+	<l id="1127">Et que sans déshonneur par les siens poursuivi </l>
+	<l id="1128">Vous lui pourriez donner ce qu'il vous a ravi. </l>
+	<l id="1129">Qui l'est allé quérir, et qui vous le ramène ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1130">Mon fils, bien étonné de le savoir en peine. </l>
+	<l id="1131">Il ne peut concevoir cet emprisonnement, </l>
+	<l id="1132">Et demeure confus sur cet événement. </l>
+	<l id="1133">Enfin selon mon ordre il est allé lui-même </l>
+	<l id="1134">Retirer des prisons ce barbare qu'il aime. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1135" syll="6" part="i">Qu'en dit cette Romaine. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1135" syll="6" part="f">Elle plaint ses malheurs </l>
+	<l id="1136">Et voudrait se noyer dedans l'eau de ses pleurs ; </l>
+	<l id="1137">Mais quelque grand transport qu'elle mêle à ses plaintes, </l>
+	<l id="1138">Tout ce qu'elle m'a dit je le prends pour des feintes. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1139" syll="6" part="i">Pour des feintes ! Comment ? </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1139" syll="6" part="f">Il n'en faut point douter, </l>
+	<l id="1140">Où l'on a des raisons qu'on ne peut contester. </l>
+	<l id="1141">Elle mêle au récit qu'elle fait de sa peine </l>
+	<l id="1142">Qu'elle sortit de Rome avecques Clarigène, </l>
+	<l id="1143">Et qu'après des dangers aussi craints que la mort </l>
+	<l id="1144">Le hasard seulement la jeta dans ce port ; </l>
+	<l id="1145">Tu sais bien cependant que des bords de Sicile </l>
+	<l id="1146">Clarigène et mon fils font voile en cette ville, </l>
+	<l id="1147">Et qu'un même vaisseau favorisé des Cieux </l>
+	<l id="1148">Les a portés ensemble en ces aimables lieux. </l>
+	<l id="1149">Démêle maintenant le noeud que je te montre </l>
+	<l id="1150">Accorde si tu peux l'une et l'autre rencontre, </l>
+	<l id="1151">Suis de l'oeil Clarigène, et montre-moi comment </l>
+	<l id="1152">Il peut être en deux lieux en un même moment. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1153">Il est vrai, Licidas, que mon esprit s'égare </l>
+	<l id="1154">Lorsque je me figure un accident si rare.</l>
+	<l id="1155">J'y considère tout, j'y cherche des clartés </l>
+	<l id="1156">Et je n'y trouve rien que des obscurités. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1157">Ma fille et vous ma Nièce, avecques peu de peine </l>
+	<l id="1158">Vous saurez mieux que nous qu'elle est cette Romaine, </l>
+	<l id="1159">Faites-la donc venir, ou l'allez voir exprès, </l>
+	<l id="1160">La fille ouvre à la fille aisément ses secrets. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1161">Je n'épargnerai rien de ce qui peut vous plaire. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1162">Je vais voir cependant qui retient votre frère. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME. Céphise, Cléone.</head>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1163">Que croirai-je Cléone ; et quel nouveau tourment </l>
+	<l id="1164">Du logis paternel me fait un monument ? </l>
+	<l id="1165">Clarigène en prison, Clarigène perfide ! </l>
+	<l id="1166">Que ne dit-on plutôt qu'il est mon homicide ? </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="1167">De quoi vous plaignez-vous ? S'il veut vous outrager, </l>
+	<l id="1168">Il est en un endroit, où l'on peut vous venger. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1169">Hélas, pour me venger, serai-je moins trompée, </l>
+	<l id="1170">Et d'un trait moins cruel me verrai-je frappée ? </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="1171" syll="3" part="i">L'aimez-vous ? </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1171" syll="9" part="f">Est-il vrai qu'il se soit parjuré, </l>
+	<l id="1172">Et qu'il ait contre moi lui-même conspiré ? </l>
+	<l id="1173">Après tant de devoirs, qui furent la victime </l>
+	<l id="1174">Par qui mon ravisseur se purgea de son crime, </l>
+	<l id="1175">Ha, si je ne crois pas cette infidélité, </l>
+	<l id="1176">L'on doit bien excuser mon incrédulité. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="1177" syll="6" part="i">Dites-moi, l'aimez-vous ? </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1177" syll="6" part="f">Hélas qu'en dois-je croire ! </l>
+	<l id="1178">Toutes ses actions ne tendent qu'à sa gloire, </l>
+	<l id="1179">Même en me ravissant il fut respectueux </l>
+	<l id="1180">Et même dans son crime il parut vertueux. </l>
+	<l id="1181">Par cet enlèvement qui le combla de joie, </l>
+	<l id="1182">Il me fit sa captive, il me rendit sa proie, </l>
+	<l id="1183">Mais par son grand respect, qui n'eût jamais de fin, </l>
+	<l id="1184">On eût plutôt jugé qu'il était mon butin. </l>
+	<l id="1185">Vous eussiez dit à voir son respect et sa peine, </l>
+	<l id="1186">Que c'était un sujet qui conduisait sa Reine, </l>
+	<l id="1187">Et qui la délivrait d'une captivité </l>
+	<l id="1188">Pour lui rendre son sceptre et son autorité. </l>
+	<l id="1189">Jamais sa passion ne me livra la guerre, </l>
+	<l id="1190">Tel qu'il fur sur les eaux, tel il fut sur la terre : </l>
+	<l id="1191">Mon honneur y craignit son amour suborneur, </l>
+	<l id="1192">Et ce fut son amour qui sauva mon honneur ; </l>
+	<l id="1193">Enfin pour dire tout, j'appris dans la Sicile, </l>
+	<l id="1194">Que chez mon ravisseur je trouvais mon Asile. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="1195" syll="6" part="i">Mais enfin l'aimez-vous ? </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1195" syll="6" part="f">Juge ici par mes pleurs, </l>
+	<l id="1196">Ou bien de mon amour, ou bien de mes douleurs. </l>
+	<l id="1197">J'allumai dans son coeur des feux qui me brûlèrent, </l>
+	<l id="1198">Mais mieux que son amour, ses respects me gagnèrent. </l>
+	<l id="1199">Quelque fatalité me rangea sous ses lois </l>
+	<l id="1200">Et je puis dire enfin qu'il me ravit deux fois. </l>
+	<l id="1201">Mais hélas il est homme, et son âme contrainte </l>
+	<l id="1202">Sous un voile d'amour peut cacher une feinte </l>
+	<l id="1203">Ce n'est pas le premier en ces occasions </l>
+	<l id="1204">Qui par ses actions dément ses actions. </l>
+	<l id="1205">Peut-être que mon frère avait par sa présence </l>
+	<l id="1206">De ce barbare esprit réprimé l'insolence, </l>
+	<l id="1207">Que par son seul aspect mon honneur fut sauvé </l>
+	<l id="1208">Et que sans lui ce traître eût son crime achevé. </l>
+	<l id="1209">Mais que dis-je Cléone, il m'a donné des larmes </l>
+	<l id="1210">Plus que n'a mérité ce peu que j'ai de charmes, </l>
+	<l id="1211">Mais que dis-je bons Dieux, n'est-il pas assuré </l>
+	<l id="1212">Qu'on a souvent trahi celui qu'on a pleuré. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="1213" syll="6" part="i">Mais parlons à Célie. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1213" syll="6" part="f">Hélas que dira-t-elle </l>
+	<l id="1214">Qui ne rende en mon coeur ma peine plus cruelle ? </l>
+	<l id="1215">Et que peut-elle enfin me faire concevoir </l>
+	<l id="1216">Que mon esprit confus ne craigne de savoir ? </l>
+	<l id="1217" syll="6" part="i">Voyons-la toutefois. </l>
+</sp>
+<sp who="CLÉONE"><speaker>CLÉONE.</speaker>
+	<l id="1217" syll="6" part="f">Il faut que je l'appelle. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE, seule.</speaker>
+	<l id="1218">Après tant de devoirs Clarigène infidèle ! </l>
+	<l id="1219">Comment ? Et depuis quand ? Avant que de me voir </l>
+	<l id="1220">L'amour l'engageait-il sous un autre pouvoir ! </l>
+	<l id="1221" syll="7" part="i">Il le faut, je le crois. Mais. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME. Céphise, Célie, Cléone.</head>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1221" syll="5" part="f">Faites-moi connaître </l>
+	<l id="1222">Ce que dans peu de jours le temps ferait paraître, </l>
+	<l id="1223">Et pour votre repos autant que pour le mien </l>
+	<l id="1224">De vos tristes amours ne me déguisez rien. </l>
+	<l id="1225" syll="6" part="i">Aimez-vous Clarigène ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1225" syll="7" part="f">Oui Madame je l'aime </l>
+	<l id="1226">Et l'aime d'un amour aussi vieux que moi-même. </l>
+	<l id="1227">Je cacherais en vain ce qu'on a déjà su. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1228">Dites, depuis deux ans l'avez-vous toujours vu ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1229">Oui je l'ai toujours vu, si j'excepte un voyage </l>
+	<l id="1230">Où durant quatre mois l'engagea son courage. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1231" syll="6" part="i">En quel endroit fut-il ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1231" syll="6" part="f">Aux pays étrangers </l>
+	<l id="1232">Où la guerre plus forte avait plus de dangers. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1233">Il vous trompa Célie, il vint en cette terre, </l>
+	<l id="1234">Et ce ne fut qu'à moi qu'il déclara la guerre. </l>
+	<l id="1235">Ce fut en ce temps-là que ce perfide amant </l>
+	<l id="1236">Se rendit criminel par mon enlèvement. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1237" syll="6" part="i">Mais où vous mena-t-il. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1237" syll="6" part="f">Sur les bords de Sicile. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1238" syll="6" part="i">Il vous y laissa donc. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1238" syll="6" part="f">Il se tint en cette Île, </l>
+	<l id="1239">Et c'est lui maintenant qui m'y conduit ici. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1240">Et c'est lui maintenant qui m'y conduit aussi. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1241">Je ne puis rien comprendre à cette étrange histoire, </l>
+	<l id="1242">Le moyen de vous croire, ou de me faire croire ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1243">Le moyen de me croire ! Ha c'est me maltraiter. </l>
+	<l id="1244">Je n'ai jamais rien dit, dont on ait pu douter. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1245">Peut-être qu'ayant su qu'une amitié nouvelle </l>
+	<l id="1246">Vous avait dérobé cet esprit infidèle, </l>
+	<l id="1247">L'amour vous l'a fait suivre, et c'est peut-être ainsi </l>
+	<l id="1248">Que ce perfide amant vous a conduite ici.</l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1249">De ces subtilités mon âme est incapable, </l>
+	<l id="1250">Je suivis un amant sans me rendre coupable ; </l>
+	<l id="1251">Je ne suis pas enfin de ces lâches esprits, </l>
+	<l id="1252">Où l'amour criminel met l'honneur à mépris. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1253" syll="6" part="i">Mais enfin il vous aime. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1253" syll="6" part="f">Il me l'a fait connaître.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1254">Il n'en faut plus douter, Cléone, c'est un traître ; </l>
+	<l id="1255">Ses respects n'ont été que des pièges divers, </l>
+	<l id="1256">Que des poisons cachés, que des crimes couverts, </l>
+	<l id="1257">Et je dois accuser cette âme criminelle </l>
+	<l id="1258">Et comme un ravisseur, et comme un infidèle. </l>
+	<l id="1259">Mais son premier forfait en outrages fécond </l>
+	<l id="1260">Me servira du moins à punir le second. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1261">Pourquoi contre son bien formez-vous cette plainte, </l>
+	<l id="1262">Puisqu'il doit être à vous, même par la contrainte ? </l>
+	<l id="1263">Et que de la prison, qui le tient arrêté, </l>
+	<l id="1264">Il ne peut s'affranchir par l'infidélité. </l>
+	<l id="1265">S'il est vrai qu'il vous aime, et qu'il vous ait ravie </l>
+	<l id="1266">Vous avez intérêt à conserver sa vie ; </l>
+	<l id="1267">Hélas ! Belle Céphise en cette extrémité </l>
+	<l id="1268">Qui peut rendre l'honneur que ceux qui l'ont ôté ? </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1269">Il ne m'a rien ôté, le parjure, le traître, </l>
+	<l id="1270">Si ce n'est cet amour qu'il me faisait paraître, </l>
+	<l id="1271">Et je découvre assez en le persécutant </l>
+	<l id="1272">Que j'attends peu de bien de ce coeur inconstant. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1273">Vous vous flattez en vain d'un espoir de vengeance, </l>
+	<l id="1274">Un rapt ôte l'honneur, au moins en apparence ; </l>
+	<l id="1275">Et dès lors qu'il s'agit d'un trésor si parfait,</l>
+	<l id="1276">L'ôter en apparence est l'ôter en effet. </l>
+	<l id="1277">Protéger donc celui qui pourrait vous le rendre, </l>
+	<l id="1278">Défendre Clarigène est aussi vous défendre. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1279">Mais devez-vous parler pour ce perfide amant </l>
+	<l id="1280">Dont l'infidélité nous trompe également ? </l>
+	<l id="1281">Devez-vous protéger celui qui vous outrage ? </l>
+	<l id="1282">Qui vous donne sa foi tandis qu'il me l'engage ? </l>
+	<l id="1283">Qui feint en même temps de brûler pour nous deux </l>
+	<l id="1284">Et qui peut-être ailleurs brûle pour d'autres feux ? </l>
+	<l id="1285">Misérable Célie, il vous trahit vous-même </l>
+	<l id="1286">Et vous vous trahissez de croire qu'il vous aime, </l>
+	<l id="1287">Quand il vous aimerait jusqu'à vous adorer, </l>
+	<l id="1288">Engagé comme il est, qu'en peut-on espérer ? </l>
+	<l id="1289">Quand je le donnerais à l'amour qui vous reste </l>
+	<l id="1290">Que profiterez-vous d'un présent si funeste ? </l>
+	<l id="1291">Perfide comme il est, et pour vous, et pour nous </l>
+	<l id="1292">Si je vous le donnais, il s'enfuirait de vous. </l>
+	<l id="1293">Perdez donc un espoir qui vous est si contraire, </l>
+	<l id="1294">Ne défendez donc plus un si traître adversaire, </l>
+	<l id="1295">Quoi que la passion vous en fasse juger </l>
+	<l id="1296">Je vous venge moi-même en voulant me venger, </l>
+	<l id="1297">Et peut-être avec nous lâchement méprisées, </l>
+	<l id="1298">Je venge justement cent filles abusées. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1299">Ne vous efforcez point de l'ôter de mon coeur, </l>
+	<l id="1300">Il y vit en amant, il y règne en vainqueur, </l>
+	<l id="1301">Et si je le défends contre votre colère, </l>
+	<l id="1302">Je montre que je l'aime ; et non pas que j'espère. </l>
+	<l id="1303">Je vous parle pour lui, je tâche à le sauver, </l>
+	<l id="1304">À dessein seulement de vous le conserver. </l>
+	<l id="1305">Qu'un autre le possède, et qu'il me soit parjure </l>
+	<l id="1306">S'il me fuit pour son bien, j'aimerai cette injure ; </l>
+	<l id="1307">Qu'il soit à mon malheur, infidèle, inconstant, </l>
+	<l id="1308">Pourvu qu'il soit heureux, j'aurai l'esprit content. </l>
+	<l id="1309">Non, non, ne pensez pas, que j'aille le contraindre ; </l>
+	<l id="1310">Si mon feu lui déplaît, je suis prête à l'éteindre, </l>
+	<l id="1311">Et mon extrême amour sera récompensé, </l>
+	<l id="1312">Si j'adoucis pour lui votre esprit offensé. </l>
+	<l id="1313">Vous voulez le confondre, et pour votre allégeance </l>
+	<l id="1314">De son sang répandu tirer votre vengeance, </l>
+	<l id="1315">Mais croyez-vous tirer votre soulagement </l>
+	<l id="1316">D'où malgré tous vos soins viendra votre tourment ; </l>
+	<l id="1317">Si vous avez aimé cet amant déplorable,  </l>
+	<l id="1318">S'il vous fut quelquefois un objet agréable, </l>
+	<l id="1319">Pensez-vous à sa perte aujourd'hui consentir </l>
+	<l id="1320">Sans en avoir demain un juste repentir ? </l>
+	<l id="1321">Si l'on résout bientôt un destin si funeste, </l>
+	<l id="1322">Après avoir aimé bientôt on le déteste, </l>
+	<l id="1323">Nous pensons n'aimer plus en faisant ces desseins </l>
+	<l id="1324">Dont même les effets sont pour nous inhumains, </l>
+	<l id="1325">Mais par un prompt remords, dont le feu nous dévore, </l>
+	<l id="1326">Nous apprenons bientôt que nous aimons encore. </l>
+	<l id="1327">C'est alors que l'amour rend ses feux éclatants, </l>
+	<l id="1328">C'est alors qu'on souhaite, et qu'il n'en est plus temps </l>
+	<l id="1329">L'âme avecques soi-même est toujours en querelle, </l>
+	<l id="1330">Sa faute est un enfer, qu'elle porte avecque elle, </l>
+	<l id="1331">Un juste désespoir la suit avec horreur, </l>
+	<l id="1332">Et ce qui fut amour n'est plus rien que fureur. </l>
+	<l id="1333">Fuyez donc les conseils, d'une si prompte haine, </l>
+	<l id="1334">Qui vous serait fatale autant que Clarigène, </l>
+	<l id="1335">Et pour craindre pour vous un trait envenimé </l>
+	<l id="1336">Souvenez-vous ici que vous l'avez aimé. </l>
+	<l id="1337">Que si vos passions le traitent d'infidèle </l>
+	<l id="1338">Il peut en expirant vous appeler cruelle, </l>
+	<l id="1339">Et vous blâmer enfin d'une inhumanité, </l>
+	<l id="1340">Bien plus à condamner qu'une infidélité. </l>
+	<l id="1341">Hélas il a failli ; mais s'il en est blâmable </l>
+	<l id="1342">Faut-il en vous vengeant vous rendre plus coupable ? </l>
+	<l id="1343">Si jadis vos beautés gagnèrent son amour </l>
+	<l id="1344">Qu'aujourd'hui vos bontés le gagnent à leur tour, </l>
+	<l id="1345">Qu'il rougisse aujourd'hui cet injuste volage </l>
+	<l id="1346">De devoir son salut à celle qu'il outrage ; </l>
+	<l id="1347">Laissez-lui ce regret, qu'il en soit consumé, </l>
+	<l id="1348">Et ressouvenez-vous que vous l'avez aimé. </l>
+	<l id="1349">Feriez-vous d'un amant une affreuse victime, </l>
+	<l id="1350">Peut-être au même instant qu'il pleure de son crime ? </l>
+	<l id="1351">Lui pouvez-vous montrer cet excès de courroux </l>
+	<l id="1352">Quand l'amour repentant le ramène chez vous ? </l>
+	<l id="1353">Si l'on pardonne même aux esclaves rebelles, </l>
+	<l id="1354">Doit-on moins de faveur aux amants infidèles ? </l>
+	<l id="1355">Et d'un feu tout divin votre coeur enflammé </l>
+	<l id="1356">Doit-il moins à celui que vous avez aimé ? </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1357">Que l'amour a des traits plus forts que la colère, </l>
+	<l id="1358" syll="6" part="i">Je me rends malgré moi. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1358" syll="6" part="f">Mais voici votre Père. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1359" syll="2" part="i">Hélas ! </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME. Licidas, Céphise, Célie.</head>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1359" syll="10" part="f">Nos prisonniers à la fin sont venus, </l>
+	<l id="1360">Mais comme auparavant ils me sont inconnus. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1361">Mon frère toutefois connaît bien Clarigène </l>
+	<l id="1362">Et peut vous le montrer puisqu'il vous le ramène. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1363">Il les a renvoyés, et n'est pas revenu, </l>
+	<l id="1364">J'ignore le sujet qui l'aura retenu, </l>
+	<l id="1365">Mais vous pouvez sans lui nous retirer de doute, </l>
+	<l id="1366">Et ramener le jour où nous ne voyons goutte. </l>
+	<l id="1367">Que l'on fasse venir le premier pris des deux. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1368">Que mon sort est étrange et qu'il est courageux ! </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE QUATRIÈME. Licidas, Célie, Céphise, Télariste.</head>
+<sp who="LICIDAS"><speaker>LICIDAS, en montrant Télariste.</speaker>
+	<l id="1369" syll="8" part="i">Est-ce là Clarigène, est-ce lui ? </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1369" syll="4" part="f">C'est mon frère. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1370">Ma fille répondez, contentez votre Père, </l>
+	<l id="1371" syll="3" part="i">Est-ce lui ? </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1371" syll="9" part="f">Non Monsieur, ou par trop de rigueur, </l>
+	<l id="1372">Son visage a changé de même que son coeur. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1373" syll="6" part="i">Qu'on fasse venir l'autre. </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="1373" syll="6" part="f">Ô Ciel sois nous propice. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1374">Enfin nous le verrons malgré votre artifice. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE CINQUIÈME. Licidas, Célie, Clarigène, Céphise, Polémon.</head>
+<sp who="LICIDAS"><speaker>LICIDAS, en montrant Clarigène.</speaker>
+	<l id="1375" syll="3" part="i">L'est-ce là [?]</l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1375" syll="9" part="f">Si l'amour t'arrête en des liens </l>
+	<l id="1376">Plus vieux ou plus nouveaux que ne sont pas les miens, </l>
+<stage type="toward">Elle parle à Clarigène.</stage>
+	<l id="1377">Si tu commis un mal que l'amour autorise, </l>
+	<l id="1378">Si tu te dois toi-même à l'honneur de Céphise, </l>
+	<l id="1379">Si tu l'aimes enfin, ne crains pas devant moi </l>
+	<l id="1380">Après le don du coeur de lui donner ta foi. </l>
+	<l id="1381">Ne me regarde plus, regarde ta fortune, </l>
+	<l id="1382">Je ne t'oppose point une amour importune, </l>
+	<l id="1383">Mais pour te rendre libre, et moins fortuné </l>
+	<l id="1384">Je te rends le serment que tu m'avais donné. </l>
+	<l id="1385">Ne me montre donc plus un zèle opiniâtre, </l>
+	<l id="1386">Cesse pour ton bonheur d'être mon idolâtre ; </l>
+	<l id="1387">Que me pourrait servir de retenir ta foi </l>
+	<l id="1388">Si l'on peut malgré toi te dérober à moi. </l>
+	<l id="1389">Ne crains point de ma part de reproche ou d'injure, </l>
+	<l id="1390">Blâmerais-je un dessein lorsque je t'en conjure ? </l>
+	<l id="1391">Et si tu veux encor te montrer mon amant </l>
+	<l id="1392">Prends ici mon conseil comme un commandement. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1393">Ici l'étonnement étouffe ma parole, </l>
+	<l id="1394">Et tout ce que j'y vois me trouble et me console. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1395">C'est donc là Clarigène, et vous le connaissez. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1396">Je l'ai vu trop longtemps, je le connais assez, </l>
+	<l id="1397">Mais je ne vis jamais ce nouveau misérable </l>
+	<l id="1398">Que le crime d'un autre a fait croire coupable. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1399" syll="4" part="i">Ce n'est pas lui ! </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1399" syll="2" part="m">Rien moins. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1399" syll="6" part="f">Parlez-moi librement, </l>
+	<l id="1400">Peut-être que l'amour vous fait plaindre un amant, </l>
+	<l id="1401">Et que pour le sauver de ma juste colère </l>
+	<l id="1402">Cette feinte est un trait que la peur vous suggère. </l>
+	<l id="1403">Mais enfin mes rigueurs font place à la douceur, </l>
+	<l id="1404">En lui je cherche un fils, non pas un ravisseur, </l>
+	<l id="1405">Je consens que son bien naisse ici de sa faute. </l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1406">Il n'osait se promettre une faveur si haute, </l>
+	<l id="1407">Mais s'il voulait ici se cacher vainement, </l>
+	<l id="1408">Il se découvrirait par son contentement. </l>
+	<l id="1409" syll="6" part="i">Ce n'est pas lui Monsieur. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1409" syll="6" part="f">Qui m'ôtera de peine. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1410" syll="6" part="i">Mais voici votre fils. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE DERNIÈRE. Licidas, Cléante, Clarigéne, Célie, Clarigéne Ravisseur, Télariste.</head>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1410" syll="6" part="f">Est-ce là Clarigène. </l>
+</sp>
+<sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
+	<l id="1411">C'est lui, ce ne l'est pas, écoutez seulement, </l>
+	<l id="1412">Vous aurez du plaisir et de l'étonnement.</l>
+	<l id="1413">Croyant voir Clarigène en ces lieux redoutables </l>
+	<l id="1414">Qui sont comme l'enfer, un séjour de coupables, </l>
+	<l id="1415">J'ai trouvé ces Romains, et connu clairement </l>
+	<l id="1416">Qu'ils souffraient pour un autre un injuste tourment, </l>
+	<l id="1417">Que pour porter enfin le nom de Clarigène </l>
+	<l id="1418">Faits pour lui prisonnier, ils en portaient la peine : </l>
+	<l id="1419">Voilà l'étrange sort qui les gênaient tous deux, </l>
+	<l id="1420">Et je n'ai différé de venir avec eux, </l>
+	<l id="1421">Que pour aller quérir cet autre Clarigène </l>
+	<l id="1422">Qui voudrait par son sang éteindre votre haine. </l>
+</sp>
+<sp who="CLARIGÈNE Ravisseur"><speaker>CLARIGÈNE Ravisseur.</speaker>
+	<l id="1423">Je sais bien que paraître aujourd'hui devant vous </l>
+	<l id="1424">C'est attirer sur moi votre juste courroux, </l>
+	<l id="1425">Mais je sais bien aussi que pour votre allégeance </l>
+	<l id="1426">À ma confusion je vous dois ma présence. </l>
+	<l id="1427">Sur mon sang, sur mon coeur, vengez-vous d'un forfait </l>
+	<l id="1428">Que l'amour entreprit, et que l'amour a fait, </l>
+	<l id="1429">Et donnez à l'honneur d'une fille ravie </l>
+	<l id="1430">Selon vos passions, ou ma mort, ou ma vie. </l>
+	<l id="1431">Je mourrai sans me plaindre et content de mon sort </l>
+	<l id="1432">Si vous pouvez enfin vous venger par ma mort. </l>
+	<l id="1433">S'il est vrai toutefois qu'un amour légitime </l>
+	<l id="1434">Toujours dedans mon coeur fut ennemi du crime, </l>
+	<l id="1435">Jugez-moi, jugez-moi, non par mes actions </l>
+	<l id="1436">Mais pour la pureté de mes intentions. </l>
+	<l id="1437">En veut-on une preuve aussi forte que claire </l>
+	<l id="1438">Interrogez Céphise interrogez son frère, </l>
+	<l id="1439">Nous produisons sans peur des témoins contre nous </l>
+	<l id="1440">Que la nature même intéresse pour vous. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1441">Quelle confusion à la mienne est semblable ? </l>
+<stage type="watch">Il regarde l'un et l'autre Clarigène.</stage>
+	<l id="1442">Là je suis l'offensé, là je suis le coupable, </l>
+	<l id="1443">J'ai besoin du Pardon, où l'on veut m'obliger, </l>
+	<l id="1444">Et je vois satisfaire, où j'ai cru me venger. </l>
+	<l id="1445">Excusez mes amis la Passion d'un Père </l>
+	<l id="1446">Qui perd en ses enfants sa richesse plus chère. </l>
+	<l id="1447">Et si d'injustes maux sont tombés dessus vous </l>
+	<l id="1448">Blâmez-en votre nom plutôt que mon courroux. </l>
+	<l id="1449">En l'état où j'étais, portant le nom de Père </l>
+	<l id="1450">Pouvais-je plus attendre, et devais-je moins faire. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="1451">Votre dessein fut juste, et quoi que l'on ait fait, </l>
+	<l id="1452">Me vouloir satisfaire est m'avoir satisfait. </l>
+	<l id="1453">Quand même vos rigueurs nous traitaient en coupables </l>
+	<l id="1454">Vos soins beaucoup plus grands nous étaient favorables ; </l>
+	<l id="1455">En donnant à Célie un Asile chez vous </l>
+	<l id="1456">Vous détourniez le mal que vous versiez sur nous ; </l>
+	<l id="1457">Vous ne pouviez enfin nous paraître adversaire </l>
+	<l id="1458">Tandis que vos faveurs allégeaient sa misère ; </l>
+	<l id="1459">Et je sentais les biens, dont vous la soulagiez, </l>
+	<l id="1460">Beaucoup mieux que les maux par qui vous m'affligiez ;</l>
+	<l id="1461">On oblige un amant en la beauté qu'il aime </l>
+	<l id="1462">Bien plus qu'on ne l'outrage en sa personne même. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1463">Vos bontés seulement sont ici les raisons, </l>
+	<l id="1464">Qui vous font oublier ma haine et vos prisons.</l>
+	<l id="1465">Pourrais-je sans leur aide effacer les injures </l>
+	<l id="1466">Dont je viens d'augmenter vos tristes aventures. </l>
+	<l id="1467" syll="6" part="i">Que ne vous dois-je point ? </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="1467" syll="6" part="f">Vous devez désormais </l>
+	<l id="1468">Sans vous inquiéter nous croire satisfaits. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="1469">S'il est vrai néanmoins, que d'un noble courage </l>
+	<l id="1470">Je puisse justement espérer d'avantage, </l>
+	<l id="1471">Prosterné devant vous j'implore seulement </l>
+	<l id="1472">Une grâce, un pardon, qui sauve cet amant. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1473">Bien que ma passion soit ici légitime </l>
+	<l id="1474">J'apprends par votre exemple à pardonner un crime. </l>
+	<l id="1475">Qu'il possède ma fille, et rallume ses feux, </l>
+	<l id="1476">Vous me le demandez, j'y consens ? Je le veux. </l>
+</sp>
+<sp who="CLARIGÈNE Ravisseur"><speaker>CLARIGÈNE Ravisseur.</speaker>
+	<l id="1477">Confus comme ravi ; par des faveurs si grandes, </l>
+	<l id="1478">À qui dois-je des deux mes premières offrandes ? </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="1479">Ce que j'ai fait pour vous, vous l'eussiez fait pour moi. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1480">Ô générosité seule semblable à soi, </l>
+	<l id="1481">Et qui nous fait bien voir, que Rome est dans le monde</l>
+	<l id="1482">En célestes enfants une mère féconde. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1483" syll="2" part="i">Hélas. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1483" syll="4" part="f">Que pleurez-vous. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1483" syll="6" part="f">Je pleure ses malheurs. </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="1484">Laissez aux affligés les soupirs, et les pleurs. </l>
+	<l id="1485">Enfin Rome a repris une face plus belle </l>
+	<l id="1486">Et triomphe aujourd'hui, de qui triomphait d'elle. </l>
+	<l id="1487">Camille glorieux est son libérateur </l>
+	<l id="1488">Et s'est fait des Romains le second fondateur. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1489">Ô nouvelle agréable autant que désirée ! </l>
+</sp>
+<sp who="TÉLARISTE"><speaker>TÉLARISTE.</speaker>
+	<l id="1490" syll="6" part="i">Ne soupirez donc plus. </l>
+</sp>
+<sp who="CÉLIE"><speaker>CÉLIE.</speaker>
+	<l id="1490" syll="6" part="f">Mais est-elle assurée ? </l>
+</sp>
+<sp who="CLARIGÈNE"><speaker>CLARIGÈNE.</speaker>
+	<l id="1491">Cléante, que le Ciel amène à mon secours, </l>
+	<l id="1492">En nous tirant des fers m'en a fait le discours. </l>
+</sp>
+<sp who="LICIDAS"><speaker>LICIDAS.</speaker>
+	<l id="1493">Vous saurez plus au long cette agréable histoire </l>
+	<l id="1494">Qui vous comble de joie, et Camille de Gloire. </l>
+	<l id="1495">Ô vous illustres coeurs vrais amis, vrais amants </l>
+	<l id="1496">Seuls à qui mon repos coûte tant de tourments, </l>
+	<l id="1497">Soit que de ce pays la beauté vous retienne, </l>
+	<l id="1498">Soit que de votre ville un désir vous revienne, </l>
+	<l id="1499">Disposez de mes biens, prenez-en votre part, </l>
+	<l id="1500">Ou pour votre séjour, ou pour votre départ. </l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

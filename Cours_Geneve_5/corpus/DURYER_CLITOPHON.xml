@@ -1,0 +1,3176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="fr">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>CLITOPHON, TRAGI-COMÉDIE</title>
+				<author born='1605' born_location='Paris' death='1658' death_location='Paris' academie=''>DU RYER, Pierre</author>
+				<date>1636</date>
+			</titleStmt>
+			<publicationStmt>	
+				<authority>publié par Ernest FIEVRE, Juin 2016.</authority>
+				<idno>DURYER_CLITOPHON</idno>
+			</publicationStmt>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>mythe grec</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1631-1640</periode>
+				<taille>1750-2000</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/btv1b9063652p</permalien>
+				<refNum/>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text>
+<front>
+	<docTitle>
+		<titlePart type="main">CLITOPHON</titlePart>
+		<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
+		<titlePart type="sub">SECONDE PIÈCE DE MONSIEUR DU RYER</titlePart>
+	</docTitle>
+	<docDate value="1632"></docDate>
+		<docAuthor id="DU RYER, Pierre" bio='duryer'></docAuthor>
+	<docImprint>
+		<imprimeur id="SOMMAVILLE">[Il n'existe pas de texte imprimé original de cette pièce, la source est un manuscrit, coté BnF FR 25,496]</imprimeur>
+	</docImprint>
+		<performance>
+			<premiere date="1629" location='(inconnue)'>Représenté pour la première fois en 1629. (date hypothétique)</premiere>
+		</performance>
+		<div type="preface"><head>AVERTISSEMENT</head>
+			<p>Arétaphile et Clitophon sont les deux premières pièces de Théâtre par qui M. Du Ryer s'y est fait admirer : bien qu'elles ne soient pas comparables à tant d'autres qu'il a faites depuis, elles furent reçues toutefois avec un applaudissement universel du peuple et de la Cour ; et particulièrement Arétaphile, que Monsieur le Duc d'Orléans appelait sa pièce. L'une et l'autre sont irrégulières, comme toutes les autres qui parurent en ce temps, mais Clitophon a cet avantage qu'il l'est beaucoup moins ; les changements de scène, et la trop longue durée de temps nécessaire à le conduite de la fable y sont entre les actes ; en sorte que chaque acte séparément est dans l'étroite rigueur des règles ; bien que pris ensemble ils soient irréguliers. Cette nouvelle méthode fut admirée des doctes, qui témoignèrent que s'il était permis de faire des Poèmes Dramatiques contre les lois de la scène, ce devait être de cette sorte ; aussi ce fut un acheminement à les observer et comme un avant-coureur de tant d'autres ouvrages accomplis qui suivirent Clitophon, entre lesquels l'Alcimédon, de notre auteur fut le premier.</p>
+		</div>
+<castList><head>LES ACTEURS.</head>
+ACTEURS. 
+
+	<castItem><role id="HIDASPE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>HIDASPE</role>.</castItem>
+	<castItem><role id="TIRSIS" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>TIRSIS</role>, ami de Calistène.</castItem> 
+	<castItem><role id="CALISTÈNE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>CALISTÈNE</role>, amant de Lucipe.</castItem>
+	<castItem><role id="CLITOPHON" sex="1" type="H" statut='aristocrate' age='J' stat_amour='Lucipe'>CLITOPHON</role>, amant aimé de Lucipe.</castItem>
+	<castItem><role id="CLINIAS" sex="1" type="H" statut='confident' age='J' stat_amour='néant'>CLINIAS</role>, confident de Clitophon.</castItem>
+	<castItem><role id="LUCIPE" sex="2" type="H" statut='aristocrate' age='J' stat_amour='néant'>LUCIPE</role>, amante de Clitophon.</castItem>
+	<castItem><role id="SATIRE" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>SATIRE</role>, domestique de Lucipe.</castItem>
+	<castItem><role id="HIPPIAS" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>HIPPIAS</role>, Père de Clitophon.</castItem>
+	<castItem><role id="CALLIGONNE" sex="2" type="H" statut='aristocrate' age='J' stat_amour='néant'>CALLIGONNE</role>, fille de Panthie.</castItem>
+	<castItem><role id="PANTHIE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>PANTHIE</role>, Dame de Tyr.</castItem>
+	<castItem><role id="MÉNÉLAS" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MÉNÉLAS</role>, Père de Satire sacrificateur.</castItem> 
+	<castItem><role id="BUSIRE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>BUSIRE</role>, Tyran.</castItem>
+	<castItem><role id="LÉONTE" sex="1" type="H" statut='confident' age='A' stat_amour='néant'>LÉONTE</role>, son confident.</castItem>
+	<castItem><role id="TIMANDRE" sex="1" type="H" statut='confident' age='A' stat_amour='néant'>TIMANDRE</role>, confident de Charmide.</castItem>
+	<castItem><role id="CHARMIDE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>CHARMIDE</role>, Roi d'Alexandrie.</castItem>
+	<castItem><role id="CHÉRÉE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>CHÉRÉE</role>, l'un des siens ravisseur de Lucipe.</castItem> 
+	<castItem><role id="ÉRIPHILE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>ÉRIPHILE</role>, suivante de Mélite.</castItem>
+	<castItem><role id="MÉLITE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>MÉLITE</role>, femme de Tersandre.</castItem>
+	<castItem><role id="TERSANDRE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='Lucipe'>TERSANDRE</role>, amoureux de Lucipe.</castItem>
+	<castItem><role id="POLÉMON" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>POLÉMON</role>, ami de Tersandre.</castItem>
+	<castItem><role id="LE JUGE" sex="1" type="H" statut='juge' age='A' stat_amour='néant'>LE JUGE</role>.</castItem>
+	<castItem><role id="SOSTRATE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>SOSTRATE</role>.</castItem>
+	<castItem><role id="TROUPE DE SOLDATS" sex="9" type="H" statut='soldat' age='A' stat_amour='néant'>TROUPE DE SOLDATS</role>.</castItem>
+	<castItem><role id="UN HÉRAUT" sex="1" type="H" statut='héraut' age='A' stat_amour='néant'>UN HÉRAUT</role>.</castItem>
+	<castItem><role id="UN PRISONNIER" sex="1" type="H" statut='prisonnier' age='A' stat_amour='néant'>UN PRISONNIER</role>.</castItem>
+	<castItem><role id="LE GEÔLIER" sex="1" type="H" statut='geôlier' age='A' stat_amour='néant'>LE GEÔLIER</role>.</castItem>
+
+</castList>
+<set location='Lieux divers' country='Grèce' periode='Temps mythologiques' link=''>La Scène du premier Acte est à Tyr. Celle du deuxième et du troisième en Égypte, 
+Et celle du quatrième et cinquième dans Éphèse. </set>
+</front>
+<body>
+<div1 type="acte" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Hidaspe, Tirsis.</head>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="1">Admire désormais la puissance des flammes </l>
+	<l id="2">Qu'un aveugle démon allume dans nos âmes </l>
+	<l id="3">Et confesse avec moi que ses attraits vainqueurs </l>
+	<l id="4">Sont toujours ennemis du repos de nos coeurs. </l>
+	<l id="5">Calistène autrefois insensible à ses charmes </l>
+	<l id="6">Met aujourd'hui sa gloire à lui donner des larmes. </l>
+	<l id="7">Son esprit languissant dans un soin déréglé </l>
+	<l id="8">Tient si fort de l'amour qu'il en est aveuglé ; </l>
+	<l id="9">S'il fait quelque discours, l'amour y participe. </l>
+	<l id="10">Il commence et finit par le nom de Lucipe, </l>
+	<l id="11">Et bien qu'en sa recherche il ait toujours souffert </l>
+	<l id="12">Il se plaît à nourrir sa flamme qui le perd. </l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="13">Mais pour nous divertir attendant Calistène, </l>
+	<l id="14">Dis-moi de ces transports d'origine certaine.</l>
+<note type="C">Employe : la graphier avec un Y est conservée pour obtenir 12 pieds.</note>
+	<l id="15">Puisque sa passion employe mon secours </l>
+	<l id="16">Au dessein d'enlever l'objet de ses amours, </l>
+	<l id="17">Il montre qu'il veut bien que j'en sache l'histoire. </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="18">À peine pourras-tu m'écouter et me croire : </l>
+	<l id="19">Au temps que la fureur de cent peuples mutins </l>
+	<l id="20">Avait semé l'effroi parmi les Byzantins </l>
+	<l id="21">Et que le bruit confus d'une guerre civile </l>
+	<l id="22">Semblait leur annoncer la perte de leur ville, </l>
+	<l id="23">La crainte du péril fit de si grands efforts </l>
+	<l id="24">Qu'elle s'alla placer sur le front des plus forts. </l>
+	<l id="25">Les pères étonnés et les mères craintives </l>
+	<l id="26">Éloignèrent soudain leurs filles et leurs rives </l>
+	<l id="27">Et leur firent chercher aux pays étrangers </l>
+	<l id="28">Un peu de sûreté contre tant de dangers ; </l>
+	<l id="29">Si bien que le dessein de sortir de misère </l>
+	<l id="30">Fit venir en ces lieux et Lucipe et sa mère, </l>
+	<l id="31">Où la ville de Tyr si féconde en plaisirs </l>
+	<l id="32">En produit des effets plus prompts que les désirs.</l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="33">Jusqu'ici l'amour n'a point fait de surprise </l>
+	<l id="34">Et Calistène même a gardé sa franchise. </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="35">Il la perdra bientôt, écoute seulement </l>
+	<l id="36">Le merveilleux sujet d'un grand étonnement : </l>
+	<l id="37">On commença la guerre avecque tant d'outrage </l>
+	<l id="38">Qu'on eût dit que l'enfer y mêlait de sa rage. </l>
+	<l id="39">Partout où la discorde alluma ses flambeaux </l>
+	<l id="40">Ces monstres inhumains en firent des tombeaux </l>
+	<l id="41">Et l'on vit ondoyer durant toute la guerre </l>
+	<l id="42">Le feu sur les maisons et le sang sur la terre. </l>
+	<l id="43">Mais la rébellion succombant sous ses fers </l>
+	<l id="44">Entraîna les mutins avec elle aux enfers, </l>
+	<l id="45">Et leur honteuse mort justement poursuivie </l>
+	<l id="46">Nous rendit le repos que nous ôta leur vie. </l>
+	<l id="47">Enfin de tous les feux qui nous privaient du jour </l>
+	<l id="48">Byzance ne retint que les flammes d'amour :</l>
+	<l id="49">En parlant des beautés qui s'étaient absentées, </l>
+	<l id="50">Lucipe qu'on aimait fut des plus regrettées, </l>
+	<l id="51">Si bien qu'au seul récit de ses divins attraits </l>
+	<l id="52">Calistène sentit que l'amour a des traits </l>
+	<l id="53">Et son coeur s'étonna d'avoir pris par l'oreille </l>
+	<l id="54">Et non pas par les yeux une ardeur nonpareille. </l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="55" part="i">Il connaissait déjà Lucipe. </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="55" part="f">Nullement. </l>
+	<l id="56">Sache qu'il n'a pas vu son portrait seulement. </l>
+	<l id="57">Il est vrai néanmoins qu'il connaît bien son père, </l>
+	<l id="58">Qu'il connaît ses parents et qu'il a vu sa mère. </l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="59" part="i">Tu m'étonnes beaucoup. Achève. </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="59" part="f">En peu de temps </l>
+	<l id="60">Notre amant mérita le prix des plus constants, </l>
+	<l id="61">Et son feu crût si fort au point de sa naissance, </l>
+	<l id="62">Que le moins curieux en eût la connaissance. </l>
+	<l id="63">Il demande Lucipe et toutefois en vain </l>
+	<l id="64">Car le refus du père arrêta son dessein. </l>
+	<l id="65">Je te laisse à penser si ce jeune courage </l>
+	<l id="66">Supporta constamment un si sensible outrage. </l>
+	<l id="67">Il partit de Byzance et s'en vint en ces lieux </l>
+	<l id="68">À dessein d'enlever ce qu'il aime le mieux. </l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="69">Il est vrai que jamais une amour de la sorte </l>
+	<l id="70">Ne forgea dans ses feux une chaîne si forte, </l>
+	<l id="71">Mais connais-tu Lucipe, as-tu vu ses beautés </l>
+	<l id="72">Qui font de tels efforts dessus les libertés ? </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="73" part="i">Jamais. </l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="73" part="f">Notre victoire est donc bien incertaine. </l>
+	<l id="74" part="i">Je ne la connais point. </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="74" part="f">Mais voici Calistène. </l>
+	<l id="75">Avez-vous vu Lucipe et son portrait vainqueur </l>
+	<l id="76">N'est-il point par vos yeux entré dans votre coeur ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Hidaspe, Tirsis, Calistène.</head>
+<sp who="CALISTÈNE"><speaker>CALISTÈNE.</speaker>
+	<l id="77">Le Ciel à mes travaux refuse ce salaire.</l>
+	<l id="78">J'ai fait ce que j'ai pu sans toutefois rien faire ; </l>
+	<l id="79">Au point de voir le bien que l'amour m'a promis </l>
+	<l id="80">Le malheur qui me suit ne me l'a pas permis. </l>
+	<l id="81">Mon âme qui lui sert d'objet et de trophée </l>
+	<l id="82">Ne connaît pas l'ardeur dont elle est échauffée, </l>
+	<l id="83">Et dans un feu divin mes esprits retenus </l>
+	<l id="84">Font encore des voeux à des Dieux inconnus. </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="85">Vous n'avez donc pas vu votre belle maîtresse ?</l>
+</sp>
+<sp who="CALISTÈNE"><speaker>CALISTÈNE.</speaker>
+	<l id="86">Parle plus sainement en l'appelant déesse. </l>
+	<l id="87">Lucipe tient si fort de l'essence des Dieux </l>
+	<l id="88">Qu'elle se fait aimer sans paraître à nos yeux. </l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="89">Il n'a plus de raison que l'amour ne dissipe. </l>
+</sp>
+<sp who="CALISTÈNE"><speaker>CALISTÈNE.</speaker>
+	<l id="90" part="i">Ami, que dites-vous ? </l>
+</sp>
+<sp who="TIRSIS"><speaker>TIRSIS.</speaker>
+	<l id="90" part="f">Je parlais de Lucipe : </l>
+	<l id="91">Ne la connaissant pas, la pourrons-nous ravir ? </l>
+</sp>
+<sp who="CALISTÈNE"><speaker>CALISTÈNE.</speaker>
+	<l id="92">Embrasse seulement le soin de me servir. </l>
+	<l id="93">J'ai su que tous les soirs Lucipe se promène </l>
+	<l id="94">Sur ces bords écartés où sa mère la mène. </l>
+	<l id="95">Je connais bien sa mère et par elle je puis </l>
+	<l id="96">Connaître la beauté d'où viennent mes ennuis. </l>
+	<l id="97">Mais quand Lucipe seule y daignerait paraître, </l>
+	<l id="98">L'excès de sa beauté nous la ferait connaître </l>
+	<l id="99">Et l'amour qui me blesse avec tant de pouvoir </l>
+	<l id="100">L'accompagne toujours pour me la faire voir. </l>
+	<l id="101">Enfin lorsque la nuit rendra ces lieux plus sombres, </l>
+	<l id="102">Il se faudra servir de la faveur des ombres </l>
+	<l id="103">Et ne rien épargner d'un violent effort </l>
+	<l id="104">Au dessein d'adoucir les rigueurs de mon sort. </l>
+	<l id="105">Mais attendant le soir et l'heure favorable </l>
+	<l id="106">Qui me doit enrichir d'un bien si désirable, </l>
+	<l id="107">Allons nous tenir prêts dans un vaisseau léger </l>
+	<l id="108">Qu'un si noble butin doit aujourd'hui charger. </l>
+</sp>
+<sp who="HIDASPE"><speaker>HIDASPE.</speaker>
+	<l id="109">Lorsque l'on précipite un dessein d'importance </l>
+	<l id="110">On se met au hasard d'en faire pénitence.</l>
+	<l id="111" part="i">Ne faites rien encore. </l>
+</sp>
+<sp who="CALISTÈNE"><speaker>CALISTÈNE.</speaker>
+	<l id="111" part="f">Je ne puis retarder : </l>
+	<l id="112">Lorsque l'on désespère, il faut tout hasarder. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Clitophon, Clinias.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="113">Confesse que Lucipe a des beautés si grandes </l>
+	<l id="114">Que sans être idolâtre on lui fait des offrandes. </l>
+	<l id="115">Depuis qu'elle a choisi sa demeure chez nous, </l>
+	<l id="116">J'ai cent fois adoré ses attraits à genoux, </l>
+	<l id="117">J'ai souffert tant de maux qu'il est presque impossible </l>
+	<l id="118">Que leur triste récit trouve une âme insensible. </l>
+	<l id="119">Mais aussi je connais que l'amour sans rigueurs </l>
+	<l id="120">Sous un même brasier consomme nos deux coeurs. </l>
+	<l id="121">Peux-tu donc me blâmer sachant bien que j'adore </l>
+	<l id="122">Plus de perfections qu'on en donne à l'aurore ? </l>
+	<l id="123">N'as-tu pas vu son port qui fait juger aux Dieux </l>
+	<l id="124">Que la terre est ici plus riche que les Cieux ? </l>
+	<l id="125">N'as-tu pas vu son teint avec le privilège </l>
+	<l id="126">De montrer un accord des feux et de la neige ? </l>
+	<l id="127">N'as-tu pas vu ses yeux qui font croire au soleil </l>
+	<l id="128">Qu'on ne l'appelle plus un astre sans pareil ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="129">Pour plaire aux passions où ton esprit s'engage, </l>
+	<l id="130">Clitophon, si tu veux j'en croirai davantage. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="131">Ami, crois seulement que ce corps si bien fait </l>
+	<l id="132">Est la belle prison d'un esprit plus parfait. </l>
+	<l id="133">Sa langue assujettit ces âmes relevées </l>
+	<l id="134">Que l'éclat de ses yeux n'avait pas captivées </l>
+	<l id="135">Et l'amour ne sait pas s'il reçoit plus de coeurs </l>
+	<l id="136">Du charme de sa voix que de ses yeux vainqueurs. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="137">Une fille d'esprit qui captive notre âme </l>
+	<l id="138">Est bonne pour maîtresse et rarement pour femme. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="139">Tous les feux de l'amour ne m'échaufferaient pas </l>
+	<l id="140">Si le corps et l'esprit n'avaient mêmes appas.</l>
+	<l id="141">Être esclave d'un corps dont la grâce volage </l>
+	<l id="142">Ne va pas jusqu'à l'âme et change au gré de l'âge, </l>
+	<l id="143">C'est faire vivre encor ce malheureux amant </l>
+	<l id="144">Que l'amour d'un beau marbre a mis au monument. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="145">Bien que sur la raison ton sentiment se fonde, </l>
+	<l id="146">Il n'est pas toutefois celui de tout le monde. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="147">Un beau corps sans esprit incapable d'ardeur </l>
+	<l id="148">Est une fleur qui passe et qui n'a point d'odeur, </l>
+	<l id="149">Clinias, ce n'est rien qu'une belle peinture, </l>
+	<l id="150">Qu'un ouvrage imparfait des mains de la nature. </l>
+	<l id="151">C'est un ciel sans soleil, un flambeau sans clarté, </l>
+	<l id="152">Ou bien un beau palais qui n'est pas habité. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="153">Plusieurs où la raison est toujours assez forte </l>
+	<l id="154">Voudraient bien posséder des palais de la sorte, </l>
+	<l id="155">Ou si on les fuyait tu me dois avouer </l>
+	<l id="156">Qu'il se verrait beaucoup de palais à louer. </l>
+	<l id="157">Mais que te servira de cacher dans ton âme </l>
+	<l id="158">Ces secrets mouvements d'une si vive flamme ? </l>
+	<l id="159">Tu sais bien que ton père a des intentions </l>
+	<l id="160">Qui ne sont pas d'accord avec tes passions. </l>
+	<l id="161">Tu désires Lucipe et son vouloir ordonne </l>
+	<l id="162">Que tu dois quelque jour épouser Calligonne. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="163">Hélas ! Je sais trop bien que ses lâches désirs </l>
+	<l id="164">Sont des empêchements au cours de mes plaisirs. </l>
+	<l id="165">L'on dirait aujourd'hui qu'il m'ait donné la vie </l>
+	<l id="166">Pour la rendre aux ennuis dont elle est poursuivie.</l>
+	<l id="167">C'est de lui seulement dont mes soins sont venus, </l>
+	<l id="168">C'est par lui-même aussi qu'ils sont entretenus. </l>
+	<l id="169">Mais ce qui les augmente et me fait toujours craindre, </l>
+	<l id="170">C'est qu'il faut endurer sans toutefois me plaindre. </l>
+	<l id="171">Et je suis malheureux après mille travaux </l>
+	<l id="172">Jusqu'au point d'honorer la cause de mes maux. </l>
+	<l id="173">J'aimerai toutefois malgré cette contrainte </l>
+	<l id="174">La divine beauté dont je ressens l'atteinte </l>
+	<l id="175">Et je suis résolu de montrer quelque jour </l>
+	<l id="176">Que le respect est faible où préside l'amour. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="177" part="i">Quand verras-tu Lucipe ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="177" part="f">Elle m'a fait entendre </l>
+	<l id="178">Que dedans ce jardin je la devais attendre. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="179">Il est bien malaisé que tu l'y puisses voir. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="180" part="i">Pourquoi dis-tu cela ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="180" part="f">Voici l'heure du soir. </l>
+	<l id="181">Tu sais bien que sa mère à ses voeux trop cruelle </l>
+	<l id="182">L'amène tous les soirs promener avec elle. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="183">Je ne l'ignore pas, mais que m'importe-t-il ? </l>
+	<l id="184">Laisse faire l'amour, il est assez subtil. </l>
+	<l id="185">Ses traits accoutumés à faire des miracles, </l>
+	<l id="186">Nous ouvrent des chemins au travers des obstacles. </l>
+	<l id="187" part="i">Mais regarde venir. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="187" part="f">Ha, je ne croirais pas </l>
+	<l id="188">Que tu dusses ce soir adorer ses appas. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="189">De quelle invention vous êtes-vous servie, </l>
+	<l id="190">Pour venir en ce lieu me conserver la vie ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Clitophon, Clinias, Lucipe.</head>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="191">J'ai feint qu'un petit mal m'ôtait la liberté </l>
+	<l id="192">De m'aller promener sur ce bord écarté </l>
+	<l id="193">Où tous les soirs ma mère a pris une habitude </l>
+	<l id="194">De chercher du plaisir dedans la solitude. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="195">Pourvu que votre mal ne la puisse arrêter, </l>
+	<l id="196">Nous aurons aujourd'hui de quoi nous contenter. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="197">Clitophon, ne crains point, elle est déjà partie, </l>
+	<l id="198">Ton père et Calligonne ont fait cette partie. </l>
+	<l id="199">Satire qui les suit et qui sait notre amour </l>
+	<l id="200">Me doit faire savoir l'heure de leur retour ; </l>
+	<l id="201">Si bien que nous pouvons sans qu'on nous importune </l>
+	<l id="202">Considérer l'état où nous met la fortune. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="203">Sachant fort bien qu'un tiers nuit toujours aux amants, </l>
+	<l id="204">J'irai chercher ailleurs des divertissements. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="205">Demeure, Clinias. Un ami véritable </l>
+	<l id="206">Aux amants comme nous est toujours profitable. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="207">Je sais bien toutefois qu'ils trouvent des plaisirs </l>
+	<l id="208">À se dire en secret leur peine et leurs désirs </l>
+	<l id="209">Et je suis assuré par mon expérience </l>
+	<l id="210">Que le meilleur ami quelquefois les offense. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="211">Puisque tu veux sortir, au moins ressouviens-toi </l>
+	<l id="212">De passer cette nuit encore avec moi. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="213" part="i">Je n'y manquerai pas. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Clitophon, Lucipe.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="213" part="f">Ha, Lucipe, ma vie, </l>
+	<l id="214">Adorable prison de mon âme asservie, </l>
+	<l id="215">Combien dois-je d'autels à l'éclat de tes yeux </l>
+	<l id="216">Qui rend mon sort égal à celui-là des Dieux ! </l>
+	<l id="217">Tu me fais éprouver que le bonheur extrême </l>
+	<l id="218">Consiste seulement à voir ce que l'on aime. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="219">Et moi je trouve ici que le plus grand tourment </l>
+	<l id="220">Procède de la peur de perdre son amant. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="221">Dissipe cette peur et chasse ces alarmes </l>
+	<l id="222">Qui changent tes beaux yeux en des torrents de larmes </l>
+	<l id="223">Je suis si bien à toi que je doute souvent </l>
+	<l id="224">Si je suis aujourd'hui le même que devant. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="225">Ce respect importun que tu rends à ton père </l>
+	<l id="226">Te fera consentir à tout ce qu'il espère. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="227">Si mon père veut être en cela respecté, </l>
+	<l id="228">L'amour veut être aussi tout de même traité. </l>
+	<l id="229">Je pourrai donc sans crime au feu qui me consomme. </l>
+	<l id="230">Respecter un grand Dieu pour mépriser un homme. </l>
+	<l id="231">Mais sortons de ce lieu : je crains les envieux </l>
+	<l id="232">Et les yeux indiscrets de quelque curieux. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Hippias, Calistène, Calligonne, Hidaspe, Tirsis.</head>
+<sp who="HIPPIAS"><speaker>HIPPIAS.</speaker>
+	<l id="233">La promenade est belle ; on dirait que l'ombrage </l>
+	<l id="234">Ajoute de la grâce à ce plaisant rivage. </l>
+</sp>
+<sp who="CALISTÈNE"><speaker>CALISTÈNE.</speaker>
+	<l id="235">Amis, je vois la mère, et la fille la suit. </l>
+	<l id="236">Prenons l'occasion, servons-nous de la nuit. </l>
+	<l id="237" part="i">Lucipe, vous viendrez. </l>
+</sp>
+<sp who="HIPPIAS"><speaker>HIPPIAS.</speaker>
+	<l id="237" part="f">Que voulez-vous ? À l'aide ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="238" part="i">Qu'avez-vous ? </l>
+</sp>
+<sp who="HIPPIAS"><speaker>HIPPIAS.</speaker>
+	<l id="238" part="f">Calligonne ! Un voleur la possède ; </l>
+	<l id="239">Ce vaisseau que tu vois sur ce traître élément, </l>
+	<l id="240">Emporte Calligonne et mon contentement. </l>
+	<l id="241">Poursuivons le pirate et faisons de sa barque </l>
+	<l id="242">Pour les siens et pour lui le vaisseau de la parque. </l>
+</sp>
+<sp who="PANTHIE"><speaker>PANTHIE.</speaker>
+	<l id="243">Ma fille était le but de ce lâche dessein, </l>
+	<l id="244">Leur bouche a découvert ce qu'ils ont dans le sein : </l>
+	<l id="245">On en veut à Lucipe et le ciel me menace </l>
+<note type="L">Bonace : Calme de la mer, qui se dit quand le vent est abattu, ou a cessé. La bonace trompe souvent le Pilote. [F]</note>
+	<l id="246">D'un orage prochain après tant de bonace. </l>
+	<l id="247">Je croirai ce malheur qui me vient avertir </l>
+	<l id="248">Qu'il est temps de quitter la demeure de Tyr. </l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Lucipe, Clitophon.</head>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="249">Bien que ta passion me soit assez connue </l>
+	<l id="250">Et qu'elle m'ait montré ton âme toute nue, </l>
+	<l id="251">Toutefois, Clitophon, tu me vois en un point </l>
+	<l id="252">Qu'une fatale peur ne m'abandonne point. </l>
+	<l id="253">Tantôt je me rassure et tantôt je me trouble, </l>
+	<l id="254">Tantôt mon soin se perd, tantôt il se redouble </l>
+	<l id="255">Et selon les pensers qui naissent de mon sort, </l>
+	<l id="256">Je me vois dans l'orage ou bien dedans le port. </l>
+	<l id="257">Enfin, cher Clitophon, mon amour désespère </l>
+	<l id="258">Que tu puisses tromper le dessein de ton père. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="259">Je te ferai connaître en cette extrémité </l>
+	<l id="260">Que l'on peut toute chose en servant ta beauté. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="261">Que de difficultés m'ôtent cette espérance </l>
+	<l id="262">Que tu donnes sans cesse à ma persévérance ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="263">Tant d'obstacles vaincus te feront dire un jour </l>
+	<l id="264">Qu'on n'est pas sans plaisir avec beaucoup d'amour. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="265">Mais Satire revient ! Ma mère approche-t-elle ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Lucipe, Clitophon, Satire.</head>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="266">Je vous viens apporter une étrange nouvelle : </l>
+	<l id="267" part="i">Calligonne est ravie. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="267" part="f">Ha ! Que viens-je d'ouïr ! </l>
+	<l id="268">Bons Dieux, dois-je la plaindre ou bien me réjouir ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="269">Ainsi sans y songer la fortune prospère </l>
+	<l id="270">Oppose un grand obstacle au dessein de mon père </l>
+	<l id="271">Et sa seule faveur donne à ta passion </l>
+	<l id="272">Ce que tu demandais à mon affection. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="273">La fortune changeante en tout ce qu'elle ordonne </l>
+	<l id="274">Ravit en peu de temps le bonheur quelle donne, </l>
+	<l id="275">Si bien que connaissant ta constance et ta foi, </l>
+	<l id="276">J'en ferais plus d'état s'il procédait de toi. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="277">Mais voici Clinias. Ami, viens-tu d'apprendre… </l>
+</sp>
+</div2>
+<div2 type="scene" n="9"><head>SCÈNE IX. Clinias, Clitophon, Lucipe, Satire.</head>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="278">Mais toi-même, sais-tu ce que je viens d'entendre ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="279" part="i">Qu'as-tu donc entendu ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="279" part="f">Qu'avant qu'il soit deux jours </l>
+	<l id="280">Tes yeux ne verront plus l'objet de tes amours. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="281" part="i">De qui tiens-tu cela ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="281" part="f">Lucipe, votre mère </l>
+	<l id="282">Fait dessein de quitter cette terre étrangère. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="283" part="i">C'est ce qu'elle m'a dit. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="283" part="f">Pourquoi si promptement ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="284">Lucipe était le but de ce ravissement. </l>
+	<l id="285">Aveuglés de la nuit qui cachait cette belle, </l>
+	<l id="286">Les ravisseurs ont pris Calligonne pour elle. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="287" part="i">Qui l'a dit ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="287" part="f">Le coup fait, un pirate en partant </l>
+	<l id="288">A dit ; je tiens Lucipe, allons, je suis content. </l>
+	<l id="289">Et sa mère présente, à ce mot étonnée, </l>
+	<l id="290">Pour elle a redouté la même destinée ; </l>
+	<l id="291" part="i">Elle part dès demain. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="291" part="f">Ô funeste discours </l>
+	<l id="292">Qui me donne le mal et m'ôte le secours ! </l>
+	<l id="293">Que dessus moi le Ciel exerce un triste empire ! </l>
+	<l id="294">Je n'ai pas respiré qu'il faut que je soupire </l>
+	<l id="295">Et parmi les tourments qu'on me voit endurer, </l>
+	<l id="296">Peine ai-je espéré qu'il faut désespérer. </l>
+	<l id="297">Te verrai-je Lucipe enlever à ma vue ? </l>
+	<l id="298">Souffrirai-je aisément un dessein qui me tue, </l>
+	<l id="299">Et sans rien opposer contre tant de rigueur, </l>
+	<l id="300">Souffrirai-je à la fin qu'on m'arrache mon coeur ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="301">Non, non, cher Clitophon, tu me verras constante </l>
+	<l id="302">À rendre incessamment ta passion contente ; </l>
+	<l id="303">Ou s'il faut que le Ciel nous sépare tous deux. </l>
+	<l id="304">Je ferai de la mer le tombeau de mes feux </l>
+	<l id="305">Et je ferai connaître au destin plus sévère </l>
+	<l id="306">Que moi-même je puis me ravir à ma mère. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="307">Sans nous précipiter nous pouvons aisément </l>
+	<l id="308">Rechercher les moyens de vivre sûrement </l>
+	<l id="309">Et si je connaissais aussi bien ton courage </l>
+	<l id="310">Que je connais l'amour où ton âme s'engage, </l>
+	<l id="311" part="i">Je te dirais… </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="311" part="f">Dis-moi tout ce que tu voudras, </l>
+	<l id="312">Propose librement ce que tu résoudras. </l>
+	<l id="313">Sois assuré de moi : quand l'amour est extrême, </l>
+	<l id="314">Il produit dans les coeurs un courage de même. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="315">Sortons de ce pays, laissons-y nos soucis </l>
+	<l id="316">Et cherchons autre part des destins adoucis. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="317">L'amour doit approuver une telle entreprise </l>
+	<l id="318">Mais l'honneur me défend ce qu'amour autorise. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="319">Si tu veux toutefois notre commun bonheur </l>
+	<l id="320">Tu dois te rendre sourde aux conseils de l'honneur. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="321">Je ne découvre point de moyen plus facile </l>
+	<l id="322">Que de chercher ailleurs un favorable asile ; </l>
+	<l id="323">Le plus sévère honneur que l'on ait mis au jour </l>
+	<l id="324">Ne défend pas de suivre un vertueux amour. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="325">Il est vrai que l'honneur qui connaît le mérite </l>
+	<l id="326">Ne défend pas de suivre une amitié licite ; </l>
+	<l id="327">Mais ce tyran contraire à ce contentement </l>
+	<l id="328">Me défend d'écouter et de suivre un amant. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="329">Il faut donc me résoudre à la plus dure peine </l>
+	<l id="330">Que nous puisse laisser une absence inhumaine </l>
+	<l id="331">Et croire tous mes maux assez récompensés </l>
+	<l id="332">De baiser les endroits que tes pieds ont tracés. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="333">Brisons-là, Clitophon ; l'amour m'a résolue </l>
+	<l id="334">Et je cède à la fin à sa force absolue. </l>
+	<l id="335">Je veux suivre partout tes pas et tes désirs, </l>
+	<l id="336">J'aurai part à tes maux ainsi qu'à tes plaisirs, </l>
+	<l id="337" part="i">Mais où faut-il aller ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="337" part="f">Songeons-y, je vous prie. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="338">Vous avez des amis dedans Alexandrie : </l>
+	<l id="339">Le père de Satire y demeure toujours. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="340">Ignorez-vous le mal qui traverse ses jours ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="341" part="i">Quel mal ? Je n'en sais rien. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="341" part="f">Un furieux corsaire </l>
+	<l id="342">L'a rendu prisonnier chez un peuple adversaire </l>
+	<l id="343">Où la sévérité d'un tyran odieux </l>
+	<l id="344">Le force d'immoler des hommes à ses Dieux. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="345" part="i">Je ne le savais pas. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="345" part="f">Mon coeur, je me dispose </l>
+	<l id="346">À suivre le conseil que notre ami propose. </l>
+	<l id="347">Il faudra vois ces murs vantés par le renom </l>
+	<l id="348">Que le plus grand des Rois honora de son nom. </l>
+	<l id="349">Satire, suivras-tu cette triste aventure ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="350">Je vous suivrai partout jusqu'à la sépulture. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="351" part="i">Mais pourrons-nous avoir un vaisseau ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="351" part="f">Que ce point </l>
+	<l id="352">À quoi je songerai ne vous travaille point. </l>
+	<l id="353">Conservez seulement cette ardeur généreuse </l>
+	<l id="354">Qui rendra quelque jour votre âme plus heureuse. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="355">Il faudra donc partir sans lumière et sans bruit </l>
+	<l id="356">Devant que le soleil ait dissipé la nuit. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="357" part="i">J'y suis tout résolu. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="357" part="f">Me voilà toute prête </l>
+	<l id="358">À m'aller embarquer même dans la tempête.</l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="359">Venez en mon logis pour attendre le temps </l>
+	<l id="360">Qu'un départ désiré vous doit rendre contents. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+<sp stage="alone" who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="361">Dieux qui savez mes maux, puissances souveraines </l>
+	<l id="362">Qui pouvez d'un regard mettre fin à mes peines, </l>
+	<l id="363">Dois-je encore longtemps immoler les mortels </l>
+	<l id="364">Qu'un tyran forcené destine à vos autels ? </l>
+	<l id="365">Vous plairez-vous toujours en la terre où nous sommes </l>
+	<l id="366">De voir avec l'encens fumer le sang des hommes ? </l>
+	<l id="367">Hélas ! Quelle constance en l'état où je suis </l>
+	<l id="368">Pourrait sans murmurer supporter mes ennuis ? </l>
+	<l id="369">Mais que vois-je sortir de ce triste rivage ? </l>
+	<l id="370">C'est un homme resté des fureurs d'un orage ; </l>
+	<l id="371">Son port tout étonné me fait assez juger </l>
+	<l id="372">Qu'il sort de la tempête ou d'un autre danger. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Ménélas, Satire.</head>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="373">Après avoir souffert de xi cruelles pertes </l>
+	<l id="374">Quel pays me reçoit en ces rives désertes ? </l>
+	<l id="375">Ai-je été conservé parmi tant de tourments </l>
+	<l id="376">Pour pleurer le malheur de deux parfaits amants ?</l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="377">Qui t'a fait aborder cette terre funeste </l>
+	<l id="378">Que tout le monde fuit à l'égal de la peste ? </l>
+	<l id="379" part="i">Hé, mon fils, est-ce vous ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="379" part="m">Ha, mon père ! </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="379" part="f">Bons Dieux ! </l>
+	<l id="380">D'un enfer où j'étais vous m'élevez aux Cieux. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="381">Ô Dieux, vous ne pouviez adoucir ma misère </l>
+	<l id="382">Qu'en me faisant revoir une autre fois mon père. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="383">Mais sans t'abandonner à de plus grands transports,</l>
+	<l id="384">Dis-moi quel accident t'a jeté sur ces bords.</l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="385">Ayant vu par deux fois sur la terre et sur l'onde </l>
+	<l id="386">Tout ce qu'on peut voir dans l'espace du monde.</l>
+	<l id="387">Je me vins arrêter sans biens et sans support </l>
+	<l id="388">Où le peuple de Tyr a fait un si beau port ; </l>
+	<l id="389">Là j'appris de Syphax l'aventure fatale </l>
+	<l id="390">Qui vous a fait quitter votre terre natale. </l>
+	<l id="391">Alors, désespérant de vous revoir un jour, </l>
+	<l id="392">Dans la ville de Tyr j'établis mon séjour, </l>
+	<l id="393">Où l'on me vit servir une dame étrangère </l>
+	<l id="394">De qui l'oeil pitoyable a pleuré ma misère </l>
+	<l id="395">Et qui logeait alors chez un des Tyriens </l>
+	<l id="396">Redouté pour sa force et chéri pour ses biens. </l>
+	<l id="397">Cet homme avait un fils, ma maîtresse une fille, </l>
+	<l id="398">Et ces enfants étaient l'espoir de leur famille. </l>
+	<l id="399">Je pense que le Ciel ne les voulut former </l>
+	<l id="400">Qu'à dessein seulement qu'ils se pussent aimer ; </l>
+	<l id="401">Aussi s'aimèrent-ils et leurs fidèles âmes </l>
+	<l id="402">Reçurent par les yeux de mutuelles flammes. </l>
+	<l id="403">Mais que ce triste amour a produit de malheurs </l>
+	<l id="404">Depuis qu'il a causé leurs premières douleurs ! </l>
+	<l id="405">J'étais leur confident et leurs âmes blessées </l>
+	<l id="406">Déchargeaient dans mon sein leurs secrètes pensées. </l>
+	<l id="407">Enfin ayant connu que mille empêchements </l>
+	<l id="408">Se venaient opposer à leurs contentements </l>
+	<l id="409">Et que leur amitié trop longuement gênée </l>
+	<l id="410">Perdait de jour en jour l'espoir de l'hyménée, </l>
+	<l id="411">Nous prîmes le dessein d'aller chercher ailleurs </l>
+	<l id="412">Des biens plus assurés et des destins meilleurs. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="413">Que l'amour est fertile en conseils téméraires, </l>
+	<l id="414">Et qu'aux jeunes esprits ses flammes sont contraires ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="415">Nous nous mîmes sur mer dont les flots incertains </l>
+	<l id="416">Semblèrent par leur calme approuver leurs desseins ; </l>
+	<l id="417">Jamais un plus beau temps ne réjouit le monde : </l>
+	<l id="418">Un favorable vent frisait le front de l'onde, </l>
+	<l id="419">Mais ce calme trompeur ne servit seulement </l>
+	<l id="420">Que pour nous attirer sur ce traître élément. </l>
+	<l id="421">Deux jours nous avaient vus sans aucune infortune </l>
+	<l id="422">Fendre avec plaisir les plaines de Neptune </l>
+	<l id="423">Et le troisième jour le Ciel tout pluvieux </l>
+	<l id="424">Fit voir à nos desseins un visage ennuyeux. </l>
+	<l id="425">Le vent fit élever des montagnes liquides </l>
+	<l id="426">Dont l'aspect seulement faisait des homicides ; </l>
+	<l id="427">Enfin notre vaisseau porté contre un écueil, </l>
+	<l id="428">De vaisseau qu'il était ne fut plus qu'un cercueil ; </l>
+	<l id="429">L'onde y trouvant partout un facile passage </l>
+	<l id="430">Ne nous présageait rien qu'un funeste naufrage </l>
+	<l id="431">Et le choc d'un rocher en fit plus de morceaux </l>
+	<l id="432">Qu'on ne verrait de flots dans l'empire des eaux.</l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="433">Que devinrent alors ces amants déplorables ?</l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="434">Le malheureux jouet des vents inexorables, </l>
+	<l id="435">Je les vis dessus l'eau quelque temps embrassés </l>
+	<l id="436">Aller au gré des vents et des flots courroucés. </l>
+	<l id="437">Ha ! Si la Déité voyait notre misère, </l>
+	<l id="438">Leur pitoyable état eût vaincu sa colère. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="439">Garde de blasphémer contre la Déité : </l>
+	<l id="440">Lorsqu'elle nous punit nous l'avons mérité, </l>
+	<l id="441">Ses jugements obscurs sont toujours équitables. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="442">Je suivis donc de l'oeil ces amants lamentables </l>
+	<l id="443">Et je vis à la fin qu'un grand flot écumant </l>
+	<l id="444">Les vint ensevelir et fit leur monument. </l>
+	<l id="445">Hélas ! En même temps tous les vents s'apaisèrent, </l>
+	<l id="446">Le Ciel se découvrit et les flots s'abaissèrent </l>
+	<l id="447">Et comme si la mer n'eût voulu que leur corps, </l>
+	<l id="448">La prise qu'elle fit termina ses efforts. </l>
+	<l id="449">S'il resta quelques vents après cette aventure, </l>
+	<l id="450">Ce furent des soupirs qu'en jetait la nature ; </l>
+	<l id="451">Et si l'on vit pleuvoir ce ne fut que des pleurs </l>
+	<l id="452">Que le Ciel par pitié donnait à nos malheurs. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="453" part="i">Ces maux sont-ils récents ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="453" part="f">Tant de maux arrivèrent </l>
+	<l id="454">Au point qu'hier au soir les astres se levèrent ; </l>
+<note type="C">Antenne : ou Verge. Terme de Marine. C'est la pièce de bois suspendue à une poulie qui croise le mât, à laquelle la voile est attachée. [F]</note>
+	<l id="455">Pour moi, qui tins toujours l'antenne du vaisseau, </l>
+	<l id="456">Après avoir flotté toute la nuit sur l'eau, </l>
+	<l id="457">Je viens d'être jeté sur ces tristes rivages </l>
+	<l id="458">Qui n'offrent à mes yeux que des objets sauvages. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="459">Que le Ciel t'est propice et qu'il a soin de toi </l>
+	<l id="460">De t'avoir aujourd'hui présenté devant moi ! </l>
+	<l id="461">S'il t'eût fait rencontrer quelqu'un de ces corsaires </l>
+	<l id="462">Qui remplissent d'horreurs ces pays adversaires, </l>
+	<l id="463">D'un danger d'où tu sors, le sort t'allait jeter </l>
+	<l id="464">Dans un autre péril qu'on ne peut éviter. </l>
+	<l id="465">Le Tyran qui commande en ces terres cruelles, </l>
+	<l id="466">Fait gloire d'inventer des tortures nouvelles </l>
+	<l id="467">Et me fait malgré moi sacrifier aux Dieux </l>
+	<l id="468">Tous ceux que le hasard fait venir en ces lieux. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="469">Que pouvais-je espérer d'un si cruel orage, </l>
+	<l id="470">Que l'horreur de ces lieux ou celle du naufrage ? </l>
+	<l id="471">Mais les peuples voisins peuvent-ils endurer </l>
+<note type="C">La Y est conservé à voye pour obtenir 12 pieds au vers.</note>
+	<l id="472">Qu'on voye ce tyran plus longtemps prospérer ? </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="473">La guerre est immortelle en ces lieux détestables </l>
+	<l id="474">Que le sang a rendu partout épouvantables. </l>
+	<l id="475">Mais que veut celui-ci ? Vois son port et ses yeux </l>
+	<l id="476">Que la cruauté même a rendus furieux. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Ménélas, Satire, Soldat.</head>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="477">Notre Roi te commande ou d'aller au supplice </l>
+	<l id="478">Ou de te préparer à faire un sacrifice. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="479" part="i">Quel ? </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="479" part="m">De deux prisonniers. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="479" part="f">Où les avez-vous pris ? </l>
+	<l id="480">D'un généreux combat ont-ils été le prix ? </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="481">Hier au soir le vent et la mer toute émue </l>
+	<l id="482">Les firent sur ces bords arriver à ma vue. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="483">C'est assez ; je suivrai ce devoir rigoureux. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="484">Demandez-lui le nom de ces deux malheureux. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="485">Soldat, encore un mot : me pourriez-vous apprendre </l>
+	<l id="486">Le nom des prisonniers qui se sont laissé prendre ? </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="487">Ce sont noms étrangers, fâcheux à retenir ; </l>
+	<l id="488">J'aurai bien de la peine à m'en ressouvenir. </l>
+	<l id="489">Lucipe et Clitophon sont les noms, ce me semble… </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="490" part="i">Hélas… </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="490" part="f">Qu'ils prononçaient en se plaignant ensemble. </l>
+	<l id="491" part="i">Adieu, fais ton devoir. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="491" part="f">Je n'y manquerai pas. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Satire, Ménélas.</head>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="492">Ce sont ces deux amants que l'on mène au trépas, </l>
+	<l id="493">Ce sont ces deux amants que le destin resserre </l>
+	<l id="494">Et qu'il sauva des eaux pour les perdre sur terre. </l>
+	<l id="495">Quoi, mon père, faut-il que l'injure du sort </l>
+	<l id="496">Leur donne par vos mains une cruelle mort ? </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="497">Depuis que le malheur nourrit ici mes peines, </l>
+	<l id="498">Je n'ai jamais souffert de plus sensibles gênes.</l>
+	<l id="499">Hélas ! Ma volonté trop faible en ce dessein </l>
+	<l id="500">Veut s'opposer au coup que doit faire ma main ; </l>
+	<l id="501">Elle veut arrêter mes bras impitoyables. </l>
+	<l id="502">Qui rougissent du sang de tant de misérables, </l>
+	<l id="503">Mais ces bras malheureux suivant une autre loi </l>
+	<l id="504">Ne dépendent plus d'elle et ne sont plus à moi. </l>
+	<l id="505">Un tyran les retient, un tyran les remue </l>
+	<l id="506">Selon les passions dont son âme est émue. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Soldat, Ménélas, Satire.</head>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="507" part="i">Que ne me suivez-vous ? </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="507" part="f">J'allais tout doucement. </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="508">Ne vous amusez point et venez promptement. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Clitophon, Lucipe.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON, dans une prison.</speaker>
+	<l id="509">Cesse de soupirer et de perdre de larmes, </l>
+	<l id="510">Un favorable instant peut finir nos alarmes. </l>
+	<l id="511">Ce Dieu qui nous sauva sur les flots irrités </l>
+	<l id="512">Nous peut tirer des fers où l'on nous a jetés. </l>
+	<l id="513">Son oeil peut pénétrer l'obscurité de l'ombre </l>
+	<l id="514">Qui rend cette prison si terrible et si sombre, </l>
+	<l id="515">Ou quelque cruauté régnerait dans les Cieux </l>
+	<l id="516">S'ils nous avaient sauvés pour nous perdre en ces lieux. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="517">Hélas ! Peux-tu nourrir une espérance vaine </l>
+	<l id="518">Où le bien est douteux et la mort est certaine ? </l>
+	<l id="519">Quel bien espères-tu d'un peuple tout de fer </l>
+	<l id="520">Qui passe en cruauté les rages de l'enfer ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="521">Je n'en espère point qu'un peuple sanguinaire </l>
+	<l id="522">Mais j'espère du Ciel l'assistance ordinaire. </l>
+	<l id="523">Il nous met quelquefois dans un mal apparent, </l>
+	<l id="524">Pour montrer son pouvoir en nous en retirant. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="525">Ne me console point, tout le bien que j'espère </l>
+	<l id="526">C'est de mourir ensemble après tant de misère. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="527">Puisque je suis tout seul la cause de tes fers, </l>
+	<l id="528">J'ai tout seul mérité la mort et les enfers </l>
+	<l id="529">Et si je dois souffrir selon ton infortune, </l>
+	<l id="530">Je souffrirai pour toi mille morts au lieu d'une. </l>
+	<l id="531">Les soupirs et les pleurs que tu jettes ici </l>
+	<l id="532">Sont mes accusateurs et mes juges aussi </l>
+	<l id="533">Et ce même tourment qui te tient asservie, </l>
+	<l id="534">Sera jusqu'à la mort le bourreau de ma vie. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="535">Quand tu me vois pleurer je donne à tes douleurs </l>
+	<l id="536">Et non pas à mon mal mes soupirs et mes pleurs. </l>
+	<l id="537">Voyant brûler ton coeur dans des flammes si saintes, </l>
+	<l id="538">De quoi t'accuseraient mes regrets et mes plaintes?</l>
+	<l id="539">Pour t'appeler coupable as-tu dedans le sein </l>
+	<l id="540">D'une infidélité le malheureux dessein ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="541">Rejette ces pensers, n'ajoute point, mon âme, </l>
+	<l id="542">À l'excès de tes maux un soupçon de ma flamme. </l>
+	<l id="543">Tes yeux ont mis mon coeur en des liens plus forts </l>
+	<l id="544">Que ces funestes fers qui captivent nos corps. </l>
+	<l id="545">Je suis plus criminel que personne du monde </l>
+	<l id="546">De t'avoir exposée à la merci de l'onde </l>
+	<l id="547">Et d'avoir hasardé sue ce traître élément </l>
+	<l id="548">De tout cet univers le plus riche ornement. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="549">Hélas ! Hélas ! Je suis la première coupable </l>
+	<l id="550">D'avoir causé l'amour qui te rend misérable. </l>
+	<l id="551">Ne t'accuse donc plus, mon âme et mon souci, </l>
+	<l id="552">Tu ne peux t'accuser sans m'accuser aussi. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="553">Permets qu'à tout le moins je pleurs tes désastres </l>
+	<l id="554">Et que j'accuse enfin la cruauté des astres. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="555">Non, non, n'accuse rien : au milieu de l'effroi </l>
+	<l id="556">Je serai toujours bien si je suis avec toi. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="557" part="i">J'entends un bruit de clefs. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="557" part="f">C'est ce que je désire : </l>
+	<l id="558">Ces clefs me vont ouvrir le cercueil où j'aspire. </l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Soldat, Clitophon, Lucipe.</head>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="559" part="i">Debout que l'on me suive ! </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="559" part="f">Ami, vois nos malheurs </l>
+	<l id="560">Et d'un oeil de pitié regarde nos douleurs. </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="561">La pitié n'est qu'un vice aux hommes de courage </l>
+	<l id="562">Et lorsque l'on m'en parle on me fait un outrage. </l>
+	<l id="563">Si ma mort peut finir ta plainte et ton tourment, </l>
+	<l id="564">Espère désormais quelque soulagement. </l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Busire, Léonte.</head>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="565">A-t-on sacrifié ces personnes captives </l>
+	<l id="566">Que le Ciel à dessein fit prendre sur nos rives ? </l>
+</sp>
+<sp who="LÉONTE"><speaker>LÉONTE.</speaker>
+	<l id="567">Je crois que maintenant on les mène aux autels </l>
+	<l id="568">Que votre majesté consacre aux immortels </l>
+	<l id="569">Et que dans peu de temps, invincible monarque, </l>
+	<l id="570">Nous saurons de quel oeil ils ont reçu la parque. </l>
+	<l id="571">Ha, qu'ils auront joui d'un favorable sort, </l>
+	<l id="572">D'avoir eu des autels pour le lit de la mort ! </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="573">Cependant tu sais bien que chacun en murmure, </l>
+	<l id="574">Que je suis appelé l'horreur de la nature, </l>
+	<l id="575">Et qu'on nomme partout du nom de cruauté </l>
+	<l id="576">Ce qu'on doit justement appeler piété. </l>
+</sp>
+<sp who="LÉONTE"><speaker>LÉONTE.</speaker>
+	<l id="577">Il est vrai que l'on dit que de tels sacrifices </l>
+	<l id="578">Ne nous rendent jamais les Déités propices </l>
+	<l id="579">Et qu'au lieu d'apaiser le céleste courroux </l>
+	<l id="580">Ils peuvent attirer des foudres dessus nous. </l>
+	<l id="581">Partout où j »ai passé, sur la terre et sur l'onde, </l>
+	<l id="582">J'ai reçu ce discours des plus sages du monde ; </l>
+	<l id="583">L'homme le plus content et le plus désolé </l>
+	<l id="584">Est fait pour immoler, non pour être immolé. </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="585">Les Dieux sont des objets si grands et si sublimes </l>
+	<l id="586">Qu'on ne leur peut donner d'assez grandes victimes. </l>
+	<l id="587">Rien n'est plus accompli que l'homme sous les Cieux </l>
+	<l id="588">Et c'est ce qui m'oblige à l'immoler aux Dieux. </l>
+	<l id="589">Ainsi sans murmurer tout le monde peut croire </l>
+	<l id="590">Que chez moi les mortels trouvent beaucoup de gloire </l>
+	<l id="591">Puisque je les crois même en leur adversité </l>
+	<l id="592">Dignes d'être immolés à la Divinité. </l>
+	<l id="593">Mais que veut ce soldat ? Fait-on le sacrifice ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="9"><head>SCÈNE IX. Busire, Léonte, Soldat.</head>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="594">Sire, on se préparait à ce divin office </l>
+	<l id="595">Et déjà les captifs de cent chaînes liés </l>
+	<l id="596">Étaient proches des lieux où vous sacrifiez, </l>
+	<l id="597">Lorsque les ennemis nous sont venus surprendre </l>
+	<l id="598">Avec des fureurs qu'on ne saurait comprendre. </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="599">Ha, mon ressentiment ne se peut égaler, </l>
+	<l id="600">Mais qu'a-t-on fait de ceux qu'on allait immoler ? </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="601">Le garçon s'est sauvé durant cette mêlée </l>
+<note type="C">La français moderne, utilise RETENU pour participe passé de RETENIR. Nous conservons RETINT pour obtenir 12 pieds au vers. </note>
+	<l id="602">Mais nous avons retint la fille désolée </l>
+	<l id="603">Et le prêtre attendant votre commandement </l>
+	<l id="604">La retient en prison dedans son logement. </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="605">Que l'on aille immoler dessus cette montagne </l>
+	<l id="606">Qui semble présider sur toute la campagne. </l>
+	<l id="607">Allez, mais en bon nombre et montrez-vous si forts </l>
+	<l id="608">Que tous les ennemis redoutent vos efforts. </l>
+</sp>
+<sp who="SOLDAT"><speaker>SOLDAT.</speaker>
+	<l id="609" part="i">Vous serez obéi. </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="609" part="f">Je déteste, j'enrage </l>
+	<l id="610">De souffrir sans vengeance un si cruel outrage. </l>
+	<l id="611">Tous les jours l'ennemi verse le sang des miens, </l>
+	<l id="612">Ma ruine l'assure et le comble de biens ; </l>
+	<l id="613">Il tache mon renom, il obscurcit ma gloire, </l>
+	<l id="614">Chaque jour dessus moi lui donne une victoire </l>
+	<l id="615">Et cet audacieux vient jusqu'à nos autels </l>
+	<l id="616">Prendre part aux présents que j'offre aux immortels. </l>
+	<l id="617">Cependant je le souffre et sans rien entreprendre </l>
+	<l id="618">Je verrai mon pays se convertir en cendre. </l>
+	<l id="619">Non, non, sans plus languir dans la peur du danger </l>
+	<l id="620">Il faut par un duel me perdre ou me venger. </l>
+	<l id="621">Léonte, dès demain je veux que tu l'appelles.</l>
+</sp>
+<sp who="LÉONTE"><speaker>LÉONTE.</speaker>
+	<l id="622">Vous pouvez autrement terminer vos querelles. </l>
+	<l id="623">Un duel est douteux au faible comme au fort </l>
+	<l id="624">Et souvent la valeur y fait moins que le sort. </l>
+	<l id="625">Hasardez donc plutôt encore une bataille. </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="626">En vain sur ce sujet ton esprit se travaille, </l>
+	<l id="627" part="i">Ne me conteste point. </l>
+</sp>
+<sp who="LÉONTE"><speaker>LÉONTE.</speaker>
+	<l id="627" part="f">Pour moi, Sire, je crois </l>
+	<l id="628">Qu'il vaut mieux hasarder dix mille hommes qu'un Roi. </l>
+</sp>
+</div2>
+<div2 type="scene" n="10"><head>SCÈNE X. Timandre, Clitophon.</head>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="629">De quoi soupires-tu, pourquoi fais-tu ces plaintes </l>
+	<l id="630">Puisque nous t'exemptons de danger et de craintes ?</l>
+	<l id="631">Charmide, notre Roi, te fera tôt voir </l>
+	<l id="632">Que la même douceur est jointe à son pouvoir, </l>
+	<l id="633">Comme c'est le recours des âmes affligées. </l>
+	<l id="634">Cependant tes douleurs ne sont pas allégées </l>
+	<l id="635">Et tu sembles enfin témoigner par tes pleurs </l>
+	<l id="636">Que ce n'est qu'à regret que tu sors des malheurs. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="637">Hélas ! Dedans l'état où me met la tristesse, </l>
+	<l id="638">Au lieu de m'alléger votre pitié me blesse. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="639">Qu'une extrême douleur est peinte sur son front ! </l>
+	<l id="640">Il revient de la mort comme d'autres y vont. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="641">Je vois bien toutefois que vos faveurs sont grandes, </l>
+	<l id="642">Je vous dois comme aux Dieux des voeux et des offrandes, </l>
+	<l id="643">Rien n'égale le bien où vous m'avez remis </l>
+	<l id="644">Que celui que je laisse entre vos ennemis. </l>
+	<l id="645">Hélas ! C'est un trésor d'une valeur extrême </l>
+	<l id="646">Dont la perte m'oblige à me perdre moi-même. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="647" part="i">Un trésor ? Quel est-il ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="647" part="f">Un trésor qui comprend </l>
+	<l id="648">Tout ce que l'univers a de rare et de grand. </l>
+	<l id="649">Hélas ! C'est une fille à qui les destinées </l>
+	<l id="650">Ont donné plus d'attraits qu'elle n'a de journées. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="651">Je pensais qu'il parlât de quelque somme d'or, </l>
+	<l id="652">Il parle d'une fille et non pas d'un trésor. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="653">Mais que je vois de monde au pied de la montagne ! </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="654">Ce sont les ennemis que la force accompagne </l>
+	<l id="655">À voir cet appareil et ce triste flambeau, </l>
+	<l id="656">Quelqu'un monte à l'autel pour descendre au tombeau. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="657" part="i">Mes amis, approchons. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="657" part="f">Garde qu'on ne te voie </l>
+	<l id="658">Et d'être encore un coup leur victime et leur proie. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="659">Hé Dieux, qu'ai-je aperçu ! Lucipe est à l'autel </l>
+	<l id="660">Prête à souffrir le coup qui lui sera mortel ! </l>
+	<l id="661">Est-ce une illusion ? Ne vois-je pas Satire, </l>
+	<l id="662">De qui la cruauté travaille à mon martyre ? </l>
+	<l id="663">Il attache Lucipe, ô désastre nouveau ! </l>
+	<l id="664">Celui qui nous aidait se rend notre bourreau </l>
+	<l id="665" part="i">Et je le souffrirais ? Non, non. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="665" part="f">Que veux-tu faire ? </l>
+	<l id="666">Nous ne permettrons pas ce dessein téméraire. </l>
+	<l id="667">Sommes-nous assez forts pour la tirer des mains </l>
+	<l id="668">Et de la cruauté de ces coeurs inhumains ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="669">Ha, j'aperçois déjà les couteaux effroyables </l>
+	<l id="670">Et le prêtre a levé ses bras impitoyables. </l>
+	<l id="671">Dieux, détournez ce coup ! Hélas ! Je parle en vain, </l>
+	<l id="672">Son beau sang a rougi la neige de son sein, </l>
+	<l id="673">Son esprit qui parut si chaste et si fidèle </l>
+	<l id="674">Sort avec regret d'une prison si belle </l>
+	<l id="675">Et son col languissant après un tel effort </l>
+	<l id="676">Laisse pencher sa tête au plaisir de la mort. </l>
+	<l id="677">Ce corps qui renfermait une si sainte flamme </l>
+	<l id="678">Devait être immortel aussi bien que son âme </l>
+	<l id="679">Et le charme puissant de ses chastes appas </l>
+	<l id="680">Devait même donner du respect au trépas. </l>
+	<l id="681">Dieux, comment souffrez-vous sans venger cet outrage </l>
+	<l id="682">Que l'on traite si mal votre plus belle image </l>
+	<l id="683">Et qu'on fasse servir vos autels détestés </l>
+	<l id="684">De théâtre sanglant à tant de cruautés ? </l>
+	<l id="685">Pouvez-vous recevoir de pareilles victimes </l>
+	<l id="686">Sans approuver aussi de si damnables crimes </l>
+	<l id="687">Et sans nous faire voir que les trônes des Cieux </l>
+	<l id="688">Ont reçu des tyrans en la place des Dieux ? </l>
+	<l id="689">Mais enfin ces cruels après cette aventure </l>
+	<l id="690">Enferment ce beau corps dedans la sépulture </l>
+	<l id="691">Et malgré tous mes cris leur courroux satisfait </l>
+	<l id="692">Cache dans le tombeau le crime qu'ils ont fait. </l>
+	<l id="693">Attendez, assassins, je vous porte ma tête, </l>
+	<l id="694" part="i">Je vous porte mon coeur.</l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="694" part="f">Non, non, que l'on l'arrête ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="695">Puisqu'on veut m'empêcher d'aller jusques à vous, </l>
+	<l id="696">Venez jusques à moi, je vous attendrez tous ; </l>
+	<l id="697">Venez, venez bourreaux, ma douleur vous convie </l>
+	<l id="698">De venir triompher des restes de ma vie. </l>
+	<l id="699">Ce cruel sacrifice où j'étais destiné </l>
+	<l id="700">Ne peut être parfait si je n'y suis mené. </l>
+	<l id="701">Vous n'avez immolé qu'une part de l'hostie </l>
+	<l id="702">Dont je suis aujourd'hui la meilleure partie. </l>
+	<l id="703">Mais les traîtres s'en vont et ne m'entendent pas. </l>
+	<l id="704" part="i">Je pâme. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="704" part="f">Prêtons-lui secours de nos bras. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="705">Ô favorable mort, termine mes attentes ! </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="706">Amis, que de ce pas on le porte en nos tentes. </l>
+	<l id="707">Après sa pamoison nous apprendrons de lui </l>
+	<l id="708">Quelle est cette beauté qui cause son ennui. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+<sp stage="alone" who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="709">Malgré leur violence, hors de toute contrainte </l>
+	<l id="710">Je puis en liberté recommencer ma plainte. </l>
+	<l id="711">La nuit et le sommeil ont fermé tous les yeux </l>
+	<l id="712">Qui pouvaient m'empêcher de venir en ces lieux. </l>
+	<l id="713">Tout le monde insensible au soin qui le consomme, </l>
+	<l id="714">Demeure captivé dans les charmes du somme </l>
+	<l id="715">Et ce Dieu du repos tout rempli de douceur </l>
+	<l id="716">M'ouvre ainsi le chemin pour aller à sa soeur. </l>
+	<l id="717">Allons donc au tombeau qui tient dans son espace </l>
+	<l id="718">Tout ce que l'univers a jamais eu de grâce </l>
+	<l id="719">Et pour mieux exprimer l'excès de tes douleurs </l>
+	<l id="720">Mêle un ruisseau de sang au torrent de tes pleurs. </l>
+	<l id="721">Enfin, chère Lucipe, après tant de supplices </l>
+	<l id="722">Du plus grand de mes maux je ferai mes délices </l>
+	<l id="723">Et puisque le destin contraire à nos accords </l>
+	<l id="724">Défend à mon amour d'embrasser ton beau corps </l>
+	<l id="725">Malgré ses cruautés où ma force succombe </l>
+	<l id="726">Pour le moins aujourd'hui j'embrasserai son ombre. </l>
+	<l id="727">Si tu voulus quitter tous tes parents pour moi, </l>
+	<l id="728">Je suis prêt à quitter tout le monde pour toi </l>
+	<l id="729">Et je vais témoigner par ma douleur extrême </l>
+	<l id="730">Qu'ayant vécu pour toi je sais mourir de même. </l>
+	<l id="731">Comme un tyran t'a fait la victime des Dieux, </l>
+	<l id="732">Mon deuil me fait la tienne en ces funestes lieux. </l>
+	<l id="733">Ton cercueil est l'autel où je vois ton idole </l>
+	<l id="734">Et l'amour tout en pleurs est celui qui m'immole. </l>
+	<l id="735">Que mon sort est étrange ! En causant mes regrets </l>
+	<l id="736">Mon âme est dans la tombe et mon corps est auprès. </l>
+	<l id="737">N'ai-je nourri pour toi cette amour invincible </l>
+	<l id="738">Que pour trouver un jour ta perte plus sensible ? </l>
+	<l id="739">N'ai-je brûlé pour toi d'un feu qui fut si fort </l>
+	<l id="740">Que pour donner un jour plus de pleurs à ta mort ?</l>
+	<l id="741">Ô maudite cent fois la triste destinée </l>
+	<l id="742">Qui rend de nos amours la course infortunée ! </l>
+	<l id="743">Nature peu soigneuse, et vous Dieux ennemis, </l>
+	<l id="744">Pleurez cet accident que vous avez permis ! </l>
+	<l id="745">Vous, astres, qui veillez à la garde du monde </l>
+	<l id="746">Tandis que le soleil sommeille dedans l'onde, </l>
+	<l id="747">Si vous êtes de feu connaissant mess malheurs, </l>
+	<l id="748">Quittez votre nature et vous changez en pleurs ! </l>
+	<l id="749">Et vous, affreux rochers dont les masses chenues </l>
+	<l id="750">Semblent charger la terre et soutenir les nues, </l>
+	<l id="751">Conservez mes regrets et mes derniers accents </l>
+	<l id="752">Et redites ma perte et ma mort aux passants </l>
+	<l id="753">Afin que quelque jour la fortune meilleure </l>
+	<l id="754">Venge sur un tyran les grâces que je pleure ! </l>
+	<l id="755">Cependant que l'enfer et toutes ses fureurs </l>
+	<l id="756">Remplissent ce pays d'éternelles horreurs, </l>
+	<l id="757">Qu'un air tout corrompu des vapeurs de la peste </l>
+	<l id="758">Rende éternellement cette terre funeste, </l>
+	<l id="759">Que la flamme du foudre y luise incessamment, </l>
+	<l id="760">Que la seule discorde y règne absolument </l>
+	<l id="761">Et que par les effets d'une ruine extrême </l>
+	<l id="762">L'on cherche ce pays dedans ce pays même ! </l>
+	<l id="763">Mais qui pourrait penser que selon mes désirs </l>
+	<l id="764">Ce pays détesté doive être sans plaisirs, </l>
+	<l id="765">Puisque malgré les maux dont mon esprit abonde </l>
+	<l id="766">Il tient dans ce cercueil le plus grand bien du monde ? </l>
+	<l id="767">Tombeau de mon bonheur, ouvre-moi ton séjour </l>
+	<l id="768">Et prends un misérable ou rends-moi mon amour ! </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Clitophon, Ménélas, Satire.</head>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="769" part="i">Il faut se dépêcher. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="769" part="f">N'entendez-vous personne ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="770">Montons, je n'entends rien que l'écho qui résonne. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="771">Adorable beauté dont l'esprit glorieux </l>
+	<l id="772">Trouve place aujourd'hui dans le nombre des Dieux, </l>
+	<l id="773">Vois tomber devant toi la victime amoureuse </l>
+	<l id="774">Qui rejoindra bientôt Ton ombre bienheureuse </l>
+	<l id="775">Et ne t'offense pas après tant de tourment </l>
+	<l id="776">Si je mets au tombeau ton misérable amant. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="777">À quelle extrémité vous réduit l'ignorance ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="778">Ha ! Cruels, vous mourrez après mon espérance ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="779" part="i">Lucipe n'est pas morte. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="779" part="f">Ha ! Traîtres, imposteurs ! </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="780">Nous voulons expirer, si nous sommes menteurs. </l>
+	<l id="781">Je viens la retirer de la demeure obscure </l>
+	<l id="782">Que lui prête l'enclos de cette sépulture ; </l>
+	<l id="783">Ce lieu que vous voyez et d'où vient votre deuil </l>
+	<l id="784">Est pour elle un asile et non pas un cercueil. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="785">Ne vous étonnez pas, sans le secours des charmes </l>
+	<l id="786">Celui-là de Lucipe arrêtera vos larmes </l>
+	<l id="787">Et vous reconnaîtrez malgré tant de malheurs </l>
+	<l id="788">Que l'on trouve au tombeau la fin de ses douleurs. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="789">Hélas ! J'ai vu percer le sein de cette belle, </l>
+	<l id="790">J'ai vu couvrir son corps d'une tombe cruelle, </l>
+	<l id="791" part="i">Et Lucipe vivrait ! </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="791" part="f">Aidez-nous seulement </l>
+	<l id="792" part="i">À lever cette tombe. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="792" part="f">Ô faible allégement, </l>
+	<l id="793">Qui ne rendra jamais mon âme réjouie ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="794" part="i">Levons ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="794" part="m">Lucipe, hélas ! </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="794" part="f">Elle est évanouie. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="795">Ha traîtres, elle est morte et l'on se rit de moi ! </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="796">Monsieur, assurez-vous, elle revient à soi. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="797" part="i">Lucipe ! </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="797" part="f">Clitophon ! Ha que je suis ravie </l>
+	<l id="798">De trouver au cercueil une seconde vie ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="799">Quel esprit en bonheur me pourrait surpasser ? </l>
+	<l id="800">Que n'ai-je plus de bras pour te mieux embrasser ! </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="801">Te voici, Clitophon ! Ha bons Dieux, puis-je croire </l>
+	<l id="802">Que je jouisse encore de ma première gloire ?</l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="803">Et moi croirai-je aussi que l'horreur du tombeau </l>
+	<l id="804">Nous puisse rendre un corps si charmant et si beau </l>
+	<l id="805">Et qu'on puisse trouver dans ces demeures sombres </l>
+	<l id="806">Des objets plus plaisants que des os et des ombres ? </l>
+	<l id="807">J'y laisse cependant le mal que j'ai souffert, </l>
+	<l id="808">Je trouve mon espoir où le monde le perd </l>
+	<l id="809">Et malgré les transports qui naissaient de ma flamme, </l>
+	<l id="810">Où je pensais mourir je retrouve mon âme. </l>
+	<l id="811">Mais durant tous mes cris ne pouvais-tu m'ouïr ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="812">La frayeur de la mort me fit évanouir, </l>
+	<l id="813">Si je t'eusse entendu, ta parole charmante </l>
+	<l id="814">Eût tiré du cercueil ta misérable amante. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="815">Mais dis-moi, mon souci, quel remède assez fort </l>
+	<l id="816">Te délivre aujourd'hui d'une tragique mort ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="817">Lorsque l'on t'eût sauvé des mains de ces infâmes </l>
+	<l id="818">Qui vouaient à l'autel et nos corps et nos âmes, </l>
+	<l id="819">L'on me mena soudain chez ce sage vieillard </l>
+	<l id="820">Où Satire a montré son adresse et son art. </l>
+	<l id="821">C'est à lui seulement à qui je dois la vie, </l>
+	<l id="822">Puisqu'il vient d'empêcher qu'on ne me l'ait ravie.</l>
+	<l id="823">Il remplit donc de sang cette peau que tu vois. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="824">Bons Dieux, l'étonnement m'arrête ici la voix. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="825">Et la mit sur mon sein avec tant d'adresse </l>
+	<l id="826">Que je perdis ma crainte et non pas ma tristesse ; </l>
+	<l id="827">Enfin il réussit si bien en ce dessein </l>
+	<l id="828">Que moi-même je crus avoir changé de sein </l>
+	<l id="829">Et que les ennemis trompés par l'apparence </l>
+	<l id="830">Reçurent de ma mort une ferme assurance. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="831">Ce qui favorisa ce dessein hasardeux </l>
+	<l id="832">C'est que les ennemis nous laissèrent loin d'eux. </l>
+	<l id="833">Tandis que nous étions dessus cette montagne, </l>
+	<l id="834">La peur d'être surpris les tint à la campagne, </l>
+	<l id="835">Si bien que pour témoins d'une telle action </l>
+	<l id="836">Nous n'avions que nos yeux et notre intention. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="837">Combien dois-je de voeux à la bonne fortune </l>
+	<l id="838">Qui te sauva pour moi des fureurs de Neptune ? </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="839">Mais puisque les destins nous ont ici permis </l>
+	<l id="840">De surmonter la mort et tous vos ennemis, </l>
+	<l id="841">Sans parler plus longtemps d'une feinte blessure, </l>
+	<l id="842">Recherchons autre part une retraite sûre ; </l>
+	<l id="843">Allons devers Charmide. Il est doux et courtois, </l>
+	<l id="844">Ceux qui vous ont sauvés fléchissent sous ses lois. </l>
+	<l id="845">Mais pour bien réussir parmi tant de misère, </l>
+	<l id="846">Clitophon devant lui se dira notre frère, </l>
+	<l id="847" part="i">Vous vous direz sa soeur. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="847" part="f">Mon père, vos avis </l>
+	<l id="848">Par vos deux obligés seront toujours suivis. </l>
+</sp>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS.</speaker>
+	<l id="849">Sans doute que ces noms et d'amant et d'amante </l>
+	<l id="850">Pourraient rendre suspect l'amour qui vous tourmente, </l>
+	<l id="851">Mille et mille discours qu'il faudrait endurer </l>
+	<l id="852">Blesseraient votre honneur au lieu de l'assurer. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp who="TIMANDRE"><speaker>TIMANDRE, parlant aux siens.</speaker>
+	<l id="853">La nuit a resserré ses ombrageuses toiles, </l>
+	<l id="854">Les regrets du soleil ont terni les étoiles </l>
+	<l id="855">Et de tous les côtés le jour est revenu </l>
+	<l id="856">Depuis que nous cherchons ce jeune homme inconnu. </l>
+	<l id="857">Ce bois n'a point de lieux si cachés et si sombres </l>
+	<l id="858">Dont nous n'ayons forcé les plus secrètes ombres </l>
+	<l id="859">Et les vastes rochers n'ont point d'antres si creux </l>
+	<l id="860">Dont nous n'ayons suivis les détours plus affreux. </l>
+	<l id="861">Je crains qu'un désespoir ou plutôt une rage </l>
+	<l id="862">N'ait armé contre lui ses mains et son courage. </l>
+	<l id="863">À l'entendre parler, le trépas seulement </l>
+	<l id="864">Préparait à ses maux quelque soulagement, </l>
+	<l id="865">Mais j'ai les yeux trompés ou bien quelqu'un s'avance ; </l>
+<note type="C">Héraut : Officier d'un Prince ou d'un État souverain, auquel on commettait autrefois les défis et déclarations de guerre. [FC]</note>
+<note type="L">Trompette : Celui dont la fonction est de sonner de la trompette. [L] </note>
+	<l id="866">C'est sans doute un héraut qu'un trompette devance. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Timandre, Héraut.</head>
+<sp who="HERAUT"><speaker>HERAUT.</speaker>
+	<l id="867">Celui-là que je sers, ce prince sans effroi, </l>
+	<l id="868">Pour finir nos discours m'envoie à votre Roi. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="869">Nous vous y conduirons, et vous verrez un prince </l>
+	<l id="870">Qui doit de l'univers se faire une province </l>
+	<l id="871">Et de qui la douceur nécessaire aux grands Rois </l>
+	<l id="872">Fait aimer sa puissance et respecter ses lois.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Charmide, Chérée, Clitophon, Lucipe, Ménélas, Satire.</head>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="873">Espérez avec moi tout autant de délices </l>
+	<l id="874">Que vous aviez ailleurs rencontré de supplices </l>
+	<l id="875">Et soyez assurés que les contentements </l>
+	<l id="876">Vous feront en ces lieux oublier vos tourments. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="877">Grand Roi, cette faveur qui passe les communes </l>
+	<l id="878">Nous contraint aujourd'hui d'aimer nos infortunes </l>
+	<l id="879">Puisqu'après des ennuis qu'on ne peut concevoir </l>
+	<l id="880">Elles nous ont causé le bonheur de vous voir. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="881">Je donne tout le soin au fidèle Chérée </l>
+	<l id="882">De vous faire jouir d'un bonheur de durée. </l>
+	<l id="883">Ne leur refusez rien, donnez à leur désir </l>
+	<l id="884">Tout ce que l'on emploie à vaincre un déplaisir. </l>
+	<l id="885">Surtout soyez discret et suivez mon envie, </l>
+	<l id="886">Une indiscrétion vous coûterait la vie. </l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="887">Sire, j'éviterai sans peine ce danger. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="888">Mais qu'on me laisse seul avec cet étranger. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Charmide, Clitophon.</head>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="889">Cher ami, je ne sais si le destin t'amène </l>
+	<l id="890">Ou pour te rendre heureux, ou pour me mettre en peine ; </l>
+	<l id="891">Ne t'étonne de rien et sachez que mon coeur </l>
+	<l id="892">Dans les yeux de Lucipe a trouvé son vainqueur. </l>
+	<l id="893">Bien qu'un Roi puisse aimer sans aucune infamie </l>
+	<l id="894">Toute sorte de fille en qualité d'amie, </l>
+	<l id="895">La raison toutefois m'inspire dans le sein </l>
+	<l id="896">En faveur de ta soeur un plus noble dessein. </l>
+	<l id="897">Mon âme en a reçu de si divines flammes </l>
+	<l id="898">Qu'elle mérite place au nombre de mes femmes. </l>
+	<l id="899">Juge par ce discours qu'un désir si parfait </l>
+	<l id="900">Tient de l'honnêteté de celle qui l'a fait. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="901">Monarque généreux, l'honneur que vous lui faites </l>
+	<l id="902">Surpasse de beaucoup ses beautés imparfaites. </l>
+	<l id="903">Elle n'a rien d'auguste, elle n'est pas d'un sang </l>
+	<l id="904">Qui lui fasse espérer de se voir en ce rang.</l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="905">Ainsi que je suis Roi, sa beauté souveraine </l>
+	<l id="906">A gagné dessus moi la qualité de Reine </l>
+	<l id="907">Et cet effet d'amour qui commence mes maux </l>
+	<l id="908">Me fait assez juger que nous sommes égaux. </l>
+	<l id="909">Quand elle n'aurait rien de noble ni d'illustre, </l>
+	<l id="910">L'affection d'un Roi lui peut donner du lustre. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="911">Les promptes passions ressemblent à l'éclair </l>
+	<l id="912">Qu'un moment voit paraître et disparaître en l'air.</l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="913">Hélas ! En un instant fatal aux misérables </l>
+	<l id="914">L'on reçoit bien souvent des plaies incurables, </l>
+	<l id="915">Mais mon mal ne l'est pas, j'espère en la douceur </l>
+	<l id="916">Qui fait une moitié des beautés de ta soeur. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="917">Son coeur est si rempli de frayeur et de glace </l>
+	<l id="918">Qu'à peine un trait d'amour y pourra trouver place. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="919">Parle-lui toutefois de mon affection, </l>
+	<l id="920">Fais-lui voir mes transports et ma condition. </l>
+	<l id="921">Si le titre d'amant ne peut rien dessus elle, </l>
+	<l id="922">La qualité de Roi me la rendra fidèle. </l>
+	<l id="923">Montre-lui les honneurs qui suivront son amour, </l>
+	<l id="924">Dis-lui qu'elle sera l'idole de ma cour. </l>
+	<l id="925">Clitophon, toute fille a l'âme ambitieuse, </l>
+	<l id="926">La moindre vanité s'en rend victorieuse </l>
+	<l id="927">Et l'unique désir d'être grande en vivant </l>
+	<l id="928">À tout ce que l'on veut la résout bien souvent. </l>
+	<l id="929">Tâche donc que mon âme aille toucher la sienne ; </l>
+	<l id="930">Tu combleras ainsi ma fortune et la tienne. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="931">En la sollicitant d'adorer un grand Roi </l>
+	<l id="932">J'entreprendrai beaucoup et pour elle et pour moi. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="933" part="i">Timandre, que veux-tu ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Timandre, Charmide, Héraut, Clitophon.</head>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="933" part="f">Sire, je vous viens dire </l>
+	<l id="934">Qu'un héraut vous veux voir de la part de Busire. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="935">Qu'il entre ! Clitophon, résous-toi cependant </l>
+	<l id="936">À tirer du malheur un misérable amant. </l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Héraut,  Charmide, Timandre.</head>
+<sp who="HERAUT"><speaker>HERAUT.</speaker>
+	<l id="937">Un Roi toujours vainqueur et toujours redoutable, </l>
+	<l id="938">Propose à ton courage un duel équitable. </l>
+	<l id="939">Sa clémence l'oblige à pardonner aux tiens </l>
+	<l id="940">Puisqu'il est arrêté qu'il en fera les siens </l>
+	<l id="941">Mais il veut à l'aspect du ciel et le terre</l>
+	<l id="942">Éteindre de ton sang les flammes de la guerre. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="943">J'accepte ce duel où ton maître inhumain </l>
+	<l id="944">Se tiendra glorieux de mourir par ma main. </l>
+	<l id="945">Va lui dire sa mort. Qu'on prépare mes armes, </l>
+	<l id="946">Mon bras seul finira la guerre et vos alarmes. </l>
+</sp>
+</div2>
+<div2 type="scene" n="9"><head>SCÈNE IX. Timandre, Charmide.</head>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="947">Ha Sire, pardonnez à mon affection </l>
+	<l id="948">Qui semble s'opposer à votre passion. </l>
+	<l id="949">L'on ne doit au hasard laisser courir un prince </l>
+	<l id="950">Que quand l'extrémité menace la province. </l>
+	<l id="951">Son exemple est alors un appas assez fort </l>
+	<l id="952">Pour obliger les siens à mépriser la mort. </l>
+	<l id="953">Mais alors qu'un monarque élevé dans la gloire </l>
+	<l id="954">A bien plus de lauriers que la même victoire </l>
+	<l id="955">Et lorsque ses vertus le comblent de tous biens, </l>
+	<l id="956">Il ne doit plus agir que par la main des siens. </l>
+	<l id="957">Le hasard des duels est le dernier remède </l>
+	<l id="958">D'où les désespérés peuvent tirer de l'aide. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="959">Quoi ! L'univers saurait que la peur du trépas </l>
+	<l id="960">Du chemin de l'honneur détournerait mes pas </l>
+	<l id="961">Et qu'enfin mon courage à qui tout est possible </l>
+	<l id="962">Aurait oublié l'art de se rendre invincible ? </l>
+	<l id="963">Il vaut bien mieux périr par la témérité </l>
+	<l id="964">Que de se conserver par une lâcheté. </l>
+	<l id="965">Qu'en dis-tu, Clitophon ? Réponds à ma demande. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="966">Le danger paraît grand, mais la gloire est plus grande </l>
+	<l id="967">Et je n'aperçois point en cela de malheur </l>
+	<l id="968">Qui puisse résister contre votre valeur ? </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="969">Qu'on n'oppose dons plus des raisons au contraire. </l>
+	<l id="970">Le dessein en est pris, on ne m'en peut distraire. </l>
+</sp>
+</div2>
+<div2 type="scene" n="10"><head>SCÈNE X.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON, seul.</speaker>
+	<l id="971">Que mon coeur est gêné, que de maux chaque jour </l>
+	<l id="972">Se rendent immortels avecques mon amour ! </l>
+	<l id="973">Hé Dieux, quelle fortune est égale à la nôtre ? </l>
+	<l id="974">Nous sortons d'un malheur pour entrer dans un autre </l>
+	<l id="975">Et la rigueur du Ciel me rend si malheureux </l>
+	<l id="976">Que si je trouve un bien c'est un bien dangereux. </l>
+	<l id="977">La douceur de ce Roi nous a rendu la vie </l>
+	<l id="978">Mais hélas ! Ses transports me l'ont déjà ravie </l>
+	<l id="979">Et bien que la pitié nous soit un grand support, </l>
+	<l id="980">Son amour me contraint de désirer sa mort. </l>
+</sp>
+</div2>
+<div2 type="scene" n="11"><head>SCÈNE XI. Chérée, Lucipe.</head>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="981">Je ne puis plus cacher cette flamme naissante </l>
+	<l id="982">Que l'oeil qui l'alluma vient rendre plus puissante.</l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="983">Je crois que vous aimez et qu'un objet parfait </l>
+	<l id="984">Autorise le choix que votre amour a fait.</l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="985">C'est un sujet si beau, qu'il en est adorable. </l>
+	<l id="986">Je vous en puis montrer l'image incomparable. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="987">Contentez en cela mon désir curieux.</l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="988">J'en ai sur mon épée un portrait glorieux. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="989">Ainsi vos actions de courage et d'adresse </l>
+	<l id="990">S'exercent tous les jours devant votre maîtresse. </l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="991" part="i">Voyez ! </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="991" part="f">Je ne vois rien, vous vous moquez, je crois. </l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="992" part="i">Regardez de plus près. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="992" part="f">Je ne vois rien que moi. </l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="993">Vous ne voyez que vous ! Ha ! C'est assez, Madame. </l>
+	<l id="994">Pour découvrir le feu que je cache dans l'âme ! </l>
+	<l id="995">C'est assez pour juger que vos perfections </l>
+	<l id="996">Au coeur d'un malheureux mettent ces passions. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="997">Prenez d'autres discours puisque je vous assure </l>
+	<l id="998">Que me parler d'amour est me faire une injure. </l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="999">Pouvez-vous empêcher qu'on aime vos beautés ?</l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1000">Je ne puis empêcher toutes vos volontés </l>
+	<l id="1001">Mais je puis empêcher par ma rigueur extrême </l>
+	<l id="1002">Qu'on ne vienne à mes yeux me dire que l'on m'aime. </l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="1003" part="i">Vous vous adoucirez</l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1003" part="f">Mes rigueurs cesseront </l>
+	<l id="1004">Alors que devant moi vos discours finiront. </l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE.</speaker>
+	<l id="1005">Il faut donc maintenant sans parler davantage </l>
+	<l id="1006" part="i">Qu'un baiser… </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1006" part="f">Impudent ! Au secours, on m'outrage ! </l>
+	<l id="1007" part="i">Je vais m'en plaindre au Roi.</l>
+</sp>
+<sp who="CHÉRÉE"><speaker>CHÉRÉE, en la suivant.</speaker>
+	<l id="1007" part="f">Je l'empêcherai bien </l>
+	<l id="1008">Et toutes vos rigueurs ne serviront de rien. </l>
+</sp>
+</div2>
+<div2 type="scene" n="12"><head>SCÈNE XII. Charmide, Busire, Timandre, Clitophon.</head>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="1009">Devant que ton orgueil reçoive son salaire, </l>
+	<l id="1010">Pour la dernière fois vois le jour qui t'éclaire </l>
+	<l id="1011">Et sache que le sort te traite heureusement </l>
+	<l id="1012">Puisqu'il veut que ma main te mène au monument. </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="1013">Parle, exerce ta voix, fais agir ta malice ! </l>
+	<l id="1014">L'on souffre tout de ceux qui s'en vont au supplice. </l>
+	<l id="1015">Je te verrai brûler sur les mêmes autels </l>
+	<l id="1016">Où je n'offre à nos Dieux que le sang des mortels.</l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="1017">Deux lions au combat feraient voir moins de rage </l>
+	<l id="1018">Que ces deux puissants Rois témoignent de courage. </l>
+	<l id="1019">Hé Dieux, un même coup les renverse tous deux. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON, à l'écart.</speaker>
+	<l id="1020">Ha, que ce coup m'est doux ! Tout succède à mes voeux. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE, parlant à Busire.</speaker>
+	<l id="1021">Puisque cette victoire entre nous se partage, </l>
+	<l id="1022">Puisque le Ciel nous donne un pareil avantage </l>
+	<l id="1023">Et qu'après tant de soins qui touchèrent nos coeurs </l>
+	<l id="1024">Il nous rend maintenant et vaincus et vainqueurs, </l>
+	<l id="1025">La mort ayant fini notre longue querelle, </l>
+	<l id="1026">Laissons à nos sujets une paix éternelle. </l>
+</sp>
+<sp who="BUSIRE"><speaker>BUSIRE.</speaker>
+	<l id="1027">Charmide, j'y consens, mourons donc allégés ; </l>
+	<l id="1028">Un trépas mutuel nous a tous deux vengés. </l>
+	<l id="1029">Soldats, embrassez-vous, que le sang de vos princes </l>
+	<l id="1030">Fasse naître la paix au sein de vos provinces. </l>
+	<l id="1031">À Dieu, vivez heureux sous un règne plus doux ; </l>
+	<l id="1032">La parque pour jamais me sépare de vous. </l>
+</sp>
+<sp who="CHARMIDE"><speaker>CHARMIDE.</speaker>
+	<l id="1033">Oubliez désormais les injures souffertes </l>
+	<l id="1034">Dont le ressentiment a causé tant de pertes </l>
+	<l id="1035">Et pour vous établir, que notre monument </l>
+	<l id="1036">Soit de votre repos le premier fondement. </l>
+	<l id="1037">Clitophon, si le Ciel eût prolongé ma vie </l>
+	<l id="1038">L'on eût vu d'un grand bien ta fortune suivie. </l>
+	<l id="1039">Timandre prend le solin du frère et de la soeur </l>
+	<l id="1040">Et pour ces étrangers succède à ma douceur. </l>
+	<l id="1041" part="i">À Dieu, je… </l>
+</sp>
+</div2>
+<div2 type="scene" n="13"><head>SCÈNE XIII. Satire,  Clitophon, Timandre.</head>
+<sp who="SATIRE"><speaker>SATIRE, survient.</speaker>
+	<l id="1041" part="f">Clitophon, l'infidèle Chérée </l>
+	<l id="1042" part="i">Vient d'enlever Lucipe. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1042" part="f">Est-ce chose assurée ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1043">Et déjà son vaisseau s'éloigne de ces bords. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1044">Que pour moi les malheurs ont d'étranges ressorts ! </l>
+	<l id="1045">Satire, allons après. Permettez-moi, Timandre, </l>
+	<l id="1046" part="i">De suivre ce corsaire. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="1046" part="f">Allez sans plus attendre. </l>
+	<l id="1047">Avons-nous résolu d'entretenir les lois </l>
+	<l id="1048">Que nous vient de laisser le vouloir de nos Rois ? </l>
+</sp>
+<sp who="LÉONTE"><speaker>LÉONTE.</speaker>
+	<l id="1049">Si nous avons aimé leur royale puissance </l>
+	<l id="1050">Nous le témoignerons par notre obéissance. </l>
+</sp>
+<sp who="TIMANDRE"><speaker>TIMANDRE.</speaker>
+	<l id="1051">Dressons donc leurs tombeaux de qui le seul aspect </l>
+	<l id="1052">Aux âges qui suivront donnera du respect. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Satire, Clitophon.</head>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1053">Retenez vos soupirs, rappelez la constance, </l>
+	<l id="1054">Faites à votre mal un peu de résistance </l>
+	<l id="1055">Et sache que les pleurs ne nous retirent pas </l>
+	<l id="1056">De l'éternelle nuit où nous met le trépas. </l>
+	<l id="1057">Hé bien, Lucipe est morte, était-elle immortelle ? </l>
+	<l id="1058">Voir mourir les humains est-ce chose nouvelle ? </l>
+	<l id="1059">Le temps devait finir vos regrets superflus ; </l>
+<note type="C">L’original porte si nous n’espérez plus, il semble bien qu’il faille lire si vous n’espérez plus. </note>
+	<l id="1060">Pourquoi soupirez-vous si vous n'espérez plus ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1061">Non, je n'espère plus, et ce point seul m'oblige </l>
+	<l id="1062">À donner tant de pleurs au malheur qui m'afflige. </l>
+	<l id="1063">Si j'espérais encore je serais plus constant : </l>
+	<l id="1064">L'on se flatte toujours pour le bien qu'on attend </l>
+	<l id="1065">Et malgré les malheurs l'espérance a des charmes </l>
+	<l id="1066">Qui soulagent le mal et tarissent les larmes, </l>
+	<l id="1067">Mais je n'espère plus si ce n'est en la mort </l>
+	<l id="1068">Que mon esprit troublé regarde comme un port. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1069">Étrange rêverie où la douleur nous porte </l>
+	<l id="1070">Lorsque nous permettons qu'elle soit la plus forte ! </l>
+	<l id="1071">Mais sans être insensé, le moyen de juger </l>
+	<l id="1072">Que la mort qui nous perd nous puisse soulager ? </l>
+	<l id="1073">Monsieur, songeons ailleurs, la misère nous presse </l>
+	<l id="1074">Et la nécessité se rend notre maîtresse. </l>
+	<l id="1075">Nous sommes éloignés d'amis et de parents </l>
+	<l id="1076">Et c'est en quoi nos maux paraissent bien plus grands. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1077">Que veux-tu que je fasse ? Ayant perdu Lucipe </l>
+	<l id="1078">Je ne m'étonne pas si mon bien se dissipe. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1079">Vous savez qu'une veuve assez riche en beautés </l>
+	<l id="1080">A pour vous en ce lieu de bonnes volontés ; </l>
+	<l id="1081">Elle brûle pour vous, son amour excessive </l>
+	<l id="1082">La rend à tout moment bien plus morte que vive ; </l>
+	<l id="1083">Vous savez les discours qu'elle vous a tenus, </l>
+	<l id="1084">Et que dans son logis nous sommes bienvenus ; </l>
+	<l id="1085">Acceptez son amour pour le moins par maxime. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1086">Quoi ! Pour sortir d'un mal je commettrais un crime ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1087" part="i">Aimez-la donc sans feinte. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1087" part="f">Ô funeste conseil ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1088">Dites que de nos maux c'est le seul appareil. </l>
+	<l id="1089">Quel bien espérez-vous en aimant une morte ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1090">Le bien d'être fidèle en aimant de la sorte. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1091">Quand la nécessité nous aura mis à bas, </l>
+	<l id="1092">Cette fidélité ne nous nourrira pas. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1093">Veux-tu d'un bon ami me donner quelque preuve ? </l>
+	<l id="1094">Ne me parle jamais de vivre ni de veuve, </l>
+	<l id="1095">Souffre que de mes pleurs je sois toujours trempé. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1096">Mais je vois Clinias ou mon oeil est trompé. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1097">Ha, c'est lui : Clinias, le mal qui me dévore </l>
+	<l id="1098">Me laisse-t-il le bien de te revoir encore ? </l>
+	<l id="1099" part="i">Qui t'amène en ce lieu ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Clinias, Clitophon.</head>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1099" part="f">Le dessein seulement </l>
+	<l id="1100">De vous faire jouir d'un vrai contentement. </l>
+	<l id="1101">Votre père ayant su que cette grande ville </l>
+	<l id="1102">Après beaucoup de maux vous donnait un asile </l>
+	<l id="1103">Et sachant que l'amour vous éloignait de nous, </l>
+	<l id="1104">A résolu l'hymen de Lucipe et de vous. </l>
+	<l id="1105">Sa mère en est contente et chacun le désire, </l>
+	<l id="1106">Pour moi je vous viens voir afin de vous le dire. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1107">Ô Dieux, injustes Dieux, je vous puis accuser </l>
+	<l id="1108">De m'envoyer le bien quand je n'en puis user. </l>
+	<l id="1109">Hélas ! Cher Clinias, pensant m'offrir de l'aide, </l>
+	<l id="1110">Tu viens après ma mort m'apporter un remède. </l>
+	<l id="1111" part="i">Lucipe ne vit plus. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1111" part="f">Quel injuste trépas </l>
+	<l id="1112">A sitôt dérobé tant de chastes appas ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1113">Après mille dangers dont le Ciel l'a sauvé, </l>
+	<l id="1114">Enfin par un corsaire elle fut enlevée. </l>
+	<l id="1115">Je le sus aussitôt et sans plus d'entretien </l>
+	<l id="1116">Je suivis ce voleur qui m'emportait mon bien. </l>
+	<l id="1117">Lorsque j'eus tout un jour poursuivi ce barbare, </l>
+	<l id="1118">Je vis sur son tillas une beauté si rare </l>
+	<l id="1119">Et ce cruel me dit : c'est la loi du destin </l>
+	<l id="1120">Qu'on partage entre nous un si sacré butin. </l>
+	<l id="1121">Aussitôt (je ne puis achever ce qui reste)… </l>
+	<l id="1122">Satire, achève donc un discours si funeste, </l>
+	<l id="1123">Mêle tant d'artifice à ce triste rapport </l>
+	<l id="1124">Que selon mes désirs j'en reçoive la mort. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1125">Ce traître nous montrant Lucipe toute en larmes, </l>
+	<l id="1126">Par ce triste discours redoubla nos alarmes : </l>
+	<l id="1127">Partageons, ce dit-il, de si riches trésors, </l>
+	<l id="1128">Je retiendrai la tête et vous aurez le corps. </l>
+	<l id="1129">À peine eut-il parlé que sa main toute prête </l>
+	<l id="1130">Sépara de son corps et l'esprit et la tête. </l>
+	<l id="1131">La tête demeura dans les mains du bourreau </l>
+	<l id="1132">Et le corps aussitôt s'ensevelit dans l'eau. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1133">Si bien que mon soleil en sortant de ce monde, </l>
+	<l id="1134">Comme l'autre soleil s'alla coucher dans l'onde </l>
+	<l id="1135">Et la mère d'amour lui prêta son berceau </l>
+	<l id="1136">Pour faire à ses beautés un superbe tombeau. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1137">Que devint ce voleur ? Le courroux de Neptune </l>
+	<l id="1138">Ne vous vengea-t-il point d'une telle infortune ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1139">Au lieu de nous venger, le vent injurieux </l>
+	<l id="1140">Comme pour le sauver l'éloigna de nos yeux. </l>
+	<l id="1141">Enfin ayant couru de rivage en rivage </l>
+	<l id="1142">Sans découvrir les lieux qui cachent ce sauvage, </l>
+	<l id="1143">Depuis deux ou trois mois sans secours et sans biens, </l>
+	<l id="1144">Nous sommes arrivés chez les Éphésiens. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1145">Si ton malheur est grand, c'est en quoi ton courage </l>
+	<l id="1146">Doit montrer plus de force et luire davantage. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1147">En vain de mes ennuis je veux être vainqueur. </l>
+	<l id="1148">L'amour plus fort que moi les fait croître en mon coeur </l>
+	<l id="1149">Et le cruel tyran de mon âme agitée, </l>
+	<l id="1150">Se changeant en vautour, me change en Prométhée. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1151">Il semble à vous ouïr que l'amour soit si fort </l>
+	<l id="1152">Qu'on ne puisse aisément affaiblir son effort. </l>
+	<l id="1153">Quelque pouvoir qu'on donne aux traits dont il nous blesse, </l>
+	<l id="1154">Sa force ne lui vient que de notre faiblesse. </l>
+	<l id="1155">Bien que nos passions lui dressent des autels, </l>
+	<l id="1156">La raison peut l'ôter du rang des immortels, </l>
+	<l id="1157">Et l'amour n'est enfant que pour nous faire croire </l>
+	<l id="1158">Que l'on peut aisément en avoir la victoire. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1159">Il est vrai qu'un esprit tant soit peu résolu </l>
+	<l id="1160">Peut vaincre heureusement l'amour plus absolu. </l>
+	<l id="1161">L'amour pour vous dompter vous montre ses délices </l>
+	<l id="1162">Mais pour les surmonter regardez ses supplices. </l>
+	<l id="1163" part="i">Mais que veut cette fille ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1163" part="f">Écartons-nous un peu. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Ériphile, Clitophon.</head>
+<sp who="ÉRIPHILE"><speaker>ÉRIPHILE.</speaker>
+	<l id="1164">Serez-vous toujours froid auprès d'un si grand feu ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE, à Clinias.</speaker>
+	<l id="1165">Elle lui vient parler d'une veuve assez belle </l>
+	<l id="1166">Qui brûle à son sujet d'une amitié fidèle. </l>
+	<l id="1167">Mais il ne peut souffrir l'ardeur qu'elle a pour lui. </l>
+</sp>
+<sp who="ÉRIPHILE"><speaker>ÉRIPHILE.</speaker>
+	<l id="1168">Un seul de vos regards peut charmer son ennui. </l>
+	<l id="1169">Vous savez son amour, vous savez son mérite </l>
+	<l id="1170">Et tout cela ne veut qu'une seule visite. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1171">Et bien, je l'irai voir et vous suivrai de près. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Clinias, Clitophon.</head>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1172">C'est ainsi que le Ciel veut finir vos regrets. </l>
+	<l id="1173">Si son vouloir plus juste et plus fort que le nôtre </l>
+	<l id="1174">Vous ôte une maîtresse, il vous en donne une autre. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1175">Quand l'amour de Lucipe aurait quitté mon coeur, </l>
+	<l id="1176">Le regret de sa mort nourrirait ma langueur. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1177">Surmontez votre amour, sortez de votre flamme </l>
+	<l id="1178">Et bientôt le regret sortira de votre âme. </l>
+	<l id="1179">Voyez donc cette dame et blâmez vos froideurs </l>
+	<l id="1180">D'avoir trop combattu ses plus vives ardeurs.</l>
+	<l id="1181">Songez à vous résoudre et sachez que le change </l>
+	<l id="1182">Qui se fait par raison est digne de louange. </l>
+	<l id="1183">Les règles de l'amour ne nous obligent pas </l>
+	<l id="1184">À garder nos serments au-delà du trépas. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1185">Donc puisqu'à ton abord tu veux que je te quitte, </l>
+	<l id="1186">Selon ta volonté je reverrai Mélite. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Clinias, Satire.</head>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1187">Depuis quand Clitophon est-il son favori ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1188">Depuis que cette veuve a perdu son mari. </l>
+	<l id="1189">Il voulut s'embarquer pour faire un grand voyage </l>
+	<l id="1190">Mais on apprit bientôt qu'il avait fait naufrage. </l>
+	<l id="1191">Mélite à ce rapport n'oublia point les pleurs, </l>
+	<l id="1192">Un transport excessif exprima ses douleurs </l>
+	<l id="1193">Et comme si son sein eût fait un sacrilège, </l>
+	<l id="1194">À force de le battre elle en noircit la neige ; </l>
+	<l id="1195">Elle se désespère, elle accuse les Cieux, </l>
+	<l id="1196">Elle veut arracher et son coeur et ses yeux. </l>
+	<l id="1197">Enfin elle parut tellement désolée </l>
+	<l id="1198">Qu'en moins de quatre jours elle fut consolée </l>
+	<l id="1199">Et peu de temps après que son mal fut passé, </l>
+	<l id="1200">En voyant Clitophon son coeur en fut blessé. </l>
+	<l id="1201">Hé bien, après cela, que direz-vous des femmes ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1202">Que beaucoup de raisons se trouve dans leurs âmes. </l>
+	<l id="1203">Après avoir rendu ce que l'on doit aux morts, </l>
+	<l id="1204">Que nous sert d'affliger nos esprits et nos corps ? </l>
+	<l id="1205">À se plaindre toujours l'on fait voir sa faiblesse </l>
+	<l id="1206">Et la vertu se montre à vaincre une maîtresse. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1207">Mais allons voir Mélite et venez confesser </l>
+	<l id="1208">Qu'elle a plus de beautés qu'on ne saurait penser. </l>
+	<l id="1209">Cependant sur un point contentez mon envie ; </l>
+	<l id="1210">Que devient Calligonne après qu'on l'eût ravie ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+<note type="L">Du depuis : Du depuis est une locution qui est tout à fait tombée en désuétude, et hors du bon usage. On la trouve dans des auteurs de la première moitié du XVIIe siècle. [L]</note>
+	<l id="1211">Celui qui l'enleva l'épousa du depuis </l>
+	<l id="1212">Et cet heureux hymen termina mille ennuis. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Mélite, Clitophon.</head>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1213">Écoute mes soupirs, reconnais par ma plainte </l>
+	<l id="1214">Que mon âme confuse est vivement atteinte </l>
+	<l id="1215">Et si pour moi ton coeur se ferme à l'amitié, </l>
+	<l id="1216">Que ma douleur au moins l'ouvre à quelque pitié, </l>
+	<l id="1217">Juge combien l'amour tyrannise mon âme </l>
+	<l id="1218">Puisque j'ose moi-même en découvrir la flamme. </l>
+	<l id="1219">Penses-tu que ta glace éteigne mon ardeur ? </l>
+	<l id="1220">Je deviens plus ardente auprès de la froideur, </l>
+	<l id="1221">Je suis comme le feu dont la chaleur s'augmente </l>
+	<l id="1222">Quand la saison d'hiver se rend plus véhémente. </l>
+	<l id="1223">Et tu vois néanmoins l'excès de mes travaux </l>
+	<l id="1224">De même qu'un rocher regarderait mes maux. </l>
+	<l id="1225">Ayant blessé mon coeur tu dois m'offrir de l'aide </l>
+	<l id="1226">Et tu me vois mourir auprès de mon remède. </l>
+	<l id="1227">Tu ressembles celui qui commet un forfait</l>
+	<l id="1228">Et qui voit sans pitié le meurtre qu'il a fait. </l>
+	<l id="1229">Regarde encore un coup si l'amour me surmonte : </l>
+	<l id="1230">Pour se rendre plus fort il a chassé ma honte </l>
+	<l id="1231">Et lorsqu'à ses autels je cherche du recours, </l>
+	<l id="1232">Il me renvoie à toi pour avoir du secours. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1233">Quelle aide espérez-vous d'un amant déplorable </l>
+	<l id="1234">Que tous les maux ensemble ont rendu misérable ? </l>
+	<l id="1235">Quel bien peut-on avoir des esprits malheureux </l>
+	<l id="1236">À qui même le Ciel n'en laisse pas pour eux ? </l>
+	<l id="1237">Si je suis un enfer de maux et de supplices, </l>
+	<l id="1238">Pouvez-vous sans miracle en tirer des délices ? </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1239">Hélas ! Cher Clitophon, mon coeur et mon espoir, </l>
+	<l id="1240">Pour adoucir mon mal tu n'as qu'à le vouloir. </l>
+	<l id="1241">Si tu veux, tu le peux, mais ta rigueur extrême </l>
+	<l id="1242">Dédaigne le captif qui se rend de lui-même. </l>
+	<l id="1243">Tu ferais plus d'état de mes longues douleurs </l>
+	<l id="1244">Si tu m'avais acquise au dépends de tes pleurs. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1245">Je jure par Lucipe et par ses ombres saintes </l>
+	<l id="1246">Que c'est avec respect que j'écoute vos plaintes. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1247">Que te sert de nourrir des transports superflus </l>
+	<l id="1248">Et d'adorer encore un sujet qui n'est plus ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1249">Bien qu'elle ne soit plus, le Ciel veut que je l'aime </l>
+	<l id="1250">Et son ressouvenir me tient lieu d'elle-même. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1251">Hé bien, pour modérer l'excès de ma langueur, </l>
+	<l id="1252">Que l'une est ta mémoire et que l'autre ait ton coeur. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1253">Hélas je suis si plein de son amour extrême </l>
+	<l id="1254">Que je n'ai pas en moi de place pour moi-même </l>
+	<l id="1255">Et je suis obligé de croire cette loi, </l>
+	<l id="1256">Que je suis mort en elle et qu'elle vit en moi. </l>
+	<l id="1257" part="i">Mais que veut celle-ci ? </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1257" part="f">C'est une pauvre fille </l>
+	<l id="1258">Que mon fermier nourrit avec sa famille. </l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Mélite, Clitophon, Lucipe.</head>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1259">Dieux, que viens-je de voir, il ne me connaît pas </l>
+	<l id="1260">Et pour me faire aimer mon front n'a plus d'appas. </l>
+	<l id="1261">Que de cruels soupçons renouvellent ma peine ! </l>
+	<l id="1262">Aime-t-il cette dame ? Il faut que je l'apprenne, </l>
+	<l id="1263">Le bonheur a voulu que j'ai changé de nom. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1264">Lucène, venez-vous de la part de Damon ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1265">Je viens ici, madame, à dessein de me plaindre </l>
+	<l id="1266">De mille cruautés que je ne puis dépeindre. </l>
+	<l id="1267">Il me traite si mal qu'il semble à notre hameau </l>
+	<l id="1268">Que je sois criminelle et qu'il soit un bourreau </l>
+	<l id="1269">Et sa brutalité depuis peu découverte </l>
+	<l id="1270">Menace honteusement mon honneur de sa perte. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1271">Je donnerai bientôt bon ordre à sa folie. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1272" part="i">De quel pays es-tu ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1272" part="f">Je suis de Thessalie </l>
+	<l id="1273" part="i">Et Lucène est mon nom. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1273" part="f">N'ayez plus de souci, </l>
+	<l id="1274">Quittez votre tristesse et demeurez ici. </l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head>
+<sp who="LUCIPE"><speaker>LUCIPE, seule.</speaker>
+	<l id="1275">Il n'en faut plus douter, perfide, tu me laisses </l>
+	<l id="1276">Et tu portes ailleurs tes feux et tes caresses.</l>
+	<l id="1277">Tu crois que mon esprit soit aussi loin de toi </l>
+	<l id="1278">Que ton coeur inconstant s'est éloigné de moi. </l>
+	<l id="1279">Mais que fais-je, insensée ? Alors que je l'accuse </l>
+	<l id="1280">Je trouve que ma mort lui fournit une excuse </l>
+	<l id="1281">Et qu'il a pu sortir de ses premiers transports </l>
+	<l id="1282">Puisque c'est vainement que l'on aime les morts. </l>
+	<l id="1283">Si j'allais le trouver, un reste de mes charmes </l>
+	<l id="1284">L'obligerait sans doute à répandre des larmes, </l>
+	<l id="1285">Mais hélas ! Ma misère a terni les attraits </l>
+	<l id="1286">Dont l'amour, disait-il, se faisait tant de traits. </l>
+	<l id="1287">Ainsi Lucipe ‘est morte auprès de l'infidèle </l>
+	<l id="1288">Puisqu'une fille meurt en cessant d'être belle. </l>
+	<l id="1289">N'importe, il faut le voir et lui faire des voeux ; </l>
+	<l id="1290">Peut-être que mes pleurs rallumeront ses feux. </l>
+	<l id="1291">Qu'ai-je dit ? Il m'a vue, il m'a parlé, le traître, </l>
+	<l id="1292">Et toutefois il feint de ne me pas connaître. </l>
+	<l id="1293">L'infidèle qu'il est, me pouvant secourir, </l>
+	<l id="1294">Me voit bien dans les fers et m'y laisse périr. </l>
+	<l id="1295">Et pour combler mes maux à qui rien ne s'égale, </l>
+	<l id="1296">Je viens à mon secours implorer ma rivale. </l>
+	<l id="1297">Traître, ai-je donc sans crainte accompagné tes pas </l>
+	<l id="1298">Afin que ton mépris me livrât au trépas ? </l>
+	<l id="1299">Perfide, j'ai donc vu tant de peuples sauvages </l>
+	<l id="1300">Pour savoir qu'ils n'ont rien d'égal à tes outrages </l>
+	<l id="1301">Et j'éprouve aujourd'hui qu'en mon adversité </l>
+	<l id="1302">Le plus grand de mes maux c'est la déloyauté. </l>
+	<l id="1303">Je t'aime toutefois et mon âme charmée. </l>
+	<l id="1304">Ne peut quitter le feu dont elle est enflammée. </l>
+	<l id="1305">Je voudrais étouffer ma flamme et mes soupirs </l>
+	<l id="1306">Mais, hélas ! Sans pouvoir, que servent les désirs ? </l>
+	<l id="1307">Je suis comme une esclave au milieu des gênes </l>
+	<l id="1308">Qui peut et ne peut pas abandonner ses chaînes. </l>
+</sp>
+</div2>
+<div2 type="scene" n="9"><head>SCÈNE IX. Satire, Clinias, Lucipe.</head>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1309">Hé bien, que dites-vous des beautés de ces lieux ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1310">Que c'est assurément la demeure des Dieux. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1311">Malheureuse Lucipe, ô fille infortunée ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1312" part="i">Qu'avons-nous entendu ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1312" part="f">Cruelle destinée ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1313">N'est-ce point Clitophon qui se plaint ici près ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1314">Dieux, finissez mes jours avec mes regrets ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1315">Clinias, qu'ai-je vu ? Quelle métamorphose ! </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1316">Vous avez vu Lucipe et non pas autre chose. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1317" part="i">Lucipe ! </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1317" part="m">Oui, Lucipe elle-même. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1317" part="f">Bons Dieux, </l>
+	<l id="1318">Un fantôme trompeur abuse ici nos yeux. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1319">Si ce n'est sa beauté qui parut si parfaite </l>
+	<l id="1320">C'en est à tout le moins une image parfaite. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1321">Ayant vu séparer la tête de son corps, </l>
+	<l id="1322">Qui ne jugerait pas qu'elle est au rang des morts ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1323">Pour vous désabuser, écouter l'aventure </l>
+	<l id="1324">Qui me sauva des eaux et de sa sépulture </l>
+	<l id="1325">Et blâmez désormais la cruauté du sort </l>
+	<l id="1326">D'avoir tant différé le moment de ma mort. </l>
+	<l id="1327">Celui qui me ravit avec tant de colère </l>
+	<l id="1328">Tenait dans son navire une esclave étrangère </l>
+	<l id="1329">Et pour vous abuser par un déguisement </l>
+	<l id="1330">Il la fit revêtir de mon habillement, </l>
+	<l id="1331">Si bien qu'en mes habits l'esclave malheureuse </l>
+	<l id="1332">Ressentit de la mort l'atteinte rigoureuse. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1333">Crut-il nous arrêter en la traitant ainsi ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1334">C'était là son dessein qui n'a pas réussi. </l>
+	<note type="C">Le mot employerait est conservé au lieu de emploierait pour bien marquer qu’il a quatre pieds.</note>
+	<l id="1335">Il crut que Clitophon employerait ses peines </l>
+	<l id="1336">À retirer mon corps des ondes inhumaines </l>
+	<l id="1337">Et que durant ce temps qui vous retiendrait tous </l>
+	<l id="1338">Il aurait le loisir de s'éloigner de vous. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1339">C'était là le moyen de nous donner des ailes </l>
+	<l id="1340">Pour suivre cet auteur de cruautés nouvelles </l>
+	<l id="1341">Et d'augmenter ainsi par cette lâcheté </l>
+	<l id="1342">Le furieux transport d'un amant irrité. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1343">Il prévit bien cela, mais il faisait son compte </l>
+	<l id="1344">Que s'il ne fuyait pas d'une course assez prompte </l>
+	<l id="1345">Et que si Clitophon se rendait le plus fort, </l>
+	<l id="1346">Il me rendrait à lui pour faire son accord. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1347">Tant de subtilité dans un esprit barbare </l>
+	<l id="1348">Est toujours, ce me semble, une chose assez rare. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1349">Hélas ! Que cette feinte a causé de douleurs ! </l>
+	<l id="1350">Mais que devîntes-vous parmi tant de malheurs ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1351">Les vents toute la nuit nous ayant fait la guerre, </l>
+	<l id="1352">À trois mille d'ici nous vîmes prendre terre. </l>
+	<l id="1353">Ce fut là que Chérée et ceux qui le suivaient </l>
+	<l id="1354">Pensaient mettre en effet le dessein qu'ils avaient </l>
+	<l id="1355">Mais bien que leurs désirs n'eussent rien de contraire </l>
+	<l id="1356">Leur accord toutefois ne se put jamais faire. </l>
+	<l id="1357">Tous me voulaient avoir, chacun me vint tirer </l>
+	<l id="1358">Et ce désordre seul me semblait assurer. </l>
+	<l id="1359">On me quitte aussitôt, on se bat, on s'outrage, </l>
+	<l id="1360">À la fin sur Chérée on vit tomber l'orage ; </l>
+	<l id="1361">Ce meurtre étant commis, je gagne un petit bois </l>
+	<l id="1362">Où la peur qu'on me prit me mit jusqu'aux abois </l>
+	<l id="1363">Mais ces voleurs craignant qu'on ne les vint surprendre, </l>
+	<l id="1364">Songeaient à se sauver et non pas à me prendre. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1365" part="i">Que fîtes-vous depuis ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1365" part="f">Je fus dans un hameau </l>
+	<l id="1366">Où cent fois mon destin m'approcha du tombeau ; </l>
+	<l id="1367">Où croyant éviter une seconde peine, </l>
+	<l id="1368">Je convertis mon nom en celui de Lucène </l>
+	<l id="1369">De peur que ces voleurs ne revinssent un jour </l>
+	<l id="1370">En demandant Lucipe apprendre mon séjour. </l>
+	<l id="1371">Là, suivant les effets du malheur qui m'agite, </l>
+	<l id="1372">Je servis de bergère au fermier de Mélite </l>
+	<l id="1373">Et je viens aujourd'hui me plaindre des rigueurs </l>
+	<l id="1374">Dont cet esprit sauvage entretient mes langueurs. </l>
+	<l id="1375">Ainsi le Ciel sauve mon honneur et ma vie </l>
+	<l id="1376">Malgré tous les efforts d'une brutale envie. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1377" part="i">Hé Dieux, que Clitophon… </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1377" part="f">Ne parle point de lui : </l>
+	<l id="1378">Le perfide a causé mon plus sensible ennui. </l>
+</sp>
+</div2>
+<div2 type="scene" n="10"><head>SCÈNE X. Clitophon, Clinias, Satire, Lucipe.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1379">Que cette pauvre fille a remis dans mon âme </l>
+	<l id="1380">De tristes souvenirs de ma première flamme ! </l>
+	<l id="1381">Je croirais voir Lucipe à sa bouche, à son port, </l>
+	<l id="1382">Si mes yeux ne m'avaient assuré de sa mort. </l>
+	<l id="1383">C'est un portrait vivant d'une personne morte </l>
+	<l id="1384">Qui ne fait qu'irriter le mal qui me transporte. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1385" part="i">Clitophon ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1385" part="m">Est-ce vous ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1385" part="f">Oui, perfide, c'est moi. </l>
+	<l id="1386">Qui te conserve encor mon honneur et ma foi. </l>
+	<l id="1387">Si ces tristes habits où tu me vois paraître </l>
+	<l id="1388">Empêchaient à tes yeux de me pouvoir connaître. </l>
+	<l id="1389">Je me plains si souvent au gré de mes ennuis </l>
+	<l id="1390">Qu'à ma voix seulement j'apprendrais qui je suis. </l>
+	<l id="1391">Va, perfide, va voir ta nouvelle maîtresse, </l>
+	<l id="1392">Va perdre dans son sein tes maux et ta tristesse. </l>
+	<l id="1393">Je ne suis plus égale à ta condition </l>
+	<l id="1394">Pour espérer encore à ton affection, </l>
+	<l id="1395">Mais je suis toutefois cette même étrangère </l>
+	<l id="1396">Que tu voulus tirer hors des bras de sa mère, </l>
+	<l id="1397">Je suis toujours Lucipe, esclave de tes lois, </l>
+	<l id="1398">Mais tu n'es plus celui qui l'aimait autrefois. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1399">En te voyant mourir si je ne t'ai pu suivre, </l>
+	<l id="1400">Veux-tu donc que je meure en te voyant revivre ? </l>
+	<l id="1401">Si tu veux que le meure après tant de malheur, </l>
+	<l id="1402">Que ce soit de plaisir et non pas de douleur. </l>
+	<l id="1403">Chasse donc de tes yeux ces rigueurs inhumaines </l>
+	<l id="1404">Et qu'une douce mort récompense mes peines ; </l>
+	<l id="1405">Je suis toujours le même et toujours cet amant </l>
+	<l id="1406">Qui méprisa pour toi l'honneur du monument. </l>
+	<l id="1407">Et ma fidélité qui vainquit tant d'obstacles </l>
+	<l id="1408">Peut prétendre une place au nombre des miracles. </l>
+	<l id="1409">Il est vrai que ta mort fit mourir mon espoir </l>
+	<l id="1410">Mais non pas mon amour qui se fit toujours voir. </l>
+	<l id="1411">Juge ainsi que ma flamme est sans doute immortelle </l>
+	<l id="1412">Puisque même ta mort n'a rien pu dessus elle. </l>
+	<l id="1413">Bien qu'on cesse d'aimer en cessant d'espérer, </l>
+	<l id="1414">Mon malheur toutefois m'a vu persévérer </l>
+	<l id="1415">Et le Ciel n'a voulu me prolonger ma vie </l>
+	<l id="1416">Depuis que par ta mort elle me fut ravie </l>
+	<l id="1417">Qu'à dessein de montrer aux injures du sort </l>
+	<l id="1418">Qu'un véritable amour triomphe de la mort. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1419">Perfide, le remords te presse et te dévore </l>
+	<l id="1420">Et ton crime est trop grand pour le cacher encore.</l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1421">Si cessant d'espérer j'ai commis un forfait, </l>
+	<l id="1422">Je confesse aujourd'hui le crime que j'ai fait </l>
+	<l id="1423">Et si je suis enfin de ta grâce incapable, </l>
+	<l id="1424">Prends ce fer en ta main et punis ce coupable. </l>
+	<l id="1425">Si mon oeil par deux fois te regarda mourir, </l>
+<note type="C">Le mot voyes est conservé au lieu de voies pour bien marquer qu’il a deux pieds. </note>
+	<l id="1426">Qu'une fois pour les moins tu me voyes périr. </l>
+	<l id="1427">Porte donc dans mon sein de mortelles atteintes ; </l>
+	<l id="1428">Une mort véritable en payera deux feintes </l>
+	<l id="1429">Et j'aurai pour loyer de mes maux inhumains </l>
+	<l id="1430">D'avoir enfin reçu le repos de tes mains. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1431" part="i">Soyez libre et vivez. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1431" part="f">Que je vive, Madame, </l>
+	<l id="1432">Lorsque vos cruautés me privent de mon âme ? </l>
+	<l id="1433">Le moyen d'être libre après tant de rigueur </l>
+	<l id="1434">Et de vivre au moment qu'on me perce le coeur ?</l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1435" part="i">Mais quelqu'un vient à nous. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1435" part="f">Hé Dieux, que j'appréhende ! </l>
+</sp>
+<sp who="ÉRIPHILE"><speaker>ÉRIPHILE.</speaker>
+	<l id="1436">Lucène, venez tôt, madame vous demande. </l>
+</sp>
+</div2>
+<div2 type="scene" n="11"><head>SCÈNE XI. Clitophon, Satire, Clinias.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1437">Hélas ! Elle s'en va ! Vient-elle des enfers </l>
+	<l id="1438">Pour m'apporter au monde et leur flamme et leurs fers ? </l>
+	<l id="1439">Amour, montre en ce lieu ta divine justice, </l>
+	<l id="1440">Fais-moi voir à Lucipe et sans tache et sans vice, </l>
+	<l id="1441">Dis-lui que sa rigueur me traîne au monument </l>
+	<l id="1442">Et que son oeil la trompe et non pas son amant. </l>
+	<l id="1443">Mais ai-je vu Lucipe ou son ombre irritée </l>
+	<l id="1444">D'attendre trop longtemps mon âme épouvantée ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1445">Apprenez que Lucipe a tracé tous ces pas </l>
+	<l id="1446">Et qu'elle vous a dit ce qu'elle ne veut pas ; </l>
+	<l id="1447">Toute fille se plaît à donner de la crainte </l>
+	<l id="1448">Lorsque de son amour nous avons l'âme atteinte. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1449" part="i">Quel Dieu la fait revivre ? </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1449" part="f">Ami, sortons d'ici </l>
+	<l id="1450">Et dessus ce sujet vous serez éclairci. </l>
+</sp>
+</div2>
+<div2 type="scene" n="12"><head>SCÈNE XII. Mélite, Lucipe.</head>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1451">Lucène, ton bonheur doit être incomparable </l>
+	<l id="1452">Si tu veux à mes maux te rendre secourable. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1453">Disposez de ma vie à toute heure, en tous temps, </l>
+	<l id="1454">L'honneur de vous servir est le bien que j'attends. </l>
+	<l id="1455" part="i">Mais que puis-je pour vous ? </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1455" part="f">Étant de Thessalie </l>
+	<l id="1456">Tu peux venir à bout de ma mélancolie. </l>
+	<l id="1457">Celles de ton pays, savantes à charmer, </l>
+	<l id="1458">N'ont jamais ignoré l'art de se faire aimer </l>
+	<l id="1459">Et de faire céder à la force des herbes </l>
+	<l id="1460">L'orgueil impérieux des âmes plus superbes. </l>
+	<l id="1461">Voilà ce qui m'oblige à te dire aujourd'hui </l>
+	<l id="1462">Que cet art seulement peut vaincre mon ennui </l>
+	<l id="1463">Et que si ton secours ne travaille à mon aide </l>
+	<l id="1464">Je suis sans espérance et mon mal sans remède ; </l>
+	<l id="1465">L'étranger que tu viens de voir avec moi </l>
+	<l id="1466">Méprise ouvertement les offres de ma foi </l>
+	<l id="1467">Et bien qu'il ait connu l'amour que je lui porte, </l>
+	<l id="1468">Il préfère à mes feux les cendres d'une morte. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1469" part="i">Ne vous aime-t-il point ? </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1469" part="m">Nullement. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1469" part="f">Hé bons Dieux ! </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1470">Je fais en vain parler et mon coeur et mes yeux. </l>
+	<l id="1471">Une Lucipe morte est la beauté qu'il aime, </l>
+	<l id="1472">Comme elle est insensible, il se rend tout de même, </l>
+	<l id="1473">Si bien que l'on peut dire en voyant ses transports </l>
+	<l id="1474">Qu'il idolâtre une ombre et méprise un vrai corps. </l>
+	<l id="1475">Tâche donc d'ébranler par la force des charmes </l>
+	<l id="1476">Ce rocher immobile aux torrents de mes larmes </l>
+	<l id="1477">Et si ton amitié succède à mes désirs </l>
+	<l id="1478">Sache que ton bonheur naîtra de mes plaisirs. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1479">Madame, cet amour que font naître les charmes </l>
+	<l id="1480">Est un commencement de nouvelles alarmes : </l>
+	<l id="1481">Quoi qu'il fasse espérer avec ses faux appas </l>
+	<l id="1482">C'est un bien dérobé qui ne profite pas, </l>
+	<l id="1483">C'est un mauvais démon dont homicide rage </l>
+	<l id="1484">D'une divinité prend le titre et l'image. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1485">N'importe, que ce soit tout ce que tu voudras, </l>
+	<l id="1486">Pourvu que Clitophon languisse entre mes bras. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1487">Il faut donc que je cherche une herbe nécessaire </l>
+	<l id="1488">Pour vous faire un amant d'un puissant adversaire. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1489">Va chercher le bonheur que mon âme poursuit </l>
+	<l id="1490">Et qu'une herbe aujourd'hui me produise du fruit, </l>
+	<l id="1491">Mais j'entends un grand bruit. Que vois-je en ton visage </l>
+	<l id="1492">Qui me fait concevoir un sinistre présage ? </l>
+	<l id="1493" part="i">Parle-moi promptement. </l>
+</sp>
+</div2>
+<div2 type="scene" n="13"><head>SCÈNE XIII. Ériphile, Mélite.</head>
+<sp who="ÉRIPHILE"><speaker>ÉRIPHILE.</speaker>
+	<l id="1493" part="f">Votre époux de retour </l>
+	<l id="1494">Fait mettre Clitophon dans une affreuse tour. </l>
+	<l id="1495">Il a su par le bruit qui court parmi le monde </l>
+	<l id="1496">Que vous brûlez pour lui d'une ardeur sans seconde. </l>
+	<l id="1497" part="i">Il s'est imaginé… </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1497" part="f">Te moques-tu de moi ? </l>
+</sp>
+<sp who="ÉRIPHILE"><speaker>ÉRIPHILE.</speaker>
+	<l id="1498">Madame je l'ai vu, mais non pas sans effroi </l>
+	<l id="1499">Et je viens de savoir qu'au milieu de l'orage </l>
+	<l id="1500">Un favorable esquif le sauva du naufrage. </l>
+	<l id="1501">Il se jeta dedans et les flots irrités </l>
+	<l id="1502">Le firent aborder en des lieux écartés. </l>
+	<l id="1503">Où la nécessité le mit en servitude </l>
+	<l id="1504">Jusqu'à ce qu'un ami l'ôta d'inquiétude. </l>
+	<l id="1505" part="i">Enfin il est venu. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1505" part="f">Que ferai-je, bons Dieux, </l>
+	<l id="1506">Si quelque grand secours ne m'arrive des Cieux. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Clinias, Satire.</head>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1507" part="i">Qu'a-t-on fait de Lucipe ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1507" part="f">Hélas ! Je te puis dire </l>
+	<l id="1508">Que nous n'eûmes jamais une fortune pire. </l>
+	<l id="1509">Quand Lucipe eût appris qu'une effroyable tour </l>
+	<l id="1510">Captivait sans raison l'objet de son amour, </l>
+	<l id="1511">Sans rien considérer, sa passion l'y porte, </l>
+	<l id="1512">Le mal de Clitophon rend sa flamme plus forte </l>
+	<l id="1513">Et le ressentiment de sa vive amitié </l>
+	<l id="1514">Toucha même les fers d'amour et de pitié. </l>
+	<l id="1515">Tersandre (c'est le nom du mari de Mélite) </l>
+	<l id="1516">Apprit par le geôlier une telle visite </l>
+	<l id="1517">Et comme il est subtil en ces moindres discours, </l>
+	<l id="1518">En parlant à Lucipe il apprit ses amours. </l>
+	<l id="1519">Au lieu de lui donner un espoir d'allégeance, </l>
+	<l id="1520">Ce furieux en fit l'objet de sa vengeance </l>
+	<l id="1521">Et sa brutalité lui fit croire aisément </l>
+	<l id="1522">Qu'en outrageant l'amante il blesserait l'amant. </l>
+	<l id="1523">Hélas ! Hélas ! Depuis cette triste journée </l>
+	<l id="1524">Je n'ai pu rien savoir de cette infortunée. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1525">Si la moindre justice habite dans ces lieux, </l>
+	<l id="1526">Elle nous vengera contre ce furieux. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1527">Il est trop absolu, tout cède à sa malice. </l>
+	<l id="1528">Le crime est aujourd'hui plus fort que la justice </l>
+	<l id="1529">Et la moindre faveur d'un esprit trop puissant </l>
+	<l id="1530">Fait vivre le coupable et détruit l'innocent. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1531">L'on rencontre partout des juges équitables </l>
+	<l id="1532">Que les appas du vice ont trouvés indomptables. </l>
+	<l id="1533">Quand la peste a passé par les grandes cités, </l>
+	<l id="1534">Il s'en trouve toujours qui s'en sont exemptés </l>
+	<l id="1535">Et durant les efforts d'une affreuse tempête </l>
+	<l id="1536">Tous les arbres d'un bois ne baissent pas la tête ; </l>
+	<l id="1537">Ainsi dans un sénat des esprits se font voir </l>
+	<l id="1538">Contre qui la faveur n'eût jamais du pouvoir. </l>
+	<l id="1539">Satire, poursuivons avec cette assurance </l>
+	<l id="1540">Que le Ciel favorise une juste espérance ; </l>
+	<l id="1541">Allons voir Clitophon, les esprits affligés </l>
+	<l id="1542">À l'aspect d'un ami sont toujours consolés. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1543">Grands Dieux qui me voyez en ces lieux redoutables </l>
+	<l id="1544">Aux coeurs plus généreux,</l>
+	<l id="1545">Pouvez-vous conserver le titre d'équitables </l>
+	<l id="1546">Et me voir malheureux ?</l>
+	<l id="1547">Percez l'obscurité de la fosse profonde </l>
+	<l id="1548">Où l'on me tient captif !</l>
+	<l id="1549">Qu'ai-je fait, Immortels, pour être dans le monde </l>
+	<l id="1550">Enseveli tout vif ?</l>
+	<l id="1551">Voyez dans les enfers l'innocente contrainte </l>
+	<l id="1552">Sous des fers odieux !</l>
+	<l id="1553">Mais étant aux enfers, croirai-je que ma plainte </l>
+	<l id="1554">Peut aller jusqu'aux Cieux ? </l>
+	<l id="1555">Si le nom d'affligé que l'outrage me donne </l>
+	<l id="1556">Ne vous peut émouvoir.</l>
+	<l id="1557">Que celui d'innocent que la peine environne </l>
+	<l id="1558">Touche votre pouvoir. </l>
+	<l id="1559">Qu'ai-je dit, innocent, en l'état déplorable </l>
+	<l id="1560">Où je me vois rangé ? </l>
+	<l id="1561">C'est assez aujourd'hui pour être cru coupable </l>
+	<l id="1562">Que l'on soit affligé.</l>
+<note type="L">Bourrelle : Le Rich. Port. le dit au propre, pour maltraiter quelqu'un à force de coups, le tourmenter. L'Acad. avertit qu'il n'a d'usage qu'au figuré. [FC]</note>
+	<l id="1563">Ô mort, délivre-moi du mal qui me bourelle </l>
+	<l id="1564">Absent de ma moitié, </l>
+	<l id="1565">Arrache-moi le coeur et que ta main cruelle </l>
+	<l id="1566">Fasse un coup de pitié. </l>
+	<l id="1567">Mais en vain je l'invite à finir mes années </l>
+	<l id="1568">Par l'excès de mes cris. </l>
+	<l id="1569">Me voyant aussi mal que les âmes damnées </l>
+	<l id="1570">Elle croit m'avoir pris. </l>
+	<l id="1571">Mais voici mes amis. Hé bien, que dois-je craindre ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Clinias, Satire, Clitophon.</head>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1572">Vous devez espérer et cesser de vous plaindre. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1573" part="i">A-t-on trouvé Lucipe ? </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1573" part="f">On la retrouvera </l>
+	<l id="1574">Et la pitié du Ciel vous favorisera. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1575">Ô Dieux, votre conduite aujourd'hui se repose, </l>
+	<l id="1576">Je n'espère plus rien et je crains toute chose. </l>
+	<l id="1577">Le crime d'adultère et celui de voleur </l>
+	<l id="1578">Que l'on m'impose à tort ne font pas ma douleur. </l>
+	<l id="1579">Lucipe seulement fait croître ainsi mes gênes </l>
+	<l id="1580">Et distiller les pleurs dont j'arrose mes chaînes. </l>
+	<l id="1581">Hélas ! Qui ne dirait qu'il est tout apparent </l>
+	<l id="1582">Que le destin me l'ôte alors qu'il me la rend ? </l>
+	<l id="1583">J'ai revu seulement son aimable visage </l>
+	<l id="1584">Comme un astre qui passe au-dessous d'un nuage. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Prisonnier, Clinias, Satire, Clitophon.</head>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1585">Ô siècle malheureux, ô temps désespérés </l>
+	<l id="1586">Où les plus innocents sont les moins assurés ! </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1587" part="i">De quoi vous plaignez-vous ? </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1587" part="f">D'une injuste licence </l>
+	<l id="1588">Qui d'un assassinat charge mon innocence. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1589">Il semble que ces lieux qui tourmentent nos sens </l>
+<note type="C">Le mot est conservé soyent au lieu de soient pour bien marquer qu’il a deux pieds.</note>
+	<l id="1590">Ne soyent faits aujourd'hui que pour les innocents. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1591">Dites-nous l'accident d'où vient votre fortune. </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1592">Hier lorsque le jour eût fait place à la lune, </l>
+	<l id="1593">En revenant chez moi je tombai sur un corps </l>
+	<l id="1594">De qui déjà l'esprit habitait chez les morts. </l>
+	<l id="1595">Le guet passe aussitôt et me vit si timide </l>
+	<l id="1596">Qu'il crût facilement que j'étais l'homicide, </l>
+	<l id="1597">Mon visage changé par un si grand effroi </l>
+	<l id="1598">Servit de faux témoin pour parler contre moi. </l>
+	<l id="1599">Il se fait un grand bruit, chacun sort, chacun pleure, </l>
+	<l id="1600">Chacun me condamnait à mourir tout à l'heure </l>
+	<l id="1601">Et je crus être mort sans l'avoir mérité </l>
+	<l id="1602">Lorsque dans cet enfer je me vis arrêté. </l>
+</sp>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1603" part="i">Reconnût-on le corps ? </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1603" part="m">C'était une bergère. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1604" part="i">Une fille ? Bons Dieux ! </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1604" part="f">Elle était étrangère. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1605">Étrangère ! Un soupçon me fait appréhender </l>
+	<l id="1606">Ce que mon coeur troublé n'ose pas demander. </l>
+	<l id="1607" part="i">Ne sais-tu point son nom ? </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1607" part="f">Quelqu'un me fit entendre </l>
+	<l id="1608">Qu'elle avait demeuré chez un nommé Tersandre ; </l>
+	<l id="1609" part="i">Il la nommait Lucène ou Lucipe. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1609" part="f">Ô malheur ! </l>
+	<l id="1610">Mais puis-je résister à ce trait de douleur ? </l>
+	<l id="1611">Puis-je recevoir ce dernier coup de foudre </l>
+	<l id="1612">Et n'être pas encore converti tout en poudre ? </l>
+	<l id="1613">Qu'a-t-on fait de son corps qu'on devait adorer ? </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1614">Chacun prit à l'envi le soin de l'enterrer. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1615">Ne verrai-je donc point après tant de contraintes </l>
+	<l id="1616">De la perfection les reliques plus saintes ? </l>
+	<l id="1617">Ha Dieux ! Avez-vous fait ce riche diamant </l>
+	<l id="1618">Pour être renfermé dedans le monument ? </l>
+	<l id="1619">Ses attraits tout divins, ses beautés sans exemples, </l>
+	<l id="1620">Au lieu d'un monument mériteraient des temples, </l>
+	<l id="1621">Mais que fais-je ? Que dis-je ? À quelle extrémité </l>
+	<l id="1622">Résoudrai-je à la fin mon esprit agité ? </l>
+	<l id="1623">Ouvre, cher Clinias, le sein d'un misérable, </l>
+	<l id="1624">Rends-toi mon ennemi pour m'être favorable, </l>
+	<l id="1625">Lucipe t'en conjure. Hélas ! Je la revois : </l>
+	<l id="1626">Son corps pâle et sanglant se présente à moi </l>
+	<l id="1627">Et l'amour est auprès sans attraits et sans charmes </l>
+	<l id="1628">Qui tâche à le laver par les eaux de ses larmes. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1629">Rappelle ta raison, tu sais bien que les morts </l>
+	<l id="1630">Ne se réveillent point au bruit de nos transports, </l>
+	<l id="1631">Nous leur devons des pleurs mais non pas notre vie. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1632">Je dois tout à Lucipe après l'avoir ravie. </l>
+</sp>
+<sp who="CLINIAS"><speaker>CLINIAS.</speaker>
+	<l id="1633">La passion de l'âme en montre le défaut. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Le Geôlier, Clitophon.</head>
+<sp who="LE GEÔLIER"><speaker>LE GEÔLIER.</speaker>
+	<l id="1634">Vos juges assemblés vous attendent là-haut. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1635">À Dieu, mes chers amis, je vais cesser de vivre. </l>
+	<l id="1636">Lucipe, je connais des moyens pour te suivre. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Tersandre, Mélite.</head>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1637">Non, non, ne pleure plus, quand l'honneur s'est perdu </l>
+	<l id="1638">Les soupirs et les pleurs ne l'ont jamais rendu.</l>
+	<l id="1639">Ce n'est pas une fleur à la terre attachée </l>
+	<l id="1640">Qui puisse profiter alors qu'on l'a touchée ; </l>
+	<l id="1641">L'honneur est toujours trouble et si prompt à périr </l>
+	<l id="1642">Que le moindre soupçon le peut faire mourir ; </l>
+	<l id="1643">Bien qu'il soit un soleil qui nous fasse connaître, </l>
+	<l id="1644">Ainsi que le soleil il ne peut pas renaître ; </l>
+	<l id="1645">Et sans rebattre l'air de discours superflus, </l>
+	<l id="1646">L'honneur comme le temps ne se recouvre plus. </l>
+	<l id="1647">Tu pleures, déloyale, et ton amour infâme </l>
+	<l id="1648">Au travers de tes pleurs fait reluire sa flamme. </l>
+	<l id="1649">Voyant que mon retour a fini ton bonheur </l>
+	<l id="1650">Tu plains ton adultère et non pas ton honneur. </l>
+	<l id="1651">Garde pour cet ami tes sentiments plus tendres </l>
+	<l id="1652">Et réserve tes pleurs pour mêler à ses cendres. </l>
+	<l id="1653">Quoi qu'il puise arriver au milieu des liens, </l>
+	<l id="1654">La justice a des feux pour me venger des tiens. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1655">Crois ce qu'il te plaira mais garde-toi de croire </l>
+	<l id="1656">Qu'une amour criminelle obscurcisse ma gloire. </l>
+	<l id="1657">La passion abuse un esprit furieux </l>
+	<l id="1658">Ainsi qu'un faux miroir nous abuse les yeux, </l>
+	<l id="1659">Elle sait mal nommer ce qu'elle croit connaître </l>
+	<l id="1660">Et l'on s'en doit garder de même que d'un traître. </l>
+	<l id="1661">J'atteste tout l'enfer, j'atteste tous les Dieux, </l>
+	<l id="1662">Que mon coeur n'eût jamais de desseins vicieux.</l>
+	<l id="1663">Si tu veux m'écouter plutôt que ta colère </l>
+	<l id="1664">Tu te condamneras de m'être si sévère </l>
+	<l id="1665">Et de tous ces transports qui te gênent le coeur </l>
+	<l id="1666">Celui de l'amitié demeurera vainqueur.</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1667">Ainsi que ton esprit tes paroles confuses </l>
+<note type="C">L’original porte ne sait pas au lieu de ne savent pas. Alors que le sujet des paroles est au pluriel et au lieu des excuses je mets d’excuses.</note>
+	<l id="1668">Pour un crime si grand ne savent pas d'excuses. </l>
+	<l id="1669">Quoi que le repentir te fasse dire ici, </l>
+	<l id="1670">Le bruit commun t'accuse et te condamne aussi. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1671">Tant de bruits criminels sont des fruits de l'envie. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1672">Dis que ce sont des fruits de ta mauvaise vie </l>
+	<l id="1673">Et pour mieux t'excuser dis-moi qu'un suborneur </l>
+	<l id="1674">Gagna ton amitié pour perdre ton honneur. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1675">S'il faut croire un faux bruit, je confesse, Tersandre, </l>
+	<l id="1676">Que j'ai bien mérité d'être réduite en cendre, </l>
+	<l id="1677">Mais si tu crois aussi ce qu'il met en avant, </l>
+	<l id="1678">Tu me dois confesser que tu n'es plus vivant. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1679">Tu nies toutefois et tu maudis les ondes </l>
+	<l id="1680">De m'avoir rejeté de leurs grottes profondes, </l>
+	<l id="1681">Mais voici celui-là qui me doit annoncer </l>
+	<l id="1682">L'arrêt qu'un si grand crime aura fait prononcer. </l>
+	<l id="1683">Hé bien, le favori de cette déloyale </l>
+	<l id="1684">Aura-t-il une peine à son forfait égale. </l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Tersandre, Polémon, Mélite.</head>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1685">Jamais sur un procès le Sénat assemblé </l>
+	<l id="1686">Ne parut jusqu'ici plus justement troublé ; </l>
+	<l id="1687">Clitophon est absous du crime d'adultère </l>
+	<l id="1688">Mais il a découvert un étrange mystère : </l>
+	<l id="1689">Il se vient accuser devant tout le Sénat </l>
+	<l id="1690">D'avoir été l'auteur d'un lâche assassinat. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1691" part="i">De quel assassinat ? </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1691" part="m">De Lucipe. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1691" part="f">Ha, le traître, </l>
+	<l id="1692">Qu'une rage infernale a sans doute fait naître ! </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1693">On en doute pourtant et quelqu'un a fait voir </l>
+	<l id="1694">Que tout ce qu'il a dit sortit d'un désespoir </l>
+	<l id="1695">Si bien qu'on a jugé, comme la loi le porte </l>
+	<l id="1696">Lorsqu'un désespéré s'accuse de la sorte, </l>
+	<l id="1697">Qu'il irait dans le temple en présence des Dieux </l>
+	<l id="1698">Montrer son innocence ou son crime odieux. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1699">Cette confession n'est-elle pas capable </l>
+	<l id="1700">D'allumer le brasier que mérite un coupable ? </l>
+	<l id="1701">Qui s'accuse soi-même est croyable toujours. </l>
+	<l id="1702">Mais d'où vient ce grand bruit de voix et de tambours ? </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1703">Ce sont des Byzantins tous remplis d'allégresse </l>
+	<l id="1704">Qui viennent rendre grâce à la grande Déesse </l>
+	<l id="1705">Dont l'unique secours a dissipé les feux </l>
+	<l id="1706">Qu'une guerre civile entretenait chez eux. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1707">J'appréhende aujourd'hui que la loi le délivre. </l>
+</sp>
+<sp who="POLÉMON"><speaker>POLÉMON.</speaker>
+	<l id="1708">Quelle loi peut permettre aux coupables de vivre ? </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1709">Lorsque des étrangers viennent sacrifier, </l>
+	<l id="1710">Toujours à leur abord on sauve un prisonnier. </l>
+	<l id="1711">Allons voir néanmoins quel horrible supplice </l>
+	<l id="1712">Clitophon recevra des mains de la justice ; </l>
+	<l id="1713">Pourvu que ce cruel endure le trépas, </l>
+	<l id="1714">Pour quoi que ce puisse être il ne m'importe pas. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1715">Je te suivrai, Tersandre, et malgré toi j'espère </l>
+	<l id="1716">Que ces derniers discours éteindront ta colère : </l>
+	<l id="1717">La parole de ceux qui sont prêt de la mort </l>
+	<l id="1718">Peut relever l'honneur que l'on abaisse à tort. </l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Clitophon, le Juge.</head>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1719">Pourquoi différez-vous ? Le remords de mon crime </l>
+	<l id="1720">Doit servir contre moi de témoin légitime </l>
+	<l id="1721">Et je jure aujourd'hui devant les Immortels </l>
+	<l id="1722">Qu'un infâme assassin embrasse leurs autels. </l>
+	<l id="1723">Faut-il que votre main soit encore impuissante ? </l>
+	<l id="1724">Vengez avec mon sang le sang d'une innocente, </l>
+	<l id="1725">Inventez des tourments dont l'enfer ait l'horreur </l>
+	<l id="1726">Et faites les servir à punir ma fureur. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1727">Ce discours le condamne à la mort qu'il désire. </l>
+	<l id="1728">Voici les étrangers, il faut qu'on se retire, </l>
+	<l id="1729">Laissons à leurs désirs l'entière liberté </l>
+	<l id="1730">D'offrir un sacrifice à la Divinité. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1731">Hé Dieux, qu'ai-je aperçu ! Pour comble de misère, </l>
+	<l id="1732">Si je ne vois Lucipe, hélas ! Je vois son père. </l>
+</sp>
+</div2>
+<div2 type="scene" n="9"><head>SCÈNE IX. Sostrate, Clitophon, le Juge.</head>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1733">Te vois-je, Clitophon, es-tu donc devant moi ? </l>
+	<l id="1734">Qu'as-tu fait de Lucipe ? Est-elle avec toi ? </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1735">Il vient de confesser qu'il en est l'homicide. </l>
+</sp>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1736">Ha, que m'avez-vous dit ! Ô cruel ! Ô perfide ! </l>
+	<l id="1737">Si le respect du lieu ne me retenait pas </l>
+	<l id="1738">Tu n'aurais maintenant de bourreau que mon bras. </l>
+	<l id="1739">Ô père malheureux ! Ô ravisseur infâme, </l>
+	<l id="1740">Digne que mille enfers te préparent leur flamme ! </l>
+	<l id="1741">Que t'avait fait Lucipe ? Eut-elle trop d'amour </l>
+	<l id="1742">Pour le plus grand criminel qui regarde le jour ? </l>
+	<l id="1743">N'était-ce pas assez de nous l'avoir ravie </l>
+	<l id="1744">Sans lui ravir encore la lumière et la vie ? </l>
+	<l id="1745">L'as-tu voulu punir parmi ses déplaisirs </l>
+	<l id="1746">Du crime qu'elle a fait en suivant tes désirs ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="10"><head>SCÈNE X. Sostrate, Clitophon, Satire, le Juge.</head>
+<sp who="SATIRE"><speaker>SATIRE.</speaker>
+	<l id="1747">Ne vous affligez point, Lucipe n'est pas morte : </l>
+	<l id="1748">Je lui viens de parler derrière cette porte. </l>
+	<l id="1749">La peur et le respect de son père irrité </l>
+	<l id="1750" part="i">L'empêchent de paraître. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1750" part="m">Ô juste Déité ! </l>
+</sp>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1750" part="f">Qu'elle vienne ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1751">Bons Dieux, que l'humaine prudence </l>
+	<l id="1752">Est aveugle aux secrets de votre providence ! </l>
+</sp>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1753" part="i">Ma fille ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1753" part="m">Ma Lucipe ! </l>
+</sp>
+</div2>
+<div2 type="scene" n="11"><head>SCÈNE XI. Satire, Clitophon, Sostrate, le Juge.</head>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1753" part="f">Ha, mon père, pardon ! </l>
+</sp>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1754">Le bien de ta rencontre a mérité ce don. </l>
+	<l id="1755">Qu'il est aisé de voir que c'est dedans les temples </l>
+	<l id="1756">Qu'on trouve des faveurs et des biens sans exemples ! </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1757">Qui ne voudrait juger que tes divins appas </l>
+	<l id="1758">Doivent être immortels après tant de trépas. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1759">Depuis qu'on obéit aux lois de la nature </l>
+	<l id="1760">L'on n'a jamais parlé d'une telle aventure. </l>
+	<l id="1761">Pourquoi vous chargez-vous d'un crime si brutal ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1762">Pour trouver par ma mort un remède à mon mal. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1763">Qui vous a donc causé ses fureurs inhumaines ? </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1764">Un homme comme moi restant dedans les chaînes </l>
+	<l id="1765">Pour avoir, disait-il été pris près du corps </l>
+	<l id="1766">De l'aimable beauté d'où viennent mes transports. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1767">Que l'on l'aille quérir, et cependant, Madame, </l>
+	<l id="1768">Dissipez les faveurs qui traversent votre âme. </l>
+	<l id="1769">Est-ce enfin un dessein de l'amour ou du sort </l>
+	<l id="1770">Qui vous a fait sauver votre amant de la mort ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1771">Pour sauver mon honneur des fureurs d'un profane, </l>
+	<l id="1772">Je recherche un asile aux autels de Diane. </l>
+	<l id="1773">Dès le même moment que Tersandre eût appris </l>
+	<l id="1774">Que Clitophon tout seul possédait mes esprits, </l>
+	<l id="1775">Son coeur brûla pour moi d'une amour forcenée </l>
+	<l id="1776">Et me voulut traiter comme une abandonnée. </l>
+	<l id="1777">Il me fit renfermer espérant quelque jour </l>
+	<l id="1778">Assouvir malgré moi son impudique amour </l>
+	<l id="1779">Mais en dépit de ceux qui veillaient à ma garde </l>
+	<l id="1780">J'ai trouvé dans ce temple un lieu de sauvegarde. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1781">Tersandre, suborneur, que n'a point mérité </l>
+	<l id="1782">L'injurieux excès de ta brutalité ? </l>
+	<l id="1783">Mais il faut écouter celui que l'on amène : </l>
+	<l id="1784">Le remords le poignarde et lui fait de la peine. </l>
+	<l id="1785" part="i">Lucipe est-elle morte ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="12"><head>SCÈNE XII. Prisonnier, le Juge.</head>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1785" part="f">On m'a pris près du corps. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1786">Elle est donc de retour de l'empire des morts ? </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1787">Sans prendre devant vous le soin de me défendre </l>
+	<l id="1788">Je confesse ma faute et j'accuse Tersandre. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1789" part="i">Tersandre ? </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1789" part="f">Ce cruel tout brûlant de courroux, </l>
+	<l id="1790">Jugeant que Clitophon serait bientôt absous, </l>
+	<l id="1791">Et sachant que Lucipe en était si chérie, </l>
+	<l id="1792">Me fit exécuter un coup de sa furie </l>
+<note type="C">L’original porte de mettre au lieu de  de me mettre. De plus il manque un pied.</note>
+	<l id="1793">Et trouva le moyen de me mettre en la tour </l>
+	<l id="1794">Où je dis que Lucipe avait perdu le jour. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1795">Pourquoi donc feignais-tu que Lucipe était morte ? </l>
+</sp>
+<sp who="PRISONNIER"><speaker>PRISONNIER.</speaker>
+	<l id="1796">Tersandre avec moi raisonnait de la sorte : </l>
+	<l id="1797">Si le malheur voulait que Clitophon sortit </l>
+	<l id="1798">Et que de ma fureur le Ciel le garantit, </l>
+	<l id="1799">Sachant que sa maîtresse aurait perdu la vie, </l>
+	<l id="1800">Avec l'espérance il en perdrait l'envie </l>
+	<l id="1801">Et se verrait contraint d'abandonner ces lieux </l>
+	<l id="1802">Que tant de déplaisirs lui rendraient odieux. </l>
+	<l id="1803">Ainsi par son départ et durant son absence </l>
+	<l id="1804">J'obtiendrai sur Lucipe une entière puissance </l>
+	<l id="1805">Et sans plus redouter les veilles d'un rival </l>
+	<l id="1806">Ou de force ou de gré j'adoucirai mon mal. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1807">Que ce mauvais dessein mérite de supplices ! </l>
+	<l id="1808">Mais j'aperçois l'auteur de tous ces artifices. </l>
+</sp>
+</div2>
+<div2 type="scene" n="13"><head>SCÈNE XIII. Tersandre, le Juge.</head>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1809">N'avez-vous pas encore sur sa confession </l>
+	<l id="1810">Envoyé ce barbare à la punition ?</l>
+	<l id="1811">Ne pouvez-vous trouver de supplice capable </l>
+	<l id="1812">De punir justement un esprit si coupable ? </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1813">N'en ayez plus de soin, Clitophon est absous </l>
+	<l id="1814">L'on ne voit point ici de coupable que vous. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1815">De coupable que moi ? N'est-ce pas légitime </l>
+	<l id="1816">De poursuivre partout le châtiment d'un crime ? </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1817">Ne vous plaignez donc pas en cet événement </l>
+	<l id="1818">Si l'on va travailler à votre châtiment. </l>
+	<l id="1819">Voyez ce prisonnier, connaissez cette dame </l>
+	<l id="1820">Et blâmez les desseins qui vous rendent infâme. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1821" part="i">Je ne les connais point. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1821" part="f">Saisissez-vous de lui. </l>
+</sp>
+<sp who="MÉLITE"><speaker>MÉLITE.</speaker>
+	<l id="1822">Hé Dieux, que de malheurs m'attaquent aujourd'hui ! </l>
+	<l id="1823">Si Tersandre est coupable, hélas ! Je vous demande </l>
+	<l id="1824">Pour le favoriser ce que la loi commande : </l>
+	<l id="1825">Lorsque des étrangers visitent ces saints lieux </l>
+	<l id="1826">Afin de présenter quelque offrande à nos Dieux, </l>
+	<l id="1827">L'on sauve un criminel qui ne se peut défendre </l>
+	<l id="1828">Et cette loi m'oblige à demander Tersandre. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1829">S'il ne veut maintenant s'accuser devant moi </l>
+	<l id="1830">Il ne saurait jouir des faveurs de la loi. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1831">Ha, que c'est vainement qu'on cherche la science </l>
+	<l id="1832">De vouloir résister contre sa conscience ! </l>
+	<l id="1833">Le remords qui se mêle aux effets du courroux </l>
+	<l id="1834">Nous oblige à parler nous-même contre nous. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1835">Si j'eusse été chargé du crime d'adultère </l>
+	<l id="1836">Que m'imposait à tort votre injuste colère, </l>
+	<l id="1837">Ayant su que Lucipe était au monument </l>
+	<l id="1838">Je l'eussent confessé pour mourir promptement. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1839">Pardonne à ma faveur et toi, beauté divine, </l>
+	<l id="1840">Pardonne à des transports dont tu fus l'origine. </l>
+	<l id="1841">Il est bien malaisé quoi qu'on puisse tenter </l>
+	<l id="1842">D'être auprès d'un trésor et n'en rien souhaiter. </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1843">Vivez sans déplaisirs, je serais criminelle </l>
+	<l id="1844">D'opposer à la loi ma volonté rebelle. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1845">Jouissez des plaisirs que la loi nous départ </l>
+	<l id="1846">Et que ce prisonnier en reçoive sa part ; </l>
+	<l id="1847">Et puisqu'on vous délivre en faveur de Mélite </l>
+	<l id="1848">Donnez à son amour l'amour qu'elle mérite. </l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="1849">Je n'y résiste plus et mon coeur adouci </l>
+	<l id="1850">Lui promet plus d'amour qu'elle n'eût de souci. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1851">Mais puisque ces amants triomphent de l'orage </l>
+	<l id="1852">Qui semblait aujourd'hui les conduire au naufrage, </l>
+	<l id="1853">Ne consentez-vous pas qu'un mariage heureux </l>
+	<l id="1854">Convertisse leurs maux en des biens amoureux ? </l>
+	<l id="1855">Il semble que le Ciel qui les voit sans exemple </l>
+	<l id="1856">Les fasse en ce dessein rencontrer dans ce temple. </l>
+</sp>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1857">J'approuve cet hymen d'où naîtront mes plaisirs </l>
+	<l id="1858">Pourvu que Clitophon consente à nos désirs. </l>
+</sp>
+<sp who="CLITOPHON"><speaker>CLITOPHON.</speaker>
+	<l id="1859">Devons-nous demander à celui qui soupire </l>
+	<l id="1860">S'il a quelques désirs de quitter son martyre ? </l>
+</sp>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1861" part="i">Et vous, Lucipe ? </l>
+</sp>
+<sp who="LUCIPE"><speaker>LUCIPE.</speaker>
+	<l id="1861" part="f">Et moi sans rien dissimuler </l>
+	<l id="1862">Je sais mieux obéir que je ne sais parler. </l>
+</sp>
+<sp who="LE JUGE"><speaker>LE JUGE.</speaker>
+	<l id="1863">Puisque c'est par les maux qu'on arrive aux délices, </l>
+	<l id="1864">Goûtez heureusement le fruit de vos supplices </l>
+	<l id="1865">Et donnez aux autels la gloire du bonheur </l>
+	<l id="1866">Qui finit votre peine et vous comble d'honneur. </l>
+</sp>
+<sp who="SOSTRATE"><speaker>SOSTRATE.</speaker>
+	<l id="1867">Je n'eusse jamais cru qu'une terre étrangère </l>
+	<l id="1868">M'eût gardé tant de biens après tant de misère. </l>
+	<l id="1869">Ô juste effet du Ciel, doux loyer de mes voeux, </l>
+	<l id="1870">Pensant perdre un enfant j'en ai recouvré deux. </l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>
