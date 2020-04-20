@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><gexf xmlns="http://www.gexf.net/1.1draft" version="1.1" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+<meta lastmodifieddate="2011-06-15"><creator>GraphMaker</creator><description>Jacomy Mathieu, Sciences Po Medialab and WebAtlas</description></meta>
+<graph defaultedgetype="undirected"  mode="static">
+<attributes class="node" mode="static">
+<attribute id="attr_type" title="Type" type="string"></attribute>
+<attribute id="global_occurrences" title="Occurrences Count" type="integer"></attribute>
+</attributes>
+<attributes class="edge" mode="static">
+<attribute id="attr_type" title="Type" type="string"></attribute>
+<attribute id="matchings_count" title="Matchings Count" type="integer"></attribute>
+</attributes>
+<nodes>
+<node id="valeur_97399e8c1591b8f498391b7897207236" label="auteur_1">
+<attvalues>
+<attvalue for="attr_type" value="valeur"></attvalue>
+<attvalue for="global_occurrences" value="2"></attvalue>
+</attvalues>
+</node>
+<node id="valeur_c9d8ab3e5c4566ce6ab2857a41f40246" label="editeur_1">
+<attvalues>
+<attvalue for="attr_type" value="valeur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="valeur_ba0a609372cb259d781fe5c9394c4b7b" label="editeur_2">
+<attvalues>
+<attvalue for="attr_type" value="valeur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="valeur_855f73b0a20cc16203a8795076fe3f3e" label="imprimeur_1">
+<attvalues>
+<attvalue for="attr_type" value="valeur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="valeur_bff4bd27c470d173bb8b2a01661129ba" label="imprimeur_2">
+<attvalues>
+<attvalue for="attr_type" value="valeur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+</nodes>
+<edges>
+<edge source="valeur_97399e8c1591b8f498391b7897207236" target="valeur_c9d8ab3e5c4566ce6ab2857a41f40246" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="clef"></attvalue>
+</attvalues>
+</edge>
+<edge source="valeur_97399e8c1591b8f498391b7897207236" target="valeur_ba0a609372cb259d781fe5c9394c4b7b" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="clef"></attvalue>
+</attvalues>
+</edge>
+<edge source="valeur_97399e8c1591b8f498391b7897207236" target="valeur_855f73b0a20cc16203a8795076fe3f3e" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="clef"></attvalue>
+</attvalues>
+</edge>
+<edge source="valeur_97399e8c1591b8f498391b7897207236" target="valeur_bff4bd27c470d173bb8b2a01661129ba" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="clef"></attvalue>
+</attvalues>
+</edge>
+<edge source="valeur_c9d8ab3e5c4566ce6ab2857a41f40246" target="valeur_855f73b0a20cc16203a8795076fe3f3e" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="clef"></attvalue>
+</attvalues>
+</edge>
+<edge source="valeur_ba0a609372cb259d781fe5c9394c4b7b" target="valeur_bff4bd27c470d173bb8b2a01661129ba" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="clef"></attvalue>
+</attvalues>
+</edge>
+</edges>
+</graph></gexf>

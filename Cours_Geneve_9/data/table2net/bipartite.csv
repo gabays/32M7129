@@ -1,0 +1,7 @@
+noeud_1,noeud_2
+Auteur_1,Editeur_1
+Auteur_1,Imprimeur_1
+Auteur_1,Editeur_2
+Auteur_1,Imprimeur_2
+Imprimeur_1,Editeur_1
+Imprimeur_2,Editeur_2

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><gexf xmlns="http://www.gexf.net/1.1draft" version="1.1" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+<meta lastmodifieddate="2011-06-15"><creator>GraphMaker</creator><description>Jacomy Mathieu, Sciences Po Medialab and WebAtlas</description></meta>
+<graph defaultedgetype="undirected"  mode="static">
+<attributes class="node" mode="static">
+<attribute id="attr_type" title="Type" type="string"></attribute>
+<attribute id="global_occurrences" title="Occurrences Count" type="integer"></attribute>
+</attributes>
+<attributes class="edge" mode="static">
+<attribute id="attr_type" title="Type" type="string"></attribute>
+<attribute id="matchings_count" title="Matchings Count" type="integer"></attribute>
+</attributes>
+<nodes>
+<node id="noeud1_97399e8c1591b8f498391b7897207236" label="auteur_1">
+<attvalues>
+<attvalue for="attr_type" value="noeud_1"></attvalue>
+<attvalue for="global_occurrences" value="4"></attvalue>
+</attvalues>
+</node>
+<node id="noeud1_855f73b0a20cc16203a8795076fe3f3e" label="imprimeur_1">
+<attvalues>
+<attvalue for="attr_type" value="noeud_1"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="noeud1_bff4bd27c470d173bb8b2a01661129ba" label="imprimeur_2">
+<attvalues>
+<attvalue for="attr_type" value="noeud_1"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="noeud2_c9d8ab3e5c4566ce6ab2857a41f40246" label="editeur_1">
+<attvalues>
+<attvalue for="attr_type" value="noeud_2"></attvalue>
+<attvalue for="global_occurrences" value="2"></attvalue>
+</attvalues>
+</node>
+<node id="noeud2_ba0a609372cb259d781fe5c9394c4b7b" label="editeur_2">
+<attvalues>
+<attvalue for="attr_type" value="noeud_2"></attvalue>
+<attvalue for="global_occurrences" value="2"></attvalue>
+</attvalues>
+</node>
+<node id="noeud2_855f73b0a20cc16203a8795076fe3f3e" label="imprimeur_1">
+<attvalues>
+<attvalue for="attr_type" value="noeud_2"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="noeud2_bff4bd27c470d173bb8b2a01661129ba" label="imprimeur_2">
+<attvalues>
+<attvalue for="attr_type" value="noeud_2"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+</nodes>
+<edges>
+<edge source="noeud1_97399e8c1591b8f498391b7897207236" target="noeud2_c9d8ab3e5c4566ce6ab2857a41f40246" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value=""></attvalue>
+</attvalues>
+</edge>
+<edge source="noeud1_97399e8c1591b8f498391b7897207236" target="noeud2_ba0a609372cb259d781fe5c9394c4b7b" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value=""></attvalue>
+</attvalues>
+</edge>
+<edge source="noeud1_97399e8c1591b8f498391b7897207236" target="noeud2_855f73b0a20cc16203a8795076fe3f3e" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value=""></attvalue>
+</attvalues>
+</edge>
+<edge source="noeud1_97399e8c1591b8f498391b7897207236" target="noeud2_bff4bd27c470d173bb8b2a01661129ba" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value=""></attvalue>
+</attvalues>
+</edge>
+<edge source="noeud1_855f73b0a20cc16203a8795076fe3f3e" target="noeud2_c9d8ab3e5c4566ce6ab2857a41f40246" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value=""></attvalue>
+</attvalues>
+</edge>
+<edge source="noeud1_bff4bd27c470d173bb8b2a01661129ba" target="noeud2_ba0a609372cb259d781fe5c9394c4b7b" >
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value=""></attvalue>
+</attvalues>
+</edge>
+</edges>
+</graph></gexf>
