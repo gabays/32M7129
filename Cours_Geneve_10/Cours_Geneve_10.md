@@ -316,11 +316,25 @@ https://pleiades.stoa.org/places/423025 (ajoutez `/json` et observez ce que vous
 ---
 ## _World-Historical Gazetteer_
 
-![35% center](images/WHG.png)
+Projet _World-Historical Gazetteer_ à l'université de Pittsburgh
+
+1. Ajouter de la profondeur diachronique à la carte
+2. Tisser des liens entre les différents points (né ici, mort là-bas, passé par cet endroit…): cf. projets _Linked places_ et _Linked traces_.
+
+
+![100% center](images/WHG_2.jpg)
+
+---
+
+L'exemple de Byzance/Constantinople/Istanbul
+
+![40% center](images/WHG.png)
 
 http://dev.whgazetteer.org/places/12345979/portal
 
 ---
+
+
 ## Extraction d'information
 
 En anglais on parle d'_information retrieval_ (IR). Le but est d'arriver à retrouver de l'information, donc des noms de lieux, automatiquement dans une source (la plupart du temps écrite).
