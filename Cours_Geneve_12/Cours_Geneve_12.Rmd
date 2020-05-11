@@ -2,11 +2,11 @@
 title: "Cours_Geneve_12"
 author: "Simon Gabay"
 date: "`r Sys.Date()`"
-#output:
-#  html_notebook:
-#    number_sections: yes
-#    toc: yes
-#    toc_float: yes
+output:
+  html_notebook:
+    number_sections: yes
+    toc: yes
+    toc_float: yes
 ---
 
 ```{r, setup, fig.show=hold, fig.margin=TRUE}
@@ -451,19 +451,26 @@ Switzerland1_UTM@data
 Je crée désormais des données linsguistiques, à partir d'un sondage très rigoureux auprès de trois collègues sur l'emploi de _quatre-vingts_ et _huitante_ en Suisse.
 
 ```{r}
+#Je crée un vecteur avec les cantons
 NAME_1<-c("Fribourg","Neuchâtel", "Genève", "Jura", "Valais", "Vaud",
           "Aargau", "Appenzell Ausserrhoden", "Appenzell Innerrhoden", "Basel-Landschaft", "Basel-Stadt", "Bern", "Glarus", "Graubünden", "Lucerne", "Nidwalden", "Obwalden", "Sankt Gallen", "Schaffhausen", "Schwyz", "Solothurn", "Thurgau", "Ticino", "Uri", "Zug", "Zürich")
+#Je crée un vecteur avec la manière de dire "80" pour chacun des cantons
 eighty<-c("huitante","quatre", "quatre", "quatre", "huitante", "huitante",
             "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA","NA", "NA")
+#Je transforme les deux vecteurs en un data frame
 dialecto<-data.frame(NAME_1,eighty)
+#J'affiche le data frame
 dialecto
 ```
 
 Je rajoute ces nouvelles informations à mon objet `Switzerland1_UTM`, que je convertis en data.frame.
 
 ```{r, warning=FALSE, results='hide'}
+#Je fusionne le data.frame téléchargé avec la carte, et celui que je viens de fabriquer. Pour cela j'utilise le nom des cantons comme clef.
 Switzerland1_UTM@data <- join(Switzerland1_UTM@data, dialecto, by="NAME_1")
+#Je transforme les données spatiales en data.frame avec la fonction fortify()
 Switzerland1_df <- fortify(Switzerland1_UTM)
+Switzerland1_df
 ```
 
 Je peux créer des jeux de données restreints, que j'extraie de l'objet `Switzerland1_UTM`
@@ -482,19 +489,34 @@ canton_quatre<-Switzerland1_UTM[Switzerland1_UTM@data$eighty == "quatre",]
 canton_quatre_df<-fortify(canton_quatre)
 ```
 
-Je projette ensuite ces informations sur une carte:
+Je projette ensuite ces informations sur une carte, que j'appelle avec la fonction `ggplot()`
 
 ```{r}
-#j'utilise la fonction ggplot
+#La carte finale est une superposition de trois couches
 ggplot() + 
-  #Je place tous les cantons, en blanc
+  #Je commence par tous les cantons, en blanc
+  geom_polygon(data=Switzerland1_df, aes(long,lat, group=group), fill="white", size=0.1)
+```
+
+```{r}
+#La carte finale est une superposition de trois couches
+ggplot() + 
+  #Je commence par tous les cantons, en blanc
+  geom_polygon(data=Switzerland1_df, aes(long,lat, group=group), fill="white", size=0.1) +
+  #Je superpose le canton de Genève, en rouge
+  geom_polygon(data=Geneve_df, aes(long,lat,group=group), fill="red")
+```
+
+```{r}
+#La carte finale est une superposition de trois couches
+ggplot() + 
+  #Je commence par tous les cantons, en blanc
   geom_polygon(data=Switzerland1_df, aes(long,lat, group=group), fill="white", size=0.1) +
   #Je superpose le canton de Genève, en rouge
   geom_polygon(data=Geneve_df, aes(long,lat,group=group), fill="red")+
   #Je superpose enfin les contours des différents cantons
   geom_path(data=Switzerland1_df, aes(long,lat, group=group), color="darkgrey", size=0.1)
 ```
-
 
 Je peux placer plusieurs données différentes:
 
@@ -547,16 +569,27 @@ Je crée ma carte
 ```{r}
 ggplot()+
   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="white", colour = "black", size=0.4) +
+  coord_quickmap(xlim = c(-170, 180), ylim = c(-70, 80)) 
+```
+
+Je zoom sur la Suisse Romande
+
+```{r}
+ggplot()+
+  geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="white", colour = "black", size=0.4) +
   coord_quickmap(xlim = c(5.8, 7.8), ylim = c(45.8, 47.5)) 
 ```
 
 Je place mes points
+
 ```{r}
 ggplot()+
   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="white", colour = "black", size=0.4) +
   coord_quickmap(xlim = c(5.8, 7.8), ylim = c(45.8, 47.5)) +
   
+  #je place les points. La valeur token renvoie à "huitante" ou "qutre-vingts"
   geom_point(data = dialecto_swiss, mapping = aes(x = Long, y = Lat, color = token, shape = token), size=3.3) +
+  #J'ajoute le nom des points. La valeur id renvoie au nom du point de l'ALF
   geom_text(data = georeferecement, mapping = aes(x = Long, y = Lat, label=id), color="black", size = 3.3, nudge_x= 0.11)
 ```
 
@@ -572,7 +605,7 @@ ggplot()+
 
   scale_color_manual(values=c("darkblue","darkred"), "",
                      limits=c("huitante","quatre-vingts")) +
-  #changer les chiffres 19 et 17 par d'autres, et observez
+  #changer les chiffres 19 et 17 par d'autres (par exemple 9 et 7), et observez
   scale_shape_manual(values=c(19,17), "", limits=c("huitante","quatre-vingts")) 
 ```
 
@@ -595,7 +628,7 @@ ggplot() +
   scale_shape_manual(values=c(19,17), "", limits=c("huitante","quatre-vingts"))
 ```
 
-Je peux préparer mes données d'affichage:
+Je peux préparer mes données d'affichage, pour les passer comme paramètre plus tard.
 
 ```{r}
 theme_opts<-list(theme(
