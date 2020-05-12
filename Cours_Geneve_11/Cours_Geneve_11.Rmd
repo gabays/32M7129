@@ -16,6 +16,8 @@ if(!require("knitr")){
 }
 knitr::opts_chunk$set(echo = TRUE, fig.width=20)
 ```
+#ceci est un petit test de commit
+Voyons voir. J'ajoute quelques lignes de commentaire pour modifier le document et j'enregiste.
 
 # Préparatifs
 
