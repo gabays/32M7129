@@ -1,6 +1,6 @@
 Cours DH UniGE
 
-# L'analse de sentiment
+# L'analyse de sentiment
 
 Simon Gabay
 Genève, Mardi 19 mai 2020
@@ -15,7 +15,7 @@ On parle aujourd'hui de _big data_
 
 * Une situation: les réseaux sociaux, les mails, etc.
 * Un problème: comment "savoir ce qu'il s'y dit"
-* Une opportunité: développer des modèles prédicitifs?
+* Une opportunité: développer des modèles prédictifs?
 
 ---
 ## _Opinion mining_
@@ -43,7 +43,7 @@ Par la simple observation des occurrences des mots et la constitution de champs 
 Comment analyser cette phrase?
 
 > Une preuve que les nègres n'ont pas le sens commun, c'est qu'ils font plus de cas d'un collier de verre que de l'or, qui, chez les nations policées, est d'une si grande conséquence.
-> Montesquieu, _De l'Esprit des lois_, XV, 5 
+> Montesquieu, _De l'Esprit des lois_, XV, 5
 
 La phrase aurait-elle le même sens dans les œuvres complètes d'Adolphe Hitler et dans celles de Pierre Desproges?
 
@@ -108,7 +108,7 @@ Cela permet de connaître le sentiment des gens de manière plus précise, mais 
 ---
 ## Le rapport entre les mots
 
-Comment peut-on mesurer la valence d'un mot? Pourquoi _heureux_ a-t-il une valeur de 8.21, _bien_ de 7.47, et _triste_ de _1.61_? 
+Comment peut-on mesurer la valence d'un mot? Pourquoi _heureux_ a-t-il une valeur de 8.21, _bien_ de 7.47, et _triste_ de _1.61_?
 * Enquête auprès de locuteurs
 * Récupération de corpus (contenu de tous ceux avec l'emoji _:-)_ vs tous ceux avec l'emoji _:-(_  )
 * Création à partir de "plongements lexicaux" (_word embeddings_), c'est à dire une représentation lexicale au moyens de vecteurs de nombres réels.
@@ -184,7 +184,7 @@ Source: [https://www.ed.ac.uk/](https://towardsdatascience.com/the-magic-behind-
 
 Il est donc possible de reconstituer des champs lexicaux informatiquement, à partir de ces valeurs. Par exemple, à partir des chroniques de Berlioz dans le Journal des débats entre 1834 et 1861.
 
-| Token      | Value              |        
+| Token      | Value              |
 |------------|--------------------|
 | Beethove   | 0.7579751014709473 |
 | Weber      | 0.7569864988327026 |
@@ -195,13 +195,13 @@ Il est donc possible de reconstituer des champs lexicaux informatiquement, à pa
 Source: [https://scoms.hypotheses.org](https://scoms.hypotheses.org/657)
 
 ---
-# Les neufs émotions
+# Les huit émotions
 
 Robert Plutchik (1927-2006), psychologue, a développé une méthode de classification des réactions émotives générales. Cette théorie est souvent représentée par la _Roue des émotions de Plutchik_.
 
 Il y aurait huit émotions de base : la joie, la peur, le dégoût, la colère, la tristesse, la surprise, la confiance et l'anticipation.
 
-Chacune d'elles déclenche un comportement d'une grande valeur de survivance ; par exemple, la peur inspire la réaction de fuite ou de combat, la colère inspire la défense de ses acquis (dont la femelle), la tristesse implique le repos essentiel pour l'auto-préservation de l'organisme, et la joie implique la recherche de ressources. 
+Chacune d'elles déclenche un comportement d'une grande valeur de survivance ; par exemple, la peur inspire la réaction de fuite ou de combat, la colère inspire la défense de ses acquis (dont la femelle), la tristesse implique le repos essentiel pour l'auto-préservation de l'organisme, et la joie implique la recherche de ressources.
 
 ---
 
@@ -222,7 +222,7 @@ Amine Abdaoui, Jérôme Azé, Sandra Bringay et Pascal Poncelet. "FEEL: French E
 
 ---
 ## Note
- 
+
 Attention, il existe une multitude de lexiques, tous différents.Allez les regarder.
 
 * Bing

@@ -1,20 +1,11 @@
 ---
-title: "Cours_1"
+title: "Cours_1 : visualisation"
 author: "Simon Gabay"
 date: "2/16/2020"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r}
-setwd("~/Desktop/Cours_Geneve/Cours_Geneve_1")
-#if (!require("ggplot2")) install.packages("ggplot2")
-library(ggplot2)
-```
-
+output:
+  pdf_document: default
+  html_document: default
+  
 ---
 
 # 1 Sémantique
@@ -31,23 +22,23 @@ Trois exemples de visualisation:
 
 * John Snow (1813-1858)
 * Épidémie de choléra de _Broad Street_ en 1854
-* Les trois jours suivants, 127 personnes habitant Broad Street ou les environs meurent. Les semaines qui suivent, les trois quarts des habitants ont fui le quartier. Le 10 septembre, 500 personnes étaient mortes. En tout, l'épidémie a fait 616 morts. 
-* À l'époque, la théorie des miasmes attribue au « mauvais air » le choléra: Snow va permettre de localiser l'origine de l'épidémie, une pompe publique, aue la base d'une répartition géographique des cas.
+* Les trois jours suivants, 127 personnes habitant Broad Street ou les environs meurent. Les semaines qui suivent, les trois quarts des habitants ont fui le quartier. Le 10 septembre, 500 personnes étaient mortes. En tout, l'épidémie a fait 616 morts.
+* À l'époque, la théorie des miasmes attribue au « mauvais air » le choléra: Snow va permettre de localiser l'origine de l'épidémie, une pompe publique, sur la base d'une répartition géographique des cas.
 ---
 
 ![20% center](material/Snow_cholera.jpg)
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:Snow-cholera-map-1.jpg)
 
---- 
+---
 ## La campagne de Russie par Minard
 
 * Charles Joseph Minard (1781-1870)
-* Ingénieur célèbre pour ses inventions dans le domaine de la traduction graphique et cartographique appliquée au génie civil et aux statistiques. 
+* Ingénieur célèbre pour ses inventions dans le domaine de la traduction graphique et cartographique appliquée au génie civil et aux statistiques.
 * Carte figurative des pertes successives en hommes de l'armée française dans la campagne de Russie 1812-1813
 * Cette carte est un diagramme de Sankey (avant l'heure), c'est-à-dire un diagramme de flux.
 
---- 
+---
 ![100% center](material/Minard.png)
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:Minard.png)
@@ -64,7 +55,7 @@ Source: [wikipedia](https://commons.wikimedia.org/wiki/File:Sankeysteam.png)
 * Washington, D.C.
 * Oeuvre de Maya Lin en 1982
 * Statues de trois soldats
-* Mur de granit noir de Bangalore long de 150 m sur lequel sont gravés les noms des 58,156 Américains tués ou portés disparus pendant cette guerre, **dans l'ordre chronologique de leur disparition**, entre 1959 et 1975.
+* Mur de granit noir de Bangalore long de 150 m sur lequel sont gravés les noms des 58 156 Américains tués ou portés disparus pendant cette guerre, **dans l'ordre chronologique de leur disparition**, entre 1959 et 1975.
 
 ---
 ![100% center](material/memorial.jpg)
@@ -93,7 +84,7 @@ Il y a un glissement de la représentation qui se doit d'être exhautive, préci
 
 * L'homme qui parle tend à réduire le vocabulaire en rassemblant derrière un simple mot une multitude de significations.
 
-* Corollaire de la loi du moindre effort: "coût mental de la perception" (Palsky 2017)
+* Corollaire de la loi du moindre effort: "coût mental de la perception" (Palsky 2017), selon laquelle le temps de perception entre une construction efficace et une inefficace est extrêmement nette.
 
 <!-- https://www.persee.fr/doc/colan_0336-1500_1969_num_2_1_3726#colan_0336-1500_1969_num_2_1_T1_0025_0000 -->
 
@@ -109,9 +100,9 @@ Source: [Palsky 2017/Bertin 1967](https://visionscarto.net/la-semiologie-graphiq
 ---
 ## Tufte
 
-Les exemples précédemment présentés proviennent des travaux d'Edward Tufte (1942-), 
+Les exemples précédemment présentés proviennent des travaux d'Edward Tufte (1942-),
 
-* Spécialiste de graphisme d'information (_Infographic_, _informational graphics_, _Information design_)
+* Spécialiste de graphisme d'information ( _Infographic_, _informational graphics_, _Information design_)
 * Auteur de _The Visual Display of Quantitative Information_, 1983
 
 Quelques concepts importants:
@@ -165,7 +156,7 @@ Source: [pparacch](https://pparacch.github.io/2017/07/18/plotting_in_R_ggplot2_p
 
 Se traduit en français par "bruit graphique" (littéralement "tableau déchet").
 
-> « Les **décorations intérieures aux graphiques sont autant d'encre qui ne dit rien de nouveau au lecteur**. La raison d'être de la décoration varie — faire apparaitre le graphique comme plus scientifique et précis [expert], vivifier le style, donner la possibilité à l'illustrateur de faire la preuve de ses talents artistiques. Quelle qu'en soit la raison, c'est autant d'encre-sans-information ou d'encre-répétant l'information, et donc souvent du chartjunk [bruit graphique inutile]. » 
+> « Les **décorations intérieures aux graphiques sont autant d'encre qui ne dit rien de nouveau au lecteur**. La raison d'être de la décoration varie — faire apparaitre le graphique comme plus scientifique et précis [expert], vivifier le style, donner la possibilité à l'illustrateur de faire la preuve de ses talents artistiques. Quelle qu'en soit la raison, c'est autant d'encre-sans-information ou d'encre-répétant l'information, et donc souvent du _chartjunk_ [bruit graphique inutile]. »
 
 ---
 ## _Chart junk_
@@ -215,7 +206,7 @@ Source: [Moretti 2005](https://en.wikipedia.org/wiki/Sparkline#/media/File:Spark
 Prof. à UCLA
 
 * « tournant design des humanités numériques »
-* Regret du logocentrisme (_the text-based approach typical of traditional humanities_): il faut  «surmonter l'ancienne résistance des humanists aux formes visuelles de la production de connaissance»
+* Regret du logocentrisme ( _the text-based approach typical of traditional humanities_ ): il faut  «surmonter l'ancienne résistance des humanists aux formes visuelles de la production de connaissance»
 * L'objectif est d'«empêcher les humanités numériques de tomber dans la pure application technique de pratiques standardisées» (calcul statistique, calcul d'ingénieur, gestion technicienne d'information...) et de chercher au contraire à «créer des capacités inventives et ouvertes susceptibles de changer les paramètres»
 
 ---
@@ -269,7 +260,7 @@ Texte 1
 > « **Rome**, l'unique objet de mon ressentiment !
 > **Rome**, à _qui_ vient ton bras d'immoler mon amant !
 > **Rome** _qui_ t'a vu naître, et que ton cœur adore !
-> **Rome** enfin que je hais parce qu'elle t'honore ! » 
+> **Rome** enfin que je hais parce qu'elle t'honore ! »
 
 Corneille, Camille dans _Horace_, acte IV, scène 5
 
@@ -277,7 +268,7 @@ Texte 2
 > « **Rome**, par une loi, _qui_ ne se peut changer,
 > N'admet avec son sang aucun sang étranger,
 > Et ne reconnaît point les fruits illégitimes,
-> Qui1 naissent d'un hymen contraire à ses maximes. » 
+> Qui1 naissent d'un hymen contraire à ses maximes. »
 
 Racine, _Bérénice_, acte II, scène 2
 
@@ -293,8 +284,8 @@ Prenons la fréquence de deux mots uniquement: "Rome" et "qui"
 On crée deux vecteurs qui contiennent ces informations:
 
 ```{r}
-x <- c(4,2) 
-y <- c(2,1) 
+x <- c(4,2)
+y <- c(2,1)
 x
 y
 ```
@@ -360,9 +351,9 @@ On peut complexifier le problème en ajoutant un troisième auteur:
 > C'est Rome _qui_ demande nos larmes : **Rome** ! La Maîtresse de l'univers ; **Rome** ! Mère féconde des héros, et les délices des Dieux ; **Rome** ! Qui humiliait l'orgueil des tyrans de la Terre, et _qui_ brillait les fers des Nations hélas !
 
 Boyer, _Caton_, Acte IV, scène XII
- 
+
  Cela nous donne le tableau suivant:
- 
+
 | Token  | Corneille | Racine | Boyer |
 |--------|-----------|--------|-------|
 | "Rome" | 4         | 2      | 3     |
@@ -373,8 +364,8 @@ Boyer, _Caton_, Acte IV, scène XII
 Nous obtenons donc un nouveau graph:
 
 ```{r}
-x <- c(4,2,3) 
-y <- c(2,1,2) 
+x <- c(4,2,3)
+y <- c(2,1,2)
 png(file="images/plot5.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan (4)", pch=16, col="green")
@@ -418,8 +409,8 @@ cat("Distance Racine/Boyer = ", RaBo)
 On intègre les distances dans le plan
 
 ```{r}
-x <- c(4,2,3) 
-y <- c(2,1,2) 
+x <- c(4,2,3)
+y <- c(2,1,2)
 png(file="images/plot6.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan (5)", pch=16, col="green")

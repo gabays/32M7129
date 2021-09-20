@@ -23,7 +23,10 @@ monDossier="~/GitHub/Cours_2020_UniGE/Cours_Geneve_3"
 ```
 
 ```{r}
-library(reshape2)
+if(!require("reshape2")){
+  install.packages("reshape2")
+  library("reshape2")
+}
 ```
 
 Première chose à faire: importer le corpus. Il s'agit d'un csv, donc nous utilisons la fonction ```read.csv```
@@ -448,12 +451,13 @@ ggplot(data = melted, aes(x=Topics, y=Terms, fill=value)) +
                                               theme(text = element_text(size=35))
 ```
 
+On peut aussi observer le score gamma, c'est-à-dire la probabilté qu'un document contienne un sujet:
+
 ```{r}
 DocumentTopicProbabilities <- as.data.frame(lda_gibbs_2@gamma)
 rownames(DocumentTopicProbabilities) <- rownames(corpus_clean)
 head(DocumentTopicProbabilities)
 ```
-
 
 Nous allons désormais faire des _word clouds_. Pour cela appelons (installons?) les libraries suivantes:
 
@@ -471,6 +475,7 @@ if (!require("wordcloud2")){
   library("wordcloud2")
 }
 ```
+
 je récupère les mots et je les associe à leur 𝛃
 
 ```{r, fig.width=20, fig.height=20}

@@ -16,8 +16,8 @@ Genève, Mardi 31 mars 2020
 
 * Leonhard Euler (1707-1783), mathématicien et physicien suisse
 * «Solutio problematis ad geometriam situs pertinentis», _Mémoires de l'Académie des sciences de Berlin_, 1735
-* Est-ce qu'il existe une promenade dans Königsberg permettant, peu importe le point de départ, de revenir à son point de départ en prenant tous les pontsune seule fois?
-* Euler l'origine de la théorie des graphes parce qu'il fut le premier à proposer un traitement mathématique de la question, suivi par Alexandre-Théophile Vandermonde.
+* Est-ce qu'il existe une promenade dans Königsberg permettant, peu importe le point de départ, de revenir à celui-ci en prenant tous les ponts une seule fois?
+* Euler est à l'origine de la théorie des graphes parce qu'il fut le premier à proposer un traitement mathématique de la question, suivi par Alexandre-Théophile Vandermonde.
 
 ---
 
@@ -76,7 +76,7 @@ M. Grandjean. Multimode and Multilevel: Vertical Dimension in Historical and Lit
 
 * Comment représenter des relations complexes?
 * Le graphe est un modèle abstrait de dessin de réseaux reliant des objets
-* C'est aussi une représentation mathématique. Ainsi, dans sa version la plus simple (graphe simples non orienté), un graphe est un couple _G = (V, E)_ où
+* C'est aussi une représentation mathématique. Ainsi, dans sa version la plus simple (graphe simple non orienté), un graphe est un couple _G = (V, E)_ où
 	* _V_ est un ensemble de sommets
 	* _E_ un ensemble d'arêtes, sachant que _E ⊆ {{x, y} | (x, y) ∈ V2}_ c'est-à-dire que E inclus au sens large l'arête (ou paire de sommets) _{x, y}_ tel que _x, y_ appartiennent à V au carré.
 

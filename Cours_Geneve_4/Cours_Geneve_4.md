@@ -1,9 +1,9 @@
-Cours Stylistique numérique
+Cours DH UniGE
 
 # Introduction à la stylométrie
 
 Simon Gabay
-Neuchâtel, Lundi 10 février 2020
+Genève, Lundi 10 février 2020
 
 ---
 # Introduction
@@ -163,7 +163,7 @@ Sapkota, Bethard et Montes, 2015
 ## Trois dimensions
 
 | Elève     | Avoir | Être | Manger |
-|-----------|-------|------|--------| 
+|-----------|-------|------|--------|
 | Molière   | 2     | 1    | 4      |
 | Corneille | 3     | 2    | 5      |
 | Racine    | 4     | 3    | 2      |
@@ -184,7 +184,7 @@ Les méthodes d'analyse factorielle s'utilisent pour décrire et hiérarchiser l
 
 Elles considèrent le tableau de données comme un nuage de points dans un espace mathématique ayant autant de dimensions qu’il y a de colonnes dans le tableau de données ; elles cherchent à le projeter sur des axes ou des plans (appelés factoriels) de façon que l’on puisse en visualiser et étudier au mieux la forme et donc rechercher globalement des corrélations.
 
-Le principe est de tenter de trouver une configuration optimale selon un critère de théorie de l'information pour respecter les proximités entre points : deux points qui sont proches (resp. éloignés) dans l'espace d'origine devront être proches (resp. éloignés) dans l'espace de faible dimension. 
+Le principe est de tenter de trouver une configuration optimale selon un critère de théorie de l'information pour respecter les proximités entre points : deux points qui sont proches (resp. éloignés) dans l'espace d'origine devront être proches (resp. éloignés) dans l'espace de faible dimension.
 
 ---
 ## Réduction de dimension
@@ -223,7 +223,7 @@ Kestemont, Moens, Deploige 2014.
 ## t-SNE
 
 Au moment de la réduction de _n_ à deux dimensions, nous allons perdre de l'information.
-* Nous pouvons décider de préserver les longues distances entre les points, et ainsi maintenir les grands équilibres en "étirant" le graphique (PCA). 
+* Nous pouvons décider de préserver les longues distances entre les points, et ainsi maintenir les grands équilibres en "étirant" le graphique (PCA).
 * Nous pouvons aussi décider de conserver les petites distances entre les points avec un algorithme _t-Distributed Stochastic Neighbor Embedding_ (t-SNE).
 
 Avec cette dernière approche, nous allons devoir définir le nombre de points voisins retenus lors du calcul: on parle de _perplexité_.
@@ -331,7 +331,7 @@ Pour retrouver des textes proches, il faut arriver à mesurer la distance qui le
 
 ![50% center](images/cos_euc_man.png)
 
-* Celles-ci peuvent être calculées sur différents types de données: le nombre d'occurrences, fréquence relative, cote Z… 
+* Celles-ci peuvent être calculées sur différents types de données: le nombre d'occurrences, fréquence relative, cote Z…
 
 ---
 ## Distances
@@ -422,7 +422,7 @@ L'angle _θ_ s'obtient par le produit scalaire et la norme des vecteurs. Pour de
 Prenons un exemple fictif avec deux textes de trois tokens, l'un écrit par Molière, l'autre par Corneille:
 
 | Auteur/token | Avoir | Être | Manger |
-|--------------|-------|------|--------| 
+|--------------|-------|------|--------|
 | Molière      | 2     | 1    | 4      |
 | Corneille    | 3     | 2    | 5      |
 

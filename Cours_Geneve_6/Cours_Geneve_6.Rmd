@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-JE prépare ma session de travail
+Je prépare ma session de travail
 
 ```{r}
 setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_6")
@@ -49,18 +49,19 @@ Une classification ascendante hiérarchique.
 # Je crée un tableau avec des données au hasard
 tableau <- cbind(x=c(1,2,5,8,11),y=c(2,4,1,12,10))
 colnames(tableau)<- c("Avoir", "Être")
-rownames(tableau) <- c("Racine","Molière","Racine","Scarron","Corneille")
+rownames(tableau) <- c("Racine","Molière","Scudéry","Scarron","Corneille")
 tableau
 ```
 
-Calcul de distance, par défaut eucidienne. on peut utiliser le paramètre method="manhattan" pour une autre distance
+Calcul de distance, par défaut euclidienne. On peut utiliser le paramètre method="manhattan" pour une autre distance
 
 ```{r}
 distance_tableau <- dist(tableau)
 distance_tableau
 ```
 
-Classification/clustering. Par défaut complete linkage. On peut utiliser le paramètre method="centroid" ou "ward.D"
+Classification/clustering. Par défaut _complete linkage_. On peut utiliser le paramètre method="centroid" ou "ward.D"
+
 ```{r,results='hold'}
 hc <- hclust(distance_tableau)
 plot(hc)
@@ -85,7 +86,7 @@ Et je produis un nouveau graph
 
 ```{r}
 hc <- hclust(distance_tableau, method="ward.D")
-plot(hc, main="Ma première classificatoin",  xlab="Burrows Delta, \n Ward's method" , sub="" , hang =-1)
+plot(hc, main="Ma seconde classification",  xlab="Burrows Delta, \n Ward's method" , sub="" , hang =-1)
 ```
 
 # Un premier cas
@@ -93,22 +94,22 @@ plot(hc, main="Ma première classificatoin",  xlab="Burrows Delta, \n Ward's met
 Je charge mon corpus
 
 ```{r}
-BOYER_AMOURSJUPITERSEMELE_1666<-paste(scan("corpus/BOYER_AMOURSJUPITERSEMELE_1666.txt", what="character", sep=""),collapse=" ")
-BOYER_ARISTODEME_1648<-paste(scan("corpus/BOYER_ARISTODEME_1648.txt", what="character", sep=""),collapse=" ")
-CORNEILLEP_ANDROMEDE_1651<-paste(scan("corpus/CORNEILLEP_ANDROMEDE_1651.txt", what="character", sep=""),collapse=" ")
-CORNEILLEP_MEDEE_1682<-paste(scan("corpus/CORNEILLEP_MEDEE_1682.txt", what="character", sep=""),collapse=" ")
-DURYER_DYNAMIS_1653<-paste(scan("corpus/DURYER_DYNAMIS_1653.txt", what="character", sep=""),collapse=" ")
-DURYER_CLITOPHON<-paste(scan("corpus/DURYER_CLITOPHON_1632.txt", what="character", sep=""),collapse=" ")
-MOLIERE_AMPHITRYON_1668<-paste(scan("corpus/MOLIERE_AMPHITRYON_1668.txt", what="character", sep=""),collapse=" ")
-MOLIERE_MISANTHROPE_1667<-paste(scan("corpus/MOLIERE_MISANTHROPE_1667.txt", what="character", sep=""),collapse=" ")
-RACINE_PHEDRE_1697<-paste(scan("corpus/RACINE_PHEDRE_1697.txt", what="character", sep=""),collapse=" ")
-RACINE_ESTHER_1689<-paste(scan("corpus/RACINE_ESTHER_1689.txt", what="character", sep=""),collapse=" ")
-SCARRON_DOMJAPHETDARMENIE_1653<-paste(scan("corpus/SCARRON_DOMJAPHETDARMENIE_1653.txt", what="character", sep=""),collapse=" ")
-SCARRON_ECOLIERDESALAMANQUE_1655<-paste(scan("corpus/SCARRON_ECOLIERDESALAMANQUE_1655.txt", what="character", sep=""),collapse=" ")
-ROTROU_HERCULEMOURANT_1636<-paste(scan("corpus/ROTROU_HERCULEMOURANT_1636.txt", what="character", sep=""),collapse=" ")
-ROTROU_DOMBERNARDDECABRERE_1647<-paste(scan("corpus/ROTROU_DOMBERNARDDECABRERE_1647.txt", what="character", sep=""),collapse=" ")
-SCUDERY_MORTDECESAR_1637<-paste(scan("corpus/SCUDERY_MORTDECESAR_1637.txt", what="character", sep=""),collapse=" ")
-SCUDERY_ORANTE_1636<-paste(scan("corpus/SCUDERY_ORANTE_1636.txt", what="character", sep=""),collapse=" ")
+BOYER_AMOURSJUPITERSEMELE_1666<-paste(scan("corpus/BOYER_AMOURSJUPITERSEMELE_1666.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+BOYER_ARISTODEME_1648<-paste(scan("corpus/BOYER_ARISTODEME_1648.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+CORNEILLEP_ANDROMEDE_1651<-paste(scan("corpus/CORNEILLEP_ANDROMEDE_1651.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+CORNEILLEP_MEDEE_1682<-paste(scan("corpus/CORNEILLEP_MEDEE_1682.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+DURYER_DYNAMIS_1653<-paste(scan("corpus/DURYER_DYNAMIS_1653.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+DURYER_CLITOPHON<-paste(scan("corpus/DURYER_CLITOPHON_1632.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+MOLIERE_AMPHITRYON_1668<-paste(scan("corpus/MOLIERE_AMPHITRYON_1668.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+MOLIERE_MISANTHROPE_1667<-paste(scan("corpus/MOLIERE_MISANTHROPE_1667.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+RACINE_PHEDRE_1697<-paste(scan("corpus/RACINE_PHEDRE_1697.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+RACINE_ESTHER_1689<-paste(scan("corpus/RACINE_ESTHER_1689.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+SCARRON_DOMJAPHETDARMENIE_1653<-paste(scan("corpus/SCARRON_DOMJAPHETDARMENIE_1653.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+SCARRON_ECOLIERDESALAMANQUE_1655<-paste(scan("corpus/SCARRON_ECOLIERDESALAMANQUE_1655.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+ROTROU_HERCULEMOURANT_1636<-paste(scan("corpus/ROTROU_HERCULEMOURANT_1636.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+ROTROU_DOMBERNARDDECABRERE_1647<-paste(scan("corpus/ROTROU_DOMBERNARDDECABRERE_1647.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+SCUDERY_MORTDECESAR_1637<-paste(scan("corpus/SCUDERY_MORTDECESAR_1637.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
+SCUDERY_ORANTE_1636<-paste(scan("corpus/SCUDERY_ORANTE_1636.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
 #Je peux regarder ici un exemple (enlever le # au début de la ligne)
 #CORNEILLEP_ANDROMEDE_1651
 ```
@@ -145,7 +146,7 @@ write.csv(table.of.frequencies, file = "table.of.frequencies.csv",row.names=TRUE
 #je convertis mes données en dataframe
 table.of.frequencies = as.data.frame(read.csv(file="table.of.frequencies.csv", sep = ",", header = TRUE, row.names=1, quote = '\"'))
 #J'affiche le résultat
-#View(table.of.frequencies)
+View(table.of.frequencies)
 ```
 
 Ce résultat ne m'arrange pas: je vais avoir besoin d'avoir les occurrences en rang, et les textes en colonne, et donc d'inverser mon tableau
@@ -153,7 +154,7 @@ Ce résultat ne m'arrange pas: je vais avoir besoin d'avoir les occurrences en r
 ```{r}
 #j'utilise la fonction transpose(?)
 table.of.frequencies<-t(table.of.frequencies)
-#View(table.of.frequencies)
+View(table.of.frequencies)
 ```
 
 J'observe la distribution de mon corpus. 
@@ -177,14 +178,11 @@ Je contrôle l'hétérogénéité de mon corpus
 ```{r, fig.width=10, fig.height=3, dpi=10}
 #Je dois regrouper les données par auteur
 BOYER = colSums(table.of.frequencies[,grepl('boyer_', colnames(table.of.frequencies))])
-CORNEILLE = colSums(table.of.frequencies[,grepl('corneille_', colnames(table.of.frequencies))])
 DURYER = colSums(table.of.frequencies[,grepl('duryer_', colnames(table.of.frequencies))])
 MOLIERE = colSums(table.of.frequencies[,grepl('moliere_', colnames(table.of.frequencies))])
-RACINE = colSums(table.of.frequencies[,grepl('racine_', colnames(table.of.frequencies))])
 SCARRON = colSums(table.of.frequencies[,grepl('scarron_', colnames(table.of.frequencies))])
-ROTROU = colSums(table.of.frequencies[,grepl('rotrou_', colnames(table.of.frequencies))])
 #Et le graphique
-boxplot(list(BOYER,MOLIERE, CORNEILLE,DURYER,RACINE,SCARRON, ROTROU), names=c('BOYER','MOLIERE', 'CORNEILLE','DURYER','RACINE','SCARRON','ROTROU'), main="Longueur des textes", sub="Corpus: distribution",ylab="Nombre de mots (fréquences absolues)")
+boxplot(list(BOYER,MOLIERE,DURYER,SCARRON), names=c('BOYER','MOLIERE','DURYER','SCARRON'), main="Longueur des textes", sub="Corpus: distribution",ylab="Nombre de mots (fréquences absolues)")
 ```
 
 Je transforme cette table des fréquences absolues en une table des fréquences relatives
@@ -281,7 +279,7 @@ CAH_orig_aggloCoeff <- CAH$ac
 customPlot(CAH,"Original texts, 1000 MFW, Culled @ 0%, Distance: wurzburg",CAH_orig_aggloCoeff,0.5)
 ```
 
-Tentons avec une autre distance: _Ruzicka measure_ ou _Minmax_ (cf.Koppel, M. and Winter, Y. (2014). Determining if two documents are written by the same author. _Journal of the Association for Information Science and Technology_, 65: 178–87) dont la robustesse a été démontrée par Kestmont et al. ( Kestemont, M.Stover, J.Koppel, M.Karsdorp, K.Daelemans, W.,  Authorship Verification with the Ruzicka Metric, DH 2016, Jul 2016, Krakow (Poland)).
+Tentons avec une autre distance: _Ruzicka measure_ ou _Minmax_ (cf.Koppel, M. and Winter, Y. (2014). Determining if two documents are written by the same author. _Journal of the Association for Information Science and Technology_, 65: 178–87) dont la robustesse a été démontrée par Kestmont et al. (Kestemont, M.Stover, J.Koppel, M.Karsdorp, K.Daelemans, W.,  Authorship Verification with the Ruzicka Metric, DH 2016, Jul 2016, Krakow (Poland)).
 
 ![100% center](images/minmax.png)
 

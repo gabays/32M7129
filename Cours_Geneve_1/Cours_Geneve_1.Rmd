@@ -12,9 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-setwd("~/Desktop/Cours_Geneve/Cours_Geneve_1")
-#if (!require("ggplot2")) install.packages("ggplot2")
-library(ggplot2)
+setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_1")
+if (!require("ggplot2")) install.packages("ggplot2")
+if (!require("rmarkdown")) install.packages("rmarkdown")
 ```
 
 ---
@@ -249,13 +249,13 @@ On peut additionner des chiffres (_int_ pour _integer_, "entier")
 Il est en revanche impossible d'additionner un chiffre avec une lettre (_str_, pour _string_, "chaîne (de caractères"): _Error in 1 + "b" : non-numeric argument to binary operator_
 
 ```{r}
-1+"b"
+#1+"b"
 ```
 
 On remarque que les _str_ sont notés entre guillemets. On peut ainsi spécifier qu'un chiffre est utilisé comme caractère et non comme un chiffre en utilisant les guillemets: il est alors impossible de s'en servir pour un calcul
 
 ```{r}
-"1"+2
+#"1"+2
 ```
 
 ---

@@ -23,7 +23,7 @@ Le corpus est constitué de pièces de théâtre du XVIIe siècle, disponibles s
 
 ## 1.1 Des ressources en ligne
 
-`Stylo` est développé par Maciej Eder (Cravocie), Mike Kestmont (Anvers) et Jan Rybicki (Cravocie). On trouvera de nombreuses ressources sur le site de leur groupe de [computational stylistics](https://computationalstylistics.github.io) et sur leur [GitHub](https://github.com/computationalstylistics), qui contient un [repo](https://github.com/computationalstylistics/stylo) consacré au package stylo avec de nombreuses informations sur son fonctionnement.
+`Stylo` est développé par Maciej Eder (Cracovie), Mike Kestmont (Anvers) et Jan Rybicki (Cracovie). On trouvera de nombreuses ressources sur le site de leur groupe de [computational stylistics](https://computationalstylistics.github.io) et sur leur [GitHub](https://github.com/computationalstylistics), qui contient un [repo](https://github.com/computationalstylistics/stylo) consacré au package stylo avec de nombreuses informations sur son fonctionnement.
 
 Pour ceux qui voudraient s'entraîner avec d'autres données que celles fournies pour le cours, [un repo avec 100 romans anglais se trouve sur leur GitHub](https://github.com/computationalstylistics/100_english_novels) (cliquez sur le bouton vert `Clone or download à droite` pour télécharger le tout au format zip).
 
@@ -74,7 +74,7 @@ Il ne nous reste plus qu'à lancer stylo, avec la commande… `stylo()`!
 L'application `Stylo` peut être utilisée en ligne de commande, mais aussi avec une GUI (*graphical user interface*, en français "interface graphique"). Si vous voulez avoir un premier aperçu, retirez le # au début de la ligne *infra* et cliquez sur `Run`.
 
 ```{r}
-#stylo()
+stylo()
 ```
 
 ##2.2 Une première analyse de cluster
@@ -263,7 +263,7 @@ Il est possible de superposer les tokens (ici les mots) aux labels, afin de comp
 ```{r}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
-      analyzed.features = "w", mfw.min = 5000, mfw.max = 100, mfw.incr=100,
+      analyzed.features = "w", mfw.min = 100, mfw.max = 100, mfw.incr=100,
       analysis.type = "PCV",  distance.measure = "wurzburg",
       pca.visual.flavour = "loadings")
 ```
@@ -299,7 +299,6 @@ if(!require("FactoMineR")){
 }
 theatreFrequencesPCA = PCA(t(theatreFrequences))
 barplot(theatreFrequencesPCA$eig[,1], main="Eigenvalues", names.arg=1:nrow(theatreFrequencesPCA$eig))
-
 ```
 
 Mais nous allons un peu vite: ralentissons un peu, nous reviendrons à ces questions le cours prochain.
@@ -327,7 +326,7 @@ Un mode de visualisation des données assez commun est le *Multidimensional scal
 ```{r}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
-      analyzed.features = "w", mfw.min = 100, mfw.max = 100, mfw.incr=100,
+      analyzed.features = "w", mfw.min = 1000, mfw.max = 100, mfw.incr=100,
       analysis.type = "MDS",  distance.measure = "wurzburg",
       pca.visual.flavour = "classic")
 ```

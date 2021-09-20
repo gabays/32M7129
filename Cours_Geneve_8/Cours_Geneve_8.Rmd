@@ -283,8 +283,6 @@ legend(x=-2, y=-0.5, c("Auteur","Libraire", "Imprimeur"), pch=21,
 
 # Tracé de graphe
 
-Repartons de zero
-
 Il existe différentes visualisation, algorithmes, etc. La logique est toujours la même: je pré-traite mon objet `igraph` avec une fonction spécifique au tracé choisi, et j'utilise le résultat de ce prétraitement comme valeur du paramètre `layout`. Ici, le _circular layout_:
 
 ```{r}
