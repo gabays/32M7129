@@ -1,4 +1,4 @@
-# \[32M7129\]Distant reading: Visualisation
+# \[32M7129\] Distant reading: Visualisation
 
 ## Programme
 
@@ -15,23 +15,23 @@ Les cours ont lieu
 * `Cours_02`: R: niveau I
 * `Cours_03`: R: niveau II
 
-**BLOC 1: Stylométrie**
+**BLOC 2: Stylométrie**
 
 * `Cours_04`: Introduction
 * `Cours_05`: Stylométrie: niveau I
 * `Cours_06`: Stylométrie: niveau II
 
-**BLOC 1: Analyse de Réseau**
+**BLOC 3: Analyse de Réseau**
 
-* `Cours_04`: Introduction
-* `Cours_05`: Analyse de Réseau: niveau I
-* `Cours_06`: Analyse de Réseau: niveau II
+* `Cours_07`: Introduction
+* `Cours_08`: Analyse de Réseau: niveau I
+* `Cours_09`: Analyse de Réseau: niveau II
 
-**BLOC 1: Cartographie**
+**BLOC 4: Cartographie**
 
-* `Cours_04`: Introduction
-* `Cours_05`: Cartographie: niveau I
-* `Cours_06`: Cartographie: niveau II
+* `Cours_10`: Introduction
+* `Cours_11`: Cartographie: niveau I
+* `Cours_12`: Cartographie: niveau II
 
 ---
 ## Installation
