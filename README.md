@@ -1,8 +1,37 @@
-# Cours Visualisation
+# \[32M7129\]Distant reading: Visualisation
 
-Genève, semestre de printemps  2020
+## Programme
 
-Simon Gabay
+Les cours ont lieu
+
+* En présentiel salle Mirabeau de 14h15 à 15h45, heure de Genève
+* Sur zoom (ID de réunion : 618 7718 4311)
+
+## Cours
+
+**BLOC 1: Introduction**
+
+* `Cours_01`: Introduction
+* `Cours_02`: R: niveau I
+* `Cours_03`: R: niveau II
+
+**BLOC 1: Stylométrie**
+
+* `Cours_04`: Introduction
+* `Cours_05`: Stylométrie: niveau I
+* `Cours_06`: Stylométrie: niveau II
+
+**BLOC 1: Analyse de Réseau**
+
+* `Cours_04`: Introduction
+* `Cours_05`: Analyse de Réseau: niveau I
+* `Cours_06`: Analyse de Réseau: niveau II
+
+**BLOC 1: Cartographie**
+
+* `Cours_04`: Introduction
+* `Cours_05`: Cartographie: niveau I
+* `Cours_06`: Cartographie: niveau II
 
 ---
 ## Installation
@@ -197,4 +226,4 @@ Les références sont données au format bibTex pour les mettre dans Zotero (té
 ## Droits
 CC-BY, sauf les données prises chez les collègues (indiquées dans les ```.Rmd```).
 
-<img style="float: right; width: 10%;" src="images/cc-by.png">
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
