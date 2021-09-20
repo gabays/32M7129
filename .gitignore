@@ -1,0 +1,11 @@
+
+.DS_Store
+.Rhistory
+.RData
+.Rapp.history
+wordlist.txt
+table_with_frequencies.txt
+table_with_frequencies.tsv
+stylo_config.txt
+*NODES.csv
+*EDGES.csv
