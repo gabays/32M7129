@@ -6,6 +6,7 @@
 wordlist.txt
 table_with_frequencies.txt
 table_with_frequencies.tsv
+table.of.frequencies.csv
 stylo_config.txt
 *NODES.csv
 *EDGES.csv
