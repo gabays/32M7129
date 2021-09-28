@@ -1,11 +1,40 @@
 ---
-title: "Cours_1 : visualisation"
+title: "Cours_1"
 author: "Simon Gabay"
-date: "2/16/2020"
-output:
-  pdf_document: default
-  html_document: default
-  
+
+---
+
+
+---
+
+# Préalable
+
+---
+
+## Le Code
+
+Avez-vous bien installé:
+* Le langage R
+* Le logiciel Rstudio
+* Le logiciel Gephi
+
+Les cours se trouvent en ligne à l'adresse suivante: https://github.com/gabays/32M7129
+* Github permet de partager du code
+* Chaque est donc du code transformé en slides
+* Vous trouverez y trouverez donc le code, et les slides
+
+---
+
+## L'objectif
+
+L'objectif de ce cours est 
+1.  de penser et d'organiser au mieux la transformation de données textuelles en chiffres (un mot a un nombre d'occurrences, un lieu des coordonnées…)
+2. pour rendre lisibles ces chiffres, au moyen de visualisations (des cartes, des graphiques…)
+
+Pour chacune de ces deux étapes, les données subissent une transformation
+1.  Elle passent à travers un filtre mathématique (calcul de distance, algorithme…)
+2. Elles subissent une déformation graphique (passage de n-dimensions à deux, perspective…)
+
 ---
 
 # 1 Sémantique
@@ -24,6 +53,7 @@ Trois exemples de visualisation:
 * Épidémie de choléra de _Broad Street_ en 1854
 * Les trois jours suivants, 127 personnes habitant Broad Street ou les environs meurent. Les semaines qui suivent, les trois quarts des habitants ont fui le quartier. Le 10 septembre, 500 personnes étaient mortes. En tout, l'épidémie a fait 616 morts.
 * À l'époque, la théorie des miasmes attribue au « mauvais air » le choléra: Snow va permettre de localiser l'origine de l'épidémie, une pompe publique, sur la base d'une répartition géographique des cas.
+
 ---
 
 ![20% center](material/Snow_cholera.jpg)
@@ -238,13 +268,13 @@ On peut additionner des chiffres (_int_ pour _integer_, "entier")
 Il est en revanche impossible d'additionner un chiffre avec une lettre (_str_, pour _string_, "chaîne (de caractères"): _Error in 1 + "b" : non-numeric argument to binary operator_
 
 ```{r}
-1+"b"
+#1+"b"
 ```
 
 On remarque que les _str_ sont notés entre guillemets. On peut ainsi spécifier qu'un chiffre est utilisé comme caractère et non comme un chiffre en utilisant les guillemets: il est alors impossible de s'en servir pour un calcul
 
 ```{r}
-"1"+2
+#"1"+2
 ```
 
 ---
@@ -294,7 +324,7 @@ y
 
 On les replace sur un plan:
 
-```{r}
+```{r, results='hide'}
 png(file="images/plot1.png")
 plot(x,y)
 dev.off()
@@ -306,7 +336,7 @@ dev.off()
 
 On rajoute quelques informations pour faciliter la lecture du graphique
 
-```{r}
+```{r, results='hide'}
 png(file="images/plot2.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan", pch=16, col="green")
@@ -319,7 +349,7 @@ dev.off()
 
 Ces points représentent des faits linguistiques calculés à partir des fréquences dans notre corpus. L'écart qui sépare ces points représente l'écart entre deux pratiques stylistiques:
 
-```{r}
+```{r, results='hide'}
 png(file="images/plot3.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan (2)", pch=16, col="green")
@@ -334,7 +364,7 @@ dev.off()
 
 Il faut donc calculer comment aller du point A au point B
 
-```{r}
+```{r, results='hide'}
 png(file="images/plot4.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan (3)", pch=16, col="green")
@@ -363,7 +393,7 @@ Boyer, _Caton_, Acte IV, scène XII
 
 Nous obtenons donc un nouveau graph:
 
-```{r}
+```{r, results='hide'}
 x <- c(4,2,3)
 y <- c(2,1,2)
 png(file="images/plot5.png")
@@ -408,7 +438,7 @@ cat("Distance Racine/Boyer = ", RaBo)
 
 On intègre les distances dans le plan
 
-```{r}
+```{r, results='hide'}
 x <- c(4,2,3)
 y <- c(2,1,2)
 png(file="images/plot6.png")
@@ -475,7 +505,7 @@ red<- rgb2hex(255,0,0) #ff0000
 
 On peut ensuite afficher une image simple: un carré rouge.
 
-```{r}
+```{r, results='hide'}
 png(file="images/image1.png")
 plot(c(100, 200), c(100, 100), type= "n", xlab = "", ylab = "")
 rect(210, 150, 1, 1, col = red)
@@ -496,7 +526,7 @@ matrix(x, nrow=1, ncol=length(x))
 
 On crée deux autres codes hexadécimaux à partir des codes RGB des couleurs et l'on remplit le tableau:
 
-```{r}
+```{r, results='hide'}
 yellow<-rgb2hex(255,215,0) #ffff00"
 black<-rgb2hex(0,0,0) #000000
 png(file="images/image2.png")
