@@ -42,7 +42,7 @@ if(!require("smacof")){
 }
 ```
 
-# Ma première CAH depuis 0
+# 1. Ma première CAH depuis 0
 
 Une classification ascendante hiérarchique.
 
@@ -90,7 +90,7 @@ hc <- hclust(distance_tableau, method="ward.D")
 plot(hc, main="Ma seconde classification",  xlab="Burrows Delta, \n Ward's method" , sub="" , hang =-1)
 ```
 
-# Un premier cas
+# 2. Un premier cas
 
 Je charge mon corpus
 
@@ -158,7 +158,7 @@ table.of.frequencies<-t(table.of.frequencies)
 View(table.of.frequencies)
 ```
 
-J'observe la distribution de mon corpus. 
+J'observe la distribution de mon corpus.
 
 ```{r}
 summary(table.of.frequencies)
@@ -205,9 +205,9 @@ Je peux (et même je dois) sélectionner dans cette liste les n plus fréquents
 freqs_rel_mfw = freqs_rel[1:100,]
 ```
 
-# Analyse
+# 3. Analyse
 
-## La CAH
+## 3.1 La CAH
 
 Regardons à quoi ressemble notre CAH
 
@@ -217,7 +217,7 @@ CAH_orig_aggloCoeff <- CAH$ac
 plot(CAH)
 ```
 
-Nettoyons tout cela… 
+Nettoyons tout cela…
 
 ```{r}
 plot(CAH,
@@ -305,7 +305,7 @@ CAH_orig_aggloCoeff <- CAH$ac
 customPlot(CAH,"Original texts, 100 MFW, Culled @ 0%, Distance: wurzburg",CAH_orig_aggloCoeff,0.7)
 ```
 
-## _Under the hood_: les classes
+## 3.2 _Under the hood_: les classes
 
 Tout cela est très bien. Mais qu'est-ce qui est caché derrière ces clusters? Nous pouvons le savoir. Prenons notre dernière CAH, et regardons le processus de construction des clusters:
 
@@ -349,9 +349,9 @@ myClasses = catdes(Processed_classes, num.var = 101)
 myClasses
 ```
 
-## _Under the hood_: l'es classes'ACP
+## 3.3 _Under the hood_: l'ACP
 
-Je commence par faire une ACP. 
+Je commence par faire une ACP.
 
 ```{r}
 ACP = PCA(t(freqs_rel_mfw))
@@ -385,7 +385,7 @@ ACP = PCA(t(freqs_rel_mfw))
 fviz_pca_ind(ACP, col.ind = get_categories, legend="none")
 fviz_pca_var(ACP, col.var="contrib",geom.var = "text", select.var = list(contrib =20))+
 scale_color_gradient2(
-                      low="yellow", mid="orange", 
+                      low="yellow", mid="orange",
                       high="darkred", midpoint=1.6)+theme_bw()
 ```
 
@@ -401,16 +401,16 @@ Un petit graph montre bien la lente perte de significativité des axes
 barplot(ACP$eig[,1], main="Percentage of variance", names.arg=1:nrow(ACP$eig))
 ```
 
-# Les autres algorithmes
+# 4. Les autres algorithmes
 
-## t-SNE
+## 4.1 t-SNE
 Avec l’algorithme de Barnes-Hut,
 
 ```{r}
 library(Rtsne)
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 0.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 ```
 
 Attention! Si on relance la même commande, on obtient un résultat différent!
@@ -419,17 +419,17 @@ Attention! Si on relance la même commande, on obtient un résultat différent!
 library(Rtsne)
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 0.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #encore une fois
 library(Rtsne)
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 0.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #encore une fois
 library(Rtsne)
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 0.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 ```
 
 
@@ -438,19 +438,19 @@ On peut faire varier la perpléxité (c'est à dire s'autoriser une distorsion p
 ```{r}
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 1.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #Encore une fois
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 1.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #Encore une fois
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 1.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #Encore une fois
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 1.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 ```
 
 On peut faire varier la perpléxité: on passe à 2
@@ -458,29 +458,29 @@ On peut faire varier la perpléxité: on passe à 2
 ```{r}
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 2, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #Encore une fois
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 2, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #Encore une fois
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 2, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 #Encore une fois
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 2, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
-text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
+text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 ```
 
-## MDS
+## 4.2 MDS
 
 Le _Multidimensional scaling_ est une compression des données en deux dimensions. Il en existe trois types:
 * classique
 * métrique
 * non métrique
 
-### MDS classique 
+### 4.2.1 MDS classique
 
 Le _MDS_ classique se base sur le calcul de distance, dont il va essayer de préserver l'essentiel.
 
@@ -491,11 +491,11 @@ fit = cmdscale(dist(t(freqs_rel_mfw), method = "manhattan"), eig=TRUE, k=2) # k 
 x = fit$points[,1]
 y = fit$points[,2]
 plot(x, y, xlab=paste("Coordinate 1 (GOF: ", round(fit$GOF[1] * 100, digits=2), "%)"), ylab=paste("Coordinate 2 (GOF: ", round(fit$GOF[2] * 100, digits=2), "%)"), main="PMD métrique")
-text(x, y, labels = row.names(t(freqs_rel_mfw)), cex=.7) 
+text(x, y, labels = row.names(t(freqs_rel_mfw)), cex=.7)
 ```
 
 
-### MDS Métrique
+### 4.2.2 MDS Métrique
 
 Le MDS métrique, dit aussi ordinal, ne s'intéresse pas à la mesure de distance, mais sa valeur en relation avec les autres paires
 
@@ -510,7 +510,7 @@ MDSmetrique = mds(dist(t(freqs_rel_mfw), method = "manhattan"), ndim=2, type="or
 plot(MDSmetrique, sub=paste("Stress, ", round(MDSmetrique$stress, digits=2)))
 ```
 
-### Non métrique
+### 4.2.3 Non métrique
 
 ```{r}
 #J'affiche le stress avec le paramètre verbose=T(RUE)

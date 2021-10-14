@@ -46,7 +46,7 @@ if(!require("smacof")){
 }
 ```
 
-# Ma première CAH depuis 0
+# 1. Ma première CAH depuis 0
 
 Une classification ascendante hiérarchique.
 
@@ -94,7 +94,7 @@ hc <- hclust(distance_tableau, method="ward.D")
 plot(hc, main="Ma seconde classification",  xlab="Burrows Delta, \n Ward's method" , sub="" , hang =-1)
 ```
 
-# Un premier cas
+# 2. Un premier cas
 
 Je charge mon corpus
 
@@ -209,9 +209,9 @@ Je peux (et même je dois) sélectionner dans cette liste les n plus fréquents
 freqs_rel_mfw = freqs_rel[1:100,]
 ```
 
-# Analyse
+# 3. Analyse
 
-## La CAH
+## 3.1 La CAH
 
 Regardons à quoi ressemble notre CAH
 
@@ -309,7 +309,7 @@ CAH_orig_aggloCoeff <- CAH$ac
 customPlot(CAH,"Original texts, 100 MFW, Culled @ 0%, Distance: wurzburg",CAH_orig_aggloCoeff,0.7)
 ```
 
-## _Under the hood_: les classes
+## 3.2 _Under the hood_: les classes
 
 Tout cela est très bien. Mais qu'est-ce qui est caché derrière ces clusters? Nous pouvons le savoir. Prenons notre dernière CAH, et regardons le processus de construction des clusters:
 
@@ -353,7 +353,7 @@ myClasses = catdes(Processed_classes, num.var = 101)
 myClasses
 ```
 
-## _Under the hood_: l'es classes'ACP
+## 3.3 _Under the hood_: l'ACP
 
 Je commence par faire une ACP. 
 
@@ -405,9 +405,9 @@ Un petit graph montre bien la lente perte de significativité des axes
 barplot(ACP$eig[,1], main="Percentage of variance", names.arg=1:nrow(ACP$eig))
 ```
 
-# Les autres algorithmes
+# 4. Les autres algorithmes
 
-## t-SNE
+## 4.1 t-SNE
 Avec l’algorithme de Barnes-Hut,
 
 ```{r}
@@ -477,14 +477,14 @@ plot(maRtsne$Y)
 text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6) 
 ```
 
-## MDS
+## 4.2 MDS
 
 Le _Multidimensional scaling_ est une compression des données en deux dimensions. Il en existe trois types:
 * classique
 * métrique
 * non métrique
 
-### MDS classique 
+### 4.2.1 MDS classique 
 
 Le _MDS_ classique se base sur le calcul de distance, dont il va essayer de préserver l'essentiel.
 
@@ -499,7 +499,7 @@ text(x, y, labels = row.names(t(freqs_rel_mfw)), cex=.7)
 ```
 
 
-### MDS Métrique
+### 4.2.2 MDS Métrique
 
 Le MDS métrique, dit aussi ordinal, ne s'intéresse pas à la mesure de distance, mais sa valeur en relation avec les autres paires
 
@@ -514,7 +514,7 @@ MDSmetrique = mds(dist(t(freqs_rel_mfw), method = "manhattan"), ndim=2, type="or
 plot(MDSmetrique, sub=paste("Stress, ", round(MDSmetrique$stress, digits=2)))
 ```
 
-### Non métrique
+### 4.2.3 Non métrique
 
 ```{r}
 #J'affiche le stress avec le paramètre verbose=T(RUE)
