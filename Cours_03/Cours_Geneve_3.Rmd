@@ -22,6 +22,8 @@ J'installe ma session de travail
 ```{r}
 setwd("~/GitHub/UNIGE/32M7129/Cours_03")
 monDossier="~/GitHub/UNIGE/32M7129/Cours_03"
+#je charge les données que l'enseignant a préparé pour éviter les problèmes
+#load("Cours_Geneve_3.RData")
 ```
 
 Première chose à faire: importer le corpus qui se trouve dans le dossier `cours 3`. Comme il s'agit d'un csv, nous utilisons la fonction `read.csv()` Le corpus que nous importons est une collection de blocs d'environ 1000 mots lemmatisés.
