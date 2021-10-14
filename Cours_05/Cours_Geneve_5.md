@@ -1,17 +1,15 @@
 ---
-title: "Cours_Geneve_5"
+title: "Cours_5"
 author: "Simon Gabay"
-date: "17/03/2020"
+date: "14/10/2021"
 output:
-  ioslides_presentation: default
-  html_notebook: default
-  beamer_presentation: default
-  slidy_presentation: default
+  html_document:
+    highlight: pygments
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 Il existe de multiples options informatiques pour faire de la stylométrie. Nous nous proposons, dans ce cours, d'utiliser le package `R` nommé  *Stylo*, mais d'autres options existent comme [FactoMineR](https://cran.r-project.org/web/packages/FactoMineR/index.html). Ce package étant développé par des français de l'agrocampus de Rennes, notons qu'une [importante documentation en français](http://factominer.free.fr/index_fr.html) est disponible, et permettra aux personnes intéressées de continuer leur apprentissage de la stylométrie.
 
@@ -23,7 +21,7 @@ Le corpus est constitué de pièces de théâtre du XVIIe siècle, disponibles s
 
 ## 1.1 Des ressources en ligne
 
-`Stylo` est développé par Maciej Eder (Cravocie), Mike Kestmont (Anvers) et Jan Rybicki (Cravocie). On trouvera de nombreuses ressources sur le site de leur groupe de [computational stylistics](https://computationalstylistics.github.io) et sur leur [GitHub](https://github.com/computationalstylistics), qui contient un [repo](https://github.com/computationalstylistics/stylo) consacré au package stylo avec de nombreuses informations sur son fonctionnement.
+`Stylo` est développé par Maciej Eder (Cracovie), Mike Kestmont (Anvers) et Jan Rybicki (Cracovie). On trouvera de nombreuses ressources sur le site de leur groupe de [computational stylistics](https://computationalstylistics.github.io) et sur leur [GitHub](https://github.com/computationalstylistics), qui contient un [repo](https://github.com/computationalstylistics/stylo) consacré au package stylo avec de nombreuses informations sur son fonctionnement.
 
 Pour ceux qui voudraient s'entraîner avec d'autres données que celles fournies pour le cours, [un repo avec 100 romans anglais se trouve sur leur GitHub](https://github.com/computationalstylistics/100_english_novels) (cliquez sur le bouton vert `Clone or download à droite` pour télécharger le tout au format zip).
 
@@ -45,7 +43,7 @@ Pour indiquer où se trouve le fichier de travail, deux solutions sont possibles
 * ou bien directement dans `R` avec la commande `setwd` (pour *Set working directory*), qui s'utilise de cette manière.
 
 ```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_5")
+setwd("~/GitHub/UNIGE/32M7129/Cours_05")
 #je charge les données que l'enseignant a préparé pour éviter les problèmes
 #load("Cours_Geneve_5.RData")
 ```
@@ -73,18 +71,17 @@ Il ne nous reste plus qu'à lancer stylo, avec la commande… `stylo()`!
 
 L'application `Stylo` peut être utilisée en ligne de commande, mais aussi avec une GUI (*graphical user interface*, en français "interface graphique"). Si vous voulez avoir un premier aperçu, retirez le # au début de la ligne *infra* et cliquez sur `Run`.
 
-```{r}
-#stylo()
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
+stylo()
 ```
 
-##2.2 Une première analyse de cluster
+## 2.2 Une première analyse de cluster
 
 Nous allons désormais tenter une première analyse de cluster. Le *data clustering* (ou "partitionnement de données" en français) cherche à diviser un ensemble de données en différents "groupes" homogènes selon des caractéristiques qu'ils partagent. Ces groupes (dans notre cas des pièces de théâtre) sont formés à partir de calculs qui déterminent leur proximité (similarité ou distance).
 
 **Note importante** Afin de gagner du temps, nous avons directement paramétré le formulaire de la GUI, mais la commande `stylo()` vide, comme précédemment (*cf.* 2.1), suffirait si les bonnes cases étaient bien cochées.
 
 Lorsque vous appuyerez sur `Run` observez la console: une série de messages vous avertit de ce qu'il se passe.
-
 ```{r}
 stylo(gui=TRUE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
@@ -113,7 +110,7 @@ Regardons maintenant le graphique qui nous est donné. Il s'agit d'un dendogramm
 
 Nous avons obtenu un cluster: il est plausible, mais est-il fiable? Nous avons besoin d'encore plus de certitudes… Une première solution est de répéter le même clacul, en augmentant le nombre des mots les plus fréquents: passons de 100 à 1000.
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 1000, mfw.max = 100, mfw.incr=100,
@@ -125,7 +122,7 @@ Les résultat est déjà moins net… À quel moment du bruit a-t-il commencé �
 
 Demandons à `Stylo` de refaire le calculs dix fois, en incrémentant de 100 à chaque fois.
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 100, mfw.max = 1000, mfw.incr=100,
@@ -139,7 +136,7 @@ Difficile cependant de comparer facilement 10 dendogrammes… Et comment faire p
 
 Il est possible de représenter graphiquement la somme de ces informations: il s'agit du *concensus tree* ("arbre de consensus", en français). Voyons la forme de ce graphique avec les résultats que nous venons d'obtenir.
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 100, mfw.max = 1000, mfw.incr=100,
@@ -149,7 +146,7 @@ stylo(gui=FALSE, corpus.dir = "corpus",
 
 C'est l'occasion de changer dans la méthode de calcul de distance, pour vérifier les performances de chacune. Nous utilisions jusqu'à présent la "distance de Manhattan", essayons cette fois avec une distance euclidienne.
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 100, mfw.max = 1000, mfw.incr=100,
@@ -159,7 +156,7 @@ stylo(gui=FALSE, corpus.dir = "corpus",
 
 Et maintenant avec une distance typique de la stylométrie: la distance de Burrows (du nom de son inventeur, John Burrows), aussi appelée "classic delta".
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 100, mfw.max = 1000, mfw.incr=100,
@@ -181,7 +178,7 @@ En plus de cette approche empirique, il est important de s'appuyer sur des étud
 
 Evert, Proisl, Jannidi, Reger, Pielström, Schöch, Vitt, " Understanding and explaining Delta measures for authorship attribution",_Digital Scholarship in the Humanities_, Volume 32, December 2017, Pages ii4–ii16, https://doi.org/10.1093/llc/fqx023
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min =5000, mfw.max = 100, mfw.incr=100,
@@ -194,7 +191,7 @@ stylo(gui=FALSE, corpus.dir = "corpus",
 
 Les données utilisées pendant l'analyse stylométrique sont accessibles: pour les voir, nous devons donc créer une variable et les stocker. Appelons la variable "resultats", qui s'utilise ainsi:
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 resultats <- stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 5000, mfw.max = 100, mfw.incr=100,
@@ -248,7 +245,7 @@ Un autre mode de visualisation est le *principal component analysis* ("Analyse e
 
 ### 4.1.1 *Principal component analysis* classique
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 5000, mfw.max = 100, mfw.incr=100,
@@ -260,10 +257,10 @@ stylo(gui=FALSE, corpus.dir = "corpus",
 
 Il est possible de superposer les tokens (ici les mots) aux labels, afin de comprendre sur quelles données lexicales s'appuie la spatialisation.
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
-      analyzed.features = "w", mfw.min = 5000, mfw.max = 100, mfw.incr=100,
+      analyzed.features = "w", mfw.min = 100, mfw.max = 100, mfw.incr=100,
       analysis.type = "PCV",  distance.measure = "wurzburg",
       pca.visual.flavour = "loadings")
 ```
@@ -299,7 +296,6 @@ if(!require("FactoMineR")){
 }
 theatreFrequencesPCA = PCA(t(theatreFrequences))
 barplot(theatreFrequencesPCA$eig[,1], main="Eigenvalues", names.arg=1:nrow(theatreFrequencesPCA$eig))
-
 ```
 
 Mais nous allons un peu vite: ralentissons un peu, nous reviendrons à ces questions le cours prochain.
@@ -308,7 +304,7 @@ Mais nous allons un peu vite: ralentissons un peu, nous reviendrons à ces quest
 
 Il est possible de modifier les résultats afin d'accentuer de manière proportionnelle la distance entre les différents tokens pour "aérer" la partie centrale en modifiant légèrement la méthode de calcul.
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
       analyzed.features = "w", mfw.min = 100, mfw.max = 100, mfw.incr=100,
@@ -324,10 +320,10 @@ En bas du graphique, on trouve un pourcentage: il nous donne une idée de la dis
 
 Un mode de visualisation des données assez commun est le *Multidimensional scaling* ("positionnement multidimensionnel" en français). Pour faire (très, très) simple, il s'agit de spatialiser les résultats.
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo(gui=FALSE, corpus.dir = "corpus",
       corpus.format = "xml.drama", corpus.lang = "French",
-      analyzed.features = "w", mfw.min = 100, mfw.max = 100, mfw.incr=100,
+      analyzed.features = "w", mfw.min = 1000, mfw.max = 100, mfw.incr=100,
       analysis.type = "MDS",  distance.measure = "wurzburg",
       pca.visual.flavour = "classic")
 ```
@@ -344,7 +340,7 @@ if(!require("networkD3")){
 ```
 
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 stylo.network(gui=FALSE, corpus.dir = "corpus",
               corpus.format = "xml.drama", corpus.lang = "French",
               analyzed.features = "w", mfw.min = 1700, mfw.max = 100, mfw.incr=100,
