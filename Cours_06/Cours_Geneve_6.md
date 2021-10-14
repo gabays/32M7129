@@ -11,10 +11,6 @@ output:
     theme: united
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 Je prépare ma session de travail
 
 ```{r}
