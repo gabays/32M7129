@@ -1,31 +1,25 @@
 ---
-title: "Cours_Geneve_11"
+title: "Cours_11"
 author: "Simon Gabay"
-date: "`r Sys.Date()`"
+date: "12/10/2021"
 output:
-  html_notebook:
-    number_sections: yes
-    toc: yes
-    toc_float: yes
+  html_document:
+    highlight: pygments
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
 
-```{r, setup, fig.show=hold, fig.margin=TRUE}
-if(!require("knitr")){
-  install.packages("knitr")
-  library(knitr)
-}
-knitr::opts_chunk$set(echo = TRUE, fig.width=20)
-```
+# 0. Préparatifs
 
-# Préparatifs
-
-```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_11")
+```r
+setwd("~/GitHub/UNIGE/32M7129/Cours_11")
 #je charge les données que l'enseignant a préparé pour éviter de potentiels problèmes
 #load("Cours_Geneve_11.RData")
 ```
 
-```{r, warning=FALSE, results='hide'}
+```r
 if(!require("leaflet")){
   install.packages("leaflet")
   library(leaflet)
@@ -47,7 +41,7 @@ if(!require("htmlwidgets")){
   library(htmlwidgets)
 }
 if(!require("htmltools")){
-  install.packages("lhtmltools")
+  install.packages("htmltools")
   library(htmltools)
 }
 if(!require("leaflet.extras")){
@@ -72,11 +66,11 @@ if(!require("leaftime")){
 }
 ```
 
-# Une première carte
+# 1. Une première carte
 
 Créer sa carte
 
-```{r}
+```r
 map <- leaflet() %>% addTiles()
 #J'affiche la carte
 map
@@ -84,9 +78,9 @@ map
 
 Ajoutons Genève sur la carte. Pour cela, rappelons-nous les coordonnées de la ville:
 * 46° 20′ 00″ nord, 6° 15′ 00″ est
-* 46.2 et 46.20 en degrés décimaux
+* 46.2 et 6.15 en degrés décimaux
 
-```{r}
+```r
 map <- leaflet() %>% addTiles() %>% 
     #Je définis le point central de ma carte
       setView(lng = 6.15, lat = 46.20, zoom =13)
@@ -96,7 +90,7 @@ map
 
 Le zoom permet de se focaliser sur un point précis: ici l'université.
 
-```{r}
+```r
 map <- leaflet() %>% addTiles() %>% 
       #Je définis le point central de ma carte et j'ajuste le zoom
       setView(lng = 6.145, lat = 46.199, zoom = 20)
@@ -106,7 +100,7 @@ map
 
 Je peux ajouter des marqueurs sur ma carte
 
-```{r}
+```r
 map <- leaflet() %>% addTiles() %>% 
       #Je définis le point central de ma carte et j'ajuste le zoom
       setView(lng = 6.15, lat = 46.20, zoom =15) %>% 
@@ -118,13 +112,13 @@ map
 
 Si je veux ajouter beaucoup d'informations, je peux créer un objet à part. La mise en page se fait avec des règles HTML de base: éléments `<b>` pour le gras, `<i>` pour l'italique, `<a>` et ses attributs pour les liens
 
-```{r}
+```r
 #Je crée un objet qui stocke le contenu de mon marqueur
 myDesc <- paste(sep = "<br/>",
                      "<b>Université de Genève</b>",
                      "<i>Genève, Suisse</i>",
                      "<img src='https://upload.wikimedia.org/wikipedia/fr/thumb/d/d2/Universit%C3%A9_de_Gen%C3%A8ve_%28logo%29.svg/343px-Universit%C3%A9_de_Gen%C3%A8ve_%28logo%29.svg.png' height='40' width='150'>",
-                     "<a href='https://www.unige.ch'>Voir le site </a>")
+                     "<a href='https://www.unige.ch'>Voir le site</a>")
 
 map <- leaflet() %>% addTiles() %>% 
       #Je définis le point central de ma carte et j'ajuste le zoom
@@ -137,7 +131,7 @@ map
 
 Je peux créer un marqueur dédié
 
-```{r}
+```r
 #Je crée une icone
 myIcon <- makeIcon(iconUrl = "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d2/Universit%C3%A9_de_Gen%C3%A8ve_%28logo%29.svg/343px-Universit%C3%A9_de_Gen%C3%A8ve_%28logo%29.svg.png",
                    #J'en précise la taille
@@ -159,13 +153,13 @@ map <- leaflet() %>% addTiles() %>%
 map
 ```
 
-# Opération tuning
+# 2. Opération tuning
 
 ![100%](images/tuning.gif)
 
 Il n'est évidemment pas possible de rentrer manuellement les points: il nous faut créer un _dataframe_.
 
-```{r}
+```r
 #Je crée un data frame contenant les longitudes et latitudes de trois villes
 capitals <- data.frame(latitudes = c(48.8534, 52.520008, 51.509865),
                      longitudes = c(2.3488, 13.404954, -0.118092),
@@ -175,7 +169,7 @@ capitals
 
 J'utilise ce _dataframe_ pour la construction de ma carte en l'ajoutant à la fonction `leaflet()`.
 
-```{r}
+```r
 #Je place mon dataframe comme contenu de la fonction leaflet()
 map <- leaflet(capitals) %>%
   addTiles() %>%
@@ -187,7 +181,7 @@ map
 
 Je peux rajouter des informations pour chaque point
 
-```{r}
+```r
 capitals <- data.frame(latitudes = c(48.8534, 52.520008, 51.509865, 50.8466),
                      longitudes = c(2.3488, 13.404954, -0.118092, 4.3528),
                      #population en millions
@@ -198,7 +192,7 @@ capitals
 
 Je modifie l'apparence de ma carte, an ajoutant des cercles qui sont fonction de la population de chaque ville.
 
-```{r}
+```r
 #Je place mon dataframe comme contenu de la fonction leaflet()
 map <- leaflet(capitals) %>%
   addTiles() %>%
@@ -218,9 +212,9 @@ map <- leaflet(capitals) %>%
 map
 ```
 
-Je peux modifier la couleur du cercle en fonction de sa taille avec la fonction `colorNumeric()
+Je peux modifier la couleur du cercle en fonction de sa taille avec la fonction `colorNumeric()`
 
-```{r}
+```r
 #Je crée un dégradé entre le jaune et le rouge foncé, le minimum et le maximum étant défini par le contenu de la colonne `population` de mon dataframe `capitals`
 colors_function <- colorNumeric(c("yellow", "darkred"), capitals$population)
 
@@ -244,7 +238,7 @@ map
 
 Je dois donc désormais ajouter une légende pour rendre ma carte intelligible
 
-```{r}
+```r
 #Je crée un dégradé entre le jaune et le rouge foncé, le minimum et le maximum étant défini par le contenu de la colonne `population` de mon dataframe `capitals`
 colors_function <- colorNumeric(c("yellow", "darkred"), capitals$population)
 
@@ -276,7 +270,7 @@ Il est possible de changer le fond de carte (_basemap_) en remplaçant la foncti
 * `providers$Esri.WorldPhysical`
 * Pour plus d'exemples, cf. https://leaflet-extras.github.io/leaflet-providers/preview/
 
-```{r}
+```r
 #Je crée un dégradé entre le jaune et le rouge foncé, le minimum et le maximum étant défini par le contenu de la colonne `population` de mon dataframe `capitals`
 colors_function <- colorNumeric(c("yellow", "darkred"), capitals$population)
 
@@ -301,7 +295,7 @@ map <- leaflet(capitals) %>%
 map
 ```
 
-# Travailler avec des csv
+# 3. Travailler avec des csv
 
 ```{r, results='hide'}
 #import de csv
@@ -310,7 +304,7 @@ boyer  <- read.csv("Data/boyer.csv")
 
 Notre ficher `.csv` est riche en informations. On a, entre autres, pris soin de noter les longitudes et les latitudes
 
-```{r}
+```r
 View(boyer)
 df <- data.frame(occ=boyer$occurrence,
                  lat=boyer$lat,
@@ -319,7 +313,7 @@ df
 ```
 
 
-```{r}
+```r
 leaflet()%>%
 ## On ajoute un fond de carte
 addProviderTiles(providers$Esri.NatGeoWorldMap)%>% 
@@ -333,13 +327,11 @@ addProviderTiles(providers$Esri.NatGeoWorldMap)%>%
   addCircleMarkers(lng = boyer$lng, 
                    lat = boyer$lat,
                    color = "brown",
-                   group = "Boyer",
-                   weight = 1,
                    radius = 14,
                    fillOpacity = 0.6)
 ```
 
-# Travailler avec GEOjson
+# 4. Travailler avec GEOjson
 
 Pour rappel un fichier GEOjson ressemble à cela:
 
@@ -364,19 +356,19 @@ Pour rappel un fichier GEOjson ressemble à cela:
 
 Vous trouverez dans le dossier `Data` un fichier GEOjson avec les coordonnées de la Suisse.
 
-```{r}
+```r
 browseURL("Data/switzerland.geojson")
 ```
 
 Il est possible d'importer le fichier GEOjson dans `R`.
 
-```{r}
+```r
 Switzerland <- rgdal::readOGR("Data/switzerland.geojson")
 ```
 
 On peut ensuite le projeter dans `R`.
 
-```{r}
+```r
 #Je crée la carte
 leaflet(Switzerland) %>%
   #Je change mon fond de carte
@@ -392,7 +384,7 @@ Afin de simplifier le travail de création des fichiers GEOjson, vous pouvez all
 
 ![100%](images/geojson_2.png)
 
-```{r}
+```r
 Switzerland <- rgdal::readOGR("Data/map.geojson")
 #Je crée la carte
 leaflet(Switzerland) %>%
@@ -403,7 +395,7 @@ leaflet(Switzerland) %>%
       setView(lng = 2.3, lat = 48.85, zoom = 10)
 ```
 
-# Travailler avec des _shapefiles_ 
+# 5. Travailler avec des _shapefiles_
 
 ```{r, results='hide'}
 #import de shapefile
@@ -413,18 +405,18 @@ shp <- readOGR('Data/shapefile/area.shp')
 
 On le rappelle, les fichiers `.shp` sont aussi des fichiers complexes, qui contiennent des informations en plus des simples formes géométriques. En l'occurrence, notre document contient
 
-```{r}
+```r
 df <- data.frame(area=shp$area,occurrences=shp$number)
 df
 ```
 
 On crée une palette, qui utilise une palette de couleur prédéfinie et qui est fonction du nombre d'occurrence par zone
 
-```{r}
+```r
 pal <- colorNumeric(palette = "YlOrRd", domain = shp$number)
 ```
 
-```{r}
+```r
 leaflet(shp)%>%
 ## On ajoute un fond de carte
 addProviderTiles(providers$Esri.NatGeoWorldMap)%>% 
@@ -445,7 +437,7 @@ addProviderTiles(providers$Esri.NatGeoWorldMap)%>%
 
 Je peux évidemment mélanger les sources
 
-```{r}
+```r
 leaflet(shp)%>%
 ## On ajoute un fond de carte
 addProviderTiles(providers$Esri.NatGeoWorldMap)%>% 
@@ -479,7 +471,7 @@ Enfin, un petit coup de tuning
 ![100%](images/tuning.gif)
 
 
-```{r}
+```r
 map<-leaflet(shp)%>%
 ## On ajoute un fond de carte
 addProviderTiles(providers$Esri.NatGeoWorldMap)%>% 
@@ -520,18 +512,18 @@ addProviderTiles(providers$Esri.NatGeoWorldMap)%>%
 map
 ```
 
-Je peux sauvegarder ma carte en html et l'ouvrir dans le navigateur
+Je peux sauvegarder ma carte en html et l'ouvrir dans le navigateur (cela peut prendre un certain donc le code a été commenté).
 
-```{r}
-saveWidget(map, file="maCarte.html")
-browseURL("maCarte.html")
+```r
+#saveWidget(map, file="maCarte.html")
+#browseURL("maCarte.html")
 ```
 
-# Timeline
+# 6. Timeline
 
 Nous reprenons le même jeu de données que précédemment, avec nos quatre villes.
 
-```{r}
+```r
 sales <- data.frame(
                     "Latitude" = c(
                       48.8534, 52.520008, 51.509865, 50.8466
@@ -548,7 +540,7 @@ sales <- data.frame(
 
 Pour créer une _Timeline_ il va logiquement falloir associer des dates: une de début, et une de fin.
 
-```{r}
+```r
 #j'ajoute une colonne à mon dataframe
 sales$start <- c(
                     "start" = do.call(
@@ -579,13 +571,13 @@ sales$end <- c(
 
 J'obtiens donc un data frame, avec la population, les dates de début, les dates de fin
 
-```{r}
+```r
 sales
 ```
 
 Je peux désormais convertir mon dataframe en fichier GEOjson:
 
-```{r}
+```r
 sales_timeline <- geojson_json(sales,lat="Latitude",lon="Longitude")
 ```
 
@@ -625,14 +617,14 @@ Le fichier GEOjson que nous avons fabriqué respecte les recommendations de `Lea
 
 Je peux sauvegarder le résultat au format `json` si je veux regarder en détail le code produit:
 
-```{r}
+```r
 data_JSON <- fromJSON(sales_timeline)
 write(sales_timeline, "output.json") 
 ```
 
 Je peux désormais créer ma première carte avec timeline.
 
-```{r}
+```r
   leaflet(data_JSON) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
@@ -642,7 +634,7 @@ Je peux désormais créer ma première carte avec timeline.
 
 Je peux néanmoins faire mieux, et ajouter des options. Jouez un peu avec celles-ci pour apprendre à les maîtriser.
 
-```{r}
+```r
   leaflet(data_JSON) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
@@ -662,7 +654,7 @@ Je peux néanmoins faire mieux, et ajouter des options. Jouez un peu avec celles
 
 Je peux aussi modifier la forme des marqueurs (_marker_) que j'utilise sur ma carte.
 
-```{r}
+```r
   leaflet(data_JSON) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
@@ -694,14 +686,14 @@ Je peux aussi modifier la forme des marqueurs (_marker_) que j'utilise sur ma ca
 
 Je crée une copie de mon data frame, et je crée une colonne `radius` (rayon) qui est fonction de la population de la ville
 
-```{r}
+```r
 sales_radius<-sales
 sales_radius$radius <- sales_radius$population*3
 ```
 
 J'utilise cette information pour gérer la taille des marqueurs
 
-```{r}
+```r
   leaflet(geojson_json(sales_radius)) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
