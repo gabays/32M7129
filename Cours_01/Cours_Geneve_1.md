@@ -11,7 +11,7 @@ output:
     theme: united
 ---
 
-```{r}
+```r
 setwd("~/GitHub/UNIGE/32M7129/Cours_01")
 if (!require("ggplot2")) install.packages("ggplot2")
 if (!require("rmarkdown")) install.packages("rmarkdown")
@@ -274,19 +274,19 @@ La "simple" question du design a désormais débouché sur des interrogations pl
 
 On peut additionner des chiffres (_int_ pour _integer_, "entier")
 
-```{r}
+```r
 1+2
 ```
 
 Il est en revanche impossible d'additionner un chiffre avec une lettre (_str_, pour _string_, "chaîne (de caractères"): _Error in 1 + "b" : non-numeric argument to binary operator_
 
-```{r}
+```r
 #1+"b"
 ```
 
 On remarque que les _str_ sont notés entre guillemets. On peut ainsi spécifier qu'un chiffre est utilisé comme caractère et non comme un chiffre en utilisant les guillemets: il est alors impossible de s'en servir pour un calcul
 
-```{r}
+```r
 #"1"+2
 ```
 
@@ -326,7 +326,7 @@ Prenons la fréquence de deux mots uniquement: "Rome" et "qui"
 
 On crée deux vecteurs qui contiennent ces informations:
 
-```{r}
+```r
 x <- c(4,2)
 y <- c(2,1)
 x
@@ -437,7 +437,7 @@ Il est donc possible de calculer la distance entre ces trois textes pour voir le
 
 En faisant un rapide calcul, on peut donc confirmer notre validation par nos calculs de distance:
 
-```{r}
+```r
 # sqrt((x1-x2)**2+(y1-y2)**2)
 CoRa <- sqrt((4-2)**2+(2-1)**2)
 cat("Distance Corneille/Racine = ", CoRa, "\n")
@@ -504,13 +504,13 @@ Ces couleurs RGB sont souvent converties en triplet hexadécimal, soit un nombre
 
 Si nous prenons une couleur en RGB, il est utile en R de la transformer en triplet hexadécimal. Pour cela nous créons une fonction
 
-```{r}
+```r
 rgb2hex <- function(r,g,b)
                     rgb(r, g, b, maxColorValue = 255)
 ```
 
 Et nous transformons la couleur rouge en triplet, que l'on stocke dans une variable appelée "rouge"
-```{r}
+```r
 red<- rgb2hex(255,0,0) #ff0000
 ```
 
@@ -532,7 +532,7 @@ dev.off()
 
 Notre image précédente étant une simple case vide, nous pouvons multiplier les cases à colorier. Pour cela, il faut créer une matrice (un tableau) à remplir: on assigne une couleur à chaque cellule, et nous obtiendrons une image
 
-```{r}
+```r
 x=1:3
 matrix(x, nrow=1, ncol=length(x))
 ```

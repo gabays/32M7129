@@ -35,7 +35,7 @@ Pour indiquer où se trouve le fichier de travail, deux solutions sont possibles
 * ou bien *via* le menu avec `Session>Set Working Directory>Choose Directory`
 * ou bien directement dans `R` avec la commande `setwd` (pour *Set working directory*), qui s'utilise de cette manière.
 
-```{r}
+```r
 setwd("~/GitHub/UNIGE/32M7129/Cours_02")
 ```
 
@@ -43,7 +43,7 @@ setwd("~/GitHub/UNIGE/32M7129/Cours_02")
 
 On peut vérifier que le chemin vers le dossier de travail a bien été pris en compte avec une autre commande: `getwd` (pour *Get working directory*):
 
-```{r}
+```r
 getwd()
 ```
 
@@ -70,7 +70,7 @@ Si on met un chiffre entre guillemets, il devient une chaîne de caractère, et 
 
 Je vais pouvoir manipuler des variables, auxquelles j'assigne une valeur avec `<-`. Je peux ensuite lui demander d'afficher le contenu de la variable en l'appelant (par son nom):
 
-```{r}
+```r
 a<-10
 a
 a+1
@@ -78,7 +78,7 @@ a+1
 
 Il est possible de vérifier le type d'une variable (parce qu'on ne sait pas toujours ce qu'il y a dedaans après quelques centaines de lignes de code…) avec la fonction `class()`
 
-```{r}
+```r
 a<-1
 b<-"12"
 class(a)
@@ -87,7 +87,7 @@ class(b)
 
 L'utilisation d'une variable est une manière simple de centraliser l'information à endroit, ce qui est le principe de base du développement informatique:
 
-```{r}
+```r
 a<-1
 b<-2
 c<-3
@@ -105,7 +105,7 @@ a^b+c # R respecte la priorité des opérations
 * `*` multiplication
 * `ˆ` puissance
 
-```{r}
+```r
 a+b
 a-b
 a/b
@@ -118,7 +118,7 @@ a*b
 * `==` égal à
 * `!=` est différent de
 
-```{r}
+```r
 1 == 1
 1 == 2
 1 != 1
@@ -131,7 +131,7 @@ a != b
 * `<=` inférieur ou égal à
 * `>=` supérieur ou égal à
 
-```{r}
+```r
 1 > 2
 1 < 2
 1 <= 2
@@ -144,7 +144,7 @@ a != b
 * `&` et logique
 * `|` ou logique
 
-```{r}
+```r
 a <- (1 < 2)
 a
 !a
@@ -161,7 +161,7 @@ a | b
 
 On peut vérifier la longueur d'une variable:
 
-```{r}
+```r
 a<-1
 b<-12
 c<-12000
@@ -174,7 +174,7 @@ length(d)
 
 Remarquons que nous obtenons toujours "1", peu importe la longueur de la donnée stockée. C'est parce qu'il ne s'agit que d'un seul élément. Il est en effet possible qu'il y en ait plusieurs: il s'agit d'un vecteur:
 
-```{r}
+```r
 a<-c(1, 2, 3, 4, 5)
 a
 b<-c("a","b","c","d","e" )
@@ -185,7 +185,7 @@ length(b)
 
 Il existe une notation alternative, pour écrire le même vecteur plus rapidement, seulement avec les chiffres
 
-```{r}
+```r
 a <- 1:5
 a
 length(a)
@@ -193,7 +193,7 @@ length(a)
 
 On peut afficher certains éléments du vecteur seulement
 
-```{r}
+```r
 a
 a[2]
 b[c(2,4)]
@@ -202,7 +202,7 @@ b[c(-2)]
 
 On peut remplacer le contenu du vecteur:
 
-```{r}
+```r
 b[2] = "zzzz"
 b
 a[c(2,3)] = 200
@@ -213,14 +213,14 @@ a
 
 On peu manipuler mathématiquement le contenu du vecteur
 
-```{r}
+```r
 c(1,2,3) + c(3,5,6)
 4 * c(1,2,3)
 ```
 
 Il faut évidemment faire attention à la taille des vecteurs:
 
-```{r}
+```r
 c(1,2) + c(3,4,5)
 c(1,2) + c(3,4,5,6)
 ```
@@ -229,14 +229,14 @@ c(1,2) + c(3,4,5,6)
 
 Une liste est un vecteur permettant de stocker des objets hétérogènes.
 
-```{r}
+```r
 uneListe<-list("toto",10,TRUE,c(14,15,7),c("truc","chose"))
 uneListe
 ```
 
 On peut récupérer une élément dans une liste
 
-```{r}
+```r
 uneListe[[3]]
 uneListe[[4]][[2]]
 
@@ -244,7 +244,7 @@ uneListe[[4]][[2]]
 
 #### 2.3.3 Data frames
 
-```{r}
+```r
 df <- data.frame(taille=c(173,175,168,172,173,170,175,172,180),
                  poids=c( 69, 81, 55, 64, 66, 70, 75, 71, 77),
                  sexe=c( "M","M","F","F","F","M","M","F","F"),
@@ -255,19 +255,19 @@ df
 
 On peut récupérer les informations dans le data frame
 
-```{r}
+```r
 df["Patrick","poids"]
 ```
 
 Il est possible de "découper" des morceaux du tableau
 
-```{r}
+```r
 df[1:3,c("poids","sexe")]
 ```
 
 On peut accéder à des colonnes en ajoutant `$` suivi du nom de la colonne
 
-```{r}
+```r
 df$taille
 ```
 
@@ -278,14 +278,14 @@ df$taille
 On peut obtenir des informations statistiques simples sur notre échantillon comme (nous reprenons (presque) les définitions de l'INSEE):
 * La médiane: la valeur qui partage les données en deux parties égales. [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1376)
 
-```{r}
+```r
 md<-median(df$poids)
 md
 ```
 
 * La moyenne: la somme des données divisée par leur nombre [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1970)
 
-```{r}
+```r
 #moyenne
 mn<-mean(df$poids)
 mn
@@ -299,14 +299,14 @@ Dans cette image, la moyenne à une abscisse de 0, l'e premier est écart-type e
 
 ![center 100%](images/Comparison_standard_deviations.png)
 
-```{r}
+```r
 std<-sd(df$poids)
 std
 ```
 
 Il existe une fonction simple `summary()` qui nous donne quelques informations:
 
-```{r}
+```r
 summary(df$poids)
 ```
 
@@ -314,7 +314,7 @@ summary(df$poids)
 
 Ces informations nous permettent de décrire notre échantillon
 
-```{r}
+```r
 # avec un histogramme
 hist(df$poids,main="Poids",col="red",xlab="Poids",ylab="Fréquence")
 ```
@@ -323,7 +323,7 @@ On peut vérifier si la distribution est normale avec `qqnorm`. Pour qu'elle le 
 
 ![center 100%](images/2000px-Normal_Distribution_CDF.png)
 
-```{r}
+```r
 qqnorm(df$poids,main="Poids (distribution)")
 ```
 
@@ -333,7 +333,7 @@ Si la répartition de nos données suivent une loi normale, nous devons obtenir 
 
 Comme la distribution est normale, on peut superposer à notre un histogramme la courbe de densité qui lui est associée, mais aussi la moyenne et les _σ_
 
-```{r}
+```r
 #on affiche la densité plutôt que la fréquence en ordonnée avec le paramètre `freq=F`
 hist(df$poids,main="Poids",freq=F,col="red",xlab="Poids",ylab="Densité")
 # On ajoute la fonction gaussienne
@@ -346,7 +346,7 @@ abline(v = mn+std, col = "grey", lwd = 2,lty=2)
 ```
 
 On peut aussi proposer d'autres visualisation, sous forme de "boîte à moustache" par exemple
-```{r}
+```r
 boxplot(df$poids,main="Poids")
 #une boîte à moustache de la taille et du poids (assez inutile d'un point de vue graphique…)
 boxplot(df[-3],main="Poids")
@@ -360,7 +360,7 @@ Nous avons déjà vu une notion fondamentale d'informatique: **la variable**. No
 
 ![100% center](images/r-for-loop.jpg)
 
-```{r}
+```r
 for (i in 1:5){
   print(i)
 }
@@ -373,7 +373,7 @@ Il est possible d'ajouter des tests avec la fonction `if()`: si le test est vali
 
 ![100% center](images/r-if-statement.jpg)
 
-```{r}
+```r
 for (i in df$sexe){
   if(i=="M"){
     print("c'est un garçon")
@@ -387,7 +387,7 @@ Il est possible de prévoir des cas où le test n'est pas validé avec la foncti
 
 ![100% center](images/r-if-else-statement.jpg)
 
-```{r}
+```r
 for (i in df$sexe){
   if(i=="M"){
     print("c'est un garçon")
@@ -400,7 +400,7 @@ for (i in df$sexe){
 
 Tout cela commence à faire beaucoup de code… Pourquoi ne pas se simplifier la tâche en enregistrant des fonctions dans un coin de notre ordinateur, et y faire appel ponctuellement? Cela permet d'alléger le script, et de centraliser des tâches que je vais beaucoup effectuer pour me simplifier la vie. Je vais donc créer une fonction à laquelle je vais donner un nom assez descriptif, et la remplir de ce que je veux.
 
-```{r}
+```r
 afficher_le_sexe<-function(nom_de_variable){
                               for (i in nom_de_variable){
                                 print(i)
@@ -410,7 +410,7 @@ afficher_le_sexe<-function(nom_de_variable){
 
 Je peux désormais exécuter cette fonction simplement:
 
-```{r}
+```r
 afficher_le_sexe(df$sexe)
 ```
 
@@ -420,7 +420,7 @@ Si je commence à faire beaucoup de fonctions complexes et utile à d'autres per
 
 Ca fait beaucoup ? Je vous comprends… Heureusement `R` vous aide 7j/7, 24h/24 avec la fonction `help()`
 
-```{r}
+```r
 help(hist)
 ```
 
@@ -432,32 +432,32 @@ Nous avons vu jusqu'à présent une série de fonctions: `summary()`, `mean()`�
 
 (pensez à retirer le `#` qui est un commentaire, et désactive la ligne)
 
-```{r}
+```r
 #install.packages("rtweet")
 library(rtweet)
 ```
 
 Nous pouvons désormais moissonner tweeter:
 
-```{r}
+```r
 tweets_UniGE <- search_tweets("Sciences_UNIGE", n = 1000)
 ```
 
-```{r}
+```r
 #View(tweets)
 tweets_UniGE
 ```
 
 ### 5.2 L'exemple R tweet
 
-```{r}
+```r
 head(tweets_UniGE$text)
 plot(tweets_UniGE$created_at)
 ```
 
 On peut faire mieux avec d'autres plackages, comme `ggplot2`
 
-```{r}
+```r
 #install.packages("ggplot2")
 library(ggplot2)
 nouv_graph<-ggplot(tweets_UniGE, aes(x = created_at)) + geom_histogram()
@@ -466,13 +466,13 @@ nouv_graph
 
 Les dates sont des choses très standardisées: "YYYY-MM-DD Hh:Mm:Ss"
 
-```{r}
+```r
 head(tweets_UniGE$created_at)
 ```
 
 Il est donc facile de les manipuler, et il existe des fonctions déjà existantes que l'on peut réutiliser. Utilisées comme argument, elles permettent d'améliorer le rendu.
 
-```{r}
+```r
 #binwidth permet de paramétrer la largeur des barres
 meilleur_graph<-ggplot(tweets_UniGE, aes(x = created_at)) + geom_histogram(binwidth = 5000) +
   # nous utilisons la fonction `scale_x_datetime` pour manipuler les données horaires

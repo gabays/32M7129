@@ -13,13 +13,13 @@ output:
 
 Je prépare ma session de travail
 
-```{r}
+```r
 setwd("~/GitHub/UNIGE/32M7129/Cours_06")
 ```
 
 Je charge les packages utiles
 
-```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
+```r
 if(!require("stylo")){
   install.packages("stylo")
   library(stylo)
@@ -46,7 +46,7 @@ if(!require("smacof")){
 
 Une classification ascendante hiérarchique.
 
-```{r}
+```r
 # Je crée un tableau avec des données au hasard
 tableau <- cbind(x=c(1,2,5,8,11),y=c(2,4,1,12,10))
 colnames(tableau)<- c("Avoir", "Être")
@@ -56,7 +56,7 @@ tableau
 
 Calcul de distance, par défaut euclidienne. On peut utiliser le paramètre method="manhattan" pour une autre distance
 
-```{r}
+```r
 distance_tableau <- dist(tableau)
 distance_tableau
 ```
@@ -72,7 +72,7 @@ plot(hc, main="Ma première classification",  xlab="Euclidian distance, \n Compl
 
 On peut faire soi-même un delta de Burrows. Pour cela je z-score mes données
 
-```{r}
+```r
 #Je transforme mon tableau en data.frame
 tableau_df<-as.data.frame(tableau)
 #Je z-score mes deux colonnes avec la fonction scale()
@@ -85,7 +85,7 @@ tableau_z
 
 Et je produis un nouveau graph
 
-```{r}
+```r
 hc <- hclust(distance_tableau, method="ward.D")
 plot(hc, main="Ma seconde classification",  xlab="Burrows Delta, \n Ward's method" , sub="" , hang =-1)
 ```
@@ -94,7 +94,7 @@ plot(hc, main="Ma seconde classification",  xlab="Burrows Delta, \n Ward's metho
 
 Je charge mon corpus
 
-```{r}
+```r
 BOYER_AMOURSJUPITERSEMELE_1666<-paste(scan("corpus/BOYER_AMOURSJUPITERSEMELE_1666.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
 BOYER_ARISTODEME_1648<-paste(scan("corpus/BOYER_ARISTODEME_1648.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
 CORNEILLEP_ANDROMEDE_1651<-paste(scan("corpus/CORNEILLEP_ANDROMEDE_1651.txt", what="character", sep="", fileEncoding="UTF-8"),collapse=" ")
@@ -117,7 +117,7 @@ SCUDERY_ORANTE_1636<-paste(scan("corpus/SCUDERY_ORANTE_1636.txt", what="characte
 
 J'en fais un tableau
 
-```{r}
+```r
 #Je crée une liste de mes textes
 my.corpus.raw = list(BOYER_AMOURSJUPITERSEMELE_1666,
                      BOYER_ARISTODEME_1648,
@@ -152,7 +152,7 @@ View(table.of.frequencies)
 
 Ce résultat ne m'arrange pas: je vais avoir besoin d'avoir les occurrences en rang, et les textes en colonne, et donc d'inverser mon tableau
 
-```{r}
+```r
 #j'utilise la fonction transpose(?)
 table.of.frequencies<-t(table.of.frequencies)
 View(table.of.frequencies)
@@ -160,7 +160,7 @@ View(table.of.frequencies)
 
 J'observe la distribution de mon corpus.
 
-```{r}
+```r
 summary(table.of.frequencies)
 ```
 
@@ -170,7 +170,7 @@ Je peux synthétiser ce résultat avec une boîte à moustache des fréquences (
 
 Source: [stat4decision](https://www.stat4decision.com/fr/le-box-plot-ou-la-fameuse-boite-a-moustache/)
 
-```{r}
+```r
 maBoite <- boxplot(colSums(table.of.frequencies), main = "Distribution du nombre de mots par de texte", ylab="Nombre de mots (fréq. absolues)", sub="Corpus: distribution")
 ```
 
@@ -188,7 +188,7 @@ boxplot(list(BOYER,MOLIERE,DURYER,SCARRON), names=c('BOYER','MOLIERE','DURYER','
 
 Je transforme cette table des fréquences absolues en une table des fréquences relatives
 
-```{r}
+```r
 #Je fais une copie de ma table de fréquences
 freqs_rel = table.of.frequencies
 #Dans cette copie, pour chacun des mots de chaque colonne, je divise le chiffre trouvé par la somme de la colonne
@@ -200,7 +200,7 @@ head(freqs_rel)
 
 Je peux (et même je dois) sélectionner dans cette liste les n plus fréquents
 
-```{r}
+```r
 #Je prends les premiers rangs. Changez ce chiffre pour changer les résultats par la suite
 freqs_rel_mfw = freqs_rel[1:100,]
 ```
@@ -211,7 +211,7 @@ freqs_rel_mfw = freqs_rel[1:100,]
 
 Regardons à quoi ressemble notre CAH
 
-```{r}
+```r
 CAH = agnes(as.dist(dist.wurzburg(t(freqs_rel_mfw))), method="ward")
 CAH_orig_aggloCoeff <- CAH$ac
 plot(CAH)
@@ -219,7 +219,7 @@ plot(CAH)
 
 Nettoyons tout cela…
 
-```{r}
+```r
 plot(CAH,
      main="Cluster analysis",
      xlab=paste("Cosine Delta\n Agglomerative coefficient =", CAH_orig_aggloCoeff),
@@ -229,7 +229,7 @@ plot(CAH,
 
 Faisons un peu mieux
 
-```{r}
+```r
 #on va colorier les vecteurs en fonction de l'auteur (en pratique, la chaîne de caractère avant l'_underscore_)
 labels_color = vector(length = length(CAH$order.lab))
 labels_color[grep("boyer", CAH$order.lab)] = "darkblue"
@@ -254,7 +254,7 @@ C'est bien mieux, mais pas encore parfait: le code est est trop long, pas très 
 
 Je vais donc charger cette fonction avant de l'utiliser.
 
-```{r}
+```r
 source("functions.R")
 ```
 
@@ -264,13 +264,13 @@ Quatre paramètres ont été prévus
 * Le coeffichient d'agglomération (récupéré au passage, un peu plus haut)
 * une variable pour le paramètre `labels_track_height`
 
-```{r}
+```r
 customPlot(CAH,"Original texts, 100 MFW, Culled @ 0%, Distance: wurzburg",CAH_orig_aggloCoeff,0.7)
 ```
 
 Je peux donc reproduire ma CAH simplement avec d'autres configurations. Tentons désormais avec plus de _MFW_
 
-```{r}
+```r
 #on passe de 100 à 1000
 freqs_rel_mfw = freqs_rel[1:1000,]
 #je recalcule ma CAH
@@ -286,7 +286,7 @@ Tentons avec une autre distance: _Ruzicka measure_ ou _Minmax_ (cf.Koppel, M. an
 
 (_tf_ pour _term frequency_)
 
-```{r}
+```r
 #je recalcule ma CAH
 CAH = agnes(as.dist(dist.minmax(t(freqs_rel_mfw))), method="ward")
 CAH_orig_aggloCoeff <- CAH$ac
@@ -296,7 +296,7 @@ customPlot(CAH,"Original texts, 1000 MFW, Culled @ 0%, Distance: Minmax",CAH_ori
 
 Et encore une autre, en diminuant de nouveau les _MFW_
 
-```{r}
+```r
 #on repasse de 1000 à 100
 freqs_rel_mfw = freqs_rel[1:100,]
 #je recalcule ma CAH
@@ -309,7 +309,7 @@ customPlot(CAH,"Original texts, 100 MFW, Culled @ 0%, Distance: wurzburg",CAH_or
 
 Tout cela est très bien. Mais qu'est-ce qui est caché derrière ces clusters? Nous pouvons le savoir. Prenons notre dernière CAH, et regardons le processus de construction des clusters:
 
-```{r}
+```r
 CAH_2 = as.hclust(CAH)
 plot(CAH_2$height, type="h", ylab="height")
 ```
@@ -344,7 +344,7 @@ Processed_classes[101]
 
 Je peux aussi regarder les valeurs associées à chacun des mots, et ceux associés à chaque cluster:
 
-```{r}
+```r
 myClasses = catdes(Processed_classes, num.var = 101)
 myClasses
 ```
@@ -353,13 +353,13 @@ myClasses
 
 Je commence par faire une ACP.
 
-```{r}
+```r
 ACP = PCA(t(freqs_rel_mfw))
 ```
 
 Faisons un peu de ménage, ajoutons de l'information, et tentons de comprendre
 
-```{r}
+```r
 #categories
 get_categories = vector(length = length(colnames(freqs_rel_mfw)))
 get_categories[grep("racine", colnames(freqs_rel_mfw))] = "Racine"
@@ -375,7 +375,7 @@ On voit nettement deux axes, qu doivent bien s'appuyer sur quelque chose. Serait
 
 Continuons notre nettoyage pour y voir plus clair
 
-```{r}
+```r
 #categories
 get_categories = vector(length = length(colnames(freqs_rel_mfw)))
 get_categories[grep("racine", colnames(freqs_rel_mfw))] = "Racine"
@@ -391,13 +391,13 @@ scale_color_gradient2(
 
 Nous nous rappelons qu'il existe un pourcentage de réalité retenu par axe, que nous pouvons observer, et donc calculer. Dans ce cas précis, il y en a seulement trois axes, car nous n'avons mis que quatre de textes.
 
-```{r}
+```r
 ACP$eig
 ```
 
 Un petit graph montre bien la lente perte de significativité des axes
 :
-```{r}
+```r
 barplot(ACP$eig[,1], main="Percentage of variance", names.arg=1:nrow(ACP$eig))
 ```
 
@@ -406,7 +406,7 @@ barplot(ACP$eig[,1], main="Percentage of variance", names.arg=1:nrow(ACP$eig))
 ## 4.1 t-SNE
 Avec l’algorithme de Barnes-Hut,
 
-```{r}
+```r
 library(Rtsne)
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 0.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
@@ -415,7 +415,7 @@ text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 
 Attention! Si on relance la même commande, on obtient un résultat différent!
 
-```{r}
+```r
 library(Rtsne)
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 0.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
@@ -435,7 +435,7 @@ text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 
 On peut faire varier la perpléxité (c'est à dire s'autoriser une distorsion plus grande): on passe à 1.5
 
-```{r}
+```r
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 1.5, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
 text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
@@ -455,7 +455,7 @@ text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
 
 On peut faire varier la perpléxité: on passe à 2
 
-```{r}
+```r
 maRtsne = Rtsne(t(freqs_rel_mfw), dims = 2, initial_dims = 36, perplexity = 2, theta = 0.0, check_duplicates = TRUE, pca = TRUE)
 plot(maRtsne$Y)
 text(maRtsne$Y[,1], maRtsne$Y[,2], labels = row.names(t(freqs_rel_mfw)), cex=.6)
@@ -484,7 +484,7 @@ Le _Multidimensional scaling_ est une compression des données en deux dimension
 
 Le _MDS_ classique se base sur le calcul de distance, dont il va essayer de préserver l'essentiel.
 
-```{r}
+```r
 #Je crée mes données
 fit = cmdscale(dist(t(freqs_rel_mfw), method = "manhattan"), eig=TRUE, k=2) # k est le nombre de dimensions souhaité
 #Je dessine mon résultat
@@ -501,22 +501,22 @@ Le MDS métrique, dit aussi ordinal, ne s'intéresse pas à la mesure de distanc
 
 Rappelons que le stress permet de mesurer la distortion introduite dans le résultat.
 
-```{r}
+```r
 #J'affiche le stress avec le paramètre verbose=T(RUE)
 MDSmetrique = mds(dist(t(freqs_rel_mfw), method = "manhattan"), ndim=2, type="ordinal",verbose=T)
 ```
 
-```{r}
+```r
 plot(MDSmetrique, sub=paste("Stress, ", round(MDSmetrique$stress, digits=2)))
 ```
 
 ### 4.2.3 Non métrique
 
-```{r}
+```r
 #J'affiche le stress avec le paramètre verbose=T(RUE)
 MDSnonMetrique = mds(dist(t(freqs_rel_mfw), method = "euclid"), ndim=2, type="interval",verbose=T)
 ```
 
-```{r}
+```r
 plot(MDSnonMetrique, sub=paste("Stress, ", round(MDSmetrique$stress, digits=2)))
 ```

@@ -1,28 +1,29 @@
 ---
-title: "Cours_Geneve_8"
+title: "Cours_8"
 author: "Simon Gabay"
-date: "`r Sys.Date()`"
+date: "14/10/2021"
 output:
-  html_notebook:
+  html_document:
+    highlight: pygments
     toc: true
-    toc_float: true
-    number_sections: true
-
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, results = FALSE, fig.show='hold')
 ```
 
-# Préparatifs
+# 0. Préparatifs
 
 ```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_8")
+setwd("~/GitHub/UNIGE/32M7129/Cours_08")
 #je charge les données que l'enseignant a préparé pour éviter les problèmes
 #load("Cours_Geneve_8.RData")
 ```
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 if(!require("devtools")){
   install.packages("devtools")
   library(devtools)
@@ -131,7 +132,7 @@ V(data)$label
 V(data)$type
 ```
 
-# Mon premier graphe
+# 1. Mon premier graphe
 
 Je peux désormais fabriquer mon réseau avec la fonction `plot`:
 
@@ -281,7 +282,7 @@ legend(x=-2, y=-0.5, c("Auteur","Libraire", "Imprimeur"), pch=21,
        col="#777777", pt.bg=c("green", "orange", "red"), pt.cex=1, cex=.8, bty="n", ncol=1)
 ```
 
-# Tracé de graphe
+# 2. Tracé de graphe
 
 Il existe différentes visualisation, algorithmes, etc. La logique est toujours la même: je pré-traite mon objet `igraph` avec une fonction spécifique au tracé choisi, et j'utilise le résultat de ce prétraitement comme valeur du paramètre `layout`. Ici, le _circular layout_:
 
@@ -321,11 +322,11 @@ to_star<-layout_as_star(data)
 plot(data, layout=to_star, vertex.size=0.1)
 ```
 
-## Les algorithmes _forced base_
+## 2.1 Les algorithmes _forced base_
 
 Les tracés les plus importants sont les _forced base_, qui nécessitent des algorithmes particuliers. Regrdons-les en détail.
 
-### _Fruchterman Reingold_
+### 2.1.1 _Fruchterman Reingold_
 
 Fruchterman, Thomas M. J.; Reingold, Edward M. (1991), "Graph Drawing by Force-Directed Placement", _Software – Practice & Experience_, Wiley, 21 (11): 1129–1164, [doi:10.1002/spe.4380211102](https://doi.org/10.1002/spe.4380211102).
 
@@ -387,7 +388,7 @@ plot.igraph(data_simplified,
 title("700 itérations", outer = TRUE)
 ```
 
-### _DrL_
+### 2.1.2 _DrL_
 
 Le nom a changé plusieurs fois: d'abord rebaptisé _vxOrd_, on parle d'_OpenOrd_.
 
@@ -414,7 +415,7 @@ plot(USairports, layout=layout_with_fr(USairports), weight=T, main="FR")
 plot(USairports, layout=layout_drl, main="DrL")
 ```
 
-## le `Geolayout`
+## 2.2 le `Geolayout`
 
 J'ai préparé un tout petit jeu de données avec des coordonnées géographiques
 
@@ -438,7 +439,7 @@ plot(data_geo)
 
 Je projette ce réseau sur une carte, en plaçant les nœuds en fonction de leurs coordonnées géographiques
 
-```{r}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 #Je définis les lat et long de mon cadre
 western_europe<-c(left = -12, bottom = 40, right = 20, top = 55)
 #Je récupère mon fond de carte selon les dimensions prévues supra
@@ -453,9 +454,9 @@ p = p + geom_nodeset(aes(x=long, y=lat), data_geo, size=3, colour="red")
 p
 ```
 
-# La force des liens
+# 3. La force des liens
 
-## Les mesures
+## 3.1 Les mesures
 
 Densité (_density_): la proportion de liens dans un réseau relativement au total des liens possibles.
 
@@ -511,7 +512,7 @@ V(data_simplified)$size <- (closeness.eig$vector*30)
 plot(data_simplified, layout=layout_fr, main="FR")
 ```
 
-## Un exemple d'analyse de la centralité
+## 3.2 Un exemple d'analyse de la centralité
 
 Tentons une approche plus pratique avec un réseau célèbre: celui de la Florence de la Renaissance (disponible dans le package `netrankr`).
 
@@ -556,7 +557,7 @@ View(cent.data_frame)
 V(florence)$name[apply(cent.data_frame,2,which.max)]
 ```
 
-# Visualiser
+# 4. Visualiser
 
 Il est possible de proposer une foule de visualisation. Par exemple, il est possible de remplacer les labels par la distance qui sépare un nœud d'un autre – ici, Thomas Jolly.
 
@@ -736,7 +737,7 @@ data_3d_vis_plot <- visNetwork(nodes = data_3d_vis$nodes,
 data_3d_vis_plot
 ```
 
-# Sauvegardes
+# 5. Sauvegardes
 
 On sauvegarde le résultat
 ```{r, include=TRUE}

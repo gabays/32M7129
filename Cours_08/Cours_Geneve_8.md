@@ -1,28 +1,26 @@
 ---
-title: "Cours_Geneve_8"
+title: "Cours_8"
 author: "Simon Gabay"
-date: "`r Sys.Date()`"
+date: "14/10/2021"
 output:
-  html_notebook:
+  html_document:
+    highlight: pygments
     toc: true
-    toc_float: true
-    number_sections: true
-
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, results = FALSE, fig.show='hold')
-```
 
-# Préparatifs
+# 0. Préparatifs
 
-```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_8")
+```r
+setwd("~/GitHub/UNIGE/32M7129/Cours_08")
 #je charge les données que l'enseignant a préparé pour éviter les problèmes
 #load("Cours_Geneve_8.RData")
 ```
 
-```{r}
+```r
 if(!require("devtools")){
   install.packages("devtools")
   library(devtools)
@@ -87,7 +85,7 @@ if(!require("ggmap")){
 
 Je charge mes deux fichiers: celui avec les nœuds (`nodes.csv`) et celui avec les arêtes (`edges.csv`).
 
-```{r}
+```r
 nodes <- as.data.frame(read.csv(file="data/basic/nodes.csv", sep = "\t", header = FALSE))
 edges <- as.data.frame(read.csv(file="data/basic/edges.csv", sep = "\t", header = FALSE))
 #Je donne un nom aux colonnes de chaque data.frame
@@ -131,17 +129,17 @@ V(data)$label
 V(data)$type
 ```
 
-# Mon premier graphe
+# 1. Mon premier graphe
 
 Je peux désormais fabriquer mon réseau avec la fonction `plot`:
 
-```{r}
+```r
 plot(data) 
 ```
 
 Il existe une fonction alternative `plot.igraph`, qui fait la même chose
 
-```{r}
+```r
 plot.igraph(data) 
 ```
 
@@ -153,7 +151,7 @@ Il existe enfin une fonction `tkplot` qui est un prototype d'interface utilisate
 
 Je dispose d'un grand nombre de paramètres pour modifier l'apparence de mon graph et le rendre (si on en a le talent) esthétique:
 
-```{r}
+```r
 plot(data,
      #courbure de l'arête
      edge.curved=0.1,
@@ -190,7 +188,7 @@ to_colors
 
 Je peux désormais appliquer cette couleur à chaque nœud
 
-```{r}
+```r
 #J'ai une colonne couleur qui est vide, que je vais remplir avec l'objet `to_colors` que je viens de créer
 V(data)$color
 #Je remplace la couleur du graphe avec celle que je viens de définir
@@ -203,7 +201,7 @@ Je peux faire la même opération avec la forme des nœuds, et améliorer encore
 
 **ATTENTION**: le rendu dans RStudio n'est pas forcément optimum: pensez l'ouvrir dans une nouvelle fenêtre pour voir le résultat.
 
-```{r}
+```r
 #On change la forme du nœud en fonction du label
 to_shape<-V(data)$type
 to_shape<-replace(to_shape,to_shape=="Auteur","square")
@@ -259,7 +257,7 @@ data_simplified <- simplify(data_simplified)
 
 J'affiche mon nouveau graph: la largeur de l'arête dépend désormais du poids
 
-```{r}
+```r
 E(data_simplified)$width <-E(data_simplified)$weight/2
 plot(data_simplified,
      #pas de courbure de l'arête
@@ -281,13 +279,11 @@ legend(x=-2, y=-0.5, c("Auteur","Libraire", "Imprimeur"), pch=21,
        col="#777777", pt.bg=c("green", "orange", "red"), pt.cex=1, cex=.8, bty="n", ncol=1)
 ```
 
-# Tracé de graphe
-
-Repartons de zero
+# 2. Tracé de graphe
 
 Il existe différentes visualisation, algorithmes, etc. La logique est toujours la même: je pré-traite mon objet `igraph` avec une fonction spécifique au tracé choisi, et j'utilise le résultat de ce prétraitement comme valeur du paramètre `layout`. Ici, le _circular layout_:
 
-```{r}
+```r
 to_circle<-layout_in_circle(data)
 plot(data, layout=to_circle, vertex.size=1)
 ```
@@ -311,23 +307,23 @@ S'il y en a un qui m'intéresse, je peux l'appliquer de la même manière que po
 
 Evidemment, je ne dois choisir un graphe adapté…
 
-```{r}
+```r
 data("Koenigsberg")
 plot(Koenigsberg)
 ```
 
 Il semble que la forme en étoile soit bien adaptée, étant donné la centralité de Molière:
 
-```{r}
+```r
 to_star<-layout_as_star(data)
 plot(data, layout=to_star, vertex.size=0.1)
 ```
 
-## Les algorithmes _forced base_
+## 2.1 Les algorithmes _forced base_
 
 Les tracés les plus importants sont les _forced base_, qui nécessitent des algorithmes particuliers. Regrdons-les en détail.
 
-### _Fruchterman Reingold_
+### 2.1.1 _Fruchterman Reingold_
 
 Fruchterman, Thomas M. J.; Reingold, Edward M. (1991), "Graph Drawing by Force-Directed Placement", _Software – Practice & Experience_, Wiley, 21 (11): 1129–1164, [doi:10.1002/spe.4380211102](https://doi.org/10.1002/spe.4380211102).
 
@@ -335,7 +331,7 @@ Plus d'informations [ici](https://github.com/gephi/gephi/wiki/Fruchterman-Reingo
 
 Le algorithme est assez comppliqué, et le temprs de calcul conséquent. On l'utilise peu avec des grandes bases de données (plus de 10 000 nœuds).
 
-```{r}
+```r
 layout_fr<-layout_with_fr(data_simplified)
 E(data_simplified)$width <-E(data_simplified)$weight
 plot(data_simplified, layout=layout_fr,
@@ -389,7 +385,7 @@ plot.igraph(data_simplified,
 title("700 itérations", outer = TRUE)
 ```
 
-### _DrL_
+### 2.1.2 _DrL_
 
 Le nom a changé plusieurs fois: d'abord rebaptisé _vxOrd_, on parle d'_OpenOrd_.
 
@@ -400,7 +396,7 @@ Plus d'informations [ici](https://github.com/gephi/gephi/wiki/OpenOrd)
 
 Il va tenter de faire ressortir au maximum des grands clusters très nets en coupant les liens les plus longs. Evidemment cet algorithme nécessite des graphes de grande taille, nous chargeons donc un gros jeu de données tiré du package `igraphdata`.
 
-```{r}
+```r
 data("USairports")
 #On trace le graphe
 layout_drl <- layout.drl(USairports)
@@ -416,7 +412,7 @@ plot(USairports, layout=layout_with_fr(USairports), weight=T, main="FR")
 plot(USairports, layout=layout_drl, main="DrL")
 ```
 
-## le `Geolayout`
+## 2.2 le `Geolayout`
 
 J'ai préparé un tout petit jeu de données avec des coordonnées géographiques
 
@@ -432,7 +428,7 @@ edges_geo
 
 Je transforme ces deux objets en données `igraph`, qui vont me permettre de faire mes analyses de réseau par la suite.
 
-```{r}
+```r
 data_geo <- graph_from_data_frame(d=edges_geo, vertices=nodes_geo, directed=F) 
 class(data_geo)
 plot(data_geo)
@@ -440,7 +436,7 @@ plot(data_geo)
 
 Je projette ce réseau sur une carte, en plaçant les nœuds en fonction de leurs coordonnées géographiques
 
-```{r}
+```r
 #Je définis les lat et long de mon cadre
 western_europe<-c(left = -12, bottom = 40, right = 20, top = 55)
 #Je récupère mon fond de carte selon les dimensions prévues supra
@@ -455,9 +451,9 @@ p = p + geom_nodeset(aes(x=long, y=lat), data_geo, size=3, colour="red")
 p
 ```
 
-# La force des liens
+# 3. La force des liens
 
-## Les mesures
+## 3.1 Les mesures
 
 Densité (_density_): la proportion de liens dans un réseau relativement au total des liens possibles.
 
@@ -513,7 +509,7 @@ V(data_simplified)$size <- (closeness.eig$vector*30)
 plot(data_simplified, layout=layout_fr, main="FR")
 ```
 
-## Un exemple d'analyse de la centralité
+## 3.2 Un exemple d'analyse de la centralité
 
 Tentons une approche plus pratique avec un réseau célèbre: celui de la Florence de la Renaissance (disponible dans le package `netrankr`).
 
@@ -527,14 +523,14 @@ florence <- delete_vertices(florentine_m,which(degree(florentine_m)==0))
 
 J'obtiens un joli graphe:
 
-```{r}
+```r
 plot.igraph(florence, layout = layout_with_fr(florence, niter = 500),
                       main = "Florence au XVème s.")
 ```
 
 Je peux proportionner la taille des nœuds en fonction de la fortune de chaque famille:
 
-```{r}
+```r
 plot(florence,
      layout = layout_with_fr(florence, niter = 500),
      vertex.label.cex=V(florence)$wealth*0.012,
@@ -558,11 +554,11 @@ View(cent.data_frame)
 V(florence)$name[apply(cent.data_frame,2,which.max)]
 ```
 
-# Visualiser
+# 4. Visualiser
 
 Il est possible de proposer une foule de visualisation. Par exemple, il est possible de remplacer les labels par la distance qui sépare un nœud d'un autre – ici, Thomas Jolly.
 
-```{r}
+```r
 dist.thoJo <- distances(data, v=V(data)[label=="Thomas Jolly"], to=V(data), weights=NA)
 # Set colors to plot the distances:
 
@@ -575,7 +571,7 @@ plot(data, vertex.color=col, vertex.label=dist.thoJo)
 
 On peut mettre en valeur le chemin le plus court entre deux poins
 
-```{r}
+```r
 mon_chemin <- shortest_paths(data, 
                             from = V(data)[label=="Thomas Jolly"], 
                              to  = V(data)[label=="Pierre Corneille"],
@@ -606,20 +602,20 @@ plot(data, vertex.color=coleur_noeud, edge.color=couleur_arc,
 
 On peut aussi regrouper en cluster les données, que l'on représente en dendogramme, comme pour la stylométrie
 
-```{r}
+```r
 ceb <- cluster_edge_betweenness(data) 
 dendPlot(ceb, mode="hclust")
 ```
 
 Je projette ensuite ma classification sur mon graph
 
-```{r}
+```r
 plot(ceb, data) 
 ```
 
 On peut l'afficher en 3d. Pour cela j'utilise le paramètre dim=3 pour mon layout.
 
-```{r}
+```r
 coords <- layout_with_fr(data_simplified, dim=3)
 open3d()
 rglplot(data, layout=coords)
@@ -627,7 +623,7 @@ rglplot(data, layout=coords)
 
 Je peux faire une sauvegarde, notamment en HTML pour l'ouvrir dans le navigateur
 
-```{r}
+```r
 dirfolder=getwd()
 #open3d plutôt que rgl.open() pour une sauvegarde
 open3d()
@@ -738,7 +734,7 @@ data_3d_vis_plot <- visNetwork(nodes = data_3d_vis$nodes,
 data_3d_vis_plot
 ```
 
-# Sauvegardes
+# 5. Sauvegardes
 
 On sauvegarde le résultat
 ```{r, include=TRUE}

@@ -15,7 +15,7 @@ output:
 
 J'installe ma session de travail
 
-```{r}
+```r
 setwd("~/GitHub/UNIGE/32M7129/Cours_03")
 monDossier="~/GitHub/UNIGE/32M7129/Cours_03"
 ```
@@ -23,7 +23,7 @@ monDossier="~/GitHub/UNIGE/32M7129/Cours_03"
 Première chose à faire: importer le corpus qui se trouve dans le dossier `cours 3`. Comme il s'agit d'un csv, nous utilisons la fonction `read.csv()` Le corpus que nous importons est une collection de blocs d'environ 1000 mots lemmatisés.
 (notez la présence de lignes commençant par un dièse. Il s'agit d'un commentaire: quand il est utilisé, la ligne n'est pas interprétée par R)
 
-```{r}
+```r
 theatre = "moliere_racine.tsv"
 # le paramètre `header` permet de signaler que la première ligne contient le nom des colonnes
 # le paramètre `sep` permet d'indiquer comment sont marquées les colonnes. La regex `\t` indique que nous utilisons des tabulations (notre fichier est donc en fait un `tsv` et non un vrai `csv`).
@@ -33,19 +33,19 @@ theatre <- read.csv(theatre, header=TRUE, sep = "\t", quote = '',fill = TRUE, fi
 
 Je peux jeter un coup d'œil aux données brutes (on ne m'affiche que les première entrées de chaque colonne par commodité)
 
-```{r}
+```r
 str(theatre)
 ```
 
 Je peux aussi les regarder dans un tableau directement dans RStudio. On remarque que les colonnes ont des noms: "auteur", "titre"…
 
-```{r}
+```r
 View(theatre)
 ```
 
 Je peux sélectionner juste une colonne (ici "auteur"). Afin de ne pas tout afficher j'utilise la fonction `head()` pour ne montrer que les premières entrées:
 
-```{r}
+```r
 head(theatre$auteur)
 # Je peux augmenter le nombre de résultat affiché en indiquant le chiffre souhaité de la manière suivante:
 #head(theatre$auteur,10)
@@ -63,7 +63,7 @@ Toutes les colonnes sont des métadonnées, sauf `theatre$texteLemmat` qui conti
 C'est le principe d'une approche _bag of words_, c'est à dire par "sac de mots": les mots ne sont pas pris dans leur contexte, uniquement par leur fréquence. Cela peut paraître un peu rustre, mais c'est très efficace.
 
 
-```{r}
+```r
 #Je charge deux nouvelles librairies pour le _text mining_ qui me permettent de créer ma matrice
 if(!require("tm")){
   install.packages("tm")
@@ -82,7 +82,7 @@ corpus
 
 Je peux désormais "utiliser" cet objet:
 
-```{r}
+```r
 #je compte le nombre de colonne dans ma matrice
 ncol(as.matrix(DocumentTermMatrix(corpus)))
 #J'affiche le premier vecteur de mon objet `corpus`:
@@ -97,13 +97,13 @@ Il est absolument fondamental de nettoyer mon corpus de travail. En effet: _pas_
 
 Comme notre objectif est d'avoir une approche thématique et conserver des mots potentiellement porteurs de sens: il faut donc retirer tous les mots les plus fréquents qui n'apportent, comme les les pronoms, les pronoms adverbiaux, les prépositions…  Ces mots sont appelés des _stopwords_ et une liste est fournie dans la fonction `stopwords()`
 
-```{r}
+```r
 stopwords("french")
 ```
 
 Il existe des listes alternatives en ligne, plus complètes:
 
-```{r}
+```r
 #Donner un nom au fichier que je télécharge
 mesStops="stopwords-fr.csv"
 #indiquer l'URL où se trouve le document à télécharger
@@ -118,7 +118,7 @@ head(stopword_enLigne,10)
 
 Je vais utiliser mes listes de _stopwords_ l'une après l'autre pour nettoyer mon corpus. Pour cela j'utilise la fonction `tm_map()` qui permet de modifier les corpora. Dans ce cas précise j'utilise `removeWords` avec chacune des deux listes.
 
-```{r}
+```r
 corpus_clean <- tm_map(corpus, removeWords, stopwords("french"))
 corpus_clean <- tm_map(corpus, removeWords, stopword_enLigne)
 #Je jette un coup d'œil à la sixième entrée pour contrôler que tout est en ordre
@@ -127,7 +127,7 @@ inspect(corpus_clean[6])
 
 Malheureusement cette commande `tm_map()` fonctionne mal, et il est préférable de nettoyer le texte "à l'ancienne", en créant sa propore fonction.
 
-```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
+```r
 #Je recharge mon corpus
 corpus_clean <- tm_map(corpus_clean, PlainTextDocument)
 #je crée une fonction a deux paramètres: le corpus d'entrée et la liste des stopwords.
@@ -149,7 +149,7 @@ corpus_clean <- removeStopWords(corpus_clean, stopword_enLigne)
 
 S'il reste des mots qui ne me plaisent pas, je peux continuer de les retirer en les mettant dans un vecteur
 
-```{r}
+```r
 stopWords <- c( "à_le", "de_le", "-être", "faire", "falloir", "savoir", "pouvoir", "devoir", "devoir", "voir", "vouloir")
 corpus_clean <- tm_map(corpus_clean, removeWords, stopWords)
 inspect(corpus_clean[6])
@@ -163,7 +163,7 @@ Je fais de nouveau une matrice "terme/document" (DTM, _Document-term matrix_). O
 | Texte2 |  1   | 154  |  4   |
 
 
-```{r}
+```r
 dtm <- DocumentTermMatrix(corpus_clean)
 rownames(dtm) <- theatre$genre
 ```
@@ -172,7 +172,7 @@ rownames(dtm) <- theatre$genre
 
 Je peux désormais observer la fréquence des mots: je retrouve la loi de Zipf dans la distribution de mes données
 
-```{r}
+```r
 freq <- as.data.frame(colSums(as.matrix(dtm)))
 colnames(freq) <- c("frequence")
 #Comme je vais dessiner un graph, j'ai besoin d'une nouvelle librairie: `ggplot2`
@@ -186,7 +186,7 @@ ggplot(freq, aes(x=frequence)) + geom_density()
 
 Je peux compter les mots avec des fréquences faibles, par exemple avec moins de 100 occurrences
 
-```{r}
+```r
 #Je retire tous les mots qui apparaissent entre 0 et 400 fois (on peut remplacer 400 par 100, ou même 10 si le corpus est trop gros)
 motsPeuFrequents <- findFreqTerms(dtm, 0, 400)
 #Si vous êts sur windows, décommentez la ligne suivante
@@ -197,7 +197,7 @@ head(motsPeuFrequents,50)
 
 Je peux aussi compter et afficher les mots les plus fréquents, par exemple avec plus de 400 occurrences
 
-```{r}
+```r
 motsTresFrequents <- findFreqTerms(dtm, 401, Inf)
 #Si vous êts sur windows, décommentez la ligne suivante
 #Encoding(motsTresFrequents)<-"latin-1"
@@ -207,7 +207,7 @@ head(motsTresFrequents,50)
 
 Je fais un très grand ménage, avec une fonction que je crée pour retirer les mots les moins fréquents:
 
-```{r}
+```r
 #Je crée une fonction `grandMenage`
 grandMenage <- function(corpus_a_nettoyer, mots_peu_importants){
   #Afin de simplifier le travail (de mon ordinateur), je vais rassembler les mots à retirer en groupe 500 tokens, que je vais traiter séparément.
@@ -231,7 +231,7 @@ corpus_clean <- grandMenage(corpus_clean, motsPeuFrequents)
 
 Je redéfinis ma matrice à partir de mon nouveau corpus
 
-```{r}
+```r
 dtm <- DocumentTermMatrix(corpus_clean)
 rownames(dtm) <- theatre$genre
 freq <- as.data.frame(colSums(as.matrix(dtm)))
@@ -242,7 +242,7 @@ ggplot(freq, aes(x=frequence)) + geom_density()
 
 Je nettoye un peu ma DTM pour éliminer les rangs vides
 
-```{r}
+```r
 rowTotals <- apply(dtm , 1, sum)      #Find the sum of words in each Document
 dtm_clean   <- dtm[rowTotals> 0, ]    #remove all docs without words
 ```
@@ -298,7 +298,7 @@ Source: [wikipedia](https://commons.wikimedia.org/wiki/File:Latent_Dirichlet_all
 
 Le modèle va classer aléatoirement tous les mots en _n_ sujets, et tenter d'affiner cette répartition de manière itérative en observant les contextes:
 
-```{r}
+```r
 #J'installe une nouvelle librairie pour le _topic modeling_
 if(!require("topicmodels")){
   install.packages("topicmodels")
@@ -313,7 +313,7 @@ lda_3 <- LDA(dtm_clean, k= k+1, control = list(alpha = 0.1))
 
 Le résultat produit est une matrice avec pour chaque mot la probabilité qu'il appartienne à un des différents _topics_. On donne un score _β_, qui est celui présenté infra.
 
-```{r}
+```r
 topics <- tidy(lda_2, matrix = "beta")
 topics
 ```
@@ -354,7 +354,7 @@ Le _topic_ 1 est le plus représenté dans le document, et _Autoroute_ est déj�
 | Vélo      |   543   |    2    |   150   |
 | Vacances  |   23    |   70    |   563   |
 
-```{r}
+```r
 ## Set parameters for Gibbs sampling
 #Le modèle va tourner 2000 fois avant de commencer à enregistrer les résultats
 burnin <- 2000
@@ -376,7 +376,7 @@ lda_gibbs_3 <- LDA(dtm_clean, k+1, method="Gibbs", control=list(nstart=nstart, s
 
 Je peux désormais voir les premiers résultats pour chacun des modèles. Il s'agit de de mots dont la fréquence d'utilisation est corrélée
 
-```{r}
+```r
 "LDA 2"
 termsTopic <- as.data.frame(terms(lda_2,10))
 head(termsTopic,11)
@@ -393,14 +393,14 @@ head(termsTopic,11)
 
 Nous allons utiliser `lda_gibbs_2` et construire une matrice avec les _β_ des tokens (pour les ɣ, et donc des probabilités par document, on aurait mis `matrix = "gamma"`). Chaque token est répété deux fois, avec une probabilité pour chaque _topic_:
 
-```{r}
+```r
 topics <- tidy(lda_gibbs_2, matrix = "beta")
 topics
 ```
 
 # 4. Visualisation
 
-```{r}
+```r
 #Je vais encore solliciter une nouvelle librairie
 if (!require("dplyr")){
    install.packages("dplyr")
@@ -424,7 +424,7 @@ top_terms %>%
 
 Je vais désormais associer chaque mot à l'un des 5 genres possibles, pour déterminer auquel mes tokens sont rattachés, et découvrir (potentiellement quel genre se cacher derrière quel _topic_
 
-```{r}
+```r
 if (!require("reshape2")){
   install.packages("reshape2")
   library("reshape2")
@@ -462,7 +462,7 @@ ggplot(data = melted, aes(x=Topics, y=Terms, fill=value)) +
 
 On peut aussi observer le score gamma, c'est-à-dire la probabilté qu'un document contienne un sujet:
 
-```{r}
+```r
 DocumentTopicProbabilities <- as.data.frame(lda_gibbs_2@gamma)
 rownames(DocumentTopicProbabilities) <- rownames(corpus_clean)
 head(DocumentTopicProbabilities)
@@ -470,7 +470,7 @@ head(DocumentTopicProbabilities)
 
 Nous allons désormais faire des _word clouds_. Pour cela appelons (installons?) les libraries suivantes:
 
-```{r}
+```r
 if (!require("wordcloud")){
    install.packages("wordcloud")
   library("wordcloud")
