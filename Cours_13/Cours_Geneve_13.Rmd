@@ -2,11 +2,11 @@
 title: "Cours_Geneve_13"
 author: "Simon Gabay"
 date: "`r Sys.Date()`"
-output:
-  html_notebook:
-    number_sections: yes
-    toc: yes
-    toc_float: yes
+#output:
+#  html_notebook:
+#    number_sections: yes
+#    toc: yes
+#    toc_float: yes
 ---
 
 ```{r, setup, fig.show=hold, fig.margin=TRUE}
@@ -300,7 +300,7 @@ head(sort(positive_words_custom, decreasing = T), n=50)
 
 ## Attention!!
 
-Regardons les mots qui sont catégorisés comme de la joie d'aprps FEEL
+Regardons les mots qui sont catégorisés comme de la joie d'après FEEL
 
 ```{r}
 head(FEEL$word[which(FEEL$joy==1)], n=50)
