@@ -1,31 +1,36 @@
 ---
-title: "Cours Genève 2"
+title: "Cours_2"
 author: "Simon Gabay"
-date: "23/18/2020"
+date: "05/10/2021"
 output:
-  ioslides_presentation: default
-  html_notebook: default
-  beamer_presentation: default
-  slidy_presentation: default
+  html_document:
+    highlight: pygments
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# `R`, `R GUI`, `RStudio`
+# `R` et les statistiques
+
+## 1 `R`, `R GUI`, `RStudio`, `Rstudio cloud`
 
 Attention
 
-`R` est un langage destiné aux statistiques et à la science des données
-`R GUI`  est une interface ("GUI" pour _Graphical User Interface_)
-`RStudio` est une interface de programmation `open source`
+* `R` est un langage destiné aux statistiques et à la science des données
+* `R GUI`  est une interface ("GUI" pour _Graphical User Interface_)
+* `RStudio` est une interface de programmation `open source`
+* `Rstudio cloud` est une version en ligne de `RStudio`
 
-Il est donc possible de programmer en `R` en dehors de `RStudio`
+Il est donc possible de programmer en `R` en dehors de `RStudio` (et de `Rstudio cloud`)
 
 Pour vous aider (mais aussi pour m'aider dans mon cours), vous lisez actuellement un notebook. Il s'agit d'un mélange de code et de commentaires qui permet de simplifier l'apprentissage, mais aussi de documenter son travail. En cliquant sur le petit bouton "play" à droite des morceaux de code (en gris), vous exécutez ces derniers et obtenez les résultats.
 
-# Préparer la session de travail
+### Préparer la session de travail
 
 Nous devons préparer la session de travail, en désignant à `R` le dossier de notre ordinateur à partir duquel nous allons travailler pour qu'il trouve nos fichiers et qu'il y sauvegarde nos résultats.
 
@@ -35,7 +40,7 @@ Pour indiquer où se trouve le fichier de travail, deux solutions sont possibles
 * ou bien directement dans `R` avec la commande `setwd` (pour *Set working directory*), qui s'utilise de cette manière.
 
 ```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_2")
+setwd("~/GitHub/UNIGE/32M7129/Cours_02")
 ```
 
 **Attention!** Il convient de donner le chemin qui corredpond à votre configuration locale. Une fois la chose faite, cliquez sur `Run` (le bouton qui ressemble à *play*, à droite de la commande *supra*).
@@ -48,20 +53,22 @@ getwd()
 
 Tout est en ordre? Avançons!
 
-## Premiers pas
+## 2 Les fondamentaux
+
+### 2.1 Premiers pas
 
 Il faut faire la différence entre des chiffres et une chaine de caractère (entre guillemets).
 
 On peut faire une opération avec des chiffres, mais pas avec du texte. Essayons la multiplication:
 
-```{r}
+```{r,error=TRUE}
 1+1
 1+"chose"
 ```
 
 Si on met un chiffre entre guillemets, il devient une chaîne de caractère, et perd ses propriétés mathématiques:
 
-```{r}
+```{r,error=TRUE}
 "1"+1
 ```
 
@@ -92,9 +99,9 @@ a+b+c
 a^b+c # R respecte la priorité des opérations
 ```
 
-## Les opérateurs
+### 2.2 Les opérateurs
 
-### opérateurs mathématiques
+#### 2.2.1 opérateurs mathématiques
 
 * `+` addition
 * `-` soustraction
@@ -110,7 +117,7 @@ a^b
 a*b
 ```
 
-### opérateurs de comparaison
+#### 2.2.2 opérateurs de comparaison
 
 * `==` égal à
 * `!=` est différent de
@@ -135,7 +142,7 @@ a != b
 1 >= 2
 ```
 
-### opérateurs logiques
+#### 2.2.3 opérateurs logiques
 
 * `!` négation logique
 * `&` et logique
@@ -152,9 +159,9 @@ a & b
 a | b
 ```
 
-# Les classes
+### 2.3 Les classes
 
-## Vecteurs
+#### 2.3.1 Vecteurs
 
 On peut vérifier la longueur d'une variable:
 
@@ -222,7 +229,7 @@ c(1,2) + c(3,4,5)
 c(1,2) + c(3,4,5,6)
 ```
 
-## Les listes
+#### 2.3.2 Les listes
 
 Une liste est un vecteur permettant de stocker des objets hétérogènes. 
 
@@ -239,7 +246,7 @@ uneListe[[4]][[2]]
 
 ```
 
-## Data frames
+#### 2.3.3 Data frames
 
 ```{r}
 df <- data.frame(taille=c(173,175,168,172,173,170,175,172,180),
@@ -267,6 +274,10 @@ On peut accéder à des colonnes en ajoutant `$` suivi du nom de la colonne
 ```{r}
 df$taille
 ```
+
+## 3 Des premières statistiques
+
+### 3.1 Définitions: médiane, moyenne, écart type
 
 On peut obtenir des informations statistiques simples sur notre échantillon comme (nous reprenons (presque) les définitions de l'INSEE):
 * La médiane: la valeur qui partage les données en deux parties égales. [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1376)
@@ -303,6 +314,8 @@ Il existe une fonction simple `summary()` qui nous donne quelques informations:
 summary(df$poids)
 ```
 
+### 3.2 Des statistiques aux courbes
+
 Ces informations nous permettent de décrire notre échantillon
 
 ```{r}
@@ -310,7 +323,7 @@ Ces informations nous permettent de décrire notre échantillon
 hist(df$poids,main="Poids",col="red",xlab="Poids",ylab="Fréquence")
 ```
 
-On peut vérifier si la distribution est normale avec `qqnorm`. Pour qu'elle le soit, il faut que les points (qui dessinent une fonction de répartition _Φ_ (_phi_)) montent constamment, comme dans ces exemples:
+On peut vérifier si la distribution est normale avec `qqnorm`. Pour qu'elle le soit, il faut que les points (qui dessinent une fonction de répartition _Φ_ (_phi_) montent constamment, comme dans ces exemples:
 
 ![center 100%](images/2000px-Normal_Distribution_CDF.png)
 
@@ -342,9 +355,11 @@ boxplot(df$poids,main="Poids")
 #une boîte à moustache de la taille et du poids (assez inutile d'un point de vue graphique…)
 boxplot(df[-3],main="Poids")
 ```
-# Automatisation des tâches (quelques principes d'algorythmie)
 
-## La boucle
+## 4 Automatisation des tâches (quelques principes d'algorythmie)
+
+### 4.1 La boucle
+
 Nous avons déjà vu une notion fondamentale d'informatique: **la variable**. Nous allons en voir une seconde, aussi importante et auss simple: **la boucle**. Il est possible de "boucler" pour répéter une tâche simple avec la fonction `for()`
 
 ![100% center](images/r-for-loop.jpg)
@@ -355,13 +370,8 @@ for (i in 1:5){
 }
 ```
 
-```{r}
-for (i in 1:5){
-  print(i)
-}
-```
 
-## Le test
+### 4.2 Le test
 
 Il est possible d'ajouter des tests avec la fonction `if()`: si le test est validé, la fonction est appliquée.
 
@@ -374,6 +384,8 @@ for (i in df$sexe){
   }
 }
 ```
+
+### 4.3 Le test II
 
 Il est possible de prévoir des cas où le test n'est pas validé avec la fonction `else()`:
 
@@ -388,7 +400,7 @@ for (i in df$sexe){
 }
 ```
 
-## Définir ses propres fonctions fonction
+### 4.4 Définir ses propres fonctions
 
 Tout cela commence à faire beaucoup de code… Pourquoi ne pas se simplifier la tâche en enregistrant des fonctions dans un coin de notre ordinateur, et y faire appel ponctuellement? Cela permet d'alléger le script, et de centraliser des tâches que je vais beaucoup effectuer pour me simplifier la vie. Je vais donc créer une fonction à laquelle je vais donner un nom assez descriptif, et la remplir de ce que je veux.
 
@@ -408,7 +420,7 @@ afficher_le_sexe(df$sexe)
 
 Si je commence à faire beaucoup de fonctions complexes et utile à d'autres personnes, je peux les transformer en `package` et les distribuer sous cette forme à l'ensemble de la communauté.
 
-# Intermède
+## Intermède
 
 Ca fait beaucoup ? Je vous comprends… Heureusement `R` vous aide 7j/7, 24h/24 avec la fonction `help()`
 
@@ -416,7 +428,9 @@ Ca fait beaucoup ? Je vous comprends… Heureusement `R` vous aide 7j/7, 24h/24 
 help(hist)
 ```
 
-# Les packages
+## 5 Les packages
+
+### 5.1 Principe et installation
 
 Nous avons vu jusqu'à présent une série de fonctions: `summary()`, `mean()`… Elles sont fournies avec `R`, mais il est possible d'en inventer soit même, et donc de les mettre à disposition des autres. Pour cela on les met dans un package, disponible en ligne, et que l'on peut télécharger avec la fonction `install.packages()` et on l'active avec `library()`.
 
@@ -438,7 +452,7 @@ tweets_UniGE <- search_tweets("Sciences_UNIGE", n = 1000)
 tweets_UniGE
 ```
 
-## Manipuler les données de rtweet
+### 5.2 L'exemple R tweet
 
 ```{r}
 head(tweets_UniGE$text)
@@ -474,5 +488,5 @@ meilleur_graph<-ggplot(tweets_UniGE, aes(x = created_at)) + geom_histogram(binwi
 meilleur_graph
 ```
 
-## Remerciements
+### Remerciements
 Ce script s'inspire d'un cours de Y. Rochat (UniL)
