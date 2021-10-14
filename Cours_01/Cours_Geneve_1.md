@@ -1,9 +1,21 @@
 ---
 title: "Cours_1"
 author: "Simon Gabay"
-
+date: "28/10/2021"
+output:
+  html_document:
+    highlight: pygments
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
 
+```{r}
+setwd("~/GitHub/UNIGE/32M7129/Cours_01")
+if (!require("ggplot2")) install.packages("ggplot2")
+if (!require("rmarkdown")) install.packages("rmarkdown")
+```
 
 ---
 
@@ -27,12 +39,13 @@ Les cours se trouvent en ligne à l'adresse suivante: https://github.com/gabays/
 
 ## L'objectif
 
-L'objectif de ce cours est 
+L'objectif de ce cours est
+
 1.  de penser et d'organiser au mieux la transformation de données textuelles en chiffres (un mot a un nombre d'occurrences, un lieu des coordonnées…)
 2. pour rendre lisibles ces chiffres, au moyen de visualisations (des cartes, des graphiques…)
 
 Pour chacune de ces deux étapes, les données subissent une transformation
-1.  Elle passent à travers un filtre mathématique (calcul de distance, algorithme…)
+1.Elle passent à travers un filtre mathématique (calcul de distance, algorithme…)
 2. Elles subissent une déformation graphique (passage de n-dimensions à deux, perspective…)
 
 ---
@@ -298,7 +311,7 @@ Texte 2
 > « **Rome**, par une loi, _qui_ ne se peut changer,
 > N'admet avec son sang aucun sang étranger,
 > Et ne reconnaît point les fruits illégitimes,
-> Qui1 naissent d'un hymen contraire à ses maximes. »
+> _Qui_ naissent d'un hymen contraire à ses maximes. »
 
 Racine, _Bérénice_, acte II, scène 2
 
