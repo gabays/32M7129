@@ -122,7 +122,7 @@ head(stopword_enLigne,10)
 
 Je vais utiliser mes listes de _stopwords_ l'une après l'autre pour nettoyer mon corpus. Pour cela j'utilise la fonction `tm_map()` qui permet de modifier les corpora. Dans ce cas précise j'utilise `removeWords` avec chacune des deux listes.
 
-```{r}
+```{r, error=FALSE}
 corpus_clean <- tm_map(corpus, removeWords, stopwords("french"))
 corpus_clean <- tm_map(corpus, removeWords, stopword_enLigne)
 #Je jette un coup d'œil à la sixième entrée pour contrôler que tout est en ordre
