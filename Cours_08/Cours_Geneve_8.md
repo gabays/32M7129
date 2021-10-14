@@ -96,7 +96,7 @@ colnames(edges) <- c("from", "to")
 
 J'affiche les premiers éléments de chaque fichier, et je compte les rangs pour me faire une idée de ce qui se trouve dans mes données
 
-```{r,results='hold'}
+```r
 head(nodes)
 head(edges)
 nrow(nodes); length(unique(nodes$id))
@@ -105,20 +105,20 @@ nrow(edges); nrow(unique(edges[,c("from", "to")]))
 
 Je transforme ces deux objets en données `igraph`, qui vont me permettre de faire mes analyses de réseau par la suite.
 
-```{r,results='hold'}
+```r
 data <- graph_from_data_frame(d=edges, vertices=nodes, directed=F) 
 class(data)
 ```
 
 Mes données se présentent sous cette forme:
 
-```{r,results='hold'}
+```r
 data
 ```
 
 Je peux désormais afficher les nœuds, les arêtes de cette manière. Je peux aussi sélectionner certaines colonnes pour chaque fichier d'une manière particulière aux objets `igraph`
 
-```{r,results='hold'}
+```r
 #edges
 E(data)
 #nodes
@@ -171,7 +171,7 @@ plot(data,
 
 On peut customiser encore plus la décoration en intervenant plus lourdement sur la mise en page. Une manière de faire va être de créer des vecteurs à partir des données, en substituant la valeur qui nous intéresse par la forme que l'on souhaite lui donner. Par exemple, si je veux changer la couleur du nœud en fonction du label
 
-```{r,results='hold'}
+```r
 #J'ai une colonne de mon objet igraph avec les labels
 V(data)$type
 #je copie le contenu de cette colonne dans un nouvel objet
@@ -237,14 +237,14 @@ Deux problèmes sont possibles:
 * Une boucle (_loop_) est un nœud relié par une arête à lui-même
 * Un multiple (_multiple_) sont deux nœuds reliés plusieurs fois ensemble. _N.B._ si le graph est dirigé `2->1` n'est pas un multiple de `1->2`, mais s'il est dirigé oui.
 
-```{r,results='hold'}
+```r
 which_loop(data)
 which_multiple(data)
 ```
 
 Comme j'ai de nombreux multiples, je vais les transformer en poids pour chaque arête
 
-```{r,results='hold'}
+```r
 #Je compte les multiples pour chaque arête
 count_multiple(data)
 #Je fais une copie pour travailler dessus (si j'ai besoin des données originales plus tard)
@@ -416,7 +416,7 @@ plot(USairports, layout=layout_drl, main="DrL")
 
 J'ai préparé un tout petit jeu de données avec des coordonnées géographiques
 
-```{r,results='hold'}
+```r
 nodes_geo <- as.data.frame(read.csv(file="data/geo/nodes.csv", sep = "\t", header = FALSE))
 edges_geo <- as.data.frame(read.csv(file="data/geo/edges.csv", sep = "\t", header = FALSE))
 #Je donne un nom aux colonnes de chaque data.frame
@@ -457,54 +457,54 @@ p
 
 Densité (_density_): la proportion de liens dans un réseau relativement au total des liens possibles.
 
-```{r,results='hold'}
+```r
 edge_density(data)
 ```
 
 Centralité de proximité: Distance moyenne du nœud à tous les autres nœuds (_Closeness_)
 
-```{r,results='hold'}
+```r
 closeness.cent <- closeness(data)
 closeness.cent
 ```
 
 Pour rappel, les noms attachés sont accessibles ainsi:
 
-```{r,results='hold'}
+```r
 cbind(V(data)$label,closeness.cent)
 ```
 
 Centralité d’intermédiarité: Nombre de fois que le nœud se trouve sur le plus court chemin entre deux autres nœuds (_Betweenness_)
 
-```{r,results='hold'}
+```r
 closeness.bet <- betweenness(data)
 closeness.bet
 ```
 
 Centralité de vecteurs propres: Score d’autorité attribué à un nœud en fonction du score de ses voisins. (_Eigenvector_).
 
-```{r,results='hold'}
+```r
 closeness.eig <- eigen_centrality(data)
 closeness.eig$vector
 ```
 
 Centralité de degré: Nombre de connexions du nœud (_Degree_)
 
-```{r,results='hold'}
+```r
 closeness.deg <- degree(data_simplified)
 closeness.deg
 ```
 
 On peut réutiliser ces données pour la visualisation, en ajustant la taille des nœuds à la centralité de degré
 
-```{r,results='hold'}
+```r
 V(data_simplified)$size <- (closeness.deg*0.3)
 plot(data_simplified, layout=layout_fr, main="FR")
 ```
 
 On peut ajuster cette taille avec d'autres mesures de centralité, comme la centralité de vecteur 
 
-```{r,results='hold'}
+```r
 V(data_simplified)$size <- (closeness.eig$vector*30)
 plot(data_simplified, layout=layout_fr, main="FR")
 ```
@@ -513,7 +513,7 @@ plot(data_simplified, layout=layout_fr, main="FR")
 
 Tentons une approche plus pratique avec un réseau célèbre: celui de la Florence de la Renaissance (disponible dans le package `netrankr`).
 
-```{r,results='hold'}
+```r
 data("florentine_m")
 #Une famille n'est pas reliée aux autres: la famille Pucci
 degree(florentine_m)==0
@@ -539,7 +539,7 @@ plot(florence,
 
 Mais est-ce que la richesse fait tout? Probablement pas… tentons d'évaluer la centralité des différentes familles
 
-```{r,results='hold'}
+```r
 #Je fais un data-frame à partir de différents calculs de centralité
 cent.data_frame <- data.frame(
   degree = degree(florence),
@@ -644,7 +644,7 @@ browseURL(rglfolder)
 
 Je peux produire une visualisation interactive directement dans `R`. Je prépare les données
 
-```{r, include=T}
+```r
 # je convertis mon igraphe en une liste  composée de deux data.frames (nodes et edges)
 data_3d_vis <- toVisNetworkData(data)
 
@@ -654,7 +654,7 @@ names <- sort(data_3d_vis$nodes$label)
 
 Et je lance une visualisation en 3D
 
-```{r, include=T}
+```r
 visNetwork(nodes = data_3d_vis$nodes,
            edges = data_3d_vis$edges,
            main = "Mon graphe interactif",
@@ -670,7 +670,7 @@ visNetwork(nodes = data_3d_vis$nodes,
 
 Je rajoute des options de visualisation, comme une modification des nœuds s'ils sont sélectionnés, ou un selecteur sous la forme de liste déroulante
 
-```{r, include=T}
+```r
 visNetwork(nodes = data_3d_vis$nodes,
            edges = data_3d_vis$edges,
            main = "Mon graphe interactif",
@@ -695,7 +695,7 @@ visNetwork(nodes = data_3d_vis$nodes,
 
 Je vais avoir besoin "d'écarter" mon graphe, en ajoutant de la répulsion entre les nœuds (ce qui n'est pas tâche facile…)
 
-```{r, include=TRUE}
+```r
 data_3d_vis_plot <- visNetwork(nodes = data_3d_vis$nodes,
                                edges = data_3d_vis$edges,
                                main = "Mon graphe interactif",
@@ -737,7 +737,7 @@ data_3d_vis_plot
 # 5. Sauvegardes
 
 On sauvegarde le résultat
-```{r, include=TRUE}
+```r
 write_graph(data, "edgelist.txt", format="edgelist")
 svg(file="monGraph.svg")
 plot(data)
