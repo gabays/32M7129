@@ -487,7 +487,7 @@ if (!require("wordcloud2")){
 
 je récupère les mots et je les associe à leur 𝛃
 
-```{r, fig.width=20, fig.height=20}
+```r
 tm <- posterior(lda_gibbs_2)$terms
 data = data.frame(colnames(tm))
 head(data)
@@ -495,7 +495,7 @@ head(data)
 
 Je produis une visualisation par _topic_
 
-```{r, fig.width=30, fig.height=20}
+```r
 for(topic in seq(k)){
     data$topic <-tm[topic,]
     #text(x=0.5, y=1, paste("V",topic, sep=""),cex=0.6)
@@ -522,7 +522,7 @@ for(topic in seq(k)){
 
 Finissons avec un peu de mauvais goût, grâce au package `wordcloud2`
 
-```{r, fig.width=20, fig.height=20}
+```r
 wordcloud2(data = data,
           size=0.4,
           color= "random-light",

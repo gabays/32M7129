@@ -63,7 +63,7 @@ distance_tableau
 
 Classification/clustering. Par défaut _complete linkage_. On peut utiliser le paramètre method="centroid" ou "ward.D"
 
-```{r,results='hold'}
+```r
 hc <- hclust(distance_tableau)
 plot(hc)
 #On customise le graph
@@ -316,7 +316,7 @@ plot(CAH_2$height, type="h", ylab="height")
 
 Je remarque que j'ai plusieurs clusters. Tentons de voir ce qu'ils contiennent. Classons par 4 notre corpus:
 
-```{r,results='hold'}
+```r
 #Je "coupe en deux" ma CAH, ou plutôt je demande une classification en deux des différents
 classes = cutree(CAH, k = "4")
 #J'ajoute mes classes aux fréquences que j'ai utilisées
@@ -330,7 +330,7 @@ Processed_classes[101]
 
 Diminuons à deux le nombre de cluster
 
-```{r,results='hold'}
+```r
 #Je "coupe en deux" ma CAH, ou plutôt je demande une classification en deux des différents
 classes = cutree(CAH, k = "2")
 #J'ajoute mes classes aux fréquences que j'ai utilisées

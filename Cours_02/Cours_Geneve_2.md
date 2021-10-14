@@ -57,14 +57,14 @@ Il faut faire la différence entre des chiffres et une chaine de caractère (ent
 
 On peut faire une opération avec des chiffres, mais pas avec du texte. Essayons la multiplication:
 
-```{r,error=TRUE}
+```r
 1+1
 1+"chose"
 ```
 
 Si on met un chiffre entre guillemets, il devient une chaîne de caractère, et perd ses propriétés mathématiques:
 
-```{r,error=TRUE}
+```r
 "1"+1
 ```
 

@@ -349,7 +349,7 @@ dev.off()
 
 On rajoute quelques informations pour faciliter la lecture du graphique
 
-```{r, results='hide'}
+```r
 png(file="images/plot2.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan", pch=16, col="green")
@@ -362,7 +362,7 @@ dev.off()
 
 Ces points représentent des faits linguistiques calculés à partir des fréquences dans notre corpus. L'écart qui sépare ces points représente l'écart entre deux pratiques stylistiques:
 
-```{r, results='hide'}
+```r
 png(file="images/plot3.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan (2)", pch=16, col="green")
@@ -377,7 +377,7 @@ dev.off()
 
 Il faut donc calculer comment aller du point A au point B
 
-```{r, results='hide'}
+```r
 png(file="images/plot4.png")
 plot(x,y, xlab="abscisse", ylab="ordonnée",
      main="mon plan (3)", pch=16, col="green")
@@ -406,7 +406,7 @@ Boyer, _Caton_, Acte IV, scène XII
 
 Nous obtenons donc un nouveau graph:
 
-```{r, results='hide'}
+```r
 x <- c(4,2,3)
 y <- c(2,1,2)
 png(file="images/plot5.png")
@@ -451,7 +451,7 @@ cat("Distance Racine/Boyer = ", RaBo)
 
 On intègre les distances dans le plan
 
-```{r, results='hide'}
+```r
 x <- c(4,2,3)
 y <- c(2,1,2)
 png(file="images/plot6.png")
@@ -518,7 +518,7 @@ red<- rgb2hex(255,0,0) #ff0000
 
 On peut ensuite afficher une image simple: un carré rouge.
 
-```{r, results='hide'}
+```r
 png(file="images/image1.png")
 plot(c(100, 200), c(100, 100), type= "n", xlab = "", ylab = "")
 rect(210, 150, 1, 1, col = red)
@@ -539,7 +539,7 @@ matrix(x, nrow=1, ncol=length(x))
 
 On crée deux autres codes hexadécimaux à partir des codes RGB des couleurs et l'on remplit le tableau:
 
-```{r, results='hide'}
+```r
 yellow<-rgb2hex(255,215,0) #ffff00"
 black<-rgb2hex(0,0,0) #000000
 png(file="images/image2.png")
