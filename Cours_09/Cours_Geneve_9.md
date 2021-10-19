@@ -1,9 +1,10 @@
-Cours DH UniGE
+Cours _Distant Reading_ : Visualisation
 
-# Analyse de réseau avec Gephi
+# 9. L'analyse de réseau avec Gephi
 
 Simon Gabay
-Genève, Mardi 21 avril 2020
+
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
 
 ---
 # Installation

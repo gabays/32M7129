@@ -1,6 +1,6 @@
 Cours _Distant Reading_ : Visualisation
 
-# Introduction à la stylométrie
+# 4. Introduction à la stylométrie
 
 Simon Gabay
 

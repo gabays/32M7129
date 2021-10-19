@@ -1,31 +1,36 @@
 ---
-title: "Cours_Geneve_12"
+title: "12. Cartographie: aller plus loin"
 author: "Simon Gabay"
-date: "`r Sys.Date()`"
-#output:
-#  html_notebook:
-#    number_sections: yes
-#    toc: yes
-#    toc_float: yes
+date: "19/10/2021"
+output:
+  html_document:
+    highlight: pygments
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
 
-```{r, setup, fig.show=hold, fig.margin=TRUE}
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+
+
+```{r setup, include=FALSE}
 if(!require("knitr")){
   install.packages("knitr")
   library(knitr)
 }
-knitr::opts_chunk$set(echo = TRUE, fig.width=20)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Préparatifs
+# 0. Préparatifs
 
 ```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_12")
+setwd("~/GitHub/UNIGE/32M7129/Cours_12")
 #je charge les données que l'enseignant a préparé pour éviter de potentiels problèmes
 load("Cours_Geneve_12.RData")
 ```
 
-```{r, warning=FALSE, results='hide'}
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
 if(!require("leaflet")){
   install.packages("leaflet")
   library(leaflet)
@@ -73,7 +78,7 @@ if(!require("leaftime")){
 
 ```
 
-# Travailler avec des _shapefiles_ 
+# 1. Travailler avec des _shapefiles_ 
 
 ```{r, results='hide'}
 #import de shapefile
@@ -197,7 +202,7 @@ Je peux sauvegarder ma carte en html et l'ouvrir dans le navigateur (attention, 
 #browseURL("maCarte.html")
 ```
 
-# Timeline
+# 2. Timeline
 
 Nous reprenons le même jeu de données que précédemment, avec nos quatre villes.
 
@@ -407,9 +412,9 @@ J'utilise cette information pour gérer la taille des marqueurs
     )
 ```
 
-# Carte statique
+# 3. Carte statique
 
-## Des rasters
+## 3.1 Des rasters
 
 Un autre approche de la cartographie va être de produire des cartes statiques. Nous allons, pour ce faire, utiliser des rasters (et donc le package du même nom).
 
@@ -463,7 +468,7 @@ dialecto
 
 Je rajoute ces nouvelles informations à mon objet `Switzerland1_UTM`, que je convertis en data.frame.
 
-```{r, warning=FALSE, results='hide'}
+```{r, warning=FALSE}
 #Je fusionne le data.frame téléchargé avec la carte, et celui que je viens de fabriquer. Pour cela j'utilise le nom des cantons comme clef.
 Switzerland1_UTM@data <- join(Switzerland1_UTM@data, dialecto, by="NAME_1")
 #Je transforme les données spatiales en data.frame avec la fonction fortify()
@@ -473,7 +478,7 @@ Switzerland1_df
 
 Je peux créer des jeux de données restreints, que j'extraie de l'objet `Switzerland1_UTM`
 
-```{r, warning=FALSE, results='hide'}
+```{r, warning=FALSE}
 #Je peux extraire un canton en fonction de son nom: ici celui de Genève
 Geneve<-Switzerland1_UTM[Switzerland1_UTM@data$NAME_1 == "Genève",]
 Geneve_df<-fortify(Geneve)
@@ -527,7 +532,7 @@ ggplot() +
   scale_fill_manual(values=c("red", "white")) #scale_fill_brewer(palette = "Blues")
 ```
 
-## Des points
+## 3.2 Des points
 
 Je vais pouvoir rajouter des données scientifiques à mon enquête. En linguistique, on utilise les points géographiques de l'ALF (_Atlas linguistique de la France_), publié entre 1902 et 1910.
 

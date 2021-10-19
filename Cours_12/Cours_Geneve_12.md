@@ -1,31 +1,22 @@
+Cours _Distant Reading_ : Visualisation
+
+# 12. Cartographie: aller plus loin
+
+Simon Gabay
+
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+
 ---
-title: "Cours_Geneve_12"
-author: "Simon Gabay"
-date: "`r Sys.Date()`"
-output:
-  html_notebook:
-    number_sections: yes
-    toc: yes
-    toc_float: yes
----
 
-```{r, setup, fig.show=hold, fig.margin=TRUE}
-if(!require("knitr")){
-  install.packages("knitr")
-  library(knitr)
-}
-knitr::opts_chunk$set(echo = TRUE, fig.width=20)
-```
+# 0. Préparatifs
 
-# Préparatifs
-
-```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_12")
+```r
+setwd("~/GitHub/UNIGE/32M7129/Cours_12")
 #je charge les données que l'enseignant a préparé pour éviter de potentiels problèmes
-#load("Cours_Geneve_12.RData")
+load("Cours_Geneve_12.RData")
 ```
 
-```{r, warning=FALSE, results='hide'}
+```r
 if(!require("leaflet")){
   install.packages("leaflet")
   library(leaflet)
@@ -73,9 +64,9 @@ if(!require("leaftime")){
 
 ```
 
-# Travailler avec des _shapefiles_ 
+# 1. Travailler avec des _shapefiles_
 
-```{r, results='hide'}
+```r
 #import de shapefile
 shp <- readOGR('Data/shapefile/area.shp')
 ```
@@ -83,18 +74,18 @@ shp <- readOGR('Data/shapefile/area.shp')
 
 On le rappelle, les fichiers `.shp` sont aussi des fichiers complexes, qui contiennent des informations en plus des simples formes géométriques. En l'occurrence, notre document contient
 
-```{r}
+```r
 df <- data.frame(area=shp$area,occurrences=shp$number)
 df
 ```
 
 On crée une palette, qui utilise une palette de couleur prédéfinie et qui est fonction du nombre d'occurrence par zone
 
-```{r}
+```r
 pal <- colorNumeric(palette = "YlOrRd", domain = shp$number)
 ```
 
-```{r}
+```r
 leaflet(shp)%>%
 ## On ajoute un fond de carte
 addProviderTiles(providers$Esri.NatGeoWorldMap)%>% 
@@ -115,7 +106,7 @@ addProviderTiles(providers$Esri.NatGeoWorldMap)%>%
 
 Je peux évidemment mélanger les sources
 
-```{r}
+```r
 #import du CSV de Boyer (cf. cours  précédent)
 boyer  <- read.csv("Data/boyer.csv")
 leaflet(shp)%>%
@@ -151,7 +142,7 @@ Enfin, un petit coup de tuning
 ![100%](images/tuning.gif)
 
 
-```{r}
+```r
 map<-leaflet(shp)%>%
 ## On ajoute un fond de carte
 addProviderTiles(providers$Esri.NatGeoWorldMap)%>% 
@@ -182,9 +173,7 @@ addProviderTiles(providers$Esri.NatGeoWorldMap)%>%
   addResetMapButton() %>%
     
   #J'ajoute un panneau de contrôle qui me permet de choisir ce que je sélectionne
-  addLayersControl(baseGroups = c("Empty layer"),
-                   
-                   overlayGroups = c("Zones", "Boyer"),
+  addLayersControl(overlayGroups = c("Zones", "Boyer"),
                    options = layersControlOptions(collapsed = TRUE)) %>%
   
   #Je cache par défaut les points tirés des pièces de Boyer
@@ -194,16 +183,16 @@ map
 
 Je peux sauvegarder ma carte en html et l'ouvrir dans le navigateur (attention, cela peut prendre du temps).
 
-```{r}
+```r
 #saveWidget(map, file="maCarte.html")
 #browseURL("maCarte.html")
 ```
 
-# Timeline
+# 2. Timeline
 
 Nous reprenons le même jeu de données que précédemment, avec nos quatre villes.
 
-```{r}
+```r
 sales <- data.frame(
                     "Latitude" = c(
                       48.8534, 52.520008, 51.509865, 50.8466
@@ -220,7 +209,7 @@ sales <- data.frame(
 
 Pour créer une _Timeline_ il va logiquement falloir associer des dates: une de début, et une de fin.
 
-```{r}
+```r
 #j'ajoute une colonne à mon dataframe
 sales$start <- c(
                     "start" = do.call(
@@ -251,13 +240,13 @@ sales$end <- c(
 
 J'obtiens donc un data frame, avec la population, les dates de début, les dates de fin
 
-```{r}
+```r
 sales
 ```
 
 Je peux désormais convertir mon dataframe en fichier GEOjson:
 
-```{r}
+```r
 sales_timeline <- geojson_json(sales,lat="Latitude",lon="Longitude")
 ```
 
@@ -297,14 +286,14 @@ Le fichier GEOjson que nous avons fabriqué respecte les recommendations de `Lea
 
 Je peux sauvegarder le résultat au format `json` si je veux regarder en détail le code produit:
 
-```{r}
+```r
 data_JSON <- fromJSON(sales_timeline)
 write(sales_timeline, "output.json") 
 ```
 
 Je peux désormais créer ma première carte avec timeline.
 
-```{r}
+```r
   leaflet(sales_timeline) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
@@ -314,7 +303,7 @@ Je peux désormais créer ma première carte avec timeline.
 
 Je peux néanmoins faire mieux, et ajouter des options. Jouez un peu avec celles-ci pour apprendre à les maîtriser.
 
-```{r}
+```r
   leaflet(sales_timeline) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
@@ -334,7 +323,7 @@ Je peux néanmoins faire mieux, et ajouter des options. Jouez un peu avec celles
 
 Je peux aussi modifier la forme des marqueurs (_marker_) que j'utilise sur ma carte.
 
-```{r}
+```r
   leaflet(sales_timeline) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
@@ -366,14 +355,14 @@ Je peux aussi modifier la forme des marqueurs (_marker_) que j'utilise sur ma ca
 
 Je crée une copie de mon data frame, et je crée une colonne `radius` (rayon) qui est fonction de la population de la ville
 
-```{r}
+```r
 sales_radius<-sales
 sales_radius$radius <- sales_radius$population*3
 ```
 
 J'utilise cette information pour gérer la taille des marqueurs
 
-```{r}
+```r
   leaflet(geojson_json(sales_radius)) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
@@ -409,25 +398,25 @@ J'utilise cette information pour gérer la taille des marqueurs
     )
 ```
 
-# Carte statique
+# 3. Carte statique
 
-## Des rasters
+## 3.1 Des rasters
 
 Un autre approche de la cartographie va être de produire des cartes statiques. Nous allons, pour ce faire, utiliser des rasters (et donc le package du même nom).
 
-```{r}
+```r
 Switzerland<-getData("GADM", country="Switzerland", level=0)
 ```
 
 Il est ensuite très simple d'afficher ce fond de carte
 
-```{r}
+```r
 plot(Switzerland)
 ```
 
 On aura remarqué le paramètre `level=0`. Chacun des niveaux représente une strate administrative
 
-```{r, warning=FALSE}
+```r
 Switzerland1<-getData("GADM", country="Switzerland", level=1)
 plot(Switzerland1)
 Switzerland2<-getData("GADM", country="Switzerland", level=2)
@@ -435,14 +424,14 @@ plot(Switzerland2)
 ```
 
 Evidemment, ce système fonctionne avec d'autres pays:
-```{r}
+```r
 France<-getData("GADM", country="France", level=1)
 plot(France)
 ```
 
 Rappelons-nous que ces coordonnées sont _géographiques_ et non _cartographiques_: je dois donc les transformer avec la fonction `spTransform()`. J'utilise ici le système géodésique [WGS 84](https://fr.wikipedia.org/wiki/WGS_84) (_World Geodetic System 1984_) et j'obtiens donc des données UTM (_Universal Transverse Mercator_).
 
-```{r}
+```r
 Switzerland1_UTM<-spTransform(Switzerland1, CRS("+proj=longlat +datum=WGS84"))
 Switzerland1_UTM
 Switzerland1_UTM@data
@@ -450,7 +439,7 @@ Switzerland1_UTM@data
 
 Je crée désormais des données linsguistiques, à partir d'un sondage très rigoureux auprès de trois collègues sur l'emploi de _quatre-vingts_ et _huitante_ en Suisse.
 
-```{r}
+```r
 #Je crée un vecteur avec les cantons
 NAME_1<-c("Fribourg","Neuchâtel", "Genève", "Jura", "Valais", "Vaud",
           "Aargau", "Appenzell Ausserrhoden", "Appenzell Innerrhoden", "Basel-Landschaft", "Basel-Stadt", "Bern", "Glarus", "Graubünden", "Lucerne", "Nidwalden", "Obwalden", "Sankt Gallen", "Schaffhausen", "Schwyz", "Solothurn", "Thurgau", "Ticino", "Uri", "Zug", "Zürich")
@@ -465,7 +454,7 @@ dialecto
 
 Je rajoute ces nouvelles informations à mon objet `Switzerland1_UTM`, que je convertis en data.frame.
 
-```{r, warning=FALSE, results='hide'}
+```r
 #Je fusionne le data.frame téléchargé avec la carte, et celui que je viens de fabriquer. Pour cela j'utilise le nom des cantons comme clef.
 Switzerland1_UTM@data <- join(Switzerland1_UTM@data, dialecto, by="NAME_1")
 #Je transforme les données spatiales en data.frame avec la fonction fortify()
@@ -475,7 +464,7 @@ Switzerland1_df
 
 Je peux créer des jeux de données restreints, que j'extraie de l'objet `Switzerland1_UTM`
 
-```{r, warning=FALSE, results='hide'}
+```r
 #Je peux extraire un canton en fonction de son nom: ici celui de Genève
 Geneve<-Switzerland1_UTM[Switzerland1_UTM@data$NAME_1 == "Genève",]
 Geneve_df<-fortify(Geneve)
@@ -491,23 +480,23 @@ canton_quatre_df<-fortify(canton_quatre)
 
 Je projette ensuite ces informations sur une carte, que j'appelle avec la fonction `ggplot()`
 
-```{r}
+```r
 #La carte finale est une superposition de trois couches
 ggplot() + 
   #Je commence par tous les cantons, en blanc
-  geom_polygon(data=Switzerland1_df, aes(long,lat, group=group), fill="white", size=0.1)
+  geom_polygon(data=Switzerland1_df, aes(long,lat, group=group), fill="white")
 ```
 
-```{r}
+```r
 #La carte finale est une superposition de trois couches
 ggplot() + 
   #Je commence par tous les cantons, en blanc
-  geom_polygon(data=Switzerland1_df, aes(long,lat, group=group), fill="white", size=0.1) +
+  geom_polygon(data=Switzerland1_df, aes(long,lat, group=group), fill="white") +
   #Je superpose le canton de Genève, en rouge
   geom_polygon(data=Geneve_df, aes(long,lat,group=group), fill="red")
 ```
 
-```{r}
+```r
 #La carte finale est une superposition de trois couches
 ggplot() + 
   #Je commence par tous les cantons, en blanc
@@ -520,7 +509,7 @@ ggplot() +
 
 Je peux placer plusieurs données différentes:
 
-```{r}
+```r
 ggplot() + 
   #je place mes cantons où l'on dit "huitante"
   geom_polygon(data = canton_huitante_df, aes(x = long, y = lat, group = group, fill = "huitante"), color = "black", size = 0.25) +
@@ -529,7 +518,7 @@ ggplot() +
   scale_fill_manual(values=c("red", "white")) #scale_fill_brewer(palette = "Blues")
 ```
 
-## Des points
+## 3.2 Des points
 
 Je vais pouvoir rajouter des données scientifiques à mon enquête. En linguistique, on utilise les points géographiques de l'ALF (_Atlas linguistique de la France_), publié entre 1902 et 1910.
 
@@ -539,34 +528,34 @@ Je vais pouvoir rajouter des données scientifiques à mon enquête. En linguist
 
 Nous préparons donc les données pour chaque point (suisse):
 
-```{r}
+```r
 releves = read.table("Data/80.tsv", header=T, sep="\t", quote="", dec=".")
 head(releves)
 ```
 
 Je dispose par ailleurs d'un fichier contenant, pour chaque point, le nom du lieu et ses coordonnées géographiques
 
-```{r}
+```r
 georeferecement = read.table("Data/ALF-suisse.tsv", header=T, sep="\t", quote="", dec=".")
 georeferecement
 ```
 
 Je peux donc, à partir de ces deux fichiers, créer un tableau complet:
 
-```{r}
+```r
 dialecto_swiss = merge(releves,georeferecement,by="id")
 head(dialecto_swiss)
 ```
 
 Je récupère mon fond de carte
 
-```{r}
+```r
 world <- map_data('world')
 ```
 
 Je crée ma carte
 
-```{r}
+```r
 ggplot()+
   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="white", colour = "black", size=0.4) +
   coord_quickmap(xlim = c(-170, 180), ylim = c(-70, 80)) 
@@ -574,7 +563,7 @@ ggplot()+
 
 Je zoom sur la Suisse Romande
 
-```{r}
+```r
 ggplot()+
   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="white", colour = "black", size=0.4) +
   coord_quickmap(xlim = c(5.8, 7.8), ylim = c(45.8, 47.5)) 
@@ -582,7 +571,7 @@ ggplot()+
 
 Je place mes points
 
-```{r}
+```r
 ggplot()+
   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="white", colour = "black", size=0.4) +
   coord_quickmap(xlim = c(5.8, 7.8), ylim = c(45.8, 47.5)) +
@@ -595,7 +584,7 @@ ggplot()+
 
 Je modifie les marqueurs:
 
-```{r}
+```r
 ggplot()+
   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="white", colour = "black", size=0.4) +
   coord_quickmap(xlim = c(5.8, 7.8), ylim = c(45.8, 47.5)) +
@@ -611,7 +600,7 @@ ggplot()+
 
 Je crée une carte qui superpose toutes les informations
 
-```{r}
+```r
 ggplot() + 
   #je replace mes cantons
   geom_polygon(data = canton_quatre_df, aes(x = long, y = lat, group = group, fill = "quatre-vingts")) +
@@ -630,7 +619,7 @@ ggplot() +
 
 Je peux préparer mes données d'affichage, pour les passer comme paramètre plus tard.
 
-```{r}
+```r
 theme_opts<-list(theme(
                        panel.grid.minor = element_blank(),
                        panel.grid.major = element_blank(),
@@ -664,7 +653,7 @@ theme_opts<-list(theme(
 
 Je crée ma carte
 
-```{r}
+```r
 map <- ggplot() + 
   #je replace mes cantons
   geom_polygon(data = canton_quatre_df, aes(x = long, y = lat, group = group, fill = "quatre-vingts"), color = "black", size = 0.25) +
@@ -687,8 +676,12 @@ map
 
 Je sauvegarde ma carte
 
-```{r}
+```r
 ggsave(map, filename = "carte_huitante.png", device = "png", width = 30, height = 20, units = "cm") 
+```
+
+```r
+ggsave(map, filename = "carte_huitante.pdf", device = "pdf", width = 30, height = 20, units = "cm")
 ```
 
 ![100% center](carte_huitante.png)

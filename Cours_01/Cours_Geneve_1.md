@@ -1,6 +1,6 @@
 Cours _Distant Reading_ : Visualisation
 
-# Des chiffres et des lettres
+# 1. Des chiffres et des lettres
 
 Simon Gabay
 
