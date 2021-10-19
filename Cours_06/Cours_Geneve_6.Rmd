@@ -1,5 +1,5 @@
 ---
-title: "Cours_6"
+title: "6. Stylométrie avancée"
 author: "Simon Gabay"
 date: "14/10/2021"
 output:
@@ -10,6 +10,9 @@ output:
       toc_collapsed: true
     theme: united
 ---
+
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

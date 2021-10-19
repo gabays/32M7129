@@ -1,14 +1,11 @@
----
-title: "Cours_5"
-author: "Simon Gabay"
-date: "14/10/2021"
-output:
-  html_document:
-    highlight: pygments
-    toc: true
-    toc_float:
-      toc_collapsed: true
-    theme: united
+Cours _Distant Reading_ : Visualisation
+
+# 5. Premiers pas en stylométrie
+
+Simon Gabay
+
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+
 ---
 
 Il existe de multiples options informatiques pour faire de la stylométrie. Nous nous proposons, dans ce cours, d'utiliser le package `R` nommé  *Stylo*, mais d'autres options existent comme [FactoMineR](https://cran.r-project.org/web/packages/FactoMineR/index.html). Ce package étant développé par des français de l'agrocampus de Rennes, notons qu'une [importante documentation en français](http://factominer.free.fr/index_fr.html) est disponible, et permettra aux personnes intéressées de continuer leur apprentissage de la stylométrie.
