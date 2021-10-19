@@ -1,13 +1,17 @@
 ---
-title: "Collecter des images sur Tweeter"
+title: "2b. Découvrir l'écosystème `R` (bonus)"
 author: "Simon Gabay"
-date: "03/03/2020"
+date: "19/10/2021"
 output:
-  ioslides_presentation: default
-  html_notebook: default
-  beamer_presentation: default
-  slidy_presentation: default
+  html_document:
+    highlight: pygments
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
 ---
+
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -25,7 +29,7 @@ Je prépare ma session de travail
 ATTENTION: C'EST LÀ OÙ LES IMAGES VONT ÊTRE TELECHARGEES!!!!
 
 ```{r}
-setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_2")
+setwd("~/GitHub/UNIGE/32M7129/Cours_02")
 dossier_image<-getwd()
 ```
 

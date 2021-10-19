@@ -1,14 +1,11 @@
----
-title: "Cours_2"
-author: "Simon Gabay"
-date: "05/10/2021"
-output:
-  html_document:
-    highlight: pygments
-    toc: true
-    toc_float:
-      toc_collapsed: true
-    theme: united
+Cours _Distant Reading_ : Visualisation
+
+# Découvrir  l'écosystème `R`
+
+Simon Gabay
+
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+
 ---
 
 # `R` et les statistiques

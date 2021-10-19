@@ -1,10 +1,11 @@
-Cours DH UniGE
+Cours _Distant Reading_ : Visualisation
 
 # Introduction à la stylométrie
 
 Simon Gabay
-Genève, Lundi 10 février 2020
 
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+  
 ---
 # Introduction
 ---
@@ -45,7 +46,7 @@ On appelle parfois ces mots outils (_function words_ ou _stop words_ en anglais,
 
 _The Federalist Papers_ est un recueil de 85 articles publié en 1787. C'est encore aujourd'hui une source importante pour l'histoire du droit américain, car ces articles ont été l'une des principales sources d'interprétation de la constitution américaine.
 
-Ce recueil est publié sous un pseudonyme unique (_Publius Valerius Publicola_) par trois auteurs: James Madison, Alexander Hamilton et John Jay. Si nous sommes certains de connaître tous les articles publiés par le dernier (N°2,3,4,5 et 64), il n'en va pas de même pour les deux autres.
+Ce recueil est publié sous un pseudonyme unique (_Publius Valerius Publicola_) par trois auteurs: James Madison, Alexander Hamilton et John Jay. Si nous sommes certains de connaître tous les articles publiés par le dernier (N°2, 3, 4, 5 et 64), il n'en va pas de même pour les deux autres.
 
 Nous avons donc plusieurs problèmes:
 * Les articles 49-58, 62 et 63 ne sont attribués à aucun auteur.
@@ -86,7 +87,7 @@ Mosteller & Wallace, _Applied Bayesian and Classical Inference: The Case of The 
 
 Frederick Mosteller et David Wallace vont mener les premières études statistiques permettant d'identifier un auteur à partir des fréquences des mots.
 
-* « Inference in an Authorship Problem », Journal of the American Statistical Association, vol. 58, juin 1963, p. 275-309
+* « Inference in an Authorship Problem », _Journal of the American Statistical Association_, vol. 58, juin 1963, p. 275-309
 * _Inference and Disputed Authorship: Federalist Papers_, 1964.
 
 Un de leurs objectifs est de retrouver des marqueurs (_markers_)
@@ -126,13 +127,13 @@ Etude sur Jacob van Maerlant (c.1230-†c.1288) par Kestemont, Daelemans et Sand
 
 ![60% center](images/function_pos_Zhao.png)
 
-* Gamon 2004 travaille sur des N-grams (en l'occurrence des trigrammes) de POS
+* Gamon 2004 travaille sur des _N-grams_ (en l'occurrence des trigrammes) de POS
 ![30% center](images/POS_trigrams.png)
 
 ---
 ## Les séquences de caractères
 
-Sapkota, Bethard et Montes, 2015 proposent donc de travailler sur des N-grams, mais de caractères. Afin d'aller plus loin que les n-grams, il distinguent:
+Sapkota, Bethard et Montes, 2015 proposent donc de travailler sur des _N-grams_, mais de caractères. Afin d'aller plus loin que les _N-grams_, il distinguent:
 
 * Préfixe : un n-gramme de caractères couvrant les n premiers caractères d’un mots de longueur au moins n+1
 * Suffixe :un n-gramme de caractères couvrant les n derniers caractères d’un mots de longueur au moins n+1
@@ -175,7 +176,7 @@ Sapkota, Bethard et Montes, 2015
 
 ![100% center](images/dimensions.png)
 
-Comment représenter de l'information à n-dimensions?
+Comment représenter de l'information à N-dimensions?
 
 ---
 ## Principe
@@ -202,7 +203,7 @@ Moshe Binieli, ["An overview of Principal Component Analysis"](https://medium.co
 ---
 ## ACP
 
-L'Analyse en composantes principales (ACP ou PCA en anglais pour _principal component analysis_) va déterminer les deux axes qui expliquent le mieux la dispersion de l'objet, interprété comme un nuage de points.
+L'Analyse en composantes principales (ACP ou _PCA_ en anglais pour _principal component analysis_) va déterminer les deux axes qui expliquent le mieux la dispersion de l'objet, interprété comme un nuage de points.
 
 Prenons une classe notée sur 100 pour deux devoirs:
 
@@ -222,7 +223,7 @@ Kestemont, Moens, Deploige 2014.
 ---
 ## t-SNE
 
-Au moment de la réduction de _n_ à deux dimensions, nous allons perdre de l'information.
+Au moment de la réduction de _N_ à deux dimensions, nous allons perdre de l'information.
 * Nous pouvons décider de préserver les longues distances entre les points, et ainsi maintenir les grands équilibres en "étirant" le graphique (PCA).
 * Nous pouvons aussi décider de conserver les petites distances entre les points avec un algorithme _t-Distributed Stochastic Neighbor Embedding_ (t-SNE).
 
@@ -233,7 +234,7 @@ Un algorithme t-SNE ne donne jamais le même résultat: il doit être relancé p
 ---
 ## Quantité vs qualité
 
-L'analyse en composante principale et l'algorithme t-SNE sont utilisés avec des grands ensembles de données. Quand les variables sont qualitatives, on se tourner plus volontiers
+L'analyse en composante principale et l'algorithme t-SNE sont utilisés avec des grands ensembles de données. Quand les variables sont qualitatives, on se tourne plus volontiers
 * vers une AFC (Analyse Factorielle des Correspondances) quand on a deux variables qualitatives
 * vers une ACM (Analyse des Correspondances Multiples) lorsqu'on a plus de deux variables
 
@@ -260,7 +261,7 @@ Doit devenir, par exemple:
 
 L'ACM est, pour aller vite, une ACP sur des catégories. Un ensemble d’individus (en lignes) est décrit par un ensemble de variables qualitatives (en colonnes), comme dans une enquête d'opinion.
 
-Ce type d'analyse, très utilisé en sociologie, a été popularisé par Pierre Bourdieu dans les années 70.
+Ce type d'analyse, très utilisé en sociologie, a été popularisé par Pierre Bourdieu dans les années 70. Pour un individu _i_:
 
 
 |       | Fruit  | Légume  | Viande |
@@ -293,7 +294,7 @@ Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:ACM_fig1.jpg?uselang
 ---
 # MDS
 
-Le principe du MDS (_Multidimensional scaling_) est de positionner nos individus dans un espace à _n_ dimensions (normalement 2, voire 3) en fonction de leur similarité/dissimilarité. On va donc passer par une tableau représentant la distance entre les différents individuss.
+Le principe du MDS (_Multidimensional scaling_) est de positionner nos individus dans un espace à _N_ dimensions (normalement 2, voire 3) en fonction de leur similarité/dissimilarité. On va donc passer par une tableau représentant la distance entre les différents individuss.
 
 L'idée est donc de "comprimer" un ensemble d'informations en une une matrice de similarité, sur laquelle on va réaliser une ACP.
 
@@ -484,3 +485,8 @@ Source: [slideplayer](http://slideplayer.com/slide/9336538/)
 La méthode de Ward, recommandé par Hoover 2003b et qui **est la plus utilisé aujourd'hui**, minimise la variance (ou inertie) intra-classe, et maximise (logiquement) la variance (ou inertie) interclasse.
 
 Comme elle minimise la distance centroïde, elle constitue des groupes homogènes.
+
+---
+### Remerciements/sources
+
+Merci à JB Camps et Fl. Cafiero, qui retrouveront une partie de leur enseignement dans ces _slides_.
