@@ -234,7 +234,7 @@ Source: [wikipedia](https://en.wikipedia.org/wiki/Force-directed_graph_drawing#/
 
 ---
 
-Pour cela, on va utiliser des algorythmes qui vont:
+Pour cela, on va utiliser des algorithmes qui vont:
 1. Repousser les nœuds entre eux, comme des aimants, les plus éloignés se repoussant le moins
 
 ![100% center](images/layout_repulsion.png)
@@ -312,7 +312,7 @@ M. Grandjean et M. Jacomy. "Translating Networks: Assessing Correspondence Betwe
 ---
 ### Prestige
 
-Centralité de vecteurs propres: Score d’autorité attribué à un nœud en fonction du score de ses voisins. (_Eigenvector_) C’est l’algorythme de google.
+Centralité de vecteurs propres: Score d’autorité attribué à un nœud en fonction du score de ses voisins. (_Eigenvector_) C’est l’algorithme de google.
 
 ![40% center](images/analyse_eigenvector.jpg)
 
