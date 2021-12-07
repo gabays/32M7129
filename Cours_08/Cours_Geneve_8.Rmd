@@ -92,8 +92,8 @@ if(!require("ggmap")){
 Je charge mes deux fichiers: celui avec les nœuds (`nodes.csv`) et celui avec les arêtes (`edges.csv`).
 
 ```{r}
-nodes <- as.data.frame(read.csv(file="data/basic/nodes.csv", sep = "\t", header = FALSE))
-edges <- as.data.frame(read.csv(file="data/basic/edges.csv", sep = "\t", header = FALSE))
+nodes <- as.data.frame(read.csv(file="data/basic/nodes.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
+edges <- as.data.frame(read.csv(file="data/basic/edges.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
 #Je donne un nom aux colonnes de chaque data.frame
 colnames(nodes) <- c("id", "label","type")
 colnames(edges) <- c("from", "to")
@@ -423,8 +423,8 @@ plot(USairports, layout=layout_drl, main="DrL")
 J'ai préparé un tout petit jeu de données avec des coordonnées géographiques
 
 ```{r,results='hold'}
-nodes_geo <- as.data.frame(read.csv(file="data/geo/nodes.csv", sep = "\t", header = FALSE))
-edges_geo <- as.data.frame(read.csv(file="data/geo/edges.csv", sep = "\t", header = FALSE))
+nodes_geo <- as.data.frame(read.csv(file="data/geo/nodes.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
+edges_geo <- as.data.frame(read.csv(file="data/geo/edges.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
 #Je donne un nom aux colonnes de chaque data.frame
 colnames(nodes_geo) <- c("id", "label","lat","long")
 colnames(edges_geo) <- c("from", "to")
@@ -664,7 +664,7 @@ Et je lance une visualisation en 3D
 visNetwork(nodes = data_3d_vis$nodes,
            edges = data_3d_vis$edges,
            main = "Mon graphe interactif",
-           submain = "Alogirhtme de Fruchterman–Reingold",
+           submain = "Algorithme de Fruchterman–Reingold",
            footer = "Wow") %>%
   #Je trace le graphe
   visIgraphLayout(layout = "layout_with_fr", 
@@ -680,7 +680,7 @@ Je rajoute des options de visualisation, comme une modification des nœuds s'ils
 visNetwork(nodes = data_3d_vis$nodes,
            edges = data_3d_vis$edges,
            main = "Mon graphe interactif",
-           submain = "Alogirhtme de Fruchterman–Reingold",
+           submain = "Algorithme de Fruchterman–Reingold",
            footer = "Wow") %>%
   #Je trace le graphe
   visIgraphLayout(layout = "layout_with_fr", 
@@ -705,7 +705,7 @@ Je vais avoir besoin "d'écarter" mon graphe, en ajoutant de la répulsion entre
 data_3d_vis_plot <- visNetwork(nodes = data_3d_vis$nodes,
                                edges = data_3d_vis$edges,
                                main = "Mon graphe interactif",
-                               submain = "Alogirhtme de Fruchterman–Reingold",
+                               submain = "Algorithme de Fruchterman–Reingold",
                                footer = "Wow") %>%
                     #Je trace le graphe
                     visIgraphLayout(layout = "layout_with_fr", 

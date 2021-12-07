@@ -83,8 +83,8 @@ if(!require("ggmap")){
 Je charge mes deux fichiers: celui avec les nœuds (`nodes.csv`) et celui avec les arêtes (`edges.csv`).
 
 ```r
-nodes <- as.data.frame(read.csv(file="data/basic/nodes.csv", sep = "\t", header = FALSE))
-edges <- as.data.frame(read.csv(file="data/basic/edges.csv", sep = "\t", header = FALSE))
+nodes <- as.data.frame(read.csv(file="data/basic/nodes.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
+edges <- as.data.frame(read.csv(file="data/basic/edges.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
 #Je donne un nom aux colonnes de chaque data.frame
 colnames(nodes) <- c("id", "label","type")
 colnames(edges) <- c("from", "to")
@@ -103,7 +103,7 @@ nrow(edges); nrow(unique(edges[,c("from", "to")]))
 Je transforme ces deux objets en données `igraph`, qui vont me permettre de faire mes analyses de réseau par la suite.
 
 ```r
-data <- graph_from_data_frame(d=edges, vertices=nodes, directed=F) 
+data <- graph_from_data_frame(d=edges, vertices=nodes, directed=F)
 class(data)
 ```
 
@@ -131,13 +131,13 @@ V(data)$type
 Je peux désormais fabriquer mon réseau avec la fonction `plot`:
 
 ```r
-plot(data) 
+plot(data)
 ```
 
 Il existe une fonction alternative `plot.igraph`, qui fait la même chose
 
 ```r
-plot.igraph(data) 
+plot.igraph(data)
 ```
 
 Il existe enfin une fonction `tkplot` qui est un prototype d'interface utilisateur:
@@ -163,7 +163,7 @@ plot(data,
      #contenu de l'étiquette du nœud
      vertex.label=V(data)$type,
      #taille de la police
-     vertex.label.cex=1) 
+     vertex.label.cex=1)
 ```
 
 On peut customiser encore plus la décoration en intervenant plus lourdement sur la mise en page. Une manière de faire va être de créer des vecteurs à partir des données, en substituant la valeur qui nous intéresse par la forme que l'on souhaite lui donner. Par exemple, si je veux changer la couleur du nœud en fonction du label
@@ -219,7 +219,7 @@ plot(data,
      vertex.size = 10,
      #taille de la police
      vertex.label.cex=0.7
-     ) 
+     )
 
 title("mon graphe", sub="premier test")
 
@@ -287,8 +287,8 @@ plot(data, layout=to_circle, vertex.size=1)
 
 Il existe une multitude de _layouts_. Je peux tous les afficher d'un coup, pour jeter un coup d'œil à la forme qu'ils prennent, et choisir celui qui m'intéresse le plus
 
-```{r, fig.width=15, fig.height=7, dpi=25}
-layouts <- grep("^layout_", ls("package:igraph"), value=TRUE)[-1] 
+```r
+layouts <- grep("^layout_", ls("package:igraph"), value=TRUE)[-1]
 # J'en retire certains si je veux
 layouts <- layouts[!grepl("bipartite|merge|norm|sugiyama|tree", layouts)]
 #je prépare la mise en page du résultat
@@ -296,11 +296,11 @@ par(mfrow=c(3,3), mar=c(1,1,1,1))
 #Je fais un boucle: un graph par itération
 for (layout in layouts) {
   print(layout)
-  l <- do.call(layout, list(data)) 
+  l <- do.call(layout, list(data))
   plot(data_simplified, edge.arrow.mode=0, layout=l, main=layout) }
 ```
 
-S'il y en a un qui m'intéresse, je peux l'appliquer de la même manière que pour le cercle. 
+S'il y en a un qui m'intéresse, je peux l'appliquer de la même manière que pour le cercle.
 
 Evidemment, je ne dois choisir un graphe adapté…
 
@@ -340,7 +340,7 @@ plot(data_simplified, layout=layout_fr,
 
 On peut jouer sur les paramètres et augmenter le nombre d'itération
 
-```{r, fig.width=15, fig.height=7, dpi=15}
+```r
 #Je passe sur 2 colonnes, 2 rangs
 par(mfrow=c(2, 2))
 #J'ajuste la marge pour le titre
@@ -367,7 +367,7 @@ par(oma=c(0,0,0,0))
 
 Voyons le résultat apèrs 700 itérations:
 
-```{r, fig.width=10, fig.height=6, dpi=15}
+```r
 ## J'épaissis l'arête en fonction du poids
 E(data_simplified)$width <-E(data_simplified)$weight
 plot.igraph(data_simplified,
@@ -402,7 +402,7 @@ plot(USairports, layout=layout_drl, main="DrL")
 
 Nous pouvons comparer l'effet de ce découpage avec celui effectué par l'algorithme précédent, _Fruchterman Reingold_
 
-```{r, fig.width=15, fig.height=7, dpi=25}
+```r
 par(mfrow=c(1, 2))
 par(oma=c(0,0,2,0))
 plot(USairports, layout=layout_with_fr(USairports), weight=T, main="FR")
@@ -414,8 +414,8 @@ plot(USairports, layout=layout_drl, main="DrL")
 J'ai préparé un tout petit jeu de données avec des coordonnées géographiques
 
 ```r
-nodes_geo <- as.data.frame(read.csv(file="data/geo/nodes.csv", sep = "\t", header = FALSE))
-edges_geo <- as.data.frame(read.csv(file="data/geo/edges.csv", sep = "\t", header = FALSE))
+nodes_geo <- as.data.frame(read.csv(file="data/geo/nodes.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
+edges_geo <- as.data.frame(read.csv(file="data/geo/edges.csv", sep = "\t", header = FALSE, fileEncoding="UTF-8"))
 #Je donne un nom aux colonnes de chaque data.frame
 colnames(nodes_geo) <- c("id", "label","lat","long")
 colnames(edges_geo) <- c("from", "to")
@@ -426,7 +426,7 @@ edges_geo
 Je transforme ces deux objets en données `igraph`, qui vont me permettre de faire mes analyses de réseau par la suite.
 
 ```r
-data_geo <- graph_from_data_frame(d=edges_geo, vertices=nodes_geo, directed=F) 
+data_geo <- graph_from_data_frame(d=edges_geo, vertices=nodes_geo, directed=F)
 class(data_geo)
 plot(data_geo)
 ```
@@ -499,7 +499,7 @@ V(data_simplified)$size <- (closeness.deg*0.3)
 plot(data_simplified, layout=layout_fr, main="FR")
 ```
 
-On peut ajuster cette taille avec d'autres mesures de centralité, comme la centralité de vecteur 
+On peut ajuster cette taille avec d'autres mesures de centralité, comme la centralité de vecteur
 
 ```r
 V(data_simplified)$size <- (closeness.eig$vector*30)
@@ -569,15 +569,15 @@ plot(data, vertex.color=col, vertex.label=dist.thoJo)
 On peut mettre en valeur le chemin le plus court entre deux poins
 
 ```r
-mon_chemin <- shortest_paths(data, 
-                            from = V(data)[label=="Thomas Jolly"], 
+mon_chemin <- shortest_paths(data,
+                            from = V(data)[label=="Thomas Jolly"],
                              to  = V(data)[label=="Pierre Corneille"],
                             #je colorie le nœud et l'arête
                              output = "both")
 
 # On génère une couleur pour les arêtes en fonction du chemin
 couleur_arc <- rep("gray80", ecount(data))
-couleur_arc[unlist(mon_chemin$epath)] <- "orange" 
+couleur_arc[unlist(mon_chemin$epath)] <- "orange"
 "Couleur des arcs"
 couleur_arc #cf. 128 et 219
 
@@ -593,21 +593,21 @@ coleur_noeud[unlist(mon_chemin$vpath)] <- "gold"
 "Les nœuds"
 coleur_noeud #cf. 1 et 13
 
-plot(data, vertex.color=coleur_noeud, edge.color=couleur_arc, 
+plot(data, vertex.color=coleur_noeud, edge.color=couleur_arc,
      edge.width=largeur_arc, edge.arrow.mode=0)
 ```
 
 On peut aussi regrouper en cluster les données, que l'on représente en dendogramme, comme pour la stylométrie
 
 ```r
-ceb <- cluster_edge_betweenness(data) 
+ceb <- cluster_edge_betweenness(data)
 dendPlot(ceb, mode="hclust")
 ```
 
 Je projette ensuite ma classification sur mon graph
 
 ```r
-plot(ceb, data) 
+plot(ceb, data)
 ```
 
 On peut l'afficher en 3d. Pour cela j'utilise le paramètre dim=3 pour mon layout.
@@ -655,10 +655,10 @@ Et je lance une visualisation en 3D
 visNetwork(nodes = data_3d_vis$nodes,
            edges = data_3d_vis$edges,
            main = "Mon graphe interactif",
-           submain = "Alogirhtme de Fruchterman–Reingold",
+           submain = "Algorithme de Fruchterman–Reingold",
            footer = "Wow") %>%
   #Je trace le graphe
-  visIgraphLayout(layout = "layout_with_fr", 
+  visIgraphLayout(layout = "layout_with_fr",
                   smooth = FALSE,
                   #J'ajoute de la dynamique (cf. _infra_)
                   physics = TRUE
@@ -671,10 +671,10 @@ Je rajoute des options de visualisation, comme une modification des nœuds s'ils
 visNetwork(nodes = data_3d_vis$nodes,
            edges = data_3d_vis$edges,
            main = "Mon graphe interactif",
-           submain = "Alogirhtme de Fruchterman–Reingold",
+           submain = "Algorithme de Fruchterman–Reingold",
            footer = "Wow") %>%
   #Je trace le graphe
-  visIgraphLayout(layout = "layout_with_fr", 
+  visIgraphLayout(layout = "layout_with_fr",
                   smooth = FALSE,
                   #J'ajoute de la dynamique (cf. _infra_)
                   physics = TRUE
@@ -696,10 +696,10 @@ Je vais avoir besoin "d'écarter" mon graphe, en ajoutant de la répulsion entre
 data_3d_vis_plot <- visNetwork(nodes = data_3d_vis$nodes,
                                edges = data_3d_vis$edges,
                                main = "Mon graphe interactif",
-                               submain = "Alogirhtme de Fruchterman–Reingold",
+                               submain = "Algorithme de Fruchterman–Reingold",
                                footer = "Wow") %>%
                     #Je trace le graphe
-                    visIgraphLayout(layout = "layout_with_fr", 
+                    visIgraphLayout(layout = "layout_with_fr",
                                     smooth = FALSE,
                                     #J'ajoute de la dynamique (cf. _infra_)
                                     physics = TRUE
@@ -748,8 +748,5 @@ dev.off()
 ![100% center](monGraph.png)
 
 ![100% center](monGraph.svg)
-
-
-
 
 
