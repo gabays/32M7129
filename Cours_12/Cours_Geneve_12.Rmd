@@ -122,7 +122,7 @@ Je peux évidemment mélanger les sources
 
 ```{r}
 #import du CSV de Boyer (cf. cours  précédent)
-boyer  <- read.csv("Data/boyer.csv")
+boyer  <- read.csv("Data/boyer.csv", fileEncoding="UTF-8")
 leaflet(shp)%>%
 ## On ajoute un fond de carte
 addProviderTiles(providers$Esri.NatGeoWorldMap)%>% 
@@ -483,11 +483,11 @@ Je peux créer des jeux de données restreints, que j'extraie de l'objet `Switze
 Geneve<-Switzerland1_UTM[Switzerland1_UTM@data$NAME_1 == "Genève",]
 Geneve_df<-fortify(Geneve)
 
-#Je peux extraire plusieurs cantons en fonction d'un autre critère que son nom — ici, "huitante" pour "quatre-vingt"
+#Je peux extraire plusieurs cantons en fonction d'un autre critère que son nom — ici, "huitante" pour "quatre-vingts"
 canton_huitante<-Switzerland1_UTM[Switzerland1_UTM@data$eighty == "huitante",]
 canton_huitante_df<-fortify(canton_huitante)
 
-#Je peux extraire plusieurs cantons en fonction d'un autre critère que son nom — ici, "quatre-vingt" pour "huitante"
+#Je peux extraire plusieurs cantons en fonction d'un autre critère que son nom — ici, "quatre-vingts" pour "huitante"
 canton_quatre<-Switzerland1_UTM[Switzerland1_UTM@data$eighty == "quatre",]
 canton_quatre_df<-fortify(canton_quatre)
 ```
@@ -543,14 +543,14 @@ Je vais pouvoir rajouter des données scientifiques à mon enquête. En linguist
 Nous préparons donc les données pour chaque point (suisse):
 
 ```{r}
-releves = read.table("Data/80.tsv", header=T, sep="\t", quote="", dec=".")
+releves = read.table("Data/80.tsv", header=T, sep="\t", quote="", dec=".", fileEncoding="UTF-8")
 head(releves)
 ```
 
 Je dispose par ailleurs d'un fichier contenant, pour chaque point, le nom du lieu et ses coordonnées géographiques
 
 ```{r}
-georeferecement = read.table("Data/ALF-suisse.tsv", header=T, sep="\t", quote="", dec=".")
+georeferecement = read.table("Data/ALF-suisse.tsv", header=T, sep="\t", quote="", dec=".", fileEncoding="UTF-8")
 georeferecement
 ```
 

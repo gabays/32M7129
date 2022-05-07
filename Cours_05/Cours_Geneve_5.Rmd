@@ -179,7 +179,7 @@ Comparez les résultats obtenus avec ces différentes méthode de calcul. Réfle
 
 ## 2.5 S'appuyer sur d'autres expériences
 
-En plus de cette approche empirique, il est important de s'appuyer sur des études qui précisent les paramètres les plus efficaces. Selon Evert, Proisl, Jannidi, Reger, Pielström, Schöch, Vitt (2017), 5000 mots MFW avec cosine delta serait le plus efficace (y compris pour le français):
+En plus de cette approche empirique, il est important de s'appuyer sur des études qui précisent les paramètres les plus efficaces. Selon Evert, Proisl, Jannidis, Reger, Pielström, Schöch, Vitt (2017), 5000 mots MFW avec cosine delta serait le plus efficace (y compris pour le français):
 
 ![100% center](images/numbers.png)
 

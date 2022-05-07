@@ -75,6 +75,10 @@ if(!require("leaftime")){
   install.packages("leaftime")
   library(leaftime)
 }
+if(!require("magrittr")){
+  install.packages("magrittr")
+  library(magrittr)
+}
 ```
 
 # 1. Une première carte
@@ -310,7 +314,7 @@ map
 
 ```{r, results='hide'}
 #import de csv
-boyer  <- read.csv("Data/boyer.csv")
+boyer  <- read.csv("Data/boyer.csv", fileEncoding="UTF-8")
 ```
 
 Notre ficher `.csv` est riche en informations. On a, entre autres, pris soin de noter les longitudes et les latitudes
@@ -410,7 +414,7 @@ leaflet(Switzerland) %>%
 
 ```{r, results='hide'}
 #import de shapefile
-shp <- readOGR('Data/shapefile/area.shp')
+shp <- readOGR('Data/shapefile/area.shp', encoding="UTF-8")
 ```
 
 
@@ -526,8 +530,8 @@ map
 Je peux sauvegarder ma carte en html et l'ouvrir dans le navigateur (cela peut prendre un certain donc le code a été commenté).
 
 ```{r}
-#saveWidget(map, file="maCarte.html")
-#browseURL("maCarte.html")
+saveWidget(map, file="maCarte.html")
+browseURL("maCarte.html")
 ```
 
 # 6. Timeline
