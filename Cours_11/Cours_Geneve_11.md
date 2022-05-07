@@ -61,6 +61,10 @@ if(!require("leaftime")){
   install.packages("leaftime")
   library(leaftime)
 }
+if(!require("magrittr")){
+  install.packages("magrittr")
+  library(magrittr)
+}
 ```
 
 # 1. Une première carte
