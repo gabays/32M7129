@@ -43,7 +43,7 @@ Pour indiquer où se trouve le fichier de travail, deux solutions sont possibles
 * ou bien directement dans `R` avec la commande `setwd` (pour *Set working directory*), qui s'utilise de cette manière.
 
 ```{r}
-setwd("~/GitHub/UNIGE/32M7129/Cours_02")
+setwd("~/Documents/github/UNIGE/32M7129/Cours_02")
 ```
 
 **Attention!** Il convient de donner le chemin qui corredpond à votre configuration locale. Une fois la chose faite, cliquez sur `Run` (le bouton qui ressemble à *play*, à droite de la commande *supra*).

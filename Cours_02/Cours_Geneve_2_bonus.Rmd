@@ -29,7 +29,7 @@ Je prépare ma session de travail
 ATTENTION: C'EST LÀ OÙ LES IMAGES VONT ÊTRE TELECHARGEES!!!!
 
 ```{r}
-setwd("~/GitHub/UNIGE/32M7129/Cours_02")
+setwd("~/Documents/github/UNIGE/32M7129/Cours_02")
 dossier_image<-getwd()
 ```
 
