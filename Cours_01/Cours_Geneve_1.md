@@ -1,4 +1,26 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 46px;
+  color: darkred;
+}
+h2 {
+  font-size: 38px;
+  color: darkred;
+}
+</style>
+
 Cours _Distant Reading_ : Visualisation
+
 
 # 1. Des chiffres et des lettres
 
@@ -66,7 +88,7 @@ Trois exemples de visualisation:
 
 ---
 
-![20% center](material/Snow_cholera.jpg)
+<img style="width: 50%; display: block; margin-left: auto; margin-right: auto;" src="material/Snow_cholera.jpg"/>
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:Snow-cholera-map-1.jpg)
 
@@ -79,12 +101,13 @@ Source: [wikipedia](https://en.wikipedia.org/wiki/File:Snow-cholera-map-1.jpg)
 * Cette carte est un diagramme de Sankey (avant l'heure), c'est-à-dire un diagramme de flux.
 
 ---
-![100% center](material/Minard.png)
+
+<img style="width: 100%; display: block; margin-left: auto; margin-right: auto;" src="material/Minard.png"/>
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:Minard.png)
 
 ---
-![100% center](material/Sankeysteam.png)
+<img style="width: 80%; display: block; margin-left: auto; margin-right: auto;" src="material/Sankeysteam.png"/>
 
 Source: [wikipedia](https://commons.wikimedia.org/wiki/File:Sankeysteam.png)
 
@@ -98,7 +121,8 @@ Source: [wikipedia](https://commons.wikimedia.org/wiki/File:Sankeysteam.png)
 * Mur de granit noir de Bangalore long de 150 m sur lequel sont gravés les noms des 58 156 Américains tués ou portés disparus pendant cette guerre, **dans l'ordre chronologique de leur disparition**, entre 1959 et 1975.
 
 ---
-![100% center](material/memorial.jpg)
+
+<img style="width: 80%; display: block; margin-left: auto; margin-right: auto;" src="material/memorial.jpg"/>
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:US_Navy_061117-N-5307M-113_John_Nugent,_Vietnam_veteran,_plays_the_bagpipes_as_a_part_of_the_opening_ceremony_at_the_Dignity_Memorial_Vietnam_Wall_at_Mt._Trashmore_Park.jpg)
 
@@ -133,7 +157,7 @@ Il y a un glissement de la représentation qui se doit d'être exhautive, préci
 
 J. Bertin propose une grammaire graphique afin d'améliorer l'efficacité des rendus
 
-![100% center](material/bertin_grammaire.jpg)
+<img style="width: 50%;  display: block; margin-left: auto; margin-right: auto;" src="material/bertin_grammaire.jpg"/>
 
 Source: [Palsky 2017/Bertin 1967](https://visionscarto.net/la-semiologie-graphique-a-50-ans)
 
@@ -159,24 +183,28 @@ Quelques concepts importants:
 
 Surreprésentation ou sous-représentation ce qui se trouve dans les données
 
-![100% center](material/lie_factor.png)
+<img style="width: 90%; display: block; margin-left: auto; margin-right: auto;" src="material/lie_factor.png"/>
+
 
 ---
 ## _Data-ink ratio_
 
 Proportion d'encre utilisée pour la représentation des données par rapport à l'encre utilisé pour l'ensemble du graphique
 
-![100% center](material/DIR.jpg)
+<img style="width: 60%;  display: block; margin-left: auto; margin-right: auto;" src="material/DIR.jpg"/>
 
 Source: [info-vis wiki](https://infovis-wiki.net/wiki/File:DIR.jpg)
 
 ---
 ## _Data-ink ratio_
 
+<img style="width: 30%; float:left; " src="material/DIR1.png"/>
 
-![50% center](material/DIR1.png)
 Source: [info-vis wiki](https://infovis-wiki.net/wiki/File:Dir1.png)
-![50% center](material/DIR2.png)
+
+
+<img style="width: 30%; float:right;" src="material/DIR2.png"/>
+
 
 Source: [info-vis wiki](https://infovis-wiki.net/wiki/File:Dir2.png)
 
@@ -185,8 +213,9 @@ Source: [info-vis wiki](https://infovis-wiki.net/wiki/File:Dir2.png)
 
 Il s'agit de la proportion du graph dédiée à la représentation des données.
 
-![70% center](material/dataDensityFormula.png)
-![70% center](material/dataDensity.png)
+<img style="width: 30%;  display: block; margin-left: auto; margin-right: auto;" src="material/dataDensityFormula.png"/>
+
+<img style="width: 55%;  display: block; margin-left: auto; margin-right: auto;" src="material/dataDensity.png"/>
 
 Source: [pparacch](https://pparacch.github.io/2017/07/18/plotting_in_R_ggplot2_part_3.html)
 
@@ -201,24 +230,23 @@ Se traduit en français par "bruit graphique" (littéralement "tableau déchet")
 ---
 ## _Chart junk_
 
-![110% center](material/chartjunk.png)
+<img style="width: 50%;  display: block; margin-left: auto; margin-right: auto;" src="material/chartjunk.png"/>
 
 Source: [https://junkcharts.typepad.com](https://junkcharts.typepad.com/junk_charts/2008/06/rise-and-fall.html)
 
 ---
 ## Small multiples
 
-![100% center](material/pew.png)
+<img style="width: 80%;  display: block; margin-left: auto; margin-right: auto;" src="material/pew.png"/>
 
 Source: [Pew research center](https://medium.com/pew-research-center-decoded/how-pew-research-center-uses-small-multiple-charts-2531bfc06419)
 
 ---
 ## Sparkline
 
-![100% center](material/Sparkline_sp500.svg.png)
+<img style="width: 80%;  display: block; margin-left: auto; margin-right: auto; padding-bottom: 3em;" src="material/Sparkline_sp500.svg.png"/>
 
-
-Elle permet de commenter une courbe ![10%](material/Sparkline_sp500.svg.png) dans la phrase, sans ajouter aucun chiffre, pour expliquer une tendance (ici un léger regain).
+Elle permet de commenter une courbe <img style="width: 25%" src="material/Sparkline_sp500.svg.png"/> dans la phrase, sans ajouter aucun chiffre, pour expliquer une tendance (ici un léger regain).
 
 Source: [Pew research center](https://en.wikipedia.org/wiki/Sparkline#/media/File:Sparkline_sp500.svg)
 
@@ -236,7 +264,7 @@ Une telle approche requiert un très grand nombre de documents: il devient impos
 
 ---
 
-![100% center](material/moretti-Graphs-2005-p.16.png)
+<img style="width: 70%;  display: block; margin-left: auto; margin-right: auto; " src="material/moretti-Graphs-2005-p.16.png"/>
 
 Source: [Moretti 2005](https://en.wikipedia.org/wiki/Sparkline#/media/File:Sparkline_sp500.svg)
 
@@ -324,10 +352,10 @@ Prenons la fréquence de deux mots uniquement: "Rome" et "qui"
 On crée deux vecteurs qui contiennent ces informations:
 
 ```r
-x <- c(4,2)
-y <- c(2,1)
-x
-y
+x <- c(4,2) #Rome
+y <- c(2,1) #Qui
+x #j'affiche le contenu de x
+y #j'affiche le contenu de y
 ```
 
 ---
@@ -340,7 +368,7 @@ plot(x,y)
 dev.off()
 ```
 
-![100% center](images/plot1.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot1.png"/>
 
 ---
 
@@ -353,7 +381,7 @@ plot(x,y, xlab="abscisse", ylab="ordonnée",
 dev.off()
 ```
 
-![100% center](images/plot2.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot2.png"/>
 
 ---
 
@@ -368,7 +396,7 @@ segments(x[s], y[s], x[s+1], y[s+1], col= 1:3)
 dev.off()
 ```
 
-![70% center](images/plot3.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot3.png"/>
 
 ---
 
@@ -383,7 +411,7 @@ arrows(x[s], y[s], x[s+1], y[s+1], col= 'pink')
 dev.off()
 ```
 
-![100% center](images/plot4.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot4.png"/>
 
 ---
 
@@ -418,7 +446,7 @@ text(x=2.2, y=1, labels="Racine")
 dev.off()
 ```
 
-![60% center](images/plot5.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot5.png"/>
 
 ---
 
@@ -470,7 +498,7 @@ dev.off()
 
 ---
 
-![160% center](images/plot6.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot6.png"/>
 
 ---
 # 2 Des chiffres et des images
@@ -521,8 +549,7 @@ plot(c(100, 200), c(100, 100), type= "n", xlab = "", ylab = "")
 rect(210, 150, 1, 1, col = red)
 dev.off()
 ```
-
-![100% center](images/image1.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/image1.png"/>
 
 ---
 ## Une image moins simple
@@ -537,6 +564,7 @@ matrix(x, nrow=1, ncol=length(x))
 On crée deux autres codes hexadécimaux à partir des codes RGB des couleurs et l'on remplit le tableau:
 
 ```r
+png(file="images/image2.png")
 yellow<-rgb2hex(255,215,0) #ffff00"
 black<-rgb2hex(0,0,0) #000000
 png(file="images/image2.png")
@@ -547,4 +575,4 @@ dev.off()
 
 ---
 
-![150% center](images/image2.png)
+<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/image2.png"/>

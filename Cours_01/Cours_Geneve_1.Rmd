@@ -1,7 +1,7 @@
 ---
 title: "1. Des chiffres et des lettres"
 author: "Simon Gabay"
-date: "28/10/2021"
+date: "03/10/2022"
 output:
   html_document:
     highlight: pygments
@@ -19,16 +19,16 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-setwd("~/GitHub/UNIGE/32M7129/Cours_01")
+setwd("~/Documents/github/UNIGE/32M7129/Cours_01")
 if (!require("ggplot2")) install.packages("ggplot2")
 if (!require("rmarkdown")) install.packages("rmarkdown")
 ```
 
----
+------
 
 # Préalable
 
----
+------
 
 ## Le Code
 
@@ -42,7 +42,7 @@ Les cours se trouvent en ligne à l'adresse suivante: https://github.com/gabays/
 * Chaque est donc du code transformé en slides
 * Vous trouverez y trouverez donc le code, et les slides
 
----
+------
 
 ## L'objectif
 
@@ -55,17 +55,18 @@ Pour chacune de ces deux étapes, les données subissent une transformation
 1.Elle passent à travers un filtre mathématique (calcul de distance, algorithme…)
 2. Elles subissent une déformation graphique (passage de n-dimensions à deux, perspective…)
 
----
+------
 
 # 1 Sémantique
 
----
+------
+
 Trois exemples de visualisation:
 * La carte de Snow
 * Le diagramme de Minard
 * Le Mémorial de Maya Lin
 
----
+------
 
 ## La carte de Snow
 
@@ -74,13 +75,14 @@ Trois exemples de visualisation:
 * Les trois jours suivants, 127 personnes habitant Broad Street ou les environs meurent. Les semaines qui suivent, les trois quarts des habitants ont fui le quartier. Le 10 septembre, 500 personnes étaient mortes. En tout, l'épidémie a fait 616 morts.
 * À l'époque, la théorie des miasmes attribue au « mauvais air » le choléra: Snow va permettre de localiser l'origine de l'épidémie, une pompe publique, sur la base d'une répartition géographique des cas.
 
----
+------
 
-![20% center](material/Snow_cholera.jpg)
+![h:20 center](material/Snow_cholera.jpg)
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:Snow-cholera-map-1.jpg)
 
----
+------
+
 ## La campagne de Russie par Minard
 
 * Charles Joseph Minard (1781-1870)
@@ -88,17 +90,19 @@ Source: [wikipedia](https://en.wikipedia.org/wiki/File:Snow-cholera-map-1.jpg)
 * Carte figurative des pertes successives en hommes de l'armée française dans la campagne de Russie 1812-1813
 * Cette carte est un diagramme de Sankey (avant l'heure), c'est-à-dire un diagramme de flux.
 
----
+------
+
 ![100% center](material/Minard.png)
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:Minard.png)
 
----
+------
+
 ![100% center](material/Sankeysteam.png)
 
 Source: [wikipedia](https://commons.wikimedia.org/wiki/File:Sankeysteam.png)
 
----
+------
 
 ## Le Mémorial des anciens combattants du Viêt Nam
 
@@ -107,12 +111,14 @@ Source: [wikipedia](https://commons.wikimedia.org/wiki/File:Sankeysteam.png)
 * Statues de trois soldats
 * Mur de granit noir de Bangalore long de 150 m sur lequel sont gravés les noms des 58 156 Américains tués ou portés disparus pendant cette guerre, **dans l'ordre chronologique de leur disparition**, entre 1959 et 1975.
 
----
+------
+
 ![100% center](material/memorial.jpg)
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/File:US_Navy_061117-N-5307M-113_John_Nugent,_Vietnam_veteran,_plays_the_bagpipes_as_a_part_of_the_opening_ceremony_at_the_Dignity_Memorial_Vietnam_Wall_at_Mt._Trashmore_Park.jpg)
 
----
+------
+
 ## J. Bertin
 
 * Jacques Bertin (1967), _Sémiologie graphique. Les diagrammes. Les réseaux. Les cartes_, Paris/La Haye, Mouton ; Paris, Gauthier-Villars.
@@ -121,7 +127,8 @@ Source: [wikipedia](https://en.wikipedia.org/wiki/File:US_Navy_061117-N-5307M-11
 
 * "Efficacité graphique": "si pour obtenir une réponse correcte et complète à une question donnée, et, toutes choses égales, une construction requiert un temps d’observation plus court qu’une autre construction, on dira qu’elle est plus efficace pour cette question". (1967, 139)
 
----
+------
+
 ### Loi du moindre effort
 
 Il y a un glissement de la représentation qui se doit d'être exhautive, précise et complète, à la représentation qui se doit d'être effiface.
@@ -138,7 +145,8 @@ Il y a un glissement de la représentation qui se doit d'être exhautive, préci
 
 <!-- https://www.persee.fr/doc/colan_0336-1500_1969_num_2_1_3726#colan_0336-1500_1969_num_2_1_T1_0025_0000 -->
 
----
+------
+
 ### Grammaire graphique
 
 J. Bertin propose une grammaire graphique afin d'améliorer l'efficacité des rendus
@@ -147,7 +155,8 @@ J. Bertin propose une grammaire graphique afin d'améliorer l'efficacité des re
 
 Source: [Palsky 2017/Bertin 1967](https://visionscarto.net/la-semiologie-graphique-a-50-ans)
 
----
+------
+
 ## Tufte
 
 Les exemples précédemment présentés proviennent des travaux d'Edward Tufte (1942-),
@@ -164,14 +173,16 @@ Quelques concepts importants:
 * _Small multiples_
 * _Sparkline_
 
----
+------
+
 ## _Lie factor_
 
 Surreprésentation ou sous-représentation ce qui se trouve dans les données
 
 ![100% center](material/lie_factor.png)
 
----
+------
+
 ## _Data-ink ratio_
 
 Proportion d'encre utilisée pour la représentation des données par rapport à l'encre utilisé pour l'ensemble du graphique
@@ -180,7 +191,8 @@ Proportion d'encre utilisée pour la représentation des données par rapport à
 
 Source: [info-vis wiki](https://infovis-wiki.net/wiki/File:DIR.jpg)
 
----
+------
+
 ## _Data-ink ratio_
 
 
@@ -190,7 +202,8 @@ Source: [info-vis wiki](https://infovis-wiki.net/wiki/File:Dir1.png)
 
 Source: [info-vis wiki](https://infovis-wiki.net/wiki/File:Dir2.png)
 
----
+------
+
 ## _Data density_
 
 Il s'agit de la proportion du graph dédiée à la représentation des données.
@@ -201,28 +214,32 @@ Il s'agit de la proportion du graph dédiée à la représentation des données.
 Source: [pparacch](https://pparacch.github.io/2017/07/18/plotting_in_R_ggplot2_part_3.html)
 
 
----
+------
+
 ## _Chart junk_
 
 Se traduit en français par "bruit graphique" (littéralement "tableau déchet").
 
 > « Les **décorations intérieures aux graphiques sont autant d'encre qui ne dit rien de nouveau au lecteur**. La raison d'être de la décoration varie — faire apparaitre le graphique comme plus scientifique et précis [expert], vivifier le style, donner la possibilité à l'illustrateur de faire la preuve de ses talents artistiques. Quelle qu'en soit la raison, c'est autant d'encre-sans-information ou d'encre-répétant l'information, et donc souvent du _chartjunk_ [bruit graphique inutile]. »
 
----
+------
+
 ## _Chart junk_
 
 ![110% center](material/chartjunk.png)
 
 Source: [https://junkcharts.typepad.com](https://junkcharts.typepad.com/junk_charts/2008/06/rise-and-fall.html)
 
----
+------
+
 ## Small multiples
 
 ![100% center](material/pew.png)
 
 Source: [Pew research center](https://medium.com/pew-research-center-decoded/how-pew-research-center-uses-small-multiple-charts-2531bfc06419)
 
----
+------
+
 ## Sparkline
 
 ![100% center](material/Sparkline_sp500.svg.png)
@@ -232,7 +249,8 @@ Elle permet de commenter une courbe ![10%](material/Sparkline_sp500.svg.png) dan
 
 Source: [Pew research center](https://en.wikipedia.org/wiki/Sparkline#/media/File:Sparkline_sp500.svg)
 
----
+------
+
 ## Franco Moretti
 
 * Prof à Stanford
@@ -244,13 +262,14 @@ Moretti tente d'analyser un "système mondial de la littérature" sur des princi
 
 Une telle approche requiert un très grand nombre de documents: il devient impossible de  pratiquer ce que les anglo-saxons appellent le  _close reading_ (commentaire de texte): il faut prendre de la hauteur et essayer un _distant reading_.
 
----
+------
 
 ![100% center](material/moretti-Graphs-2005-p.16.png)
 
 Source: [Moretti 2005](https://en.wikipedia.org/wiki/Sparkline#/media/File:Sparkline_sp500.svg)
 
----
+------
+
 ## Johanna Drucker
 
 Prof. à UCLA
@@ -259,13 +278,14 @@ Prof. à UCLA
 * Regret du logocentrisme ( _the text-based approach typical of traditional humanities_ ): il faut  «surmonter l'ancienne résistance des humanists aux formes visuelles de la production de connaissance»
 * L'objectif est d'«empêcher les humanités numériques de tomber dans la pure application technique de pratiques standardisées» (calcul statistique, calcul d'ingénieur, gestion technicienne d'information...) et de chercher au contraire à «créer des capacités inventives et ouvertes susceptibles de changer les paramètres»
 
----
+------
 
 « La posture qui domine dans le champ du design d'information repose presque entièrement sur **l'idée que les données pré-existent à leur affichage et que la tâche qui consiste à leur donner une forme visuelle consiste purement à transformer un exercice cognitif en un exercice perceptif**. Si la valeur d'un design d'information intelligent dans l'interprétation de données statistiques ne saurait être surestimée, et ne pas prendre cela en compte serait ridicule, les limites de cette approche doivent aussi être soulignées. Pourquoi? Parce qu'elle restreint les conditions de la connaissance en suggérant que **l'information existe indépendamment de sa présentation visuelle et attend simplement de recevoir la «meilleure» forme dans laquelle elle pourra être représentée.**» (Drucker 2004)
 
 <!--https://hal.archives-ouvertes.fr/hal-01294693 -->
 
----
+------
+
 ## Au delà du _design_
 
 La "simple" question du design a désormais débouché sur des interrogations plus larges qui relèvent de l'interaction homme-machine (IHM, _Human–computer interaction_).
@@ -273,10 +293,12 @@ La "simple" question du design a désormais débouché sur des interrogations pl
 * VRE pour _Virtual research environment_
 * UX pour _User experience_
 
----
+------
+
 # 2 Des chiffres et des lettres
 
----
+------
+
 ## _Data types_ dans R (et partout ailleurs)
 
 On peut additionner des chiffres (_int_ pour _integer_, "entier")
@@ -297,13 +319,14 @@ On remarque que les _str_ sont notés entre guillemets. On peut ainsi spécifier
 #"1"+2
 ```
 
----
+------
 
 Cette distinction entre _str_ et _int_ est fondamentale dès lors que l'on veut visualiser des données. Dans de nombreux cas, la visualisation nécessite de manipulation les données, or celles-ci peuvent être réalisées parfois sur des  _str_ ou _int_, mais dans certains cas uniquement sur des _int_. Un exemple tout simple serait l'addition: on ne peut effectuer l'addition "4+voiture" dans la vraie vie comme dans un ordinateur.
 
 On va parler de données "catégorielles" et de données "métriques". La différence entre ces types de données est majeure, car elle va limiter les visualisations possibles: s'il est possible de faire une AFC ou de construire avec des données catégorielles, il est impossible de faire un ACP sans des données métriques. Il en va de même pour construire un arbre de décision (données catégorielles et métriques) et une régression linéaire (données métriques uniquement).
 
----
+------
+
 ## Notre mini-corpus
 
 Texte 1
@@ -322,12 +345,12 @@ Texte 2
 
 Racine, _Bérénice_, acte II, scène 2
 
----
+------
 
 Prenons la fréquence de deux mots uniquement: "Rome" et "qui"
 
 | Token | Corneille | Racine |
-|-------|-----------|--------|
+|-------------|--------------------|--------------|
 | Rome  | 4         | 2      |
 | qui   | 2         | 1      |
 
@@ -340,7 +363,7 @@ x
 y
 ```
 
----
+------
 
 On les replace sur un plan:
 
@@ -352,7 +375,7 @@ dev.off()
 
 ![100% center](images/plot1.png)
 
----
+------
 
 On rajoute quelques informations pour faciliter la lecture du graphique
 
@@ -365,7 +388,7 @@ dev.off()
 
 ![100% center](images/plot2.png)
 
----
+------
 
 Ces points représentent des faits linguistiques calculés à partir des fréquences dans notre corpus. L'écart qui sépare ces points représente l'écart entre deux pratiques stylistiques:
 
@@ -380,7 +403,7 @@ dev.off()
 
 ![70% center](images/plot3.png)
 
----
+------
 
 Il faut donc calculer comment aller du point A au point B
 
@@ -395,7 +418,7 @@ dev.off()
 
 ![100% center](images/plot4.png)
 
----
+------
 
 On peut complexifier le problème en ajoutant un troisième auteur:
 > C'est Rome _qui_ demande nos larmes : **Rome** ! La Maîtresse de l'univers ; **Rome** ! Mère féconde des héros, et les délices des Dieux ; **Rome** ! Qui humiliait l'orgueil des tyrans de la Terre, et _qui_ brillait les fers des Nations hélas !
@@ -405,11 +428,11 @@ Boyer, _Caton_, Acte IV, scène XII
  Cela nous donne le tableau suivant:
 
 | Token  | Corneille | Racine | Boyer |
-|--------|-----------|--------|-------|
+|--------------|--------------------|--------------|-------------|
 | "Rome" | 4         | 2      | 3     |
 | "qui"  | 2         | 1      | 2     |
 
----
+------
 
 Nous obtenons donc un nouveau graph:
 
@@ -430,7 +453,7 @@ dev.off()
 
 ![60% center](images/plot5.png)
 
----
+------
 
 ## De l'importance des mathématiques (pour les nuls)
 
@@ -440,7 +463,7 @@ Il est donc possible de calculer la distance entre ces trois textes pour voir le
 
 ![100% center](material/distance_euclidienne.png)
 
----
+------
 
 En faisant un rapide calcul, on peut donc confirmer notre validation par nos calculs de distance:
 
@@ -454,7 +477,7 @@ RaBo <- sqrt((2-3)**2+(1-2)**2)
 cat("Distance Racine/Boyer = ", RaBo)
 ```
 
----
+------
 
 On intègre les distances dans le plan
 
@@ -478,35 +501,39 @@ legend("topleft", legend=c("Auteur", "Dist. euclidienne"),
 dev.off()
 ```
 
----
+------
 
 ![160% center](images/plot6.png)
 
----
+------
+
 # 2 Des chiffres et des images
----
+
+------
+
 ## RGB
 
 Exactement comme pour le texte, on doit passer par des chiffres pour travailler avec des images. Une image se compose de trois couleurs: rouge, vert et bleu. C'est le mélange de ces trois couleurs qui permet d'obtenir le résultat souhaité. Ainsi:
 
 | Couleur |  R  |  G  |  B  |
-|---------|-----|-----|-----|
+|------------------|--------|--------|--------|
 | Noir    | 255 | 215 |  0  |
 | Rouge   | 255 |  0  |  0  |
 | Jaune   | 255 | 255 | 255 |
 
----
+------
+
 ## Hexadécimal
 
 Ces couleurs RGB sont souvent converties en triplet hexadécimal, soit un nombre hexadécimal à 6 chiffres mémorisé sur trois octets, pour simplifier le travail
 
 | Couleur |  R  |  G  |  B  | Hexadécimal |
-|---------|-----|-----|-----|-------------|
+|------------------|--------|--------|--------|-------------------------|
 | Noir    | 255 | 215 |  0  |   #000000   |
 | Rouge   | 255 |  0  |  0  |   #ff0000   |
 | Jaune   | 255 | 255 | 255 |   #ffff00   |
 
----
+------
 ## Une image très simple
 
 Si nous prenons une couleur en RGB, il est utile en R de la transformer en triplet hexadécimal. Pour cela nous créons une fonction
@@ -521,7 +548,7 @@ Et nous transformons la couleur rouge en triplet, que l'on stocke dans une varia
 red<- rgb2hex(255,0,0) #ff0000
 ```
 
----
+------
 
 On peut ensuite afficher une image simple: un carré rouge.
 
@@ -534,7 +561,8 @@ dev.off()
 
 ![100% center](images/image1.png)
 
----
+------
+
 ## Une image moins simple
 
 Notre image précédente étant une simple case vide, nous pouvons multiplier les cases à colorier. Pour cela, il faut créer une matrice (un tableau) à remplir: on assigne une couleur à chaque cellule, et nous obtiendrons une image
@@ -555,6 +583,6 @@ image(1,1:length(x), matrix(x, nrow=1, ncol=length(x)),
 dev.off()
 ```
 
----
+------
 
 ![150% center](images/image2.png)
