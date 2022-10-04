@@ -244,9 +244,8 @@ uneListe
 On peut récupérer une élément dans une liste
 
 ```{r}
-uneListe[[3]]
-uneListe[[4]][[2]]
-
+uneListe[[3]] #savoir s'il existe
+uneListe[[4]][[2]] #récupérer la valeur
 ```
 
 #### 2.3.3 Data frames
@@ -254,7 +253,7 @@ uneListe[[4]][[2]]
 ```{r}
 df <- data.frame(taille=c(173,175,168,172,173,170,175,172,180),
                  poids=c( 69, 81, 55, 64, 66, 70, 75, 71, 77),
-                 sexe=c( "M","M","F","F","F","M","M","F","F"),
+                 genre=c( "M","M","F","F","F","M","M","F","F"),
                  row.names=c("Patrick","Jacques","Pauline","Marie","Eva","Eric", "Paul", "Christine","Madeleine")
                  )
 df
@@ -266,10 +265,28 @@ On peut récupérer les informations dans le data frame
 df["Patrick","poids"]
 ```
 
-Il est possible de "découper" des morceaux du tableau
+Sélectionner le premier rang:
 
 ```{r}
-df[1:3,c("poids","sexe")]
+df[1,]
+```
+
+Sélectionner la première colonne:
+
+```{r}
+df[,1]
+```
+
+Il est possible de "découper" des morceaux du tableau:
+
+```{r}
+df[1:3,c(2,3)]
+```
+
+Je peux appeler les vecteurs par leur nom:
+
+```{r}
+df[1:3,c("poids","genre")]
 ```
 
 On peut accéder à des colonnes en ajoutant `$` suivi du nom de la colonne
@@ -277,6 +294,15 @@ On peut accéder à des colonnes en ajoutant `$` suivi du nom de la colonne
 ```{r}
 df$taille
 ```
+
+Pour récupérer des rangs en les choisissant:
+
+```{r}
+subset_df <- rbind(df[1:2, ], df[5, ])
+subset_df
+```
+
+
 
 ## 3 Des premières statistiques
 
@@ -326,7 +352,7 @@ Ces informations nous permettent de décrire notre échantillon
 hist(df$poids,main="Poids",col="red",xlab="Poids",ylab="Fréquence")
 ```
 
-On peut vérifier si la distribution est normale avec `qqnorm`. Pour qu'elle le soit, il faut que les points (qui dessinent une fonction de répartition _Φ_ (_phi_) montent constamment, comme dans ces exemples:
+On peut vérifier si la distribution est normale avec `qqnorm`. Pour qu'elle le soit, il faut que les points (qui dessinent une fonction de répartition _Φ_, _phi_) montent constamment, comme dans ces exemples:
 
 ![center 100%](images/2000px-Normal_Distribution_CDF.png)
 
@@ -338,28 +364,29 @@ Si la répartition de nos données suivent une loi normale, nous devons obtenir 
 
 ![center 100%](images/2000px-Normal_Distribution_PDF.png)
 
-Comme la distribution est normale, on peut superposer à notre un histogramme la courbe de densité qui lui est associée, mais aussi la moyenne et les _σ_
+Comme la distribution est normale, on peut superposer à notre un histogramme la courbe de densité qui lui est associée, mais aussi la moyenne et les _σ_. La fonction `dnorm()` qui calcule la densité de probabilité à _x_ d'une distribution normale avec une moyenne _μ_ et un écart-type _σ_. `abline()` permet de déssiner une ligne verticale et `curve()` une courbe. Rappelons ici que nous avons défini `mn` (la moyenne), `std` (l'écart type) quelques lignes plus haut: je peux donc les passer valeur des différents paramètres des fonctions que j'utilise. 
 
 ```{r}
-#on affiche la densité plutôt que la fréquence en ordonnée avec le paramètre `freq=F`
+#on affiche la densité plutôt que la fréquence en ordonnée avec l'argument `freq=F`
 hist(df$poids,main="Poids",freq=F,col="red",xlab="Poids",ylab="Densité")
-# On ajoute la fonction gaussienne
+# On ajoute la fonction gaussienne. La valeur de x, celle des abcisses, n'a pas besoin d'être définie car c'est celle de l'histogramme. lwd (line width) définit l'épaisseur de la ligne.
 curve(dnorm(x, mean=mn, sd=std), add=T, col="darkblue", lwd=4)
 # On ajoute la moyenne
 abline(v = mn, col = "black", lwd = 4)
-#On ajoute les σ/quantiles
+#On ajoute les σ/quantiles. l'argument lty définit le type de trait: “blank” (0), “solid” (1), “dashed” (2), “dotted” (3), “dotdash” (4), “longdash” (5), “twodash” (6)
 abline(v = mn-std, col = "grey", lwd = 2,lty=2)
 abline(v = mn+std, col = "grey", lwd = 2,lty=2)
 ```
 
-On peut aussi proposer d'autres visualisation, sous forme de "boîte à moustache" par exemple
+On peut aussi proposer d'autres visualisation, sous forme de "boîte à moustache" par exemple:
+
 ```{r}
 boxplot(df$poids,main="Poids")
 #une boîte à moustache de la taille et du poids (assez inutile d'un point de vue graphique…)
 boxplot(df[-3],main="Poids")
 ```
 
-## 4 Automatisation des tâches (quelques principes d'algorythmie)
+## 4 Automatisation des tâches (quelques principes d'algorithmie)
 
 ### 4.1 La boucle
 
@@ -381,7 +408,7 @@ Il est possible d'ajouter des tests avec la fonction `if()`: si le test est vali
 ![100% center](images/r-if-statement.jpg)
 
 ```{r}
-for (i in df$sexe){
+for (i in df$genre){
   if(i=="M"){
     print("c'est un garçon")
   }
@@ -395,7 +422,7 @@ Il est possible de prévoir des cas où le test n'est pas validé avec la foncti
 ![100% center](images/r-if-else-statement.jpg)
 
 ```{r}
-for (i in df$sexe){
+for (i in df$genre){
   if(i=="M"){
     print("c'est un garçon")
   }else
@@ -408,7 +435,7 @@ for (i in df$sexe){
 Tout cela commence à faire beaucoup de code… Pourquoi ne pas se simplifier la tâche en enregistrant des fonctions dans un coin de notre ordinateur, et y faire appel ponctuellement? Cela permet d'alléger le script, et de centraliser des tâches que je vais beaucoup effectuer pour me simplifier la vie. Je vais donc créer une fonction à laquelle je vais donner un nom assez descriptif, et la remplir de ce que je veux.
 
 ```{r}
-afficher_le_sexe<-function(nom_de_variable){
+afficher_le_genre<-function(nom_de_variable){
                               for (i in nom_de_variable){
                                 print(i)
                               }
@@ -418,7 +445,7 @@ afficher_le_sexe<-function(nom_de_variable){
 Je peux désormais exécuter cette fonction simplement:
 
 ```{r}
-afficher_le_sexe(df$sexe)
+afficher_le_genre(df$genre)
 ```
 
 Si je commence à faire beaucoup de fonctions complexes et utile à d'autres personnes, je peux les transformer en `package` et les distribuer sous cette forme à l'ensemble de la communauté.
@@ -433,6 +460,8 @@ help(hist)
 
 ## 5 Les packages
 
+**Pour cet exemple, nous allsons utiliser le pacakage rtweet, qui permet de télécharger des tweets, mais pour cela vous devez avoir un compte twitte**
+
 ### 5.1 Principe et installation
 
 Nous avons vu jusqu'à présent une série de fonctions: `summary()`, `mean()`… Elles sont fournies avec `R`, mais il est possible d'en inventer soit même, et donc de les mettre à disposition des autres. Pour cela on les met dans un package, disponible en ligne, et que l'on peut télécharger avec la fonction `install.packages()` et on l'active avec `library()`.
@@ -444,14 +473,38 @@ Nous avons vu jusqu'à présent une série de fonctions: `summary()`, `mean()`�
 library(rtweet)
 ```
 
-Nous pouvons désormais moissonner tweeter:
+Pour savoir si un package est installé, je peux explorer la liste `installed.packages()` ou bien directement demander si un package se trouve dans cette liste:
+
+```{r}
+View(installed.packages())
+"rtweet" %in% rownames(installed.packages())
+```
+
+On peut aussi effacer une librairie:
+
+```{r}
+remove.packages("rtweet")
+```
+
+Il est possible de conditionner l'installation d'une bibliothèque à son absence sur la machine:
+
+```{r}
+if(!require("rtweet")){
+  install.packages("rtweet")
+  library(rtweet)
+}
+```
+
+Nous pouvons désormais moissonner tweeter. Nous cherchons ceux qui mentionnent "Sciences_UNIGE":
 
 ```{r}
 tweets_UniGE <- search_tweets("Sciences_UNIGE", n = 1000)
 ```
 
+Et nous pouvons voir le résultat (pour afficher le résultat dans un tableau séparé avec la fonction `View()`):
+
 ```{r}
-#View(tweets)
+#View(tweets_UniGE)
 tweets_UniGE
 ```
 
@@ -492,4 +545,5 @@ meilleur_graph
 ```
 
 ### Remerciements
+
 Ce script s'inspire d'un cours de Y. Rochat (UniL)
