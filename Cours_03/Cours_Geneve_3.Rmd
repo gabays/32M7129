@@ -23,8 +23,8 @@ knitr::opts_chunk$set(echo = TRUE)
 J'installe ma session de travail
 
 ```{r}
-setwd("~/GitHub/UNIGE/32M7129/Cours_03")
-monDossier="~/GitHub/UNIGE/32M7129/Cours_03"
+setwd("~/Documents/github/UNIGE/32M7129/Cours_03")
+monDossier="~/Documents/github/UNIGE/32M7129/Cours_03"
 #je charge les données que l'enseignant a préparé pour éviter les problèmes
 #load("Cours_Geneve_3.RData")
 ```
@@ -71,10 +71,9 @@ Toutes les colonnes sont des métadonnées, sauf `theatre$texteLemmat` qui conti
 
 C'est le principe d'une approche _bag of words_, c'est à dire par "sac de mots": les mots ne sont pas pris dans leur contexte, uniquement par leur fréquence. Cela peut paraître un peu rustre, mais c'est très efficace.
 
-
 ```{r}
 #Je charge deux nouvelles librairies pour le _text mining_ qui me permettent de créer ma matrice
-if(!require("tm")){
+if(!require("tm")){s
   install.packages("tm")
   library("tm")
 }
@@ -159,9 +158,9 @@ corpus_clean <- removeStopWords(corpus_clean, stopword_enLigne)
 S'il reste des mots qui ne me plaisent pas, je peux continuer de les retirer en les mettant dans un vecteur
 
 ```{r}
-stopWords <- c( "à_le", "de_le", "-être", "faire", "falloir", "savoir", "pouvoir", "devoir", "devoir", "voir", "vouloir")
-corpus_clean <- tm_map(corpus_clean, removeWords, stopWords)
-inspect(corpus_clean[6])
+MesStopWords <- c( "à_le", "de_le", "-être", "faire", "falloir", "savoir", "pouvoir", "devoir", "devoir", "voir", "vouloir")
+corpus_cleaner <- tm_map(corpus_clean, removeWords, MesStopWords)
+inspect(corpus_cleaner[6])
 ```
 
 Je fais de nouveau une matrice "terme/document" (DTM, _Document-term matrix_). On se rappelle qu'il s'agit de créer une matrice (un tableau) avec une colonne pour chaque mot de mon corpus, et un rang par texte de mon corpus.
@@ -173,9 +172,10 @@ Je fais de nouveau une matrice "terme/document" (DTM, _Document-term matrix_). O
 
 
 ```{r}
-dtm <- DocumentTermMatrix(corpus_clean)
+dtm <- DocumentTermMatrix(corpus_cleaner)
 rownames(dtm) <- theatre$genre
 ```
+
 
 ## 2.2 Les mots peu fréquents
 
@@ -235,13 +235,13 @@ grandMenage <- function(corpus_a_nettoyer, mots_peu_importants){
     return(corpus_a_nettoyer)
 }
 # J'utilise ma fonction avec `corpus_clean` comme ` corpus_a_nettoyer` et `motsPeuFrequents` comme `mots_peu_importants`
-corpus_clean <- grandMenage(corpus_clean, motsPeuFrequents)
+corpus_cleanSuperClean <- grandMenage(corpus_cleaner, motsPeuFrequents)
 ```
 
 Je redéfinis ma matrice à partir de mon nouveau corpus
 
 ```{r} 
-dtm <- DocumentTermMatrix(corpus_clean)
+dtm <- DocumentTermMatrix(corpus_cleanSuperClean)
 rownames(dtm) <- theatre$genre
 freq <- as.data.frame(colSums(as.matrix(dtm)))
 colnames(freq) <- c("frequence")
@@ -363,6 +363,32 @@ Le _topic_ 1 est le plus représenté dans le document, et _Autoroute_ est déj�
 | Vélo      |   543   |    2    |   150   |
 | Vacances  |   23    |   70    |   563   |
 
+Nous devons d'abord déterminer le nombre optimal de _topics_
+
+```{r}
+
+#J'installe une nouvelle librairie pour déterminer le nombre de topics
+if(!require("ldatuning")){
+  install.packages("ldatuning")
+  library("ldatuning")
+}
+#J'exécute le calcul
+topicsNumber <- FindTopicsNumber(
+  #La DTM que j'utilise
+  dtm_clean,
+  #Le nombre de possibilités que je teste
+  topics = seq(from = 2, to = 20, by = 1),
+  #Les métriques utilisées
+  metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
+  method = "Gibbs",
+  control = list(seed = 77),
+  verbose = TRUE
+)
+#J'affiche le résultat
+FindTopicsNumber_plot(topicsNumber)
+```
+
+
 ```{r}
 ## Set parameters for Gibbs sampling
 #Le modèle va tourner 2000 fois avant de commencer à enregistrer les résultats
@@ -377,10 +403,10 @@ seed <-SEED
 nstart <- 5
 #Seul meilleur modèle est utilisé
 best <- TRUE
-#2 topics
-lda_gibbs_2 <- LDA(dtm_clean, k, method="Gibbs", control=list(nstart=nstart, seed=seed, best=best, burnin=burnin, iter=iter, thin=thin))
-#3 topics
-lda_gibbs_3 <- LDA(dtm_clean, k+1, method="Gibbs", control=list(nstart=nstart, seed=seed, best=best, burnin=burnin, iter=iter, thin=thin))
+#7 topics
+lda_gibbs_7 <- LDA(dtm_clean, 7, method="Gibbs", control=list(nstart=nstart, seed=seed, best=best, burnin=burnin, iter=iter, thin=thin))
+#19 topics
+lda_gibbs_19 <- LDA(dtm_clean, 19, method="Gibbs", control=list(nstart=nstart, seed=seed, best=best, burnin=burnin, iter=iter, thin=thin))
 ```
 
 Je peux désormais voir les premiers résultats pour chacun des modèles. Il s'agit de de mots dont la fréquence d'utilisation est corrélée
@@ -392,18 +418,18 @@ head(termsTopic,11)
 "LDA 3"
 termsTopic <- as.data.frame(terms(lda_3,10))
 head(termsTopic,11)
-"LDA GIBBS 2"
-termsTopic <- as.data.frame(terms(lda_gibbs_2,10))
+"LDA GIBBS 7"
+termsTopic <- as.data.frame(terms(lda_gibbs_7,10))
 head(termsTopic,11)
-"LDA GIBBS 3"
-termsTopic <- as.data.frame(terms(lda_gibbs_3,10))
+"LDA GIBBS 19"
+termsTopic <- as.data.frame(terms(lda_gibbs_19,10))
 head(termsTopic,11)
 ```
 
 Nous allons utiliser `lda_gibbs_2` et construire une matrice avec les _β_ des tokens (pour les ɣ, et donc des probabilités par document, on aurait mis `matrix = "gamma"`). Chaque token est répété deux fois, avec une probabilité pour chaque _topic_:
 
 ```{r}
-topics <- tidy(lda_gibbs_2, matrix = "beta")
+topics <- tidy(lda_gibbs_7, matrix = "beta")
 topics
 ```
 
@@ -448,7 +474,7 @@ ggplot(df, aes(as.factor(Docs), Terms, fill=log(value))) +
 ```
 
 ```{r, fig.width=12, fig.height=12}
-tt <- posterior(lda_gibbs_2)$terms
+tt <- posterior(lda_gibbs_7)$terms
 melted = melt(tt[,findFreqTerms(dtm_clean, 1000,10000)])
 
 colnames(melted) <- c("Topics", "Terms", "value")
@@ -459,7 +485,7 @@ ggplot(data = melted, aes(x=Topics, y=Terms, fill=value)) +
 ```
 
 ```{r, fig.width=12, fig.height=12}
-tt <- posterior(lda_gibbs_3)$terms
+tt <- posterior(lda_gibbs_19)$terms
 melted = melt(tt[,findFreqTerms(dtm_clean, 1000,10000)])
 
 colnames(melted) <- c("Topics", "Terms", "value")
@@ -472,8 +498,8 @@ ggplot(data = melted, aes(x=Topics, y=Terms, fill=value)) +
 On peut aussi observer le score gamma, c'est-à-dire la probabilté qu'un document contienne un sujet:
 
 ```{r}
-DocumentTopicProbabilities <- as.data.frame(lda_gibbs_2@gamma)
-rownames(DocumentTopicProbabilities) <- rownames(corpus_clean)
+DocumentTopicProbabilities <- as.data.frame(lda_gibbs_19@gamma)
+rownames(DocumentTopicProbabilities) <- rownames(corpus_cleanSuperClean)
 head(DocumentTopicProbabilities)
 ```
 
@@ -497,11 +523,10 @@ if (!require("wordcloud2")){
 je récupère les mots et je les associe à leur 𝛃
 
 ```{r, fig.width=20, fig.height=20}
-tm <- posterior(lda_gibbs_2)$terms
+tm <- posterior(lda_gibbs_7)$terms
 data = data.frame(colnames(tm))
 head(data)
 ```
-
 Je produis une visualisation par _topic_
 
 ```{r, fig.width=30, fig.height=20}
