@@ -37,7 +37,7 @@ theatre = "moliere_racine.tsv"
 # le paramètre `header` permet de signaler que la première ligne contient le nom des colonnes
 # le paramètre `sep` permet d'indiquer comment sont marquées les colonnes. La regex `\t` indique que nous utilisons des tabulations (notre fichier est donc en fait un `tsv` et non un vrai `csv`).
 # le paramètre fileEncoding permet d'avoir des charactères encodés en UTF8 (si vous avez windows, sans cette option le résultat de l'import peut être problématique)
-theatre <- read.csv(theatre, header=TRUE, sep = "\t", quote = '',fill = TRUE, fileEncoding="UTF-8")
+theatre <- read.csv(theatre, header=TRUE, sep = "\t", quote = '', fill = TRUE, fileEncoding="UTF-8")
 ```
 
 Je peux jeter un coup d'œil aux données brutes (on ne m'affiche que les première entrées de chaque colonne par commodité)
@@ -331,7 +331,7 @@ topics
 
 Les paramètres de Gibbs permettent une sophistication du système précédent. C'est une probabilité conditionnelle qui s'appuie, pour calculer le _β_ d'un mot, sur le _β_ des mots voisins. Pour ce faire nous devons déterminer:
 1. À quel point un document aime un _topic_
-2. À quel pount un _topic_ aime un mot
+2. À quel point un _topic_ aime un mot
 
 Un document:
 
