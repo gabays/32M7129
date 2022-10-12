@@ -73,7 +73,7 @@ C'est le principe d'une approche _bag of words_, c'est à dire par "sac de mots"
 
 ```{r}
 #Je charge deux nouvelles librairies pour le _text mining_ qui me permettent de créer ma matrice
-if(!require("tm")){s
+if(!require("tm")){
   install.packages("tm")
   library("tm")
 }
