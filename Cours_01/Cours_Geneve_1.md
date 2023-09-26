@@ -64,8 +64,18 @@ L'objectif de ce cours est
 2. pour rendre lisibles ces chiffres, au moyen de visualisations (des cartes, des graphiques…)
 
 Pour chacune de ces deux étapes, les données subissent une transformation
-1.Elle passent à travers un filtre mathématique (calcul de distance, algorithme…)
+1. Elle passent à travers un filtre mathématique (calcul de distance, algorithme…)
 2. Elles subissent une déformation graphique (passage de n-dimensions à deux, perspective…)
+
+---
+
+## Changer de paradigme
+
+Passer…
+- du numérique (_numerus_, le nombre), statique, qui ne propose rien dâutre qu'une augmentation de la quantité de données (traitées, accessibles…)…
+- au computationnel (_computatio_, le calcul), dynamique, qui permet d'analyser les données, voire de prédire les données manquantes sur la bases des données existantes.
+
+C'est l'avénement d'une nouvelle discipline, les approches computationnelles, et de sous-champs spécifiques, comme la philologie computationnelle
 
 ---
 
@@ -138,7 +148,7 @@ Source: [wikipedia](https://en.wikipedia.org/wiki/File:US_Navy_061117-N-5307M-11
 ---
 ### Loi du moindre effort
 
-Il y a un glissement de la représentation qui se doit d'être exhautive, précise et complète, à la représentation qui se doit d'être effiface.
+Il y a un glissement de la représentation qui se doit d'être exhautive, précise et complète, à la représentation qui se doit d'être efficace.
 
 * George Kingsley Zipf, _Human Behaviour and the Principle of Least Effort: An Introduction to Human Ecology_ 1949
 
@@ -157,7 +167,7 @@ Il y a un glissement de la représentation qui se doit d'être exhautive, préci
 
 J. Bertin propose une grammaire graphique afin d'améliorer l'efficacité des rendus
 
-<img style="width: 50%;  display: block; margin-left: auto; margin-right: auto;" src="material/bertin_grammaire.jpg"/>
+<img style="width: 47%;  display: block; margin-left: auto; margin-right: auto;" src="material/bertin_grammaire.jpg"/>
 
 Source: [Palsky 2017/Bertin 1967](https://visionscarto.net/la-semiologie-graphique-a-50-ans)
 
