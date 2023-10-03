@@ -57,6 +57,16 @@ Pour chacune de ces deux étapes, les données subissent une transformation
 
 ------
 
+## Changer de paradigme
+
+Passer…
+- du numérique (_numerus_, le nombre), statique, qui ne propose rien dâutre qu'une augmentation de la quantité de données (traitées, accessibles…)…
+- au computationnel (_computatio_, le calcul), dynamique, qui permet d'analyser les données, voire de prédire les données manquantes sur la bases des données existantes.
+
+C'est l'avènement d'une nouvelle discipline, les approches computationnelles, et de sous-champs spécifiques, comme la philologie computationnelle.
+
+------
+
 # 1 Sémantique
 
 ------

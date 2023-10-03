@@ -75,7 +75,7 @@ Passer…
 - du numérique (_numerus_, le nombre), statique, qui ne propose rien dâutre qu'une augmentation de la quantité de données (traitées, accessibles…)…
 - au computationnel (_computatio_, le calcul), dynamique, qui permet d'analyser les données, voire de prédire les données manquantes sur la bases des données existantes.
 
-C'est l'avénement d'une nouvelle discipline, les approches computationnelles, et de sous-champs spécifiques, comme la philologie computationnelle
+C'est l'avènement d'une nouvelle discipline, les approches computationnelles, et de sous-champs spécifiques, comme la philologie computationnelle.
 
 ---
 
@@ -378,7 +378,7 @@ plot(x,y)
 dev.off()
 ```
 
-<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot1.png"/>
+<img style="width: 35%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot1.png"/>
 
 ---
 
@@ -391,7 +391,7 @@ plot(x,y, xlab="abscisse", ylab="ordonnée",
 dev.off()
 ```
 
-<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot2.png"/>
+<img style="width: 35%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot2.png"/>
 
 ---
 
@@ -406,7 +406,7 @@ segments(x[s], y[s], x[s+1], y[s+1], col= 1:3)
 dev.off()
 ```
 
-<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot3.png"/>
+<img style="width: 35%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot3.png"/>
 
 ---
 
@@ -421,7 +421,7 @@ arrows(x[s], y[s], x[s+1], y[s+1], col= 'pink')
 dev.off()
 ```
 
-<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot4.png"/>
+<img style="width: 35%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot4.png"/>
 
 ---
 
@@ -456,7 +456,7 @@ text(x=2.2, y=1, labels="Racine")
 dev.off()
 ```
 
-<img style="width: 40%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot5.png"/>
+<img style="width: 25%;  display: block; margin-left: auto; margin-right: auto; " src="images/plot5.png"/>
 
 ---
 
