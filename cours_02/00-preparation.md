@@ -71,8 +71,8 @@ Dans votre terminal (Terminal sur Mac et Linux, Ubuntu sous Windows), recopiez c
 
 ```bash
 cd ~
-git clone https://github.com/VOTRE-COMPTE/cours-ligne-de-commande.git
-cd cours-ligne-de-commande/corpus
+git clone https://github.com/gabays/32M7129.git
+cd 32M7129/corpus
 bash telecharger.sh
 ```
 
