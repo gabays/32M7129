@@ -25,14 +25,22 @@
 
 - Oxygen XML: https://plone.unige.ch/distic/pub/logiciels/oxygen/comment-installer-oxygen-xml
 - eScriptorium: https://fondue.unige.ch (https://escriptorium.inria.fr pour les français)
-- R et Rstudio
+- R (https://cran.r-project.org) et Rstudio (https://posit.co/products/open-source/rstudio)
 - Python
+
+---
+## Rédiger
+
+- LaTeX: https://www.latex-project.org/get/
+- Un service en ligne (attention à la limite de compilation): https://www.overleaf.com
 
 ---
 ## Distribuer
 
-- Github: https://github.com
-- Gitlab: https://gitlab.unige.ch
+Pensez à télécharger GitHub Desktop: https://desktop.github.com/download/
+
+- Github: https://github.com (vous avez besoin d'un Switch EduID)
+- Gitlab: https://gitlab.unige.ch (vous avez besoin de créer un compte)
 
 ---
 ## Archiver
