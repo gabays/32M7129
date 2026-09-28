@@ -5,7 +5,7 @@
 Dans cette partie, vous travaillez sur le corpus : trois romans en fichiers texte, dans le dossier `corpus/`.
 
 ```bash
-cd ~/cours-ligne-de-commande/corpus
+cd ~/32M7129/cours_02/corpus
 ls -l
 ```
 
@@ -39,17 +39,17 @@ wc -w candide.txt       # mots seulement
 `grep` affiche les lignes qui contiennent un mot ou une expression.
 
 ```bash
-grep amour candide.txt            # lignes contenant « amour »
-grep -i amour candide.txt         # sans tenir compte des majuscules
-grep -in amour candide.txt        # avec le numéro de chaque ligne
-grep -ic amour candide.txt        # combien de lignes ?
-grep -i -C 1 amour candide.txt    # avec 1 ligne de contexte avant et après
+grep tempête candide.txt            # lignes contenant « amour »
+grep -i tempête candide.txt         # sans tenir compte des majuscules
+grep -in tempête candide.txt        # avec le numéro de chaque ligne
+grep -ic tempête candide.txt        # combien de lignes ?
+grep -i -C 1 tempête candide.txt    # avec 1 ligne de contexte avant et après
 ```
 
 Vous pouvez chercher dans **plusieurs fichiers à la fois** avec un joker `*` :
 
 ```bash
-grep -ic amour *.txt
+grep -ic tempête *.txt
 ```
 
 ## Enchaîner les commandes : le pipe `|`
@@ -57,7 +57,7 @@ grep -ic amour *.txt
 Le **pipe** (le trait vertical `|`) prend le résultat d'une commande et l'envoie à la suivante. C'est l'idée la plus puissante du terminal : des petits outils simples, que l'on assemble.
 
 ```bash
-grep -i amour candide.txt | wc -l
+grep -i tempête candide.txt | wc -l
 ```
 
 Ici, `grep` trouve les lignes, et `wc -l` les compte. Pour taper `|` : `Alt Gr` + `6` sur un clavier français Windows/Linux, `Alt` + `Maj` + `L` sur un clavier français Mac.

@@ -51,7 +51,7 @@ Un **script** est un fichier texte qui contient des commandes, lancées les unes
 ### Préparer un dossier
 
 ```bash
-cd ~/cours-ligne-de-commande
+cd ~/32M7129/cours_02
 mkdir scripts
 cd scripts
 ```

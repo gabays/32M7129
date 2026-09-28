@@ -59,7 +59,7 @@ Les mots précédés d'un tiret (`-l`, `-a`) s'appellent des **options** : elles
 ### `cd` : changer de dossier
 
 ```bash
-cd tresor        # entrer dans le dossier « tresor »
+cd corpus        # entrer dans le dossier « corpus »
 cd ..            # remonter d'un niveau
 cd ~             # retourner dans votre dossier personnel
 cd -             # revenir au dossier précédent
