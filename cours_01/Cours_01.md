@@ -9,6 +9,8 @@
 ---
 ## Exécution
 
+⚠️ Pour les utilisateur.trice.s de Windows, installer WSL (passez voir le service informatique!)
+
 - lignes de commande
 - bash
 - slurm/HPC
