@@ -1,10 +1,4 @@
-# Ingéniérie documentaire
-
----
-## Rédaction
-
-- Markdown
-- Latex
+# Introduction
 
 ---
 ## Exécution
@@ -33,6 +27,7 @@
 
 - LaTeX: https://www.latex-project.org/get/
 - Un service en ligne (attention à la limite de compilation): https://www.overleaf.com
+- Markdown est aussi très utile
 
 ---
 ## Distribuer
@@ -46,3 +41,8 @@ Pensez à télécharger GitHub Desktop: https://desktop.github.com/download/
 ## Archiver
 - Zenodo: https://zenodo.org
 - Yareta: https://yareta.unige.ch
+
+--- 
+## Exercices
+
+N'hésitez pas à chercher des tutoriels en ligne. Tous ces outils, ou presque, sont très documentés car très courants d'utilisation!
