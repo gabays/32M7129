@@ -16,6 +16,9 @@ Il faut un Python récent (3.10 à 3.12 conseillé). Sous Linux/WSL, si la suite
 sudo apt update && sudo apt install -y python3-venv python3-pip
 ```
 
+Vous pouvez aussi les installer en récupérant une version [à cette adresse](https://www.python.org/downloads).
+
+
 ## 2. Pourquoi un environnement virtuel ?
 
 Un environnement virtuel est un dossier **isolé** contenant son propre Python et ses propres bibliothèques.
@@ -32,7 +35,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-Si vous avez besoin d'une version spécifique de Python (que vous devez installer en la récupérant [à cette adresse](https://www.python.org/downloads))
+Si vous avez besoin d'une version spécifique de Python, comme 3.10 (que vous devez installer en la récupérant [à cette adresse](https://www.python.org/downloads)):
 
 ```bash
 virtualenv -p python3.10 env 

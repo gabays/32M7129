@@ -39,7 +39,7 @@ On n'évalue jamais sur ce qui a servi à apprendre.
 Avec peu de données, on part d'un modèle déjà entraîné :
 
 ```bash
-ketos train --load modele.safetensors --resize union \
+ketos train --load medium.safetensors --resize union \
   -f xml -t train.lst -e val.lst \
   -o checkpoints -q fixed -N 10
 ```

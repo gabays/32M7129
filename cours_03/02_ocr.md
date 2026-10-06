@@ -24,10 +24,12 @@ kraken get <identifiant>  # télécharger
 
 Le modèle est installé dans `~/.local/share/kraken` : on peut ensuite l'appeler par son nom de fichier (`.safetensors`).
 
+Vous pouvez aussi consulter la liste officielle [sur Zenodo](https://zenodo.org/communities/ocr_models).
+
 ## 3. La commande d'OCR
 
 ```bash
-kraken -i page.jpg page.txt segment -bl ocr -m modele.safetensors
+kraken -i data/f104.jpg page.txt segment -bl ocr -m medium.safetensors
 ```
 
 | Morceau | Rôle |
@@ -48,7 +50,7 @@ kraken [options globales] sous-commande [options] sous-commande [options]
 ## 4. Choisir le format de sortie
 
 ```bash
-kraken -a -i page.jpg page.xml segment -bl ocr -m modele.safetensors
+kraken -a -i data/f104.jpg page.xml segment -bl ocr -m medium.safetensors
 ```
 
 | Option globale | Format |
@@ -63,7 +65,7 @@ L'ALTO conserve la position de chaque ligne : c'est le format dont on a besoin p
 ## 5. Plusieurs pages d'un coup
 
 ```bash
-kraken -I "pages/*.jpg" -o .txt segment -bl ocr -m modele.safetensors
+kraken -I "data/*.jpg" -o .txt segment -bl ocr -m modele.safetensors
 ```
 
 `-I` désigne tous les fichiers correspondant au motif, `-o` le suffixe ajouté au nom de sortie (`page1.jpg.txt`).
