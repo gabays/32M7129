@@ -27,10 +27,15 @@ Un environnement virtuel est un dossier **isolé** contenant son propre Python e
 ## 3. Créer et activer l'environnement
 
 ```bash
-mkdir kraken_cours
-cd kraken_cours
+cd 32M7129/cours_03
 python3 -m venv .venv
 source .venv/bin/activate
+```
+
+Si vous avez besoin d'une version spécifique de Python (que vous devez installer en la récupérant [à cette adresse](https://www.python.org/downloads))
+
+```bash
+virtualenv -p python3.10 env 
 ```
 
 Le prompt affiche maintenant `(.venv)` : on est **dans** l'environnement. Pour en sortir :
