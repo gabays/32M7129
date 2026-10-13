@@ -31,8 +31,8 @@ Un environnement virtuel est un dossier **isolé** contenant son propre Python e
 
 ```bash
 cd 32M7129/cours_03
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv env
+source env/bin/activate
 ```
 
 Si vous avez besoin d'une version spécifique de Python, comme 3.10 (que vous devez installer en la récupérant [à cette adresse](https://www.python.org/downloads)):
@@ -41,7 +41,12 @@ Si vous avez besoin d'une version spécifique de Python, comme 3.10 (que vous de
 virtualenv -p python3.10 env 
 ```
 
-Le prompt affiche maintenant `(.venv)` : on est **dans** l'environnement. Pour en sortir :
+ou
+```bash
+python3.10 -m venv environnement
+```
+
+Le prompt affiche maintenant `(env)` : on est **dans** l'environnement. Pour en sortir :
 
 ```bash
 deactivate
