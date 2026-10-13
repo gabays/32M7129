@@ -26,7 +26,15 @@ Le modèle est installé dans `~/.local/share/kraken` : on peut ensuite l'appele
 
 Vous pouvez aussi consulter la liste officielle [sur Zenodo](https://zenodo.org/communities/ocr_models).
 
+Pour aller vite, téléchargez directement [PP-OCRv6 (medium)](https://zenodo.org/records/21788410/files/medium.safetensors?download=1): placez-le dans le dossier `cours_04`.
+
 ## 3. La commande d'OCR
+
+```bash
+kraken -i CHEMIN/VERS/IMAGE SORTIE.txt segment -bl ocr -m MODELE
+```
+
+Par exemple:
 
 ```bash
 kraken -i data/f104.jpg page.txt segment -bl ocr -m medium.safetensors
@@ -65,7 +73,7 @@ L'ALTO conserve la position de chaque ligne : c'est le format dont on a besoin p
 ## 5. Plusieurs pages d'un coup
 
 ```bash
-kraken -I "data/*.jpg" -o .txt segment -bl ocr -m modele.safetensors
+kraken -I "data/*.jpg" -o .txt segment -bl ocr -m medium.safetensors
 ```
 
 `-I` désigne tous les fichiers correspondant au motif, `-o` le suffixe ajouté au nom de sortie (`page1.jpg.txt`).
@@ -75,8 +83,8 @@ kraken -I "data/*.jpg" -o .txt segment -bl ocr -m modele.safetensors
 Option globale, à placer avant `segment` :
 
 ```bash
-kraken --device mps    -i page.jpg page.txt segment -bl ocr -m modele.safetensors   # Mac Apple Silicon
-kraken --device cuda:0 -i page.jpg page.txt segment -bl ocr -m modele.safetensors   # carte NVIDIA
+kraken --device mps    -i page.jpg page.txt segment -bl ocr -m medium.safetensors   # Mac Apple Silicon
+kraken --device cuda:0 -i page.jpg page.txt segment -bl ocr -m medium.safetensors   # carte NVIDIA
 ```
 
 Sans option, le calcul se fait sur le processeur (CPU) : plus lent, mais suffisant pour quelques pages.
