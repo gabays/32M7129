@@ -41,8 +41,6 @@ numpages = {16},
 ```
 
 
-
-
 ### Cite this repository
 Simon Gabay (éd.), _Comment mieux faire? Ressources techniques complémentaires pour la recherche_, Genève: Université de Genève, 2026, [https://github.com/gabays/32M7129](https://github.com/gabays/32M7129).
 
