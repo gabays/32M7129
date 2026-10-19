@@ -39,15 +39,15 @@ head -n 30 README.md
 
 ## 3. Créer l'environnement virtuel
 
-Comme à la séance précédente :
+Comme à la séance précédente (vous pouvez changer la version de python):
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3.10 -m venv choucroute
+source choucroute/bin/activate
 which python
 ```
 
-Le prompt affiche `(venv)`, et `which python` doit pointer vers le dossier `venv/`.
+Le prompt affiche `(choucroute)`, et `which python` doit pointer vers le dossier `choucroute/`.
 
 ## 4. Installer les dépendances
 
