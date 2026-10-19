@@ -13,7 +13,8 @@ Vous allez cloner le dépôt [LADAS2TEI](https://github.com/DEFI-COLaF/LADAS2TEI
 - lire le README d'un projet pour trouver la bonne commande ;
 - organiser un dossier de données (ALTO, images, métadonnées) ;
 - lancer un programme Python avec `python -m` et ses options ;
-- vérifier un fichier XML avec `head`, `grep`, `sort` et `uniq`.
+- vérifier un fichier XML avec `head`, `grep`, `sort` et `uniq` ;
+- installer **Jupyter** et exécuter un carnet.
 
 ## Prérequis
 
@@ -26,9 +27,10 @@ Vous allez cloner le dépôt [LADAS2TEI](https://github.com/DEFI-COLaF/LADAS2TEI
 
 | Durée | Partie | Contenu |
 |---|---|---|
-| 0-25 min | [01 - Récupérer et installer](01_installation.md) | `git clone`, environnement virtuel, `pip install -r requirements.txt` |
-| 25-45 min | [02 - Explorer les données](02_donnees.md) | ALTO, images, `metadata.csv`, arborescence attendue |
-| 45-90 min | [03 - Convertir et vérifier](03_conversion.md) | `python -m ladas2tei.main`, options, contrôle du TEI |
+| 0-20 min | [01 - Récupérer et installer](01_installation.md) | `git clone`, environnement virtuel, `pip install -r requirements.txt` |
+| 20-35 min | [02 - Explorer les données](02_donnees.md) | ALTO, images, `metadata.csv`, arborescence attendue |
+| 35-65 min | [03 - Convertir et vérifier](03_conversion.md) | `python -m ladas2tei.main`, options, contrôle du TEI |
+| 65-90 min | [04 - Le carnet Jupyter](04_notebook.md) | installer Jupyter, lancer `jupyter lab`, rejouer la conversion dans [`03_conversion.ipynb`](03_conversion.ipynb) |
 
 Chaque partie se termine par un **exercice**.
 
@@ -40,6 +42,8 @@ Chaque partie se termine par un **exercice**.
 ├── 01_installation.md
 ├── 02_donnees.md
 ├── 03_conversion.md
+├── 03_conversion.ipynb    # la partie 03 sous forme de carnet
+├── 04_notebook.md
 ├── corpus/
 │   └── faux_visage_ONB_10790D2D/
 │       ├── alto/          # une page = un fichier XML
