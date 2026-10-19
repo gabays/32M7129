@@ -9,6 +9,7 @@
 - `cours_02`: lignes de commende, bash, utiliser l'IA
 - `cours_03`: découvrir eScriptorium
 - `cours_04`: utiliser Kraken en ligne de commande
+- `cours_05`: convertir les fichiers ALTO en XML-TEI
 
 ## Bibliographie
 
