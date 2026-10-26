@@ -24,19 +24,6 @@ Pour la synchronisation après une modification en ligne : `git pull` (ou `Fetch
 
 Cycle complet : branche, commit, `push`, pull request, fusion, suppression de la branche, puis `git switch main && git pull` : `notes.md` apparaît.
 
-### Facultatif
-
-1. Conflit : après `git merge version-b`, le fichier contient `<<<<<<< HEAD`, `=======` et `>>>>>>> version-b`. On garde par exemple `Sensation (Rimbaud, 1870)`, on **supprime les trois lignes de marqueurs**, puis :
-
-   ```bash
-   git add poeme.txt
-   git commit -m "Fusionne version-a et version-b"
-   ```
-
-   En cas de doute : `git merge --abort`.
-2. En binôme, tant que vous modifiez des **lignes différentes**, la fusion de la deuxième pull request se fait sans conflit.
-3. Après le fork et le clone : branche, modification, commit, push, puis `Compare & pull request` vers le dépôt d'origine.
-
 ## 04 : bilan
 
 Un dépôt bien rangé contient au minimum :
@@ -48,3 +35,16 @@ LICENSE        # par exemple CC BY-SA 4.0 pour des textes, MIT pour du code
 ```
 
 Le premier README peut tenir en 5 lignes : titre, une phrase de description, contenu du dépôt, licence, comment citer.
+
+## 05 : pour aller plus loin (facultatif)
+
+1. Conflit : après `git merge version-b`, le fichier contient `<<<<<<< HEAD`, `=======` et `>>>>>>> version-b`. On garde par exemple `Sensation (Rimbaud, 1870)`, on **supprime les trois lignes de marqueurs**, puis :
+
+   ```bash
+   git add poeme.txt
+   git commit -m "Fusionne version-a et version-b"
+   ```
+
+   En cas de doute : `git merge --abort`.
+2. En binôme, tant que vous modifiez des **lignes différentes**, la fusion de la deuxième pull request se fait sans conflit.
+3. Après le fork et le clone : branche, modification, commit, push, puis `Compare & pull request` vers le dépôt d'origine.

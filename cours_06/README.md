@@ -16,7 +16,7 @@ Vous allez créer un dépôt, enregistrer des versions, les envoyer en ligne, ex
 - retrouver les mêmes notions sur **GitLab** ;
 - ranger un projet : `README`, `.gitignore`, licence.
 
-C'est une **initiation** : on s'arrête à l'essentiel. Le conflit de fusion, le fork et le travail en binôme sont proposés en fin de partie 03 « pour aller plus loin », à faire chez soi.
+C'est une **initiation** : on s'arrête à l'essentiel. Le conflit de fusion, le fork, le travail en binôme et les usages avancés sont dans une partie facultative, à faire chez soi.
 
 ## Prérequis
 
@@ -33,6 +33,7 @@ C'est une **initiation** : on s'arrête à l'essentiel. Le conflit de fusion, le
 | 30-55 min | [02 - Le premier dépôt](02-premier-depot.md) | créer, modifier, commit, push, historique |
 | 55-80 min | [03 - Branches et pull requests](03-collaborer.md) | branche, pull request, fusion ; en option : conflit, fork |
 | 80-90 min | [04 - Bilan et GitLab](04-bilan.md) | aide-mémoire, équivalences GitLab, bonnes pratiques |
+| facultatif | [05 - Pour aller plus loin](05-aller-plus-loin.md) | conflit, fork, collaborateurs, Git Flow, releases, Pages, citation |
 
 La [préparation](00-preparation.md) (compte et installation) doit idéalement être faite **avant** la séance. Les [corrigés](corrige.md) sont à consulter après avoir essayé.
 
@@ -46,6 +47,7 @@ La [préparation](00-preparation.md) (compte et installation) doit idéalement �
 ├── 02-premier-depot.md
 ├── 03-collaborer.md
 ├── 04-bilan.md
+├── 05-aller-plus-loin.md
 ├── corrige.md
 └── images/                 # schémas des parties 01, 03 et 04
 ```
@@ -58,6 +60,5 @@ La [préparation](00-preparation.md) (compte et installation) doit idéalement �
 
 ## Pour aller plus loin
 
+Voir la partie facultative [05](05-aller-plus-loin.md).
 - [Documentation de GitHub Desktop](https://docs.github.com/fr/desktop)
-- [Pro Git](https://git-scm.com/book/fr/v2), le livre de référence (en français, gratuit)
-- [GitHub Pages](https://pages.github.com/) pour publier un site depuis un dépôt
