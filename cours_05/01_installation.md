@@ -22,6 +22,8 @@ cd LADAS2TEI
 ls
 ```
 
+> Cloner un dépôt **public** comme celui-ci ne demande pas de compte GitHub. Un compte est nécessaire pour créer ses propres dépôts ou contribuer à un projet (voir [cours_06](../cours_06)). Vous pouvez aussi cloner avec **GitHub Desktop** (`File > Clone repository…`).
+
 Un nouveau dossier `LADAS2TEI` est créé : il faut **entrer dedans** avec `cd`. On y trouve :
 
 | Élément | Rôle |
