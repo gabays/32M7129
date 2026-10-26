@@ -42,6 +42,14 @@ Vous écrivez un texte. Vous en gardez des copies pour pouvoir revenir en arriè
 2. Vous **choisissez** quelles modifications vont dans la prochaine version.
 3. Vous faites un **commit** : la version est enregistrée.
 
+![Les commandes de git entre dossier de travail, zone de préparation, dépôt local et dépôt distant](images/commands.png)
+
+Et le va-et-vient avec GitHub, entre deux ordinateurs :
+
+![Deux commits sur un ordinateur, push vers GitHub, pull sur un autre ordinateur](images/basics.png)
+
+Une image pour retenir : `add` = je mets mes affaires dans une **valise** ; `commit` = je range la valise dans le **coffre** de la voiture ; `push` = je **pars en voiture** vers GitHub ; `pull` = je rapporte ce qui est resté là-bas.
+
 Dans GitHub Desktop, les cases à cocher de l'onglet `Changes` jouent le rôle de la zone de préparation.
 
 ## 5. Ce que git suit bien, et mal

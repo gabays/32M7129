@@ -35,6 +35,12 @@ Pour revenir sur `main` et constater que votre modification n'y est pas encore :
 
 ## 3. La pull request
 
+Le schéma suivant montre la vie d'un projet : branches, issues, fork, pull request, fusion, version publiée.
+
+![Le cycle d'un projet sur GitHub : issues, branches, fork, pull request, merge, release](images/process.png)
+
+*Schéma sous licence CC BY-SA ; auteurs indiqués sur l'image : JAM (bcnparticipa.cat/decidimjam) et SOM Research (som-research.uoc.edu).*
+
 Une **pull request** (PR) demande de fusionner une branche dans `main`. Elle permet de **relire** les changements, de les commenter, puis de les accepter. Dans un projet à plusieurs, c'est le moyen normal de contribuer.
 
 1. Dans GitHub Desktop, après avoir publié la branche : **Create Pull Request** (ou sur github.com, bandeau jaune `Compare & pull request`).

@@ -7,7 +7,7 @@
 > **Un compte GitHub est indispensable** pour la séance : sans lui, on peut seulement *lire* et télécharger des projets publics, mais pas en créer, y pousser des modifications ni ouvrir de pull request. La création est gratuite.
 
 1. Allez sur [github.com](https://github.com) et cliquez sur **Sign up**.
-2. Choisissez un **nom d'utilisateur** : il apparaîtra dans vos adresses (`github.com/<votre-nom>`) et sur vos contributions. Préférez un nom sobre et durable.
+2. Choisissez un **nom d'utilisateur** : il apparaîtra dans vos adresses (`github.com/<votre-nom>`) et sur vos contributions. Un pseudo est accepté, mais préférez un nom sobre et durable.
 3. Confirmez votre adresse e-mail.
 
 > Avec une adresse universitaire, vous pouvez demander les avantages pour étudiants : [education.github.com](https://education.github.com/).

@@ -46,7 +46,8 @@ La [préparation](00-preparation.md) (compte et installation) doit idéalement �
 ├── 02-premier-depot.md
 ├── 03-collaborer.md
 ├── 04-bilan.md
-└── corrige.md
+├── corrige.md
+└── images/                 # schémas des parties 01, 03 et 04
 ```
 
 ## Conventions
