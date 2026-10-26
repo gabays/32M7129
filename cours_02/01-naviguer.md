@@ -9,10 +9,10 @@ Le terminal est une fenêtre où l'on **écrit des ordres** à l'ordinateur au l
 La ligne qui précède votre curseur s'appelle l'**invite** (le *prompt*). Elle ressemble à ceci :
 
 ```text
-prenom@ordinateur:~/cours-ligne-de-commande$
+prenom@ordinateur:~/32M7129/cours_02$
 ```
 
-Elle indique qui vous êtes, sur quelle machine, et **dans quel dossier vous vous trouvez** (ici `~/cours-ligne-de-commande`). Le signe `~` est un raccourci pour votre dossier personnel.
+Elle indique qui vous êtes, sur quelle machine, et **dans quel dossier vous vous trouvez** (ici `~/32M7129/cours_02`). Le signe `~` est un raccourci pour votre dossier personnel.
 
 Vos fichiers sont rangés en **arborescence** : des dossiers qui contiennent des dossiers, qui contiennent des fichiers. Dans le terminal, on est toujours « placé » dans un dossier : le **dossier courant**. Se déplacer, c'est changer de dossier courant.
 
@@ -65,7 +65,7 @@ cd ~             # retourner dans votre dossier personnel
 cd -             # revenir au dossier précédent
 ```
 
-Le point `.` désigne le dossier courant, et `..` le dossier parent. On peut aussi donner un chemin complet, par exemple `cd ~/cours-ligne-de-commande/tresor`.
+Le point `.` désigne le dossier courant, et `..` le dossier parent. On peut aussi donner un chemin complet, par exemple `cd ~/32M7129/cours_02/tresor`.
 
 **Astuce :** après chaque `cd`, faites `pwd` ou `ls` pour vérifier où vous êtes.
 
@@ -128,7 +128,7 @@ Sous Linux et Ubuntu (WSL) : `ls --help`. Sur Mac : `man ls` (on quitte avec la 
 
 1. Affichez le chemin de votre dossier courant.
 2. Listez son contenu, d'abord simplement, puis avec des détails.
-3. Entrez dans le dossier `corpus`, listez son contenu, puis revenez dans le dossier `cours-ligne-de-commande`.
+3. Entrez dans le dossier `corpus`, listez son contenu, puis revenez dans le dossier `cours_02`.
 
 <details>
 <summary>Indice</summary>
@@ -139,7 +139,7 @@ Trois commandes suffisent : `pwd`, `ls` (avec l'option `-l`) et `cd`. Pour reven
 
 ### Exercice 1.2 - Aménager son atelier
 
-Depuis le dossier `cours-ligne-de-commande` :
+Depuis le dossier `cours_02` :
 
 1. Créez un dossier `atelier` contenant deux dossiers : `auteurs` et `notes`.
 2. Dans `notes`, créez un fichier vide `idees.txt`.

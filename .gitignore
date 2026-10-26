@@ -1,1 +1,14 @@
 .DS_Store
+
+# environnements virtuels
+env/
+venv/
+
+# fichiers produits pendant les exercices
+cours_04/*.safetensors
+cours_04/*.mlmodel
+cours_04/*.lst
+cours_04/page*.txt
+cours_04/page*.xml
+cours_04/checkpoints*/
+cours_05/TEI/

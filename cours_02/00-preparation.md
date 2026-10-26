@@ -72,7 +72,7 @@ Dans votre terminal (Terminal sur Mac et Linux, Ubuntu sous Windows), recopiez c
 ```bash
 cd ~
 git clone https://github.com/gabays/32M7129.git
-cd 32M7129/corpus
+cd 32M7129/cours_02/corpus
 bash telecharger.sh
 ```
 
@@ -92,7 +92,7 @@ Tapez :
 pwd
 ```
 
-Le terminal doit afficher quelque chose qui se termine par `cours-ligne-de-commande`. Si c'est le cas, vous êtes prêt·e.
+Le terminal doit afficher quelque chose qui se termine par `32M7129/cours_02`. Si c'est le cas, vous êtes prêt·e.
 
 Si un message d'erreur apparaît, ne paniquez pas : **copiez-le en entier**, et demandez à Claude ce qu'il signifie. C'est justement l'exercice de la troisième partie.
 

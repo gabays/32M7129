@@ -44,11 +44,12 @@ Chaque partie se termine par un **exercice**.
 ├── 03_conversion.md
 ├── 03_conversion.ipynb    # la partie 03 sous forme de carnet
 ├── 04_notebook.md
-├── corpus/
-│   └── faux_visage_ONB_10790D2D/
-│       ├── alto/          # une page = un fichier XML
-│       └── images/        # les images des pages
-└── metadata.csv           # métadonnées du document
+├── metadata.csv           # métadonnées du document
+└── faux_visage_ONB_10790D2D/   # le document (24 pages), à réorganiser en partie 02
+    ├── METS.xml           # description du document (pas une page)
+    ├── p_001.png          # image de la page
+    ├── p_001.xml          # ALTO de la page
+    └── ...
 ```
 
 ## Conventions

@@ -39,7 +39,7 @@ wc -w candide.txt       # mots seulement
 `grep` affiche les lignes qui contiennent un mot ou une expression.
 
 ```bash
-grep tempête candide.txt            # lignes contenant « amour »
+grep tempête candide.txt            # lignes contenant « tempête »
 grep -i tempête candide.txt         # sans tenir compte des majuscules
 grep -in tempête candide.txt        # avec le numéro de chaque ligne
 grep -ic tempête candide.txt        # combien de lignes ?

@@ -30,7 +30,7 @@ Un environnement virtuel est un dossier **isolé** contenant son propre Python e
 ## 3. Créer et activer l'environnement
 
 ```bash
-cd 32M7129/cours_03
+cd 32M7129/cours_04
 python3 -m venv env
 source env/bin/activate
 ```
@@ -43,8 +43,10 @@ virtualenv -p python3.10 env
 
 ou
 ```bash
-python3.10 -m venv environnement
+python3.10 -m venv env
 ```
+
+> ⚠️ Un environnement virtuel ne se déplace pas et ne se renomme pas : il garde en mémoire le chemin où il a été créé. Si vous déplacez ou renommez le dossier du cours, supprimez `env` et recréez-le.
 
 Le prompt affiche maintenant `(env)` : on est **dans** l'environnement. Pour en sortir :
 
@@ -52,7 +54,7 @@ Le prompt affiche maintenant `(env)` : on est **dans** l'environnement. Pour en 
 deactivate
 ```
 
-> ⚠️ À chaque nouvelle fenêtre de terminal, il faut refaire `source .venv/bin/activate` (depuis le dossier `kraken_cours`).
+> ⚠️ À chaque nouvelle fenêtre de terminal, il faut refaire `source env/bin/activate` (depuis le dossier `cours_04`).
 
 ## 4. pip en deux minutes
 
@@ -62,10 +64,10 @@ deactivate
 pip install nom_du_paquet      # installer
 pip list                       # voir ce qui est installé
 pip install -U nom_du_paquet   # mettre à jour
-which pip                      # doit pointer vers .venv/
+which pip                      # doit pointer vers env/
 ```
 
-Si `which pip` ne pointe pas vers `.venv`, l'environnement n'est pas activé.
+Si `which pip` ne pointe pas vers `env`, l'environnement n'est pas activé.
 
 ## 5. Installer Kraken
 

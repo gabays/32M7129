@@ -1,0 +1,4 @@
+Bienvenue dans la petite bibliothèque.
+
+Un mot magique est caché quelque part dans ces rayonnages.
+Premier indice : il n'est pas au XVIIIe siècle.

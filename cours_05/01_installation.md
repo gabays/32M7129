@@ -42,12 +42,12 @@ head -n 30 README.md
 Comme à la séance précédente (vous pouvez changer la version de python):
 
 ```bash
-python3.10 -m venv choucroute
-source choucroute/bin/activate
+python3.10 -m venv venv
+source venv/bin/activate
 which python
 ```
 
-Le prompt affiche `(choucroute)`, et `which python` doit pointer vers le dossier `choucroute/`.
+Le prompt affiche `(venv)`, et `which python` doit pointer vers le dossier `venv/`. Le nom `venv` est libre, mais c'est celui qu'utilisent la suite du cours et le carnet Jupyter.
 
 ## 4. Installer les dépendances
 

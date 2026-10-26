@@ -39,10 +39,11 @@ Chaque partie se termine par un **exercice**. Celui de la partie 02 sert de poin
 ├── 01_installation.md
 ├── 02_ocr.md
 ├── 03_entrainement.md
-├── page.jpg              # page d'essai pour l'OCR
-└── data/                 # pages transcrites pour l'entraînement
-    ├── p001.jpg
-    ├── p001.xml
+└── data/                 # 20 pages transcrites (image + ALTO)
+    ├── f9.jpg            # sert aussi de page d'essai pour l'OCR
+    ├── f9.xml
+    ├── f11.jpg
+    ├── f11.xml
     └── ...
 ```
 

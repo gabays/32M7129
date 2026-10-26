@@ -36,7 +36,7 @@ python -m ladas2tei.main corpus/faux_visage_ONB_10790D2D/alto -o faux_visage.xml
 On peut même désigner quelques pages seulement :
 
 ```bash
-python -m ladas2tei.main page_001.xml page_002.xml -o extrait.xml --title "Extrait"
+python -m ladas2tei.main corpus/faux_visage_ONB_10790D2D/alto/p_001.xml corpus/faux_visage_ONB_10790D2D/alto/p_002.xml -o extrait.xml --title "Extrait"
 ```
 
 ## 3. Vérifier le résultat
@@ -57,7 +57,7 @@ head -n 40 TEI/faux_visage_ONB_10790D2D.xml
 Quels éléments XML ont été produits, et combien de chacun ?
 
 ```bash
-grep -o "<[a-zA-Z]*" TEI/faux_visage_ONB_10790D2D.xml | sort | uniq -c | sort -rn | head
+grep -oE "<[a-zA-Z]+" TEI/faux_visage_ONB_10790D2D.xml | sort | uniq -c | sort -rn | head
 ```
 
 Le fichier est-il du XML bien formé ? (`xmllint` est installé sur macOS ; sous Linux/WSL : `sudo apt install libxml2-utils`)

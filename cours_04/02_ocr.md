@@ -22,11 +22,11 @@ kraken list               # modèles disponibles
 kraken get <identifiant>  # télécharger
 ```
 
-Le modèle est installé dans `~/.local/share/kraken` : on peut ensuite l'appeler par son nom de fichier (`.safetensors`).
+Le modèle est téléchargé dans un dossier propre à l'outil (sur Mac : `~/Library/Application Support/htrmopo/<identifiant>/`) ; `kraken get` affiche ce chemin. Copiez le fichier modèle (`.safetensors` ou `.mlmodel`) dans `cours_04` pour l'appeler simplement par son nom.
 
 Vous pouvez aussi consulter la liste officielle [sur Zenodo](https://zenodo.org/communities/ocr_models).
 
-Pour aller vite, téléchargez directement [PP-OCRv6 (medium)](https://zenodo.org/records/21788410/files/medium.safetensors?download=1): placez-le dans le dossier `cours_04`.
+Pour l'exercice, nous utilisons un modèle d'imprimés anciens, [CATMuS Print (fondue, large)](https://zenodo.org/records/10592716), léger et rapide à entraîner. Téléchargez-le directement ([lien](https://zenodo.org/records/10592716/files/catmus-print-fondue-large.mlmodel?download=1)) ou avec `kraken get 10.5281/zenodo.10592716`, et placez `catmus-print-fondue-large.mlmodel` dans le dossier `cours_04`.
 
 ## 3. La commande d'OCR
 
@@ -37,12 +37,12 @@ kraken -i CHEMIN/VERS/IMAGE SORTIE.txt segment -bl ocr -m MODELE
 Par exemple:
 
 ```bash
-kraken -i data/f104.jpg page.txt segment -bl ocr -m medium.safetensors
+kraken -i data/f9.jpg page.txt segment -bl ocr -m catmus-print-fondue-large.mlmodel
 ```
 
 | Morceau | Rôle |
 |---|---|
-| `-i page.jpg page.txt` | fichier d'entrée, fichier de sortie |
+| `-i data/f9.jpg page.txt` | fichier d'entrée, fichier de sortie |
 | `segment -bl` | segmentation en lignes de base (*baselines*) |
 | `ocr -m modele.safetensors` | reconnaissance avec ce modèle |
 
@@ -58,7 +58,7 @@ kraken [options globales] sous-commande [options] sous-commande [options]
 ## 4. Choisir le format de sortie
 
 ```bash
-kraken -a -i data/f104.jpg page.xml segment -bl ocr -m medium.safetensors
+kraken -a -i data/f9.jpg page.xml segment -bl ocr -m catmus-print-fondue-large.mlmodel
 ```
 
 | Option globale | Format |
@@ -73,25 +73,27 @@ L'ALTO conserve la position de chaque ligne : c'est le format dont on a besoin p
 ## 5. Plusieurs pages d'un coup
 
 ```bash
-kraken -I "data/*.jpg" -o .txt segment -bl ocr -m medium.safetensors
+kraken -I "data/*.jpg" -o .txt segment -bl ocr -m catmus-print-fondue-large.mlmodel
 ```
 
-`-I` désigne tous les fichiers correspondant au motif, `-o` le suffixe ajouté au nom de sortie (`page1.jpg.txt`).
+`-I` désigne tous les fichiers correspondant au motif, `-o` l'extension des fichiers de sortie, qui remplace celle de l'image (`f9.jpg` donne `f9.txt`).
 
 ## 6. Aller plus vite
 
 Option globale, à placer avant `segment` :
 
 ```bash
-kraken --device mps    -i page.jpg page.txt segment -bl ocr -m medium.safetensors   # Mac Apple Silicon
-kraken --device cuda:0 -i page.jpg page.txt segment -bl ocr -m medium.safetensors   # carte NVIDIA
+kraken --device mps    -i data/f9.jpg page.txt segment -bl ocr -m catmus-print-fondue-large.mlmodel   # Mac Apple Silicon (testé pour l'OCR seulement)
+kraken --device cuda:0 -i data/f9.jpg page.txt segment -bl ocr -m catmus-print-fondue-large.mlmodel   # carte NVIDIA
 ```
 
 Sans option, le calcul se fait sur le processeur (CPU) : plus lent, mais suffisant pour quelques pages.
 
 ## Exercice
 
-1. Récupérer un modèle adapté à la page d'essai fournie.
+> On prend `f9.jpg` comme page d'essai parce qu'au cours suivant elle fera partie des pages de validation : le modèle entraîné ne l'aura jamais vue.
+
+1. Récupérer un modèle adapté à la page d'essai `data/f9.jpg`.
 2. OCRiser la page en **texte**, puis en **ALTO**.
 3. Relire le résultat et **noter trois erreurs typiques** : on les comparera avec le modèle entraîné au cours suivant.
 
