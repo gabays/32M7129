@@ -1,0 +1,137 @@
+% je choisis le type de document que je veux écrire: article, book, beamer (pour un équivalent de powerpoint). C'est ici que je peux préciser que je vais passer sur deux colonnes, utiliser de l'a4, la taille de ma police…
+\documentclass[paper=a4,
+               fontsize=11pt,
+               twoside, %rectoverso
+               %twocolumn,
+              ]{article}
+
+% Nous allons désormais ajouter des packages offrant des options supplémentaires, comme en python (import) ou en R (library())
+
+%je dis que mon document va être en français
+\usepackage[french]{babel}
+
+% Si vous choisissez "XeLaTeX" comme typesetting engine, je vous recommande l'utilisation de fontpsec préventivement pour gérer des caractères spéciaux
+\usepackage{fontspec}
+% si vous restez sur pdfLaTeX pour ajouter les caractères utf-8 aux traditionnels ASCII
+%\usepackage[utf8]{inputenc}
+
+
+
+%le package caption va me permettre mettre des illustrations
+\usepackage{graphicx}
+
+%ce package va me permettre de mettre du code dans mon article
+\usepackage{minted}
+
+% ici nous allons préciser ce que nous voulons pour la bibliographie
+\usepackage[backend=biber,%on utilise biber comme backend
+            style=authoryear-comp,%je veux l'auteur puis la date
+            sorting=ynt %la biblio est organisée par year, name, title
+            ]{biblatex}
+%nous précisons où se trouve la bibliographie
+\addbibresource{bibliography.bib}
+
+%ici vous remplissez à l'avance des informations qui vont servir à remplir la titraille de votre article. Ces informations sont réutilisés par l \maketitle plus bas
+\title{Cours latex}
+\author{Simon Gabay}
+\date{May 2022}
+% il est possible de laisser \date{} vide pour ne pas mettre de date
+
+% Le document que nous voulons écrire commence ici
+\begin{document}
+    
+    %j'appelle les informations de titre
+    \maketitle
+    
+    Je commence une introduction \textit{avec de l'italique} (la commande \texttt{\textbackslash{}emph} produit le même effet: \emph{exemple}), un \textbf{peu de gras}, des \textsc{petites capitales} et combiner ces options \textbf{\textit{tout en même temps}}.
+    On note qu'un retour à la ligne dans le code n'implique pas un retour à la ligne dans \LaTeX 
+    
+    Mais deux retours à la ligne font bien un nouveau paragraphe. Je peux aussi mettre des notes de bas de page \footnote{le texte se retrouve donc tout en bas de la page}.
+    
+    % je peux faire des parties
+    \section{Introduction}
+
+    % je peux rajouter une image
+    %[!htp] précise que je veux l'image là où elle apparait (here) ou en haut (top) ou en bas (bottom), dans cet ordre
+    \begin{figure}[!htb]
+        %je centre l'image
+        \centering
+        %je précise la taille de mon image et le chemin vers elle
+        \includegraphics[height=2cm]{images/logoLatex.png}
+        %je rajoute une légende
+        \caption{ici un logo}
+        %je lui donne un identifiant pour pointer vers l'image par la suite
+        \label{fig:logolatex}
+    \end{figure}
+    
+     Je peux citer un article \cite{baptiste_transferring_2021}, mettre des parenthèses autour de la citation \parencite{baptiste_transferring_2021} ou la mettre en note \footcite{baptiste_transferring_2021}. Je peux aussi renvoyer à l'image (cf. image~\ref{fig:logolatex}).
+     
+    %des sous-parties
+    \subsection{Petit A}
+    %je peux rajouter des label un peu partout où je pourrais avoir besoin de pointer, comme une sous-partie à laquelle je ferais référence plus loin dans mon texte
+    \label{petitA}
+    Rajouter des tableaux est un peu plus compliqué:
+    
+    \begin{table}[!htp]
+        \centering
+        % je commence le tableau avec de colonnes (c) séparées par une barre verticale puis une troisième
+        \begin{tabular}{c|cc}
+            En-tête 1 & En-tête 2 & En-tête 3 \\
+            %je rajoute une barre horizontale
+        \hline
+            %on note que que je rajoute \\ pour signaler une nouvelle ligne
+            U & V & W \\
+            X & Y & Z \\
+        \end{tabular}
+        \caption{mon premier tableau}
+        \label{tab:tableau}
+    \end{table}
+    
+    Je peux faire des listes
+    \begin{itemize}
+        \item un
+        \item deux
+        \item trois
+    \end{itemize}
+
+    Je peux faire des listes numérotées:
+    \begin{enumerate}
+        \item un
+        \item deux
+        \item trois
+    \end{enumerate}
+    
+    Je peux mettre une liste dans une liste
+    \begin{enumerate}
+        \item un
+        \begin{itemize}
+            \item deux
+            \item trois
+            \item quatre
+        \end{itemize}
+        \item cinq
+        \item six
+    \end{enumerate}    
+
+    Pour mettre du code, j'utilise \texttt{minted}:
+    \begin{minted}{python}
+import panda as pd
+    \end{minted}
+    \begin{minted}{xml}
+là je mets du <balise attribut="valeur">xml</balise>
+    \end{minted}
+    
+    Je peux mettre du texte en \textsuperscript{exposant} comme pour \textsc{xvii}\textsuperscript{e}~s.
+    
+    Pour les guillemets français j'utilise des choses un peu \og~bizarres~\fg{}
+    
+    Comme le français, et d'autres langues, utilisent des caractères particuliers absents en anglais, il est possible de les rajouter comme avec: \`A
+    
+    
+    %je passe à la page suivante:
+    \clearpage
+    
+    %J'ajoute la bibliographie
+    \printbibliography
+
+\end{document}
