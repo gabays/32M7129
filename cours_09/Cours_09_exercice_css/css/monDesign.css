@@ -1,0 +1,36 @@
+body {
+    background-color: green;
+}
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+p{
+    font-style: italic;
+    text-decoration: underline;
+    text-indent:1em;
+    font-size:11px;
+}
+
+div{
+    margin-left: 2em;
+}
+
+img{
+    border:solid;
+    padding:2em;
+}
+
+.universite{
+    color:blue;
+}
+span.universite{
+    color:red;
+}
+span[class=universite]{
+    color:yellow;
+}
+trucDebile{
+    color:red;
+}
