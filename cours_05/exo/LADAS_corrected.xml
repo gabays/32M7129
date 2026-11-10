@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Faux visage</title>
+        <respStmt xml:id="resp1">
+          <resp>Encoding</resp>
+          <persName>Juliette Janes</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Generated from LADaS-annotated ALTO</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>LADaS</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2026-10-26" who="#resp1">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="p_001.xml"/>
+        <note type="handwritten">
+          <lb/>pop
+          <lb/>coll
+        </note>
+        <note type="handwritten">
+          <lb/>8. z. 75(3)
+        </note>
+        <div type="titlePage">
+          <ab>
+            <lb/>LE
+            <lb/>FAUX VISAGE
+            <lb/>DESCOVVERT DV FIN
+            <lb/>Renard de la France.
+            <lb/>A tous Catholiques vnis, &amp; ſainctement liguez pour la
+            <lb/>defence, &amp; tuition de l'Egliſe Apoſtolique &amp;
+            <lb/>Romaine, contre l’ennemy de Dieu
+            <lb/>ouuert &amp; couuert.
+            <lb/>Enſemble quelques Anagrammes
+            <lb/>&amp; Sonnets propres pour la
+            <lb/>ſaiſon du iourd’huy.
+            <lb/>Sors iſta Tyrannis
+            <lb/>Conuenit, inuideant claris, fortéſque trucident.
+            <lb/>Claudi in 4. hon, conf.
+            <lb/>Par ſort il eſt eſcheu en partage aux Tyrans
+            <lb/>Porter enuie aux bons, &amp; meurtrir les vaillans.
+            <lb/>Pour Iacques de Varangles, rue ſainct
+            <lb/>Iacques contre le College du Pleſſis.
+            <lb/>Auec Permißion.
+            <lb/>M. D. LXXXIX.
+          </ab>
+        </div>
+        <figure/>
+        <pb facs="p_002.xml"/>
+        <div>
+          <head>
+            <lb/>Anagramme
+            <lb/>DE VALOYS,
+            <lb/>O LE IVDAS.
+          </head>
+          <lg>
+            <l>LE ciel qui veut faire paroiſtre</l>
+            <l>Que DE VALOYS n'eſtoit qu'un traiſtre</l>
+            <l>Anagrammatizant ſon nom,</l>
+            <l>A faict fort heureuſement naiſtre,</l>
+            <l>O le Iudas: donnant à cognoiſtre,</l>
+            <l>Que ſon cœur couue trahiſon.</l>
+          </lg>
+        </div>
+        <div>
+          <head>
+            <lb/>PRIERE AV DIEV
+            <lb/>des Chreſtiens.
+          </head>
+          <lg>
+            <l>SEIGNEVR, qui m'as donné la force</l>
+            <l>De ſonner ſur mon luth ce vers,</l>
+            <l>Permets, qu’il me ſerue d’amorce</l>
+            <l>A faire vn coup pour l'vniuers.</l>
+          </lg>
+          <lg>
+            <l>Tyrannicidæ præmium detur.</l>
+            <l>Salaire, &amp; recompenſe à celuy</l>
+            <l>qui tura le Tyran.</l>
+          </lg>
+          <figure/>
+        </div>
+        <div>
+          <head>
+            <lb/>LE FAVX VISAGE DESCOVVERT
+            <lb/>du fin Renard de la France.
+            <lb/>A tous Catholiques, &amp;c.
+          </head>
+          <p>
+            <hi rend="drop-capital">
+              <lb/>E
+            </hi>
+            <lb/>N ce temps calamiteux, &amp;
+            <lb/>deplorable (Chreſtien &amp; Ca¬
+            <lb/>tholique) auquel il ſemble
+            <lb/>que toute la puiſſance de Sa¬
+            <lb/>tan ſoit dechainee auec re¬
+            <lb/>ſolution de nous faire courir
+            <lb/>fortune de noſtre ſaincte re¬
+            <lb/>ligion: I’ay eu en ſinguliere
+            <lb/>recommandation d’exhorter
+            <lb/>vn chacun à ce roidir &amp; tenir ferme contre les aſſi¬
+            <lb/>duels aſſaults que nous liure l’ennemy commũ du
+            <lb/>genre humain par les heretiques, politiques &amp; au¬
+            <lb/>tres qui viennent de ſa part: &amp; ſpecialement entre
+            <lb/>les Chreſtiens les plus zelez &amp; vrays Catholiques,
+            <lb/>qui deſirent d’vne ſaincte volonté la conſeruation
+            <lb/>&amp; propagatiõ de l’Egliſe, à y mettre la main: voyãt
+            <lb/>le vaiſſeau de la pauure France eſbrãlé, par la tour¬
+            <lb/>mente &amp; emotiõ des flots des heretiques, agité d’v¬
+            <lb/>ne part &amp; d’autre des vents impetueux, &amp; haleines
+            <lb/>puantes des Politicques: enuironné d’vne infinité
+            <lb/>d'eſcueils, auſquels il ſ'aheurtera, ſi Dieu ne le prẽd
+            <lb/>en ſa ſauuegarde &amp; protection, voguer en plaine
+            <lb/>mer de tribulations, ſi proche de faire naufrage
+            <lb/>qu’il reſte à tous les gens de bien, bien peu deſ¬<milestone unit="page" n="4"/>
+            <lb/>perance d’vn heureux abord. Choſe qui cauſe que
+            <lb/>ie me plains de viure en vne faiſon ſi miſerable:
+            <lb/>comme faiſoit en l'Egliſe primitiue ſainct Poly¬
+            <lb/>carpe en ces mots, O bone Deus, in quæ tempora me con¬
+            <lb/>ſeruaſti, vt hæc ſuſtine am, in huiuſmodi afflictione &amp; hæ¬
+            <lb/>reticorum tyrannide. O bõ Dieu en quelle ſaiſon m’a¬
+            <lb/>uez vous reſerué pour ſupporter ces choſes en tel¬
+            <lb/>le affliction &amp; tyrãnie des heretiques: par leſquels
+            <lb/>propos l'on peut cognoiſtre quelle trauerſe ce
+            <lb/>ſainct perſonnage ſentoit en ſõ ame entre les cru¬
+            <lb/>autez &amp; perſuaſions des heretiques. Toutesfois
+            <lb/>vne choſe me reſiouit grandement &amp; conſolide
+            <lb/>mon cœur, qu’encore que ce tyran de noſtre ſiecle
+            <lb/>conſpire en ſon ame la ruyne &amp; deſolation de la
+            <lb/>pauure France, &amp; la perte de noſtre ſaincte religiõ,
+            <lb/>qui eſt mille fois pl⁹ dãgereuſe que la perte de noz
+            <lb/>vies, &amp; que le dommage entier de tous nos biens,
+            <lb/>qui ſont ſouz la main &amp; puiſſauce de fortune, que
+          </p>
+          <fw type="quiremarks">
+            <lb/>A ij
+          </fw>
+          <lg>
+            <l>Nititur in eaſſum nauem ſubmergere Petri</l>
+            <l>Fluctuat, &amp; numquam deſinet eſſe ratis.</l>
+            <l>Pourneant il s’efforce renuerſer le bateau</l>
+            <l>De ſainct Pierre qui flotte, &amp; flottera ſur l'eau.</l>
+          </lg>
+          <p>
+            <lb/>D’autant que par la promeſſe infalible de noſtre
+            <lb/>Dieu il ſubliſtera maugré les ennemis de noſtre
+            <lb/>foy, uſque ad conſummationem ſæculi: Iuſque à la con¬
+            <lb/>ſummation du monde: regretant infiniment qu’en
+            <lb/>ces derniers iours pour la trop grande facilité de
+            <lb/>quelques cerueaux mal tymbrés, l’erreur &amp; opiniõ
+            <lb/>peruerſe ſe ſoit gliſſé permy noſtre France, &amp; que
+            <lb/>noſtre lys iadis fleuriſſant, maintenant fletriſſant
+            <lb/>pour la grande chenilere des heretiques, &amp; autres
+            <lb/>qui le rongent ſoit comblé d’affliction, &amp; deſola¬<milestone unit="page" n="5"/>
+            <lb/>tion. Attendu qu’es ſiecles precedents la France a
+            <lb/>eſté preſeruee de ceſte peſte: &amp; qui meſme comme
+            <lb/>dit ſainct Bernard auoit de couſtume d’extirper &amp;
+            <lb/>punir rigoureuſement l’hereſie eſtrangere: en eſt
+            <lb/>maintenant toute infectee &amp; corrompue.
+          </p>
+          <p>
+            <lb/>Et d’autre coſté voyant à mes yeux les ſangliers,
+            <lb/>(qui ſont les heretiques qui deſirẽt plãter le flam¬
+            <lb/>beau de leurs hereſies à guerre ouuerte pour cen¬
+            <lb/>droier l'eſtat de la France) &amp; les fins renards (com¬
+            <lb/>me noz politicques, auec leur prince) traiſtre de
+            <lb/>noſtre religion, participants de meſmes ſacremẽts
+            <lb/>que nous, qui deſirent eſtablir ſous main ſur noz
+            <lb/>fleurs de lys ce relaps Henry de Nauarre, pour aſ¬
+            <lb/>ſeoir vne meilleure fortune: &amp; brief toutes ſortes
+            <lb/>de beſtes ſauuages, rauager &amp; defricher ceſte pau¬
+            <lb/>ure vigne de noſtre Dieu, plantee par luy meſme,
+            <lb/>arrouſee de ſon precieux ſang, &amp; de celuy de tant
+            <lb/>de glorienx martyrs que nous auons pour prote¬
+            <lb/>cteurs en noſtre France. I'ay eſté ſi viuemẽt attaint
+            <lb/>en l’ame quãd i’ay cõſideré les maux que nous en¬
+            <lb/>dureriõs pour en voir ſortir vne bõne iſſue. Tou¬
+            <lb/>tesfois i’ay vne telle confiance en la miſericorde &amp;
+            <lb/>puiſſance de mon Dieu, que i’eſpere que perſonne
+            <lb/>ne pourra preualoir contre nous, ſi d’vn cœur cõ¬
+            <lb/>trit &amp; humilié nous nous rangeons entre les bras
+            <lb/>de ſa miſericorde, nous fortifians à l’encontre de
+            <lb/>noz ennemis de ſon ſainct nom: ſans laiſſer en ar¬
+            <lb/>riere en ceſt affaire les moyens qui ſe preſentent
+            <lb/>deuant noz yeux. Et n'ayant en cecy autre but que
+            <lb/>de rechaufer les plus frois en l’amour de noltre
+            <lb/>Dieu, &amp; d’vn zele enuers sõ Egliſe, &amp; entre autres,
+            <lb/>ceux principalemẽt qui ſont incapables des ſain¬<milestone unit="page" n="6"/>
+            <lb/>tes Eſcritures ie me fondray ſeulement en raiſons
+            <lb/>faciles &amp; ayſees à digerer, bornãt ce petit diſcours
+            <lb/>de ce qui eſt arriué à ces troubles, qui ont piteuſe¬
+            <lb/>ment dechiré la pauure Frãce: attẽdu que les cho¬
+            <lb/>ſes domeſtiques &amp; qui ſe font chez nous excitent
+            <lb/>d’auantage noz eſprits que les choſes foraines &amp;
+            <lb/>eſtrangeres. Or donc, qui eſt celuy, Chreſtiens,
+            <lb/>qui ne recognoiſſe que noſtre Dieu ayãt compaſ¬
+            <lb/>ſion de la France, à cauſe de ſon ancien zele, &amp;
+            <lb/>grande ardeur en la religion, voyãt qu’elle ſe pre¬
+            <lb/>cipitoit en vn gouffre d’erreurs, &amp; abiſme d’opi¬
+            <lb/>nions fantaſtiques n’aye ſuſcité ceſte illuſtre mai¬
+            <lb/>ſon de Lorraine pieuſe &amp; genereuſe à la defẽce de
+            <lb/>ſon S.nom, &amp; ne l’ayt fõdee en ceſte region com¬
+            <lb/>me vne fortereſſe biẽ munie côtre tous les aguets
+            <lb/>des ennemis de noſtre religion ? laquelle maiſon
+            <lb/>eſtant yſſue de ce grand Chef d’armees ſouz l’eſtẽ¬
+            <lb/>dart de Ieſus-Chriſt Charle-maigne, &amp; de ce preux
+            <lb/>Cheualier Godefroy de Billõ, qui par tant de l’au¬
+            <lb/>riers &amp; tãt de victoires heureuſemẽt rẽportees cõ¬
+            <lb/>tre l’infidelle s’eſlablit Roy de la Paleſtine: laquelle
+            <lb/>di-ie tant de prerogatiues &amp; preeminences deſ¬
+            <lb/>ſus les plus apparentes maiſons de la France, auec
+            <lb/>tant de benedictiõs de Dien, que vous y voyez vne
+            <lb/>formiliere d’enfans maſles, vrayes images de leurs
+            <lb/>peres, ſuyuãt la trace de leurs ayeux, &amp;ne forlignãt
+            <lb/>pas d’vn petit poĩt de leur vertu &amp; grãdeur de cou¬
+            <lb/>rage, ſi adextres aux armes, &amp; ſi curieux de l’hon¬
+            <lb/>neur de Dieu, qu’il ne ſe remarque aucun d’iceux
+            <lb/>qui ayt eſté entaché, ou biẽ ſoupçõné de l’hereſie:
+            <lb/>brief ſi accomplis &amp; embellis de toutes perfectiõs
+            <lb/>Chreſtiẽnes, qu’ils ſont comme vne lampe arden¬<milestone unit="page" n="7"/>
+            <lb/>te à toute perſonne qui veut reformer ſa vie diſſo¬
+            <lb/>lue, &amp; cheminer aux erres de Ieſus Chriſt. Et d’au¬
+            <lb/>tant qu’en icelle nous auõs eu pour protecteur de
+            <lb/>noſtre cauſe aux premiers troubles, feu Monſei¬
+            <lb/>gneur le duc de Guiſe le pere, lequel pour ſes rares
+            <lb/>&amp; excellents faicts d’armes ſera le premier deſſus
+            <lb/>les rangs aux choix de tãt de princes de ceſte race,
+            <lb/>qui pour la gloire &amp; l’honneur de Dieu, pour no¬
+            <lb/>ſtre ſaincte religion que nous auons de main en
+            <lb/>main des Apoſtres, &amp; pour la cõſeruation du pays,
+            <lb/>ont conſacré &amp; voué deuotieuſement leurs vies: &amp;
+            <lb/>qui s’eſt faict paroiſtre entre iceux (cõme la Lune
+            <lb/>entre les feux du Ciel) par ſes auãtageuſes proüeſ¬
+            <lb/>ſes. Car qui eſt celuy qui croira qu’vn hõme mor¬
+            <lb/>tel reueſtu de chair &amp; d'os puiſſe auoir pris ſur l’ẽ¬
+            <lb/>nemy de la religion, Calais ville frontiere &amp; mari¬
+            <lb/>time imprenable, pour la ſituation &amp; l’artifice des
+            <lb/>hommes, deuant meſme que la garniſon Angloiſe
+            <lb/>ſe fuſt à grand peine douté d’vn ſiege, &amp; ſ'en ſou¬
+            <lb/>ciant fort peu, veu qu’ils auoient ce diſtique latin
+            <lb/>ordinaire en la bouche,
+          </p>
+          <fw type="quiremarks">
+            <lb/>A iij
+          </fw>
+          <lg>
+            <l>Et tunc credibile eſt cingi obſidione Caletum,</l>
+            <l>Cùm ferrum plumbúmue natabit ſuberis inſtar.</l>
+            <l>Il ſera vray ſemblable que Calais on aſsiege,</l>
+            <l>Quand le fer &amp; le plomb nagera comme liege.</l>
+          </lg>
+          <p>
+            <lb/>Et meſme les Roys d’Angleterre s’aſſeuroient
+            <lb/>tant ſur les fortereſſes de ce lieu, qu’ils diſoient que
+            <lb/>la clef de la France eſtoit pendue en leur ceinture.
+            <lb/>Mais quoy?ce Prince aſſiſté de la dextre du Dieu
+            <lb/>des armees n’a il pas ſouſtenu courageuſement le
+            <lb/>fort d’vn ſiege le plus violent qui fuſt oncques de¬
+            <lb/>dans Mets, où lon tira tant de volees de coups de<milestone unit="page" n="8"/>
+            <lb/>canõ, &amp; auquel l’on redoubloit des batteries ſi fu¬
+            <lb/>rieuſes que de vingt deux lieux en Allemagne lon
+            <lb/>entẽdoit ayſemẽt le bruit des canõnades: &amp; en fin
+            <lb/>la puiſſãte armee deCharles le Quint Prince d’au¬
+            <lb/>guſte memoire pour la fatigue cõtinue que luy dõ
+            <lb/>noit ce Prince, ſe retira camus auec vn fort grãd e¬
+            <lb/>quipage. Noſtre Prince ne ſe contẽtant d’auoir rẽ¬
+            <lb/>porté la victoire voulut faire paroiſtre vne eſtin¬
+            <lb/>cele de ſa bonté &amp; miſericorde, ſecourãt ſes enne¬
+            <lb/>mis propres, donnant aux malades &amp; naurez des
+            <lb/>chirurgiens, &amp; les inuitant d’vſer de toutes cõmo¬
+            <lb/>ditez qui eſtoient en ſa puiſſance cõme remarque
+            <lb/>vn fidele Hiſtorien Allemã. Mais ce Ceſar ne pou¬
+            <lb/>uant eſtre terraſſé ayant ſon homme en teſte, fut
+            <lb/>traiſtreuſement tué au ſiege d’Orleãs par Poltrot,
+            <lb/>de trois balles empoiſonnees, choſe qui eſt ordi¬
+            <lb/>naire aux heretiques, &amp; de tous leurs alliez d’vſer
+            <lb/>de poiſons &amp; de trahiſons, à la perſuaſiõ &amp; ſollici¬
+            <lb/>tation de ce venerable putier de Beze, luy prome¬
+            <lb/>tant ſur la vie &amp; ſon hõneur le Royaume de Chriſt,
+            <lb/>car pour telles gens il n’y a point de Ieſus, Dieu ne
+            <lb/>laiſſant le meurtrier impuny. Pour qui eſt-ce dy
+            <lb/>moy, Chreſtiẽ, que ce genereux prince a reſpandu
+            <lb/>ſon ſang? Ton Dieu, ta religiõ, la cõſeruation de la
+            <lb/>couronne, ta vie &amp; la mienne ne ſont ce pas autant
+            <lb/>de iuſtes cauſes : duquel tu dois auoir la mort glo¬
+            <lb/>rieuſe, fichee &amp; arreſtee deuant tes yeux, pour te
+            <lb/>maintenir au zele de la religion : Quoy? eſtimes tu
+            <lb/>que tu mãques d’eſtroite obligatiõ avẽger ſa mort
+            <lb/>&amp;te ſacrifier volontairement à noſtre Dieu com¬
+            <lb/>me vne victime, veu que il y va maintenant de
+            <lb/>la manutention de la religion ſaincte, &amp; de l'hon¬<milestone unit="page" n="9"/>
+            <lb/>neur de Dieu contre des ſuppots de Satan les here¬
+            <lb/>tiques &amp; ſimulez politiques. Nous ne manquons
+            <lb/>pas, Chreſtiens, de tels Princes pour nous exciter
+            <lb/>à embraſſer virilement &amp; courageuſement le par¬
+            <lb/>ty de noſtre Dieu, en nous oppoſant à l'audace de
+            <lb/>ceux qui deſirẽt deraciner &amp; defouir en ceſte ter¬
+            <lb/>re les fondemens de noſtre religion. N’auons nous
+            <lb/>pus eu Monſeigneur le Duc d’Aumalle pere de ces
+            <lb/>Princes, qui pour le iourd’huy nous ſeruent d’vn
+            <lb/>Pauois contre les trahiſons ſanglantes de noſtre
+            <lb/>tyran, lequel voulant extirper l'hereſie mourut
+            <lb/>pour noſtre querelle envaillant champion? Quoy?
+            <lb/>as tu perdu la memoire des inhumaines &amp; plus que
+            <lb/>turqueſques cruautez perpetrees en ces derniers
+            <lb/>iours? Ce Ceſar, ce Scipiõ, ceſt eſpouuentail d’here¬
+            <lb/>tiques n’eſt il pas attaché, comme vn riche tableau
+            <lb/>au cabinet de ton cœur? Ce prince qui ne reſpiroit
+            <lb/>rien, ſinon que l’honneur de Dieu, la conſolation
+            <lb/>des pauures Catholiques, l’extirpation des hereti¬
+            <lb/>ques: pour la deſcharge des ſubſides, pour noſtre
+            <lb/>ſaincte religion, &amp; generallement pour la reforma¬
+            <lb/>tion de toute la deſolee Frãce a eſté traiſtreuſemẽt,
+            <lb/>&amp; pariurement aſſaſſiné: Qui ne cognoit à veue
+            <lb/>d’œil, &amp; touche du bout du doigt, que le piuot de
+            <lb/>la France, que le plus braue cheualier qui iamais
+            <lb/>mit pied en etried ne ſoit par terre? N’eſt-ce pas ce¬
+            <lb/>luy qui de ſa ſeulle preſence a garenty Paris, la plus
+            <lb/>floriſſante ville du monde d’vn ſacagemẽt vniuer¬
+            <lb/>ſel? N’eſt-ce pas ce Prince qui retira l’eſpee nüe de
+            <lb/>la main du ſoldat du ſein des bourgeois d’icelle?
+            <lb/>N’eſt-ce pas ce genereux conducteur d’armees qui
+            <lb/>tant de fois, &amp; ſi heureuſement a terraſſé &amp; taillé en<milestone unit="page" n="10"/>
+            <lb/>pieces l'ennemy de noſtre Dieu, &amp; pour toutes re¬
+            <lb/>compenſes des bons ſeruices a eſté laſchemẽt poi¬
+            <lb/>gnardé? Qui penſeroit que ſous les amorces &amp; ap¬
+            <lb/>pas emmiellez de ce traiſtre, ſoubs des paroles
+            <lb/>tãt fardees &amp; deſguiſees, ſoubs vn viſage acord, &amp;
+            <lb/>facile, tel qu’il luy portoit: bref ſoubs vne ſi laſche
+            <lb/>moleſſe il recelaſt en ſa poitrine vn cœur dur, ada¬
+            <lb/>mantin, &amp; regorgeãt de trahiſon? il fait cõuoquer
+            <lb/>des eſtats, mais ce ſont pieges pour y ſurprẽdre les
+            <lb/>moins auiſez, a telles façõs &amp; ceux qui ont l’ame &amp;
+            <lb/>le cœur droit &amp; ſãs deffiãce. O quels eſtats! ô quel¬
+            <lb/>le reformation, ô tẽps deplorable. Quoy? ſeignes
+            <lb/>tu du nez encore, Catholique, ce n’eſt pas en ces af
+            <lb/>faires cy où l’on doit caller le voile. Noſtre Dieu
+            <lb/>n’ayme que celuy qui eſt violent &amp; hault aux ar¬
+            <lb/>mes, &amp; zelateur de ſon ſainct nom. Quoy? es tu ſi
+            <lb/>laſche &amp; ſi ſtupide: as tu les yeux tellement bandez
+            <lb/>que tu ne puiſſe atteindre où viſe ceſt hipocrite a¬
+            <lb/>uec ſa legion d’atheiſtes ? Veux tu attendre à te re¬
+            <lb/>ſouldre quand tu voyras ta propre poitrine ſeruir
+            <lb/>de fourreau à ſon eſpee ia teinte du genereux ſang
+            <lb/>des Cheualiers de Ieſus Chriſt, &amp; qu’il ſe ſera bai¬
+            <lb/>gné iuſqu’aux eſpaules au ſang de ta femme &amp; de
+            <lb/>tes enfans? Quelle fidelité auras tu à ce Tyran qui
+            <lb/>a fait daguer celuy qui a maintenu &amp; conſerué ſa
+            <lb/>couronne, contre les orages des Heretiques: meſ¬
+            <lb/>mes ſans aucun reſpect de la ſaincte aſſemblee des
+            <lb/>eſtats: ayant perdu toute ſouuenance des promeſ¬
+            <lb/>ſes qu’il luy feit, auec les plus grandes execrations
+            <lb/>qui ſe puiſſent dire, en receuant ſon createur, meſ¬
+            <lb/>mement en ſa chambre, laquelle il diſoit, pour fi¬
+            <lb/>nemẽt ioüer ſa farce, eſtre vn aſyle de ſeureté &amp; de<milestone unit="page" n="11"/>
+            <lb/>liberté: brief vn lieu ſainct &amp; inuiolable. Et quoy?
+            <lb/>clocherés vous encor, ne vengerés vous point la
+            <lb/>mort de ce Prince qui a ſi ſouuent mis à vau-de-
+            <lb/>route l’Heretique noſtre commun ennemy? Qui
+            <lb/>ſçeut ſi bien &amp; ſi dextrement faire paroiſtre la va¬
+            <lb/>leur de ſes ieunes ans dans ceſle villace de Poi¬
+            <lb/>tiers. Qui dernietement accompaigné de la cele¬
+            <lb/>ſte puiſſance fit fondre ſur ceſte grande armee de
+            <lb/>Reiſtres que ce beau penitẽt fourré de malice fiſt
+            <lb/>venir vn eſclat eſtincelãt de ſa foudre? Qui ta pre¬
+            <lb/>ſerué ville de Paris, de ces beaux barbouillez, qui
+            <lb/>eſperoiẽt rẽporter ton or &amp; ton argẽt dedãs leurs
+            <lb/>chariots, ſelon les belles promeſſes que l’on leur
+            <lb/>auoit faict? Ne ſçais tu pas que ce beau Henry iadis
+            <lb/>noſtre Roy, n’en accoſta pas vn: car ils eſtoient
+            <lb/>venus pour ſon ſeruice, faiſant les tours &amp; re¬
+            <lb/>tours. Et aptes qu’ils eurent tout à leur aiſe ra¬
+            <lb/>uagé, bruſlé &amp; mis tout au fil de l’eſpee, ne leur
+            <lb/>donna il pas main forte pour ſe retirer en aſſeu¬
+            <lb/>rance, auec defences expreſſes de n’attenter en au¬
+            <lb/>cune façon contre la vie de ces bons hoſtes de la
+            <lb/>France? Qui les a mis en pieces, Chreſtien, qui leur
+            <lb/>a fait rebrouſſer chemin &amp; retrouuer leurs pre¬
+            <lb/>mieres erres? N'eſt-ce pas ton Dieu qui accompa¬
+            <lb/>gnoit ce valeureux Prince auec ſa petite poignee
+            <lb/>de gens: quelle proportion y auoit il des deux ar¬
+            <lb/>mees? Que veux tu d’auantage. Deſires tu que le
+            <lb/>Dieu des Chreſtiens laiſſe ſon troſne celeſte, t’aſ¬
+            <lb/>ſeure de ſa parolle &amp; diſe que l’on en veult à ta re¬
+            <lb/>ligiõ? Il y a ia long temps, à mon grand regret, que
+            <lb/>tu deuſſes auoir couru aux armes, pour inquieter
+            <lb/>la tyrannie, la vie ſedentaire &amp; voluptueuſe de ce<milestone unit="page" n="12"/>
+            <lb/>Cheualier de la Iartiere: l’honneur de Dieu ne t’en
+            <lb/>a il pas ſemond, le voyant fouler aux pieds &amp; pro¬
+            <lb/>phaner indignement, quand la forcellerie a eſté e¬
+            <lb/>ſtablie au lieu le plus eminent, &amp; au plus haut ſiege
+            <lb/>de la pauure France? Le pauure peuple ne t’en a il
+            <lb/>inuité, quãd tu l’asveu ruiné, rez pied, rez terre, de¬
+            <lb/>ſeiché de ſon ſang, ſi haue, à la recharge de tant, &amp;
+            <lb/>tant de ſortes de ſubſides, &amp; inuentions diaboli¬
+            <lb/>ques de ces ſangſues &amp; partiſans de cour, &amp; toute
+            <lb/>la France en general &amp; particulier ne t’en a elle pas
+            <lb/>prié &amp; importuné à la creation de tant &amp; inaudits
+            <lb/>offices? bref Dieu na il pas eſté grandemẽt offencé
+            <lb/>pour le luxe, debordement &amp; diſſolution, qui eſt
+            <lb/>en chacune vacatiõ, qu’il ſemble que noſtre Frãce
+            <lb/>(qui a eſté autrefois vn lieu où Dieu eſtoit ſeruy &amp;
+            <lb/>honoré auec grand pieté &amp; deuotion) ſoit mainte¬
+            <lb/>nant l’egout &amp; la ſentine des immõdices du mon¬
+            <lb/>de? O lacheté trop grãde qui nous couſte vn ſi pre¬
+            <lb/>cieux gage! Tu ne pouuois (ame glorieuſe) qui iouis
+            <lb/>à ton aiſe de la preſence de ton Createur, &amp; qui re¬
+            <lb/>çois le ſalaire &amp;recõpenſe de tes merites enuers l’E¬
+            <lb/>gliſe. Tu nepouuois di-ie eſtre rẽuerſé, ſi ce n’eſtoit
+            <lb/>par vn ſi lache tour, meſme de celuy auquel iuſte¬
+            <lb/>ment tu pouuois oſter la vie au iour des barricades
+            <lb/>de Paris: attẽdu que la feſte ſe celebroit pour toy:
+            <lb/>&amp; qui as eu tant d’aduertiſſemens &amp; ſi certains des
+            <lb/>entreprinſes &amp; deſſeins qui ſe braſſoient contre
+            <lb/>ta vie innocente, mais, comme vn prince vraye¬
+            <lb/>ment Chreſtien, tu ne diſois autre choſe, que i’ay
+            <lb/>fiance en mon Dieu, qu’il diſpoſe de moy, te ſacri¬
+            <lb/>fiant à luy ſi volontairement. Qui voudroit ſ'arre¬
+            <lb/>ſter à eſplucher la moindre parcelle des rares, &amp;<milestone unit="page" n="13"/>
+            <lb/>preſque diuines vertus de ce prince,
+          </p>
+          <fw type="quiremarks">
+            <lb/>neur
+          </fw>
+          <fw type="quiremarks">
+            <lb/>B
+          </fw>
+          <fw type="quiremarks">
+            <lb/>B ij
+          </fw>
+          <lg>
+            <l>Ante diem clauſo componet veſper Olympo,</l>
+            <l>Deuant veſper de ſa brune courtine,</l>
+            <l>Auroit voilé la terre &amp; la marine.</l>
+          </lg>
+          <p>
+            <lb/>Mais ô bon Dieu, ce tyrã n’a il pas paſſé outre la il
+            <lb/>borné ſa pluſque beſtiale cruauté de la mort de ce
+            <lb/>genereux, &amp; tant regretté prince: mais ô execrable
+            <lb/>entrepriſe, comme fils aiſné de ſatan non de l’egli¬
+            <lb/>ſe de noſtre Dieu il a enſanglanté ſes mains, &amp; aſ¬
+            <lb/>ſouuy ſa rage du ſang le plus beau, le plus pur, &amp; le
+            <lb/>plus eſclatant de l’egliſe, en maſſacrant cruelle¬
+            <lb/>ment ce grand Cardinal de Guiſe ſon pere: qui e¬
+            <lb/>ſtoit le fondement &amp; la baſe de ceſte tant deſolee
+            <lb/>egliſe Gallicane: celuy di-ie qui ſiubſacre les Rois
+            <lb/>de France, celuy qui reçoit en ſon Abaye de ſainct
+            <lb/>Denys les corps des Roys de Frãce: brief celuy qui
+            <lb/>repreſente en ce royaume la perſonne du Pape, vi¬
+            <lb/>caire de Ieſus-Chriſt. Ce prince qui defiroit d’vn
+            <lb/>bon zele la reformation de l’Egliſe tant deformee,
+            <lb/>&amp; qui auoit tant ſué &amp; trauaillé pour l’obtenir, a
+            <lb/>eſté maſſacré de ſang froid, à la veue des eſtatz de la
+            <lb/>France, &amp; la veille de Noel, ô cruelle cruauté! C’eſt
+            <lb/>à vous, meſſieurs les eccleſiaſtiques, c’eſt à vous à
+            <lb/>qui ſ'adreſſe ce pacquet: ſi voſtre chef eſt meurtry,
+            <lb/>quelle aſſeurance aurez vous en voz perſonnes? y
+            <lb/>faict grand iour, leuez vous, l'eſpeſſeur des tene¬
+            <lb/>bres eſt diſſipé, le nuage eſt rompu, voſtre rolet ſe
+            <lb/>ioue, courez aux auirons de l’egliſe, que chacun
+            <lb/>ſelon ſa puiſſance ſ'eſuertue de maintenir l’Egliſe,
+            <lb/>roidiſſez y vous, voſtre hõneur y eſt engagé, l’hon¬
+            <lb/>reur de l'Egliſe: bref l'hõneur de toute la Chreſtiẽ¬
+            <lb/>té y court vne hazardeuſe fortune. Ne remarquez<milestone unit="page" n="14"/>
+            <lb/>vous pas en ceſt acte ſi abominable les premiers
+            <lb/>trais d’Henry 8. Roy d’Angleterre, quãd il mit la
+            <lb/>main ſur le ſacré faiſant mourir de la main du bou
+            <lb/>reau ces deux lumieres d’Angleterre, Roffẽſis Eueſ
+            <lb/>que de Rocheſtre, &amp; ce docte Chãcelier &amp; excellẽt
+            <lb/>persõnage Thomas Morus. Il y va du voſtre, &amp; qui
+            <lb/>eſt bien d’auantage, de la religion de voſtre dieu,
+            <lb/>couchez y voſtre reſte &amp; ſoyez d’oreſnauant en la
+            <lb/>bergerie de noſtre dieu, Nont anquam canes muti va¬
+            <lb/>lentes non latrare, non pas comme chiens muets qui
+            <lb/>ne peuuent aboyer apres le loup. Donc, meſſieurs
+            <lb/>les Eccleſiaſticques, en l’honneur de noſtre Dieu
+            <lb/>faictes fondre &amp; eſclater la verité ſur les oreilles
+            <lb/>des ennemis de noſtre religion, qui la craignent
+            <lb/>plus que la corde de laquelle il ſerõt quelque iour
+            <lb/>pendus, conſacrant pour icelle, &amp; vouãt d’vn bon
+            <lb/>cœur vos propres vies. La ſaiſõ n’y eſt elle pas pro¬
+            <lb/>pre? le tẽps n’y eſt-il pas preparé? bref voſtre Dieu
+            <lb/>qui frappe à la porte de vos conſciences ne vous
+            <lb/>exhorte-il pas à la faire ſonner haut &amp; cler pat
+            <lb/>toute la France? heureux celuy, heureux par trois
+            <lb/>fois qui pour vne ſi iuſte &amp; ſi ſaincte cauſe eſpan¬
+            <lb/>chera ſon ſang, &amp; mettra ſa vie entre les mains de
+            <lb/>ſon Dieu, qui pour loyer &amp; recompenſe luy don¬
+            <lb/>nera vne autre immortelle, &amp; bornee de l'eter¬
+            <lb/>nité, auec vn contentement ineffable.
+          </p>
+          <fw type="quiremarks">
+            <lb/>B iij
+          </fw>
+          <p>
+            <lb/>Et vous, meſſieurs de Paris, vous pouuez aſſeu¬
+            <lb/>rer du bon traictement que lon vous fera, veu que
+            <lb/>deja voſtre Roy eſt par terre, comme il dit, ſe te¬
+            <lb/>nant fort de vous autres, &amp; qu’il vous y pipera, cõ¬
+            <lb/>me ſi vous eſtiez ſi faciles à perſuader, ſi groſſiers,
+            <lb/>&amp; ſi peu ſoigneux de voſtre Dieu, de ces temples<milestone unit="page" n="15"/>
+            <lb/>&amp; de ces autels, ſe promettant merueille par ſa ca¬
+            <lb/>naille de politiques qui ſourdement vous prati¬
+            <lb/>quera: &amp; par d’autres gens qui ſont à ſes gages au
+            <lb/>cœur de voſtre ville, qui vous doiuent conuertir
+            <lb/>à leurs humeurs, ſemant par tout des diſtractions
+            <lb/>de voluntez, &amp; diuiſions entre vous autres. Mais
+            <lb/>bon Dieu, qui eſt celuy qui ſoit au moindre ſoup¬
+            <lb/>çon de ce qui ſe doit faire? n’a tu pas cognu le Lyõ
+            <lb/>a la patte &amp; aux griffes, nous le cognoiſſons aſſez
+            <lb/>pour vn fin renardeau ꝗ promet &amp; dict beaucoup
+            <lb/>&amp; de tout rien. Quoy? que doutez vous en vn chois
+            <lb/>ſi ouuert: voſtre ville eſt riche &amp; opulẽte qui peut
+            <lb/>faire la guerre à quatre Rois, iadis, cõme luy, ſans
+            <lb/>incommodité &amp; neceſſité quelconque. Quel dou¬
+            <lb/>te y trouuez vous, la paix ſera voſtre ruyne &amp; vo¬
+            <lb/>ſtre mort, car quelle alliance y a-il de Baal auec
+            <lb/>Ieſus-Chriſt? la guerre tout au contraire ſera vo¬
+            <lb/>ſtre liberté &amp; franchiſe, vous pouuez aſſez cognoi¬
+            <lb/>ſtre ſon humeur d’Italien qui eſt d’eſtre vindicatif,
+            <lb/>il a eſté aſſez voſtre hoſte, n’a il pas dit qu’il iouera
+            <lb/>à la courte boule de voz teſtes, &amp; des teſtes de vos
+            <lb/>femmes &amp; de voz propres enfans? Quoy? ne pen¬
+            <lb/>ſez vous pas qu’il n’ayt vn rolle des plus gens de
+            <lb/>bien de voſtre ville, &amp; de tous vos bons zelez pre¬
+            <lb/>dicateurs pour couronner ſon bel œuure, &amp; faire
+            <lb/>la cataſtrophe de ſa ſanglãte tragedie, precipitant
+            <lb/>les vns dãs vn ſac en l’eau, aux autres leurs faiſant
+            <lb/>faire le ſaut au bout d’vne corde? quoy en attendez
+            <lb/>vous moins Reprenez dõc voz eſprits &amp; reuenez
+            <lb/>à vous meſmes. Il ne faut plus ſommeiller, prenez
+            <lb/>bon courage, le Dieu des armees eſt pour vous, le
+            <lb/>Dieu des vengẽces eſt tout preſt de vous tẽdre ſon<milestone unit="page" n="16"/>
+            <lb/>bras de miſericorde, &amp; d’exterminer voſtre enne¬
+            <lb/>my couuert &amp; ouuert: voſtre querelle eſt ſi iuſte: ſi
+            <lb/>l'on ne venge le tort qui luy eſt fait, veu que il dict
+            <lb/>nolite tangere Chriſtos meos, gardez vous bien de tou¬
+            <lb/>cher mes preſtres, aſſeurez vous qu’il ſ'en vengera
+            <lb/>bien, nous faiſant payer l’intereſt de noſtre laſche¬
+            <lb/>té &amp; couardiſe. Que ſi meſme nous nous fondons
+            <lb/>en bon terme d’atheiſtes, comme font nos poli¬
+            <lb/>tiques &amp; le prince d’iceux, nous arreſtant és cho
+            <lb/>ſes humaines, ſans cõſiderer la puiſſance de Dreu,
+            <lb/>&amp; que nous meſuriõs ſes forces à la valleur de noz
+            <lb/>Princes Catholiques zelez grandement à ce faict
+            <lb/>cy. &amp; des braues capitaines qui ſ'y employẽt, ſans
+            <lb/>doute nous aurons du meilleur
+          </p>
+          <p>
+            <lb/>Penſez, meſſieurs de Paris, en quel piteux deſa¬
+            <lb/>ſtre il s’eſt reduit, conſiderez vn peu que le ver de
+            <lb/>conſcience le bourrelle, &amp; luy ronge le cœur, &amp;
+            <lb/>que les furies infernales voltigẽt ſans ceſſe autour
+            <lb/>de luy auec leurs flambeaux ardents, luy faiſant
+            <lb/>ſentir de ceſte vie preſente le ſouphre, le feu auec
+            <lb/>toutes ſortes de matieres cõbuſtibles qui l’atten¬
+            <lb/>dent bien toſt là bas: en toutes vos ſainctes entre¬
+            <lb/>priſes, fortifiez vous du S. nom de Dieu, &amp; lors
+            <lb/>vous ſerez garentis &amp; preſeruez de voz ennemis,
+            <lb/>en tenant le pied ferme contre les entrepriſes d'i¬
+            <lb/>celuy. L'exemple de ces pauures Princes vous
+            <lb/>doit ſeruir de leçon, &amp; vous rendre plus ſages &amp;
+            <lb/>mieux auiſez en vos affaires, car quelle fidelité &amp;
+            <lb/>aſſeurance aurez vous à vn pariure? quelles pro¬
+            <lb/>meſſes fit il aux Polonnois? quels ſerments exe¬
+            <lb/>crables ſi ſouuent reiterez a il faict à nos Princes?
+            <lb/>Iudas eſtoit traiſtre, mais il ne faiſoit de telles pro¬<milestone unit="page" n="17"/>
+            <lb/>meſſes, que penſez vous? il vous promettra tout
+            <lb/>ce que vo⁹ voudrez. Mais il ſçait vne belle maxime
+            <lb/>de ces Machiaueliſtes, qui luy ſeruira d’echapatoi¬
+            <lb/>re &amp; de ſouuerain antidot, que le prince n'eſt obligé à
+            <lb/>garder ſes promeſſes. Preuoyez les inconueniens
+            <lb/>qui vous enuironnẽt, retirez le couteau qui pẽd de
+            <lb/>ſus vos teſtes, que ſi au contraire, Dieu permettra
+            <lb/>que ſa rage eſcumeuſe ſ’eſlancera ſur vn chacũ de
+            <lb/>vous. Mais quoy appellerez vous voſtre Roy celuy
+            <lb/>qui eſt du party de vos ennemis? appellerons nous
+            <lb/>bon Roy celuy qui a ruiné tous ſes ſubiects, &amp; qui
+            <lb/>de la deſpouille de plus d’vn million d’iceux a en¬
+            <lb/>richi exorbitammẽt vn ſorcier qui eſt tout pourry
+            <lb/>&amp; rongé des eſcrouelles? direz vous celuy la e¬
+            <lb/>ſtre voſtre Roy qui a violé la iuſtice, laquelle il
+            <lb/>vous doit, la rendant à la poſte &amp; fantaiſie de ce
+            <lb/>Gaſcon? Appellerons nous Catholique celuy qui
+            <lb/>ſouz main, fauoriſe l’heretique? direz vous celuy la
+            <lb/>tres-chreſtien qui a faict tant d’edicts à l’aduanta¬
+            <lb/>ge des heretiques, vſant de grãde douceur enuers
+            <lb/>eux, leur emmõcelant annees les vnes ſur les autres
+            <lb/>a cellefin qu’ils ſ'auiſaſſent? appellerez vous le fils
+            <lb/>aiſné de l’Egliſe celuy qui a tant ruiné l’Egliſe? Re¬
+            <lb/>puterez vous celuy la grãd Catholique qui diſtri¬
+            <lb/>bue les Eueſchez &amp; Abbayes à ces courtiſãs &amp; aux
+            <lb/>plus ſignalez putains de ſa court? Direzvous celuy
+            <lb/>la eſtre vray Chreſtiẽ qui a vẽdu à beaux deniers
+            <lb/>contans aux Venitiens plus religieux que luy la
+            <lb/>vraye Croix où Ieſus-Chriſt auoit eſté attaché &amp;
+            <lb/>cloué, l’abſẽce de laquelle a eſté le mal-heur de no¬
+            <lb/>ſtre France? appellerez vous celuy la bon Catholi¬
+            <lb/>que qui ſ’allie a l’heretique? Car n’eſt il pas cheua¬<milestone unit="page" n="18"/>
+            <lb/>lier de la Iartiere de Ieſabel d’Angleterre, qui eſt
+            <lb/>vne vraye boucherie &amp; eſcorcherie de to⁹ nos fre¬
+            <lb/>res, ceſte chaſte putain en fait à sõ plaiſir, veu qu’il
+            <lb/>eſt garotté &amp; attaché à ſa iartiere. ô bon Dieu qui
+            <lb/>a veu pratiquer à Prince Chreſtien, meſmemẽt au
+            <lb/>premier fils de l'Egliſe vne alliance auec l'ennemy
+            <lb/>de Dieu &amp; de tous bons Catholiques, &amp; meſme¬
+            <lb/>mẽt auec celle qui detenoit priſonniere ſa ſeur, où
+            <lb/>en eſt la pratique? Qui en a le premier vſé? Le Roy
+            <lb/>d’Eſpagne Prince tres-catholique luy a-il appris
+            <lb/>ceſte leçon, qu’an contraire il luy faict vne guerre
+            <lb/>s’eſuertuant d’inueſtir ſon Royaume pour y plan¬
+            <lb/>ter les trophees des Chreſtiens, &amp; y eſtablir la re¬
+            <lb/>ligion Catholique, apoſtolique &amp; Romaine. Pen¬
+            <lb/>ſerez vous celuy la zelé à la religion qui n’a pas re¬
+            <lb/>tiré la hache tranchante de la Royne d’Eſcoſſe ſa
+            <lb/>ſœur, Princeſſe de bonne memoire, veu que celle
+            <lb/>qui l’appoſoit eſtoit ſa bõne alliee, &amp; ſa bõne ſœur?
+            <lb/>&amp; eſtimerez vous celuy la croire en Ieſus-Chriſt
+            <lb/>qui entretient à voſtre veue tant d’atheiſtes, &amp; qui
+            <lb/>ſe gouuerne, foit en ſi cõfeſſion ou en autres cho¬
+            <lb/>fes, ſelon les preſcriptions &amp; preceptes de ces
+            <lb/>ſcientifiques docteurs, &amp; examinateurs de con¬
+            <lb/>ſcience : bref celuy aura il ceſte belle reputation
+            <lb/>d’eſtre Catholique à la franche marguerite qui
+            <lb/>a laſchement rougy ſes mains du ſang de ce
+            <lb/>grand Cheualier de l’Egliſe? Ce Prince, qui
+            <lb/>eſt auiourd’huy tant regreté de la France &amp;
+            <lb/>de tous Chreſtiens eſpars par les cantons du mon¬
+            <lb/>de, qui de ſon mouuement prõpre, &amp; auſſi à la per¬
+            <lb/>ſuaſion de noſtre ſainct Pere Gregoire 13. d’heu¬
+            <lb/>reuſe memoire, &amp; du Roy tres-Catholique, &amp; au¬<milestone unit="page" n="19"/>
+            <lb/>tres princes Chreſtiẽs qui deſcouuroient de leurs
+            <lb/>terres la faueur qu’on portoit à noz ennemis, &amp;
+            <lb/>comme ſouz main l'on dreſſoit la planche à la
+            <lb/>monarchie Françoiſe à ce relaps Henry de Nauar¬
+            <lb/>re, embraſé du zele de la religion, &amp; de l’honneur
+            <lb/>de Dieu, qui le conſummoit entierement, fit vne
+            <lb/>ſaincte vnion auec tous les Princes &amp; potentats
+            <lb/>de la Chreſtienté pour la conſeruation de noſtre
+            <lb/>ſaincte religion, &amp; extirpation des hereſies qui
+            <lb/>y pullulẽt, n’eſpargnant à ces fins, ſes moyens, ſes
+            <lb/>trauaux, &amp; ſa vie propre: choſe ſi certaine que cha¬
+            <lb/>cun maintenant la deſcouure a veue d’œil. Que
+            <lb/>reſte il d’auantage Chreſtien, les ſanglots, les lar¬
+            <lb/>mes, les ſouſpirs ne ſortent ils point de la bonde
+            <lb/>de ton eſtomach: &amp; au bout de cela ce tyran nous
+            <lb/>penſe piper ceſte fois cy encore: mais c’eſt à d’au¬
+            <lb/>tres qu’il faut qu’il ſ'adreſſe pour vendre ſes co¬
+            <lb/>quilles, nous le cognoiſſons aſſez à noſtre grand
+            <lb/>deplaiſir, pour vn pariure, nous le recognoiſſons
+            <lb/>que trop pour vnqui ſ'eſt laiſſé corrõpre par argẽt
+            <lb/>des Rochelois, lors qu’ils eſtoiẽt aux derniers abois
+            <lb/>&amp; ſouſpirs de la mort pour la lõgueur du ſiege? cha
+            <lb/>cun le remarque aſſez pour vn ateiſte qui entretiẽt
+            <lb/>vn Belloy cõme vn pourceau en greſſe à la veue des
+            <lb/>plus Catholiques de la France: de Seigneur Belloy
+            <lb/>ſon aduocat qui ſe maintiẽt tãtoſt Catholique Ro¬
+            <lb/>main, tantoſt Caluiniſte vray Cameleon, &amp; Pro¬
+            <lb/>thee en reſolutiõs. Les petits enfans qui ſont ron¬
+            <lb/>gez des eſcroueles luy diront à deux doigts pres de
+            <lb/>ſon nez qu’il eſt incapable &amp; inhabile de porter la
+            <lb/>couronne de France ſur ſa teſte, veu que il ne les
+            <lb/>peut guarir de ce mal, ſe fondans ſur ce que Dieu
+            <lb/>ſ’oppoſoit à ſon ſacre: quand l’on trouua la ſainte
+            <lb/>empoule toute tarie: &amp; pour couper court, chacun<milestone unit="page" n="20"/>
+            <lb/>fcait qu’il eſt retrãché de la compagnie des Chre¬
+            <lb/>ſtiens, &amp; ſemblablement ceux qui l’aſſiſtẽt, l’ho¬
+            <lb/>norent, &amp; l’aydet de leurs moyens, que direz vous
+            <lb/>à ces choſes ?quelle replique ſerez vous? l’on ſçait
+            <lb/>par vne prarique ordinaire que les vlceres inte¬
+            <lb/>rieurs ſont moins gueriſſables, que ceux qui ap¬
+            <lb/>paroiſſent ſur la ſuperficie du corps: d’autant que
+            <lb/>la maladie eſt occulte, la tente &amp; moins cogneue
+            <lb/>du chirurgien. Ne nous a il pas aſſez pipé quand il
+            <lb/>faiſoit ſa belle penitence par les rues de Paris?
+            <lb/>quand il viſitoir ſi ſouuent ſa maiſon des Capu¬
+            <lb/>cins? &amp; qu’il alloit par deuotion porter des chan¬
+            <lb/>delles aux religieuſes de Poiſſy?O que c’eſt vne bel
+            <lb/>le couuerture que le manteau de pieté &amp; de reli¬
+            <lb/>gion! Quelle eſperance vous reſte il, meſſieurs, de
+            <lb/>ce tyran, ſinon que la diuine vengence, deſtour¬
+            <lb/>nant ces pernicieux conſeils &amp; deſſeins deſſus ſa
+            <lb/>teſte, s’eclate, &amp; miſerablement le foudroye, le
+            <lb/>croniquant ſelon ſon merite &amp; l’immortaliſant
+            <lb/>a toute la poſterité.
+          </p>
+          <fw type="quiremarks">
+            <lb/>meſſes,
+          </fw>
+          <fw type="quiremarks">
+            <lb/>C
+          </fw>
+          <fw type="quiremarks">
+            <lb/>C ij
+          </fw>
+          <p>
+            <lb/>Sus Chreſtiens, reprenons nos forces du tout a¬
+            <lb/>batardies, prenons vn demy doigt de courage, le
+            <lb/>grand Dieu du Ciel te le recognoiſtra, qui a per¬
+            <lb/>mis que ces deux premiers pilliers de noſtre Egliſe
+            <lb/>ayent eſté atteraſſez : attendu qu’il eſtoit ialoux, &amp;
+            <lb/>irrité du peu d’honneur que nous luy portions:
+            <lb/>voyant que nous fondions dauantage, &amp; arreſtiõs
+            <lb/>noſtre aſſeurãce és choſes ſecondes, ſans auoir re¬
+            <lb/>cours aux premieres: ayant bonne eſperance qu’il
+            <lb/>manira les cœurs endurcis de nos ennemis, &amp; qu’il
+            <lb/>excitera les princes du ſang Lorrain (comme au¬
+            <lb/>trefois les vaillans Machabees) à venger ſa que¬
+            <lb/>relle, ſouſtenir ſon honneur, &amp; l’aduancement de<milestone unit="page" n="21"/><milestone unit="column" n="1"/>
+            <lb/>ſon Egliſe: pourueu que gemiſſans nos pechez qui
+            <lb/>cauſent ce malheur, &amp; faiſans vne penitence pro¬
+            <lb/>portionnee à nos offences nous nous conuertiſ¬
+            <lb/>ſions à luy, vous aſſeurans qu’il eſtendra ſur nous
+            <lb/>ſon bras de miſericorde, &amp; enuoyera ſon Ange
+            <lb/>pour foudroyer ceux qui ſ'eſleuẽt à l’encontre de
+            <lb/>nous. De Poytiers ce 15. Ianuier, 1589.
+          </p>
+        </div>
+        <div>
+          <head>
+            <lb/>A la ville de PARIS la premiere de l’Europe.
+          </head>
+          <lg>
+            <l>
+              <hi rend="drop-capital">
+                <lb/>S
+              </hi>
+              Vs deßille tes yeux, theatre des François,</l>
+            <l>Et regarde ſans ceſſe au mal qui te tallonne,</l>
+            <l>Preuiens ce cruel tyran, qui ce malheur te donne:</l>
+            <l>Qui eſt vn hypocrite, &amp; vn ruzé matois.</l>
+            <l>Recherche l’alliance des belliqueux Gaullois</l>
+            <l>Et du pays voifin, qui ton mur enuirome</l>
+            <l>Pour rauir de ſon chef ceſte torce courone,</l>
+            <l>Qui conſacre à memoire la gloire de nos Roys.</l>
+            <l>Sus d’vn cœur genereux reprens nouuelles forces,</l>
+            <l>Et ne te laiſſe aller à ces friandes amorces,</l>
+            <l>Car il eſt double en l’ame, &amp; pipeur en la voix.</l>
+            <l>Mais reſerre le moy au creux d’vne Rochelle,</l>
+            <l>Où la ſale vermine luy ronge la ceruelle,</l>
+            <l>Car vn villain Herodes, eſt Henry de Valloys.</l>
+          </lg>
+          <lg>
+            <l>
+              <hi rend="drop-capital">
+                <lb/>C
+              </hi>
+              E meurtrier de Princes a ioué deux rolets</l>
+            <l>Comme vn farceur boufon ſur l’echafaut de France,</l>
+            <l>Soubs la peau du Renard, auec belle apparence,</l>
+            <l>Portant à ſon coſté de ces gros chapellets:</l>
+            <l>Et vn grand manteau gris flotant ſur ſes iarets</l>
+            <l>Et vn grand manteau gris flotant ſur ſes iarets</l>
+            <l>Soubs le cuir du Lyon bouſouflé de vengence,</l>
+            <l>S’enyure du beau ſang de deux Princes immortels.</l>
+          </lg>
+          <ab>
+            <milestone unit="column" n="2"/>
+            <lb/>I.
+          </ab>
+          <ab>
+            <lb/>II.<milestone unit="page" n="22"/>
+            <lb/>O Trahiſtre effeminé, baladin ſanguinaire,
+            <lb/>Atheiſte couuert, grand concußionaire,
+            <lb/>Tu nous rauiz nos chefs ces deux Princes Lorrains,
+            <lb/>Qui ſeruoient de frayeur aux Huguenots mutins,
+            <lb/>Alterez dés long temps de noſtre ſang. Courage:
+            <lb/>Nous esperons dompter, de ce Tyran la rage.
+          </ab>
+          <fw type="quiremarks">
+            <lb/>C iij
+          </fw>
+          <ab>
+            <lb/>III.
+          </ab>
+          <lg>
+            <l>T</l>
+            <l>Out ainſi que Iudas a liuré Ieſus Chriſt,</l>
+            <l>(Qui nous a retirez du ſeiour tenebreux,</l>
+            <l>Où voltigent par l’air des fantoſmes hydeux)</l>
+            <l>Le Ieudy en la Cene, le ſainct Sacrement priſt,</l>
+            <l>Proteſtant à ſon Dieu, qu’encor qu’on le trahiſt</l>
+            <l>Qu'il luy ſeroit fidelle: mais l’auaricieux,</l>
+            <l>Le trahiſt luy donnant vn baiſer gracieux,</l>
+            <l>Puis creué, par le ventre il pouſſa ſon eſprit.</l>
+            <l>Ainſi Henry receut le corps du Dieu viuant:</l>
+            <l>Le Jeudy deuant tous, ces mots en prononçant</l>
+            <l>Que ce ſacre manger ſoit m’a damnation,</l>
+            <l>Si ie n’ayme ces Princes ſans fard ne fiction,</l>
+            <l>Et puis le Vendredy meurtrit le Duc de Guyſe</l>
+            <l>Et ce grand Cardinal, deux pilliers de l'Egliſe.</l>
+          </lg>
+          <ab>
+            <lb/>IIII.<milestone unit="page" n="23"/>
+          </ab>
+          <lg>
+            <l>P</l>
+            <l>Aſſant, tu t’esbahis du malheur de la France</l>
+            <l>Mais ſi la Sodomie, &amp; l’adultere a lieu,</l>
+            <l>Si violer Nonains ce n'eſt qu'vn petit ieu,</l>
+            <l>Et ſi l’iniquité vogue en toute licence.</l>
+            <l>Mais ſi l’ambition marche auec arrogance</l>
+            <l>Si lon eſt cheualier de l’ennemy de Dieu,</l>
+            <l>Et ſi le ſortilege ſ'eſtale au beau millieu,</l>
+            <l>De la cour de Henry, le bourdeau &amp; la dance.</l>
+            <l>Si l’on a eſcorché, &amp; miné iuſqu’aux os</l>
+            <l>Le peuple en inuentant mille ſortes d’impots,</l>
+            <l>Et ſi l'on a forcé la Conciergerie,</l>
+          </lg>
+          <lg>
+            <l>Par les gardes du Roy: ſi la gendarmerie,</l>
+            <l>Rençonne en liberté le pauure paiſant,</l>
+            <l>Malheur ne va-il pas la France moiſſonant?</l>
+          </lg>
+          <ab>
+            <lb/>V.
+          </ab>
+          <lg>
+            <l>
+              <hi rend="drop-capital">
+                <lb/>M
+              </hi>
+              Ais quoy? ſi l’Hereſie paillarde eſt à tes yeux,</l>
+            <l>Si d’vn beau ſang ſacré l’on a ſouillé ces mains</l>
+            <l>Et ſi l’on a meurtry deux grans princes Lorrains.</l>
+            <l>Et ſi les Politiques manient la France entre eux.</l>
+            <l>Mais ſi fauſſer ſa foy &amp; piper ſe ſont ieux,</l>
+            <l>Et mytrer des gros Aſnes, &amp; croſſer des putains</l>
+            <l>Et fi l’on ne peut point accroiſtre les humains</l>
+            <l>Pour eſtre à l’amerçy d’amour &amp; de ces ſeux.</l>
+            <l>Si pour gaigner ſa cauſe l’on eſt le plus offrant,</l>
+            <l>Et la premiere piece du proces c’eſt argent,</l>
+            <l>En gaignant d’vn Gaſcon la faueur gratieuſe.</l>
+            <l>Si l’on ne guarit point du mal des eſcrouelles,</l>
+            <l>Si ce ſorcier prend tout qui eſt rongé d’icelles,</l>
+            <l>France n’eſt elle pas en tout point malheureuſe?</l>
+          </lg>
+          <ab>
+            <lb/>VI
+          </ab>
+        </div>
+        <div>
+          <head>
+            <lb/>ANAGRAMME.
+            <lb/>ENRY DE VALLOYS
+            <lb/>LE IVDAS LE NERO.
+            <lb/>En forme de Dialogue.
+            <lb/>L’autheur parle auec Henry.
+          </head>
+          <p rend="labelled">
+            <lb/>D
+            <lb/>L’auth.
+            <lb/>’Où vient cruel tyran, organe Satanique
+            <lb/>Qu’eclipſes de ma veue, deux Soleils lu¬
+            <lb/>mineux.
+            <lb/>Par vn meurtre ſi laſche ces Princes genereux,
+            <lb/>Qui ſeruoient de rempart au pauure Catholique.
+          </p>
+          <p rend="labelled">
+            <lb/>Henry.
+            <lb/>Car, ils ont terraſſé la grãd troupe Heretique,
+            <lb/>De mes empiſtolez d’vn bras victorieux,
+            <lb/>Et ſ’ingeroient par trop me faire vertueux,<milestone unit="page" n="24"/>
+          </p>
+          <lg>
+            <l>Reſormans à veue d’œil mon ſceptre tyrãnique¬</l>
+            <l>Puis ſuyuant de mon nom l’heureuſe inuerſion</l>
+            <l>Que i’ay receu de Dieu par celeſte influence,</l>
+            <l>Le Iudas, en mon cœur recelant trahiſon.</l>
+            <l>Le Nero, meurtriſſant la peu-caute Jnnocence:</l>
+            <l>Car i’ay deuant mon Dieu vn Cardinal ſacré</l>
+            <l>Et vn braue guerrier mes parens maſſacré.</l>
+          </lg>
+          <ab>
+            <lb/>VII.
+          </ab>
+        </div>
+        <div>
+          <head>
+            <lb/>A la ville de Paris.
+          </head>
+          <lg>
+            <l>
+              <hi rend="drop-capital">
+                <lb/>P
+              </hi>
+              Aris, n’honore plus Henry plain, de feintiſe,</l>
+            <l>Ce braue cheualier de l'Angloiſe Iartiere:</l>
+            <l>Pour lequel le Chreſtien ne faict plus de priere,</l>
+            <l>Car il eſt retranché du giron de l'Egliſe.</l>
+            <l>Ne te laiſſe mener par le nez à ſa guiſe:</l>
+            <l>A la paix ſimulee vray piege &amp; vray taniere</l>
+            <l>Où il te veut conduire à ſa façon premiere,</l>
+            <l>Mais espere en ton Dieu qui le ſien ne mespriſe.</l>
+            <l>Il a bonne memoire du iour des barricades,</l>
+            <l>Où l’on chargea ſi bien à coups d’arquebuzades,</l>
+            <l>Ces gens encuiraſſez, il en a grand deſpit.</l>
+            <l>Et vous diuins esprits zelez pour Ieſus Chriſl,</l>
+            <l>Faites fondre ſur luy vos carmes Satyriques,</l>
+            <l>Eterniſant ſon nom au plus creux des Croniques.</l>
+          </lg>
+        </div>
+        <div>
+          <head>
+            <lb/>Diſtichum.
+          </head>
+          <lg>
+            <l>Hic eſt Henricus quo religioſius extrà</l>
+            <l>Orbe nihil: Gallis intus at exitium eſt.</l>
+            <l>Icy tu voys d'Henry le dehors tres-pieux,</l>
+            <l>Mais le dedaus recelle à la France des feux.</l>
+          </lg>
+        </div>
+        <div>
+          <head>
+            <lb/>FIN.
+          </head>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
