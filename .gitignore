@@ -12,3 +12,16 @@ cours_04/page*.txt
 cours_04/page*.xml
 cours_04/checkpoints*/
 cours_05/TEI/
+cours_08/model/
+cours_08/resultats/
+cours_08/faux_visage_propre.txt
+cours_08/essai.txt
+__pycache__/
+cours_10/SuperStyl/
+cours_10/benchmark*/
+cours_10/*.csv
+cours_10/*.json
+cours_10/*.joblib
+cours_10/coefs_*.png
+.ipynb_checkpoints/
+*.aux

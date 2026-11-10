@@ -11,6 +11,8 @@
 - `cours_04`: utiliser Kraken en ligne de commande
 - `cours_05`: convertir les fichiers ALTO en XML-TEI
 - `cours_06`: versionner son travail avec Git, GitHub (ou GitLab) et GitHub Desktop
+- `cours_08`: annoter un texte (parties du discours, entités nommées) avec Flair
+- `cours_10`: attribuer un texte à son auteur (stylométrie supervisée) avec SuperStyl
 
 ## Bibliographie
 
